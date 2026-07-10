@@ -1,4 +1,4 @@
-import type { Aula, Materia } from "shared/schema"
+import type { Aula, Materia, Turma } from "shared/schema"
 
 export const DIAS = ["Segunda", "Terça", "Quarta", "Quinta", "Sexta", "Sábado"] as const
 export const DIAS_CURTO = ["Seg", "Ter", "Qua", "Qui", "Sex", "Sáb"] as const
@@ -68,6 +68,44 @@ export const porSemestre = (materias: ReadonlyArray<Materia>): Array<[number | n
   return [...grupos.entries()]
     .map(([k, v]): [number | null, Materia[]] => [k, v.sort((a, b) => a.nome.localeCompare(b.nome))])
     .sort(([a], [b]) => (a ?? Infinity) - (b ?? Infinity))
+}
+
+/** Duas aulas colidem: mesmo dia e intervalos sobrepostos (fim==início não colide). */
+export const aulasSobrepoem = (a: Aula, b: Aula): boolean =>
+  a.diaSemana === b.diaSemana &&
+  timeToMin(a.horaInicio) < timeToMin(b.horaFim) &&
+  timeToMin(b.horaInicio) < timeToMin(a.horaFim)
+
+export interface ChoqueInfo {
+  turma: { id: string; nome: string }
+  conflitos: Array<{ aula: Aula; contra: Aula; materiaContraNome: string }>
+}
+
+/**
+ * Para cada matéria fora da grade da turma atual mas oferecida em outra turma do curso,
+ * uma entrada por turma ofertante com seus conflitos contra a grade atual (lista vazia = sem choque).
+ */
+export const detectarChoques = (turmaAtual: Turma, turmasDoCurso: ReadonlyArray<Turma>): Map<string, ChoqueInfo[]> => {
+  const naGrade = new Set(turmaAtual.materias.map((m) => m.id))
+  const nomeContra = new Map(turmaAtual.materias.map((m) => [m.id, m.nome]))
+  const mapa = new Map<string, ChoqueInfo[]>()
+  for (const t of turmasDoCurso) {
+    if (t.id === turmaAtual.id) continue
+    const materiaIds = new Set(t.aulas.map((a) => a.materiaId).filter((id) => !naGrade.has(id)))
+    for (const materiaId of materiaIds) {
+      const conflitos = t.aulas
+        .filter((a) => a.materiaId === materiaId)
+        .flatMap((aula) =>
+          turmaAtual.aulas
+            .filter((contra) => aulasSobrepoem(aula, contra))
+            .map((contra) => ({ aula, contra, materiaContraNome: nomeContra.get(contra.materiaId) ?? contra.materiaId })),
+        )
+      const lista = mapa.get(materiaId) ?? []
+      lista.push({ turma: { id: t.id, nome: t.nome }, conflitos })
+      mapa.set(materiaId, lista)
+    }
+  }
+  return mapa
 }
 
 /** Matérias do curso inteiro: união das matérias das turmas, únicas por id. */

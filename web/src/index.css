@@ -12,6 +12,8 @@
   --primary-soft: oklch(0.95 0.045 148);
   --on-primary: #ffffff;
   --danger: oklch(0.55 0.2 27);
+  --warning: oklch(0.52 0.13 60);
+  --warning-soft: oklch(0.94 0.05 75);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -26,6 +28,8 @@
     --primary-soft: oklch(0.3 0.05 150);
     --on-primary: oklch(0.16 0.03 150);
     --danger: oklch(0.68 0.18 25);
+    --warning: oklch(0.82 0.13 78);
+    --warning-soft: oklch(0.32 0.06 68);
   }
 }
 
@@ -40,6 +44,8 @@
   --color-primary-soft: var(--primary-soft);
   --color-on-primary: var(--on-primary);
   --color-danger: var(--danger);
+  --color-warning: var(--warning);
+  --color-warning-soft: var(--warning-soft);
 }
 
 @layer base {
