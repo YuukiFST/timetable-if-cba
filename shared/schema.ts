@@ -59,7 +59,8 @@ export type ArquivoTurma = typeof ArquivoTurma.Type
 export const ProgressoLocal = Schema.Struct({
   version: Schema.Number,
   turmaId: Schema.String,
-  materiasConcluidas: Schema.Array(Schema.String), // materiaId[]
+  materiasConcluidas: Schema.Array(Schema.String), // materiaId[] — já feitas
+  cursando: Schema.optional(Schema.Array(Schema.String)), // materiaId[] — cursando agora (exclui feitas)
 })
 export type ProgressoLocal = typeof ProgressoLocal.Type
 

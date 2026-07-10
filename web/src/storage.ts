@@ -59,7 +59,7 @@ export const useProgresso = progresso.use
 
 /** Onboarding: grava turma + concluídas marcadas de uma vez (progresso ainda não existe). */
 export const iniciarProgresso = (turmaId: string, concluidas: string[]): void =>
-  progresso.write({ version: VERSION, turmaId, materiasConcluidas: [...concluidas].sort() })
+  progresso.write({ version: VERSION, turmaId, materiasConcluidas: [...concluidas].sort(), cursando: [] })
 
 export const escolherTurma = (turmaId: string): void => {
   const atual = progresso.read()
@@ -68,16 +68,38 @@ export const escolherTurma = (turmaId: string): void => {
     turmaId,
     // trocar de turma preserva progresso (mesmo curso, ids de matéria estáveis)
     materiasConcluidas: atual?.materiasConcluidas ?? [],
+    cursando: atual?.cursando ?? [],
   })
 }
 
+/** Marca/desmarca "feita"; feita e cursando são mutuamente exclusivos. */
 export const toggleMateria = (materiaId: string): void => {
   const atual = progresso.read()
   if (!atual) return
-  const set = new Set(atual.materiasConcluidas)
-  if (set.has(materiaId)) set.delete(materiaId)
-  else set.add(materiaId)
-  progresso.write({ ...atual, materiasConcluidas: [...set].sort() })
+  const feitas = new Set(atual.materiasConcluidas)
+  const cursando = new Set(atual.cursando ?? [])
+  if (feitas.has(materiaId)) {
+    feitas.delete(materiaId)
+  } else {
+    feitas.add(materiaId)
+    cursando.delete(materiaId) // não pode estar feita e cursando ao mesmo tempo
+  }
+  progresso.write({ ...atual, materiasConcluidas: [...feitas].sort(), cursando: [...cursando].sort() })
+}
+
+/** Marca/desmarca "cursando agora"; cursando e feita são mutuamente exclusivos. */
+export const toggleCursando = (materiaId: string): void => {
+  const atual = progresso.read()
+  if (!atual) return
+  const cursando = new Set(atual.cursando ?? [])
+  const feitas = new Set(atual.materiasConcluidas)
+  if (cursando.has(materiaId)) {
+    cursando.delete(materiaId)
+  } else {
+    cursando.add(materiaId)
+    feitas.delete(materiaId)
+  }
+  progresso.write({ ...atual, materiasConcluidas: [...feitas].sort(), cursando: [...cursando].sort() })
 }
 
 export const resetProgresso = (): void => {

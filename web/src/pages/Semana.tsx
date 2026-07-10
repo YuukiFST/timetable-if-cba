@@ -1,25 +1,33 @@
-import { useState } from "react"
-import { loadTurma, useQuery } from "../data/api"
-import { aulasDoDia, diaLetivo, DIAS, DIAS_CURTO, mesclarAulas } from "../lib/horario"
+import { useMemo, useState } from "react"
+import { loadMateriasDoCurso, useQuery } from "../data/api"
+import { aulasDoDia, aulasVigentes, diaLetivo, DIAS, DIAS_CURTO } from "../lib/horario"
+import { useProgresso } from "../storage"
 import { AulaCard, QueryView, Titulo } from "../components/ui"
 
 export function Semana({ turmaId }: { turmaId: string }) {
-  const q = useQuery(loadTurma(turmaId), turmaId)
+  const q = useQuery(
+    useMemo(() => loadMateriasDoCurso(turmaId), [turmaId]),
+    `materias-${turmaId}`,
+  )
+  const progresso = useProgresso()
   const [dia, setDia] = useState(() => Math.max(0, Math.min(5, diaLetivo(new Date()))))
+
+  const cursando = useMemo(() => new Set(progresso?.cursando ?? []), [progresso])
+  const concluidas = useMemo(() => new Set(progresso?.materiasConcluidas ?? []), [progresso])
 
   return (
     <QueryView q={q}>
-      {({ turma }) => {
+      {({ turmaAtual, turmas, materias }) => {
         const materiaCurta = (id: string) => {
-          const m = turma.materias.find((m) => m.id === id)
+          const m = materias.find((m) => m.id === id)
           return m?.nomeCurto ?? m?.nome ?? id
         }
-        const materiaNome = (id: string) => turma.materias.find((m) => m.id === id)?.nome ?? id
-        const aulas = mesclarAulas(turma.aulas)
+        const materiaNome = (id: string) => materias.find((m) => m.id === id)?.nome ?? id
+        const aulas = aulasVigentes(turmaAtual, turmas, cursando, concluidas)
         const diasComAula = [0, 1, 2, 3, 4, 5].filter((d) => aulas.some((a) => a.diaSemana === d))
         return (
           <div>
-            <Titulo sub={turma.nome}>Semana</Titulo>
+            <Titulo sub={turmaAtual.nome}>Semana</Titulo>
 
             {/* Mobile: tabs por dia */}
             <div className="md:hidden">

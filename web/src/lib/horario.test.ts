@@ -3,6 +3,7 @@ import { describe, expect, it } from "vitest"
 import {
   agregarProgresso,
   aulasSobrepoem,
+  aulasVigentes,
   calcularHoje,
   detectarChoques,
   detectarChoquesPlano,
@@ -248,6 +249,34 @@ describe("detectarChoquesPlano", () => {
       item("m2", [aula(1, "13:00", "14:40", "m2")]),
     ])
     expect(r.pares).toHaveLength(0)
+  })
+})
+
+describe("aulasVigentes", () => {
+  const atual = turma("A", [mat("m1"), mat("m2")], [
+    aula(0, "13:00", "14:40", "m1"),
+    aula(1, "13:00", "14:40", "m2"),
+  ])
+  const outra = turma("B", [mat("m3")], [aula(2, "18:50", "20:30", "m3")])
+
+  it("cursando não-vazio: só as marcadas, cruzando turmas", () => {
+    const r = aulasVigentes(atual, [atual, outra], new Set(["m1", "m3"]), new Set())
+    expect(r.map((a) => a.materiaId).sort()).toEqual(["m1", "m3"])
+  })
+
+  it("matéria em cursando e concluída (dado corrompido) não aparece", () => {
+    const r = aulasVigentes(atual, [atual, outra], new Set(["m1", "m3"]), new Set(["m1"]))
+    expect(r.map((a) => a.materiaId)).toEqual(["m3"])
+  })
+
+  it("cursando vazio: fallback = grade da turma atual sem concluídas", () => {
+    const r = aulasVigentes(atual, [atual, outra], new Set(), new Set(["m2"]))
+    expect(r.map((a) => a.materiaId)).toEqual(["m1"])
+  })
+
+  it("cursando vazio e sem concluídas: grade inteira da turma atual", () => {
+    const r = aulasVigentes(atual, [atual, outra], new Set(), new Set())
+    expect(r.map((a) => a.materiaId).sort()).toEqual(["m1", "m2"])
   })
 })
 

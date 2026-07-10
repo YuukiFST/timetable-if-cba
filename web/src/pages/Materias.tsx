@@ -1,7 +1,7 @@
 import { useMemo } from "react"
 import { loadMateriasDoCurso, useQuery } from "../data/api"
 import { agregarProgresso, DIAS_CURTO, detectarChoques, porSemestre, type ChoqueInfo } from "../lib/horario"
-import { toggleMateria, useProgresso } from "../storage"
+import { toggleCursando, toggleMateria, useProgresso } from "../storage"
 import { QueryView, Titulo } from "../components/ui"
 
 const fmtAula = (a: { diaSemana: number; horaInicio: string; horaFim: string }) =>
@@ -37,6 +37,7 @@ export function Materias({ turmaId }: { turmaId: string }) {
   const q = useQuery(useMemo(() => loadMateriasDoCurso(turmaId), [turmaId]), `materias-${turmaId}`)
   const progresso = useProgresso()
   const concluidas = useMemo(() => new Set(progresso?.materiasConcluidas ?? []), [progresso])
+  const cursando = useMemo(() => new Set(progresso?.cursando ?? []), [progresso])
 
   return (
     <QueryView q={q}>
@@ -76,25 +77,41 @@ export function Materias({ turmaId }: { turmaId: string }) {
                       .sort((a, b) => Number(concluidas.has(a.id)) - Number(concluidas.has(b.id)))
                       .map((m) => {
                       const feita = concluidas.has(m.id)
+                      const curso = cursando.has(m.id)
                       const info = choques.get(m.id)
                       const temChoque = !feita && !!info?.some((c) => c.conflitos.length > 0)
                       return (
                         <li key={m.id} className="border-b border-border last:border-b-0">
-                          <label className="flex min-h-12 cursor-pointer items-center gap-3 px-4 py-2.5 transition-colors active:bg-surface-2">
-                            <input
-                              type="checkbox"
-                              checked={feita}
-                              onChange={() => toggleMateria(m.id)}
-                              aria-label={`Concluí ${m.nome}`}
-                              className="size-5 shrink-0 accent-(--primary)"
-                            />
-                            <span className={feita ? "text-muted line-through" : ""}>{m.nome}</span>
+                          <div className="flex min-h-12 items-center gap-2 px-4 py-2.5">
+                            <span className={`min-w-0 flex-1 truncate ${feita ? "text-muted line-through" : ""}`}>{m.nome}</span>
                             {temChoque && (
-                              <span className="ml-auto shrink-0 rounded-full bg-warning-soft px-2 py-0.5 text-xs font-semibold text-warning">
+                              <span className="shrink-0 rounded-full bg-warning-soft px-2 py-0.5 text-xs font-semibold text-warning">
                                 Choque
                               </span>
                             )}
-                          </label>
+                            <div className="ml-auto flex shrink-0 gap-1">
+                              <button
+                                type="button"
+                                aria-pressed={curso}
+                                onClick={() => toggleCursando(m.id)}
+                                className={`min-h-9 rounded-lg px-2.5 text-xs font-semibold transition-colors active:scale-[0.97] ${
+                                  curso ? "bg-primary text-on-primary" : "bg-surface-2 text-muted"
+                                }`}
+                              >
+                                Cursando
+                              </button>
+                              <button
+                                type="button"
+                                aria-pressed={feita}
+                                onClick={() => toggleMateria(m.id)}
+                                className={`min-h-9 rounded-lg px-2.5 text-xs font-semibold transition-colors active:scale-[0.97] ${
+                                  feita ? "bg-primary text-on-primary" : "bg-surface-2 text-muted"
+                                }`}
+                              >
+                                Feita
+                              </button>
+                            </div>
+                          </div>
                           {temChoque && info && <ChoqueDetalhes info={info} />}
                         </li>
                       )

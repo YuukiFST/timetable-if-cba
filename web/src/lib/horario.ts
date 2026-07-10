@@ -43,6 +43,22 @@ export const calcularHoje = (aulas: ReadonlyArray<Aula>, agora: Date): Hoje => {
   return { dia: hoje < 0 ? 0 : hoje, ehHoje: hoje >= 0, aulas: [], atualIdx: -1, proximaIdx: -1 }
 }
 
+/**
+ * Aulas que o aluno cursa de fato, para Hoje/Semana: as matérias marcadas como "cursando"
+ * (cruzando turmas do curso). Sem nada marcado, cai na grade da turma atual menos as feitas.
+ */
+export const aulasVigentes = (
+  turmaAtual: Turma,
+  turmas: ReadonlyArray<Turma>,
+  cursando: ReadonlySet<string>,
+  concluidas: ReadonlySet<string>,
+): Aula[] => {
+  if (cursando.size > 0)
+    // guarda: cursando/concluída são exclusivos no storage, mas localStorage é editável
+    return mesclarAulas(turmas.flatMap((t) => t.aulas).filter((a) => cursando.has(a.materiaId) && !concluidas.has(a.materiaId)))
+  return mesclarAulas(turmaAtual.aulas.filter((a) => !concluidas.has(a.materiaId)))
+}
+
 export interface Progresso {
   total: number
   feitas: number

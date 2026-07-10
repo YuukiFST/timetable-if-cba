@@ -1,28 +1,36 @@
-import { useEffect, useState } from "react"
+import { useEffect, useMemo, useState } from "react"
 import { Link } from "react-router"
-import { loadTurma, useQuery } from "../data/api"
-import { calcularHoje, DIAS, mesclarAulas } from "../lib/horario"
+import { loadMateriasDoCurso, useQuery } from "../data/api"
+import { aulasVigentes, calcularHoje, DIAS } from "../lib/horario"
+import { useProgresso } from "../storage"
 import { AulaCard, QueryView, Titulo } from "../components/ui"
 
 export function Hoje({ turmaId }: { turmaId: string }) {
-  const q = useQuery(loadTurma(turmaId), turmaId)
+  const q = useQuery(
+    useMemo(() => loadMateriasDoCurso(turmaId), [turmaId]),
+    `materias-${turmaId}`,
+  )
+  const progresso = useProgresso()
   const [agora, setAgora] = useState(() => new Date())
   useEffect(() => {
     const t = setInterval(() => setAgora(new Date()), 30_000)
     return () => clearInterval(t)
   }, [])
 
+  const cursando = useMemo(() => new Set(progresso?.cursando ?? []), [progresso])
+  const concluidas = useMemo(() => new Set(progresso?.materiasConcluidas ?? []), [progresso])
+
   return (
     <QueryView q={q}>
-      {({ turma }) => {
-        const hoje = calcularHoje(mesclarAulas(turma.aulas), agora)
-        const materiaNome = (id: string) => turma.materias.find((m) => m.id === id)?.nome ?? id
+      {({ turmaAtual, turmas, materias }) => {
+        const hoje = calcularHoje(aulasVigentes(turmaAtual, turmas, cursando, concluidas), agora)
+        const materiaNome = (id: string) => materias.find((m) => m.id === id)?.nome ?? id
         return (
           <div>
             <Titulo
               sub={
                 <Link to="/config" className="inline-flex min-h-11 items-center gap-1.5">
-                  {turma.nome} <span className="font-medium text-primary">trocar</span>
+                  {turmaAtual.nome} <span className="font-medium text-primary">trocar</span>
                 </Link>
               }
             >
