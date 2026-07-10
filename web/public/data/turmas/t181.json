@@ -1,0 +1,38 @@
+{
+  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "schemaVersion": 1,
+  "turma": {
+    "aulas": [
+      {
+        "diaSemana": 2,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "*1167",
+        "professor": "Eloísa Azeredo",
+        "sala": "B-204",
+        "slot": 12
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "*1167",
+        "professor": "Eloísa Azeredo",
+        "sala": "B-105",
+        "slot": 12
+      }
+    ],
+    "cursoId": "dinfra-2841-tecnol-cont-obr",
+    "id": "t181",
+    "materias": [
+      {
+        "id": "*1167",
+        "nome": "TCC II",
+        "nomeCurto": "TCC II",
+        "semestre": 7
+      }
+    ],
+    "nome": "DINFRA 2841.7N Tecnol. Cont. Obr.",
+    "semestre": 7
+  }
+}

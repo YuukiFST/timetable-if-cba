@@ -1,0 +1,149 @@
+{
+  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "schemaVersion": 1,
+  "turma": {
+    "aulas": [
+      {
+        "diaSemana": 0,
+        "horaFim": "14:30",
+        "horaInicio": "13:00",
+        "materiaId": "-253",
+        "professor": "Cristiano Cunha",
+        "sala": "B-002",
+        "slot": 6
+      },
+      {
+        "diaSemana": 0,
+        "horaFim": "16:20",
+        "horaInicio": "14:30",
+        "materiaId": "-77",
+        "professor": "Emerson Dutra",
+        "sala": "B-002",
+        "slot": 8
+      },
+      {
+        "diaSemana": 0,
+        "horaFim": "17:50",
+        "horaInicio": "16:20",
+        "materiaId": "-17",
+        "professor": "Willian Pereira",
+        "sala": "B-002",
+        "slot": 10
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "14:30",
+        "horaInicio": "13:00",
+        "materiaId": "-17",
+        "professor": "Willian Pereira",
+        "sala": "B-003",
+        "slot": 6
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "16:20",
+        "horaInicio": "14:30",
+        "materiaId": "-253",
+        "professor": "Cristiano Cunha",
+        "sala": "B-109",
+        "slot": 8
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "16:20",
+        "horaInicio": "14:30",
+        "materiaId": "*1040",
+        "professor": "Cláudia Nehme",
+        "sala": "B-108",
+        "slot": 8
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "17:50",
+        "horaInicio": "16:20",
+        "materiaId": "-201",
+        "professor": "Edelson Duarte",
+        "sala": "DEEA E105 Lab. Informática",
+        "slot": 10
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "16:20",
+        "horaInicio": "14:30",
+        "materiaId": "-77",
+        "professor": "Emerson Dutra",
+        "sala": "B-003",
+        "slot": 8
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "17:50",
+        "horaInicio": "16:20",
+        "materiaId": "-201",
+        "professor": "Edelson Duarte",
+        "sala": "DEEA E105 Lab. Informática",
+        "slot": 10
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "*853",
+        "professor": "Carlos Henrique",
+        "sala": "DCOM",
+        "slot": 12
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "*853",
+        "professor": "Carlos Henrique",
+        "sala": "DCOM",
+        "slot": 14
+      }
+    ],
+    "cursoId": "deea-6144-engenharia-de-controle-e-automacao",
+    "id": "t62",
+    "materias": [
+      {
+        "id": "-17",
+        "nome": "Álgebra Linear",
+        "nomeCurto": "AL",
+        "semestre": 2
+      },
+      {
+        "id": "-77",
+        "nome": "Cálculo Diferencial e Integral II",
+        "nomeCurto": "Cálculo II",
+        "semestre": 2
+      },
+      {
+        "id": "-201",
+        "nome": "Eletrônica Digital",
+        "nomeCurto": "Eletrônica Digital",
+        "semestre": 2
+      },
+      {
+        "id": "-253",
+        "nome": "Física Geral e Experimental II",
+        "nomeCurto": "FGeE II",
+        "semestre": 2
+      },
+      {
+        "id": "*853",
+        "nome": "Oficina de Projetos",
+        "nomeCurto": "Oficina Proj.",
+        "semestre": 2
+      },
+      {
+        "id": "*1040",
+        "nome": "Química Geral e Ciência dos Materiais",
+        "nomeCurto": "QGeCdM",
+        "semestre": 2
+      }
+    ],
+    "nome": "DEEA 6144.2 Engenharia de Controle e Automação",
+    "semestre": 2
+  }
+}

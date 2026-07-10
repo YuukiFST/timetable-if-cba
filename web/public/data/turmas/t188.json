@@ -1,0 +1,119 @@
+{
+  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "schemaVersion": 1,
+  "turma": {
+    "aulas": [
+      {
+        "diaSemana": 0,
+        "horaFim": "22:25",
+        "horaInicio": "18:50",
+        "materiaId": "*1080",
+        "professor": "Luana Morais",
+        "sala": "B-107",
+        "slot": 12
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "*808",
+        "professor": "Kamila Oliveira",
+        "sala": "DINFRA",
+        "slot": 12
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "-432",
+        "professor": "Luis Paoli",
+        "sala": "B-107",
+        "slot": 14
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "22:25",
+        "horaInicio": "18:50",
+        "materiaId": "*971",
+        "professor": "Héllyda Sacal",
+        "sala": "DINFRA",
+        "slot": 12
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "22:25",
+        "horaInicio": "18:50",
+        "materiaId": "-684",
+        "professor": "Angela Rocha",
+        "sala": "B-107",
+        "slot": 12
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "*587",
+        "professor": "Calina Barros",
+        "sala": "B-107",
+        "slot": 12
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "-597",
+        "professor": "Adelson Ribeiro",
+        "sala": "B-107",
+        "slot": 14
+      }
+    ],
+    "cursoId": "dinfra-0140063-eng-civil",
+    "id": "t188",
+    "materias": [
+      {
+        "id": "*587",
+        "nome": "Hidráulica Geral",
+        "nomeCurto": "Hidráulica Geral",
+        "semestre": 5
+      },
+      {
+        "id": "-432",
+        "nome": "Matemática Financeira",
+        "nomeCurto": "MAT F",
+        "semestre": 5
+      },
+      {
+        "id": "*808",
+        "nome": "Modelagem da Informação da Construção",
+        "nomeCurto": "Modelagem da Informação da Construção",
+        "semestre": 5
+      },
+      {
+        "id": "*971",
+        "nome": "Projeto de Arquitetura",
+        "nomeCurto": "ProjArq",
+        "semestre": 5
+      },
+      {
+        "id": "*1080",
+        "nome": "Resistência dos Materiais I",
+        "nomeCurto": "RMI",
+        "semestre": 5
+      },
+      {
+        "id": "-597",
+        "nome": "Saúde e Segurança no Trabalho",
+        "nomeCurto": "Saúde e Segurança no Trabalho",
+        "semestre": 5
+      },
+      {
+        "id": "-684",
+        "nome": "Tecnologia das Construções II",
+        "nomeCurto": "Tecnologia das Construções II",
+        "semestre": 5
+      }
+    ],
+    "nome": "DINFRA 0140063.5N Eng. Civil",
+    "semestre": 5
+  }
+}

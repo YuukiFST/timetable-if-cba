@@ -1,0 +1,161 @@
+{
+  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "schemaVersion": 1,
+  "turma": {
+    "aulas": [
+      {
+        "diaSemana": 0,
+        "horaFim": "19:40",
+        "horaInicio": "18:50",
+        "materiaId": "-203",
+        "professor": "Marco Castro",
+        "sala": "DEEA E116 Lab. Telecomunicações",
+        "slot": 12
+      },
+      {
+        "diaSemana": 0,
+        "horaFim": "21:35",
+        "horaInicio": "19:40",
+        "materiaId": "-355",
+        "professor": "Palmiro Rodrigues",
+        "sala": "B-222",
+        "slot": 13
+      },
+      {
+        "diaSemana": 0,
+        "horaFim": "22:25",
+        "horaInicio": "21:35",
+        "materiaId": "-355",
+        "professor": "Palmiro Rodrigues",
+        "sala": "B-205",
+        "slot": 15
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "-203",
+        "professor": "Marco Castro",
+        "sala": "DEEA E118 Lab. Eletrônica",
+        "slot": 12
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "-561",
+        "professor": "Marco Castro",
+        "sala": "DEEA E118 Lab. Eletrônica",
+        "slot": 14
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "-313",
+        "professor": "Karine Assunção",
+        "sala": "B-107",
+        "slot": 12
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "-601",
+        "professor": "Marcos Vinicius",
+        "sala": "B-107",
+        "slot": 14
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "-100",
+        "professor": "Palmiro Rodrigues",
+        "sala": "DEEA E116 Lab. Telecomunicações",
+        "slot": 12
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "-291",
+        "professor": "Palmiro Rodrigues",
+        "sala": "DEEA E116 Lab. Telecomunicações",
+        "slot": 14
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "-357",
+        "professor": "José Cândido",
+        "sala": "DEEA E014 Lab. Inst. Elétricas",
+        "slot": 12
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "-357",
+        "professor": "José Cândido",
+        "sala": "DEEA E014 Lab. Inst. Elétricas",
+        "slot": 14
+      }
+    ],
+    "cursoId": "deea-6533-eletrotecnica-subsequente",
+    "id": "t81",
+    "materias": [
+      {
+        "id": "-100",
+        "nome": "Circuitos Polifásicos",
+        "nomeCurto": "Circ Pol",
+        "semestre": 3
+      },
+      {
+        "id": "-203",
+        "nome": "Eletrônica Geral",
+        "nomeCurto": "Elet Ger",
+        "semestre": 3
+      },
+      {
+        "id": "-291",
+        "nome": "Geração, Transmissão e Distribuição de Energia Elétrica",
+        "nomeCurto": "GTeDdEE",
+        "semestre": 3
+      },
+      {
+        "id": "-313",
+        "nome": "Gestão de Qualidade e Empreendedorismo",
+        "nomeCurto": "GdQeE",
+        "semestre": 3
+      },
+      {
+        "id": "-355",
+        "nome": "Instalação de Redes de Distribuição de Energia Elétrica",
+        "nomeCurto": "IdRdDdEE",
+        "semestre": 3
+      },
+      {
+        "id": "-357",
+        "nome": "Instalação Elétrica Residencial",
+        "nomeCurto": "IER",
+        "semestre": 3
+      },
+      {
+        "id": "-561",
+        "nome": "Qualidade e Eficiência da Energia",
+        "nomeCurto": "QeEdE",
+        "semestre": 3
+      },
+      {
+        "id": "-601",
+        "nome": "Segurança do Trabalho",
+        "nomeCurto": "Seg-Trab",
+        "semestre": 3
+      }
+    ],
+    "nome": "DEEA 6533.3N Eletrotécnica Subsequente",
+    "semestre": 3
+  }
+}

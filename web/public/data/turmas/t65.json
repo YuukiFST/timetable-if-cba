@@ -1,0 +1,125 @@
+{
+  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "schemaVersion": 1,
+  "turma": {
+    "aulas": [
+      {
+        "diaSemana": 0,
+        "horaFim": "17:50",
+        "horaInicio": "16:20",
+        "materiaId": "-613",
+        "professor": "Fabiano Pádua",
+        "sala": "DEEA E116 Lab. Telecomunicações",
+        "slot": 10
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "17:50",
+        "horaInicio": "16:20",
+        "materiaId": "-448",
+        "professor": "Marcos Vinicius",
+        "sala": "B-204",
+        "slot": 10
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "-613",
+        "professor": "Fabiano Pádua",
+        "sala": "DEEA E116 Lab. Telecomunicações",
+        "slot": 12
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "14:30",
+        "horaInicio": "13:00",
+        "materiaId": "-80",
+        "professor": "Valtemir Nascimento",
+        "sala": "D-014",
+        "slot": 6
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "16:20",
+        "horaInicio": "14:30",
+        "materiaId": "-196",
+        "professor": "Valtemir Nascimento",
+        "sala": "B-124",
+        "slot": 8
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "-204",
+        "professor": "Alberto Mascarenhas",
+        "sala": "DEEA E101 Lab. Eletrônica",
+        "slot": 12
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "-204",
+        "professor": "Alberto Mascarenhas",
+        "sala": "DEEA E101 Lab. Eletrônica",
+        "slot": 14
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "14:30",
+        "horaInicio": "13:00",
+        "materiaId": "-80",
+        "professor": "Valtemir Nascimento",
+        "sala": "D-014",
+        "slot": 6
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "16:20",
+        "horaInicio": "14:30",
+        "materiaId": "-196",
+        "professor": "Valtemir Nascimento",
+        "sala": "B-124",
+        "slot": 8
+      }
+    ],
+    "cursoId": "deea-6144-engenharia-de-controle-e-automacao",
+    "id": "t65",
+    "materias": [
+      {
+        "id": "-80",
+        "nome": "Cálculo Numérico",
+        "nomeCurto": "CN",
+        "semestre": 5
+      },
+      {
+        "id": "-196",
+        "nome": "Eletromagnetismo",
+        "nomeCurto": "Etromag",
+        "semestre": 5
+      },
+      {
+        "id": "-204",
+        "nome": "Eletrônica I",
+        "nomeCurto": "Elet I",
+        "semestre": 5
+      },
+      {
+        "id": "-448",
+        "nome": "Materiais Elétricos",
+        "nomeCurto": "Materiais Elétricos",
+        "semestre": 5
+      },
+      {
+        "id": "-613",
+        "nome": "Sinais e Sistemas Lineares",
+        "nomeCurto": "SeSL",
+        "semestre": 5
+      }
+    ],
+    "nome": "DEEA 6144.5I Engenharia de Controle e Automação",
+    "semestre": 5
+  }
+}

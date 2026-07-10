@@ -1,0 +1,282 @@
+{
+  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "schemaVersion": 1,
+  "turma": {
+    "aulas": [
+      {
+        "diaSemana": 0,
+        "horaFim": "08:30",
+        "horaInicio": "07:00",
+        "materiaId": "-256",
+        "professor": "Luis Otávio",
+        "sala": "B-109",
+        "slot": 0
+      },
+      {
+        "diaSemana": 0,
+        "horaFim": "10:20",
+        "horaInicio": "08:30",
+        "materiaId": "-569",
+        "professor": "Dirce Silva",
+        "sala": "B-109",
+        "slot": 2
+      },
+      {
+        "diaSemana": 0,
+        "horaFim": "11:50",
+        "horaInicio": "10:20",
+        "materiaId": "-435",
+        "professor": "Lia Costa",
+        "sala": "B-109",
+        "slot": 4
+      },
+      {
+        "diaSemana": 0,
+        "horaFim": "16:20",
+        "horaInicio": "14:30",
+        "materiaId": "-400",
+        "professor": "Luiz Renato",
+        "sala": "B-109",
+        "slot": 8
+      },
+      {
+        "diaSemana": 0,
+        "horaFim": "17:50",
+        "horaInicio": "16:20",
+        "materiaId": "-177",
+        "professor": "Aline Dutton",
+        "sala": "B-109",
+        "slot": 10
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "08:30",
+        "horaInicio": "07:00",
+        "materiaId": "-329",
+        "professor": "Karina Brito",
+        "sala": "B-109",
+        "slot": 0
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "10:20",
+        "horaInicio": "08:30",
+        "materiaId": "-445",
+        "professor": "André Abreu",
+        "sala": "B-105",
+        "slot": 2
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "10:20",
+        "horaInicio": "08:30",
+        "materiaId": "-702",
+        "professor": "Marcio Antunes",
+        "sala": "B-109",
+        "slot": 2
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "11:50",
+        "horaInicio": "10:20",
+        "materiaId": "-445",
+        "professor": "André Abreu",
+        "sala": "B-105",
+        "slot": 4
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "11:50",
+        "horaInicio": "10:20",
+        "materiaId": "-702",
+        "professor": "Marcio Antunes",
+        "sala": "B-109",
+        "slot": 4
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "08:30",
+        "horaInicio": "07:00",
+        "materiaId": "-545",
+        "professor": "Angela Oliveira, Márcia Andrade",
+        "slot": 0
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "10:20",
+        "horaInicio": "08:30",
+        "materiaId": "*65",
+        "professor": "Confirmar Profº na Coord de Artes",
+        "slot": 2
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "11:50",
+        "horaInicio": "10:20",
+        "materiaId": "-381",
+        "professor": "Jussara Silva",
+        "sala": "B-109",
+        "slot": 4
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "10:20",
+        "horaInicio": "08:30",
+        "materiaId": "-400",
+        "professor": "Luiz Renato",
+        "sala": "B-109",
+        "slot": 2
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "11:50",
+        "horaInicio": "10:20",
+        "materiaId": "-435",
+        "professor": "Lia Costa",
+        "sala": "B-109",
+        "slot": 4
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "15:15",
+        "horaInicio": "13:45",
+        "materiaId": "-67",
+        "professor": "Hérica Nabuco",
+        "sala": "DINFRA",
+        "slot": 7
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "17:05",
+        "horaInicio": "15:35",
+        "materiaId": "-243",
+        "professor": "Livio Wogel",
+        "sala": "B-109",
+        "slot": 9
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "10:20",
+        "horaInicio": "07:45",
+        "materiaId": "*289",
+        "professor": "Washington Souza Nery",
+        "sala": "DINFRA",
+        "slot": 1
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "10:20",
+        "horaInicio": "07:45",
+        "materiaId": "*289",
+        "professor": "Márcia Andrade",
+        "sala": "DINFRA",
+        "slot": 1
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "11:50",
+        "horaInicio": "10:20",
+        "materiaId": "-285",
+        "professor": "Mauro França",
+        "sala": "B-103",
+        "slot": 4
+      }
+    ],
+    "cursoId": "dinfra-1031-edific-integ",
+    "id": "t139",
+    "materias": [
+      {
+        "id": "*65",
+        "nome": "Arte",
+        "nomeCurto": "Arte",
+        "semestre": 1
+      },
+      {
+        "id": "-67",
+        "nome": "Biologia I",
+        "nomeCurto": "BIO I",
+        "semestre": 1
+      },
+      {
+        "id": "*289",
+        "nome": "Desenho Técnico e Arquitetônico",
+        "nomeCurto": "DTeA",
+        "semestre": 1
+      },
+      {
+        "id": "-177",
+        "nome": "Educação Física",
+        "nomeCurto": "EF",
+        "semestre": 1
+      },
+      {
+        "id": "-243",
+        "nome": "Filosofia",
+        "nomeCurto": "FIL",
+        "semestre": 1
+      },
+      {
+        "id": "-256",
+        "nome": "Física I",
+        "nomeCurto": "Física I",
+        "semestre": 1
+      },
+      {
+        "id": "-285",
+        "nome": "Geografia I",
+        "nomeCurto": "GEO I",
+        "semestre": 1
+      },
+      {
+        "id": "-329",
+        "nome": "Historia I",
+        "nomeCurto": "HIST I",
+        "semestre": 1
+      },
+      {
+        "id": "-381",
+        "nome": "Língua Espanhola",
+        "nomeCurto": "LE",
+        "semestre": 1
+      },
+      {
+        "id": "-400",
+        "nome": "Língua Portuguesa I",
+        "nomeCurto": "Lingua Portuguesa I",
+        "semestre": 1
+      },
+      {
+        "id": "-435",
+        "nome": "Matemática I",
+        "nomeCurto": "Matemática I",
+        "semestre": 1
+      },
+      {
+        "id": "-445",
+        "nome": "Materiais de Construção I",
+        "nomeCurto": "MCI",
+        "semestre": 1
+      },
+      {
+        "id": "-545",
+        "nome": "Projeto Integrador",
+        "nomeCurto": "Proj.Int.",
+        "semestre": 1
+      },
+      {
+        "id": "-569",
+        "nome": "Química I",
+        "nomeCurto": "QUI I",
+        "semestre": 1
+      },
+      {
+        "id": "-702",
+        "nome": "Topografia",
+        "nomeCurto": "Topografia",
+        "semestre": 1
+      }
+    ],
+    "nome": "DINFRA 1031.1BM Edific. Integ.",
+    "semestre": 1
+  }
+}

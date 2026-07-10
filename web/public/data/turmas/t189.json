@@ -1,0 +1,104 @@
+{
+  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "schemaVersion": 1,
+  "turma": {
+    "aulas": [
+      {
+        "diaSemana": 0,
+        "horaFim": "22:25",
+        "horaInicio": "18:50",
+        "materiaId": "-535",
+        "professor": "Rafael Máximo",
+        "sala": "B-109",
+        "slot": 12
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "*529",
+        "professor": "Ilço Júnior",
+        "sala": "B-109",
+        "slot": 12
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "*588",
+        "professor": "Kamila Oliveira",
+        "sala": "B-109",
+        "slot": 14
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "22:25",
+        "horaInicio": "18:50",
+        "materiaId": "*999",
+        "professor": "Kamila Oliveira",
+        "sala": "B-109",
+        "slot": 12
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "22:25",
+        "horaInicio": "18:50",
+        "materiaId": "*590",
+        "professor": "André Abreu",
+        "sala": "B-109",
+        "slot": 12
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "22:25",
+        "horaInicio": "18:50",
+        "materiaId": "*1082",
+        "professor": "Hugo Cedro",
+        "sala": "B-109",
+        "slot": 12
+      }
+    ],
+    "cursoId": "dinfra-0140063-eng-civil",
+    "id": "t189",
+    "materias": [
+      {
+        "id": "*529",
+        "nome": "Geologia para engenharia",
+        "nomeCurto": "GpE",
+        "semestre": 6
+      },
+      {
+        "id": "*588",
+        "nome": "Hidrologia aplicada à Eng. Civil",
+        "nomeCurto": "Hidrologia",
+        "semestre": 6
+      },
+      {
+        "id": "*590",
+        "nome": "Hiperestática",
+        "nomeCurto": "HipEst",
+        "semestre": 6
+      },
+      {
+        "id": "-535",
+        "nome": "Projeto de Instalações Elétricas",
+        "nomeCurto": "ProjIEletr",
+        "semestre": 6
+      },
+      {
+        "id": "*999",
+        "nome": "Projeto Hidrossanitário",
+        "nomeCurto": "ProjHidro",
+        "semestre": 6
+      },
+      {
+        "id": "*1082",
+        "nome": "Resistência dos Materiais II",
+        "nomeCurto": "RMII",
+        "semestre": 6
+      }
+    ],
+    "nome": "DINFRA 0140063.6N Eng. Civil",
+    "semestre": 6
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "schemaVersion": 1,
+  "turma": {
+    "aulas": [
+      {
+        "diaSemana": 0,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "-696",
+        "professor": "Paulo Lenço",
+        "sala": "B-208",
+        "slot": 12
+      },
+      {
+        "diaSemana": 0,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "-696",
+        "professor": "Paulo Lenço",
+        "sala": "B-208",
+        "slot": 14
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "-353",
+        "professor": "João Freitas",
+        "sala": "B-203",
+        "slot": 12
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "*653",
+        "professor": "Fabricio Moraes",
+        "sala": "B-208",
+        "slot": 12
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "*743",
+        "professor": "Eudinei Silva",
+        "sala": "DEEA E006 Lab. Máquinas Elétricas",
+        "slot": 14
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "*53",
+        "professor": "Marcelo Arruda",
+        "sala": "DEEA E105 Lab. Informática",
+        "slot": 12
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "*53",
+        "professor": "Marcelo Arruda",
+        "sala": "DEEA E105 Lab. Informática",
+        "slot": 14
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "-204",
+        "professor": "Murilo Santos",
+        "sala": "DEEA E118 Lab. Eletrônica",
+        "slot": 12
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "-204",
+        "professor": "Murilo Santos",
+        "sala": "DEEA E118 Lab. Eletrônica",
+        "slot": 14
+      }
+    ],
+    "cursoId": "deea-eng-eletrica",
+    "id": "t101",
+    "materias": [
+      {
+        "id": "*53",
+        "nome": "Análise de Sistemas Lineares",
+        "nomeCurto": "A.Sist.Lin.",
+        "semestre": 5
+      },
+      {
+        "id": "-204",
+        "nome": "Eletrônica I",
+        "nomeCurto": "Elet I",
+        "semestre": 5
+      },
+      {
+        "id": "-353",
+        "nome": "Inglês Instrumental ",
+        "nomeCurto": "ING-INST",
+        "semestre": 5
+      },
+      {
+        "id": "*653",
+        "nome": "Introdução à Economia para Engenharia",
+        "nomeCurto": "Int.Economia",
+        "semestre": 5
+      },
+      {
+        "id": "*743",
+        "nome": "Máquinas de Fluxo",
+        "nomeCurto": "Maq.Fluxo",
+        "semestre": 5
+      },
+      {
+        "id": "-696",
+        "nome": "Termodinâmica",
+        "nomeCurto": "Termo",
+        "semestre": 5
+      }
+    ],
+    "nome": "DEEA Eng. Elétrica 5º Sem",
+    "semestre": 5
+  }
+}

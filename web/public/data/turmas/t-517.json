@@ -1,0 +1,34 @@
+{
+  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "schemaVersion": 1,
+  "turma": {
+    "aulas": [
+      {
+        "diaSemana": 3,
+        "horaFim": "22:25",
+        "horaInicio": "17:05",
+        "materiaId": "*82",
+        "professor": "Lúcio Vidal, Danilo Herbert",
+        "slot": 11
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "17:50",
+        "horaInicio": "13:00",
+        "materiaId": "*82",
+        "professor": "Danilo Herbert, Lúcio Vidal",
+        "slot": 6
+      }
+    ],
+    "cursoId": "profept-mestrado-06",
+    "id": "t-517",
+    "materias": [
+      {
+        "id": "*82",
+        "nome": "Atividades ProfEPT",
+        "nomeCurto": "Atividades ProfEPT"
+      }
+    ],
+    "nome": "ProfEPT - Mestrado - 06"
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "schemaVersion": 1,
+  "turma": {
+    "aulas": [
+      {
+        "diaSemana": 0,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "-132",
+        "professor": "Gilmarcos Correa",
+        "sala": "DEEA E101 Lab. Eletrônica",
+        "slot": 12
+      },
+      {
+        "diaSemana": 0,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "-132",
+        "professor": "Gilmarcos Correa",
+        "sala": "DEEA E101 Lab. Eletrônica",
+        "slot": 14
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "-618",
+        "professor": "José Martins",
+        "sala": "DEEA E101 Lab. Eletrônica",
+        "slot": 12
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "-618",
+        "professor": "José Martins",
+        "sala": "DEEA E101 Lab. Eletrônica",
+        "slot": 14
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "-637",
+        "professor": "Rafael Máximo",
+        "sala": "DEEA E201 Lab. Automação Predial",
+        "slot": 12
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "-640",
+        "professor": "Ernany Silva",
+        "sala": "DEEA E118 Lab. Eletrônica",
+        "slot": 14
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "-640",
+        "professor": "Ernany Silva",
+        "sala": "DEEA E114 Lab. Informatica",
+        "slot": 12
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "-640",
+        "professor": "Ernany Silva",
+        "sala": "DEEA E114 Lab. Informatica",
+        "slot": 14
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "-509",
+        "professor": "Luis Pedroso",
+        "sala": "DEEA E101 Lab. Eletrônica",
+        "slot": 12
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "-509",
+        "professor": "Luis Pedroso",
+        "sala": "DEEA E101 Lab. Eletrônica",
+        "slot": 14
+      }
+    ],
+    "cursoId": "deea-6633-eletronica-subsquente",
+    "id": "t91",
+    "materias": [
+      {
+        "id": "-132",
+        "nome": "Conversores de Energia",
+        "nomeCurto": "Conv Ene",
+        "semestre": 4
+      },
+      {
+        "id": "-509",
+        "nome": "Procedimentos de Manutenção",
+        "nomeCurto": "PdM",
+        "semestre": 4
+      },
+      {
+        "id": "-618",
+        "nome": "Sistema de Comunicação",
+        "nomeCurto": "SdC",
+        "semestre": 4
+      },
+      {
+        "id": "-637",
+        "nome": "Sistemas Eletro-eletrônicos",
+        "nomeCurto": "SE",
+        "semestre": 4
+      },
+      {
+        "id": "-640",
+        "nome": "Sistemas Microcontrolados",
+        "nomeCurto": "Sist. Microccontr.",
+        "semestre": 4
+      }
+    ],
+    "nome": "DEEA 6633.4N Eletrônica Subsquente",
+    "semestre": 4
+  }
+}

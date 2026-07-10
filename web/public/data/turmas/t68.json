@@ -1,0 +1,145 @@
+{
+  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "schemaVersion": 1,
+  "turma": {
+    "aulas": [
+      {
+        "diaSemana": 0,
+        "horaFim": "15:15",
+        "horaInicio": "13:45",
+        "materiaId": "-129",
+        "professor": "Walterley Moura",
+        "sala": "DEEA E016",
+        "slot": 7
+      },
+      {
+        "diaSemana": 0,
+        "horaFim": "17:05",
+        "horaInicio": "15:35",
+        "materiaId": "-64",
+        "professor": "João Preti",
+        "sala": "DCOM",
+        "slot": 9
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "14:30",
+        "horaInicio": "13:00",
+        "materiaId": "-64",
+        "professor": "João Preti",
+        "sala": "DCOM",
+        "slot": 6
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "16:20",
+        "horaInicio": "14:30",
+        "materiaId": "-129",
+        "professor": "Walterley Moura",
+        "sala": "DEEA E016",
+        "slot": 8
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "16:20",
+        "horaInicio": "14:30",
+        "materiaId": "-2",
+        "professor": "Karine Assunção",
+        "sala": "B-219",
+        "slot": 8
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "17:50",
+        "horaInicio": "16:20",
+        "materiaId": "-513",
+        "professor": "Paulo Lenço",
+        "sala": "B-216",
+        "slot": 10
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "17:50",
+        "horaInicio": "16:20",
+        "materiaId": "-234",
+        "professor": "Marcos Vinicius",
+        "slot": 10
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "14:30",
+        "horaInicio": "13:00",
+        "materiaId": "-56",
+        "professor": "Rafael Máximo",
+        "sala": "DEEA E208 Lab. Automação Industrial",
+        "slot": 6
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "16:20",
+        "horaInicio": "14:30",
+        "materiaId": "-56",
+        "professor": "Rafael Máximo",
+        "sala": "DEEA E208 Lab. Automação Industrial",
+        "slot": 8
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "17:50",
+        "horaInicio": "16:20",
+        "materiaId": "-579",
+        "professor": "Fabiano Pádua",
+        "sala": "DEEA E208 Lab. Automação Industrial",
+        "slot": 10
+      }
+    ],
+    "cursoId": "deea-6144-engenharia-de-controle-e-automacao",
+    "id": "t68",
+    "materias": [
+      {
+        "id": "-2",
+        "nome": "Administração",
+        "nomeCurto": "ADM",
+        "semestre": 8
+      },
+      {
+        "id": "-56",
+        "nome": "Automação Eletropneumática",
+        "nomeCurto": "AE",
+        "semestre": 8
+      },
+      {
+        "id": "-64",
+        "nome": "Banco de Dados",
+        "nomeCurto": "BdD",
+        "semestre": 8
+      },
+      {
+        "id": "-129",
+        "nome": "Controle de Sistemas Contínuos II",
+        "nomeCurto": "Controle II",
+        "semestre": 8
+      },
+      {
+        "id": "-234",
+        "nome": "Ética Profissional",
+        "nomeCurto": "ÉP",
+        "semestre": 8
+      },
+      {
+        "id": "-513",
+        "nome": "Processo de Fabricação Metal-mecânica",
+        "nomeCurto": "PdFM",
+        "semestre": 8
+      },
+      {
+        "id": "-579",
+        "nome": "Redes Industriais",
+        "nomeCurto": "RI",
+        "semestre": 8
+      }
+    ],
+    "nome": "DEEA 6144.8I Engenharia de Controle e Automação",
+    "semestre": 8
+  }
+}

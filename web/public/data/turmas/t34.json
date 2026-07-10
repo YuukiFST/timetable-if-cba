@@ -1,0 +1,253 @@
+{
+  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "schemaVersion": 1,
+  "turma": {
+    "aulas": [
+      {
+        "diaSemana": 0,
+        "horaFim": "14:30",
+        "horaInicio": "13:00",
+        "materiaId": "-257",
+        "professor": "Gilson Lima",
+        "sala": "B-216",
+        "slot": 6
+      },
+      {
+        "diaSemana": 0,
+        "horaFim": "16:20",
+        "horaInicio": "14:30",
+        "materiaId": "-68",
+        "professor": "Roberto Campos",
+        "sala": "B-216",
+        "slot": 8
+      },
+      {
+        "diaSemana": 0,
+        "horaFim": "17:50",
+        "horaInicio": "16:20",
+        "materiaId": "-352",
+        "professor": "João Freitas",
+        "sala": "DCOM",
+        "slot": 10
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "09:15",
+        "horaInicio": "07:00",
+        "materiaId": "-264",
+        "professor": "Inara Ferrer",
+        "sala": "DCOM",
+        "slot": 0
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "11:05",
+        "horaInicio": "09:35",
+        "materiaId": "-286",
+        "professor": "Stephanie Freire",
+        "sala": "B-203",
+        "slot": 3
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "15:15",
+        "horaInicio": "13:45",
+        "materiaId": "-330",
+        "professor": "Subst. Historia",
+        "sala": "B-206",
+        "slot": 7
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "17:50",
+        "horaInicio": "15:35",
+        "materiaId": "-401",
+        "professor": "Rogério Martins",
+        "sala": "B-206",
+        "slot": 9
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "14:30",
+        "horaInicio": "13:00",
+        "materiaId": "-177",
+        "professor": "Edézio",
+        "slot": 6
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "16:20",
+        "horaInicio": "14:30",
+        "materiaId": "-649",
+        "professor": "Claudyanne Almeida",
+        "sala": "B-206",
+        "slot": 8
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "17:50",
+        "horaInicio": "16:20",
+        "materiaId": "-245",
+        "professor": "Juliano Santos",
+        "sala": "B-206",
+        "slot": 10
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "09:15",
+        "horaInicio": "07:00",
+        "materiaId": "-270",
+        "professor": "Heloíse Bastos",
+        "sala": "DCOM",
+        "slot": 0
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "11:05",
+        "horaInicio": "09:35",
+        "materiaId": "-570",
+        "professor": "Sonia Biaggi",
+        "sala": "B-203",
+        "slot": 3
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "15:15",
+        "horaInicio": "13:00",
+        "materiaId": "-428",
+        "professor": "Daniel Cintra",
+        "sala": "B-203",
+        "slot": 6
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "17:05",
+        "horaInicio": "15:35",
+        "materiaId": "-546",
+        "professor": "Rafael Rocha",
+        "sala": "DCOM",
+        "slot": 9
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "15:15",
+        "horaInicio": "13:00",
+        "materiaId": "-529",
+        "professor": "Rafael Simões",
+        "sala": "DCOM",
+        "slot": 6
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "17:05",
+        "horaInicio": "15:35",
+        "materiaId": "-641",
+        "professor": "Heloíse Bastos",
+        "sala": "DCOM",
+        "slot": 9
+      }
+    ],
+    "cursoId": "dcom-7131-inform-integ",
+    "id": "t34",
+    "materias": [
+      {
+        "id": "-68",
+        "nome": "Biologia II",
+        "nomeCurto": "BIO II",
+        "semestre": 2
+      },
+      {
+        "id": "-177",
+        "nome": "Educação Física",
+        "nomeCurto": "EF",
+        "semestre": 2
+      },
+      {
+        "id": "-245",
+        "nome": "Filosofia II",
+        "nomeCurto": "FIL II",
+        "semestre": 2
+      },
+      {
+        "id": "-257",
+        "nome": "Física II",
+        "nomeCurto": "Física II",
+        "semestre": 2
+      },
+      {
+        "id": "-264",
+        "nome": "Fundamentos de Banco de Dados",
+        "nomeCurto": "FdBdD",
+        "semestre": 2
+      },
+      {
+        "id": "-270",
+        "nome": "Fundamentos de Redes de Computadores ",
+        "nomeCurto": "FdRdC",
+        "semestre": 2
+      },
+      {
+        "id": "-286",
+        "nome": "Geografia II",
+        "nomeCurto": "GEO II",
+        "semestre": 2
+      },
+      {
+        "id": "-330",
+        "nome": "História II",
+        "nomeCurto": "HIST II",
+        "semestre": 2
+      },
+      {
+        "id": "-352",
+        "nome": "Inglês I",
+        "nomeCurto": "ING I",
+        "semestre": 2
+      },
+      {
+        "id": "-401",
+        "nome": "Língua Portuguesa II",
+        "nomeCurto": "Língua Portuguesa II",
+        "semestre": 2
+      },
+      {
+        "id": "-428",
+        "nome": "Matemática",
+        "nomeCurto": "Matemática",
+        "semestre": 2
+      },
+      {
+        "id": "-529",
+        "nome": "Programação Orientada a Objetos",
+        "nomeCurto": "POaO",
+        "semestre": 2
+      },
+      {
+        "id": "-546",
+        "nome": "Projeto Integrador II",
+        "nomeCurto": "Proj.Int. II",
+        "semestre": 2
+      },
+      {
+        "id": "-570",
+        "nome": "Química II",
+        "nomeCurto": "QUI II",
+        "semestre": 2
+      },
+      {
+        "id": "-641",
+        "nome": "Sistemas Operacionais",
+        "nomeCurto": "SO",
+        "semestre": 2
+      },
+      {
+        "id": "-649",
+        "nome": "Sociologia I",
+        "nomeCurto": "SOC I",
+        "semestre": 2
+      }
+    ],
+    "nome": "DCOM 7131.2C Inform. Integ.",
+    "semestre": 2
+  }
+}

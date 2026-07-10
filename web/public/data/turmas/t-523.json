@@ -1,0 +1,162 @@
+{
+  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "schemaVersion": 1,
+  "turma": {
+    "aulas": [
+      {
+        "diaSemana": 0,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "*1021",
+        "professor": "André Fonseca",
+        "sala": "DEEA E114 Lab. Informatica",
+        "slot": 12
+      },
+      {
+        "diaSemana": 0,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "*1021",
+        "professor": "André Fonseca",
+        "sala": "DEEA E114 Lab. Informatica",
+        "slot": 14
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "*973",
+        "professor": "Noel Costa",
+        "sala": "DEEA E116 Lab. Telecomunicações",
+        "slot": 12
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "*973",
+        "professor": "Noel Costa",
+        "sala": "DEEA E114 Lab. Informatica",
+        "slot": 14
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "*975",
+        "professor": "Ademar Silva",
+        "sala": "DEEA E006 Lab. Máquinas Elétricas",
+        "slot": 12
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "*975",
+        "professor": "Ademar Silva",
+        "sala": "DEEA E101 Lab. Eletrônica",
+        "slot": 14
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "16:20",
+        "horaInicio": "14:30",
+        "materiaId": "*209",
+        "professor": "Robson Pereira",
+        "slot": 8
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "17:50",
+        "horaInicio": "16:20",
+        "materiaId": "*209",
+        "professor": "Robson Pereira",
+        "slot": 10
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "-546",
+        "professor": "Ana Azevedo",
+        "sala": "DEEA E204 Lab. CLP Avançado",
+        "slot": 12
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "-561",
+        "professor": "Bernanci Almeida",
+        "sala": "B-105",
+        "slot": 14
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "*52",
+        "professor": "Ruan Carlos",
+        "sala": "DEEA E103 Lab. Microcontroladores",
+        "slot": 12
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "*52",
+        "professor": "Ruan Carlos",
+        "sala": "DEEA E103 Lab. Microcontroladores",
+        "slot": 14
+      }
+    ],
+    "cursoId": "deea-eng-eletrica",
+    "id": "t-523",
+    "materias": [
+      {
+        "id": "*52",
+        "nome": "Análise de Sistemas de Energia Elétrica II",
+        "nomeCurto": "A. Sist. E.E II",
+        "semestre": 9
+      },
+      {
+        "id": "*209",
+        "nome": "Curricularização da Extensão II",
+        "nomeCurto": "CdEII",
+        "semestre": 9
+      },
+      {
+        "id": "*973",
+        "nome": "Projeto de Distribuição de Energia Elérica",
+        "nomeCurto": "Proj. Distr.",
+        "semestre": 9
+      },
+      {
+        "id": "*975",
+        "nome": "Projeto de Energias Renováveis II",
+        "nomeCurto": "Proj.E.Reno.II",
+        "semestre": 9
+      },
+      {
+        "id": "-546",
+        "nome": "Projeto Integrador II",
+        "nomeCurto": "Proj.Int. II",
+        "semestre": 9
+      },
+      {
+        "id": "*1021",
+        "nome": "Proteção de Sistemas Elétricos",
+        "nomeCurto": "Prot. S. Eletr.",
+        "semestre": 9
+      },
+      {
+        "id": "-561",
+        "nome": "Qualidade e Eficiência da Energia",
+        "nomeCurto": "QeEdE",
+        "semestre": 9
+      }
+    ],
+    "nome": "DEEA Eng. Elétrica 9º Sem",
+    "semestre": 9
+  }
+}

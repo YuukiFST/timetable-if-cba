@@ -1,0 +1,85 @@
+{
+  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "schemaVersion": 1,
+  "turma": {
+    "aulas": [
+      {
+        "diaSemana": 0,
+        "horaFim": "17:50",
+        "horaInicio": "15:35",
+        "materiaId": "-130",
+        "professor": "Walterley Moura",
+        "sala": "B-205",
+        "slot": 9
+      },
+      {
+        "diaSemana": 0,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "-685",
+        "professor": "Carlos Henrique",
+        "sala": "DEEA E016",
+        "slot": 12
+      },
+      {
+        "diaSemana": 0,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "-685",
+        "professor": "Carlos Henrique",
+        "sala": "DEEA E016",
+        "slot": 14
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "16:20",
+        "horaInicio": "14:30",
+        "materiaId": "-367",
+        "professor": "Juliana Antunes",
+        "sala": "DCOM",
+        "slot": 8
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "16:20",
+        "horaInicio": "13:45",
+        "materiaId": "-130",
+        "professor": "Walterley Moura",
+        "slot": 7
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "15:15",
+        "horaInicio": "13:45",
+        "materiaId": "-367",
+        "professor": "Juliana Antunes",
+        "sala": "DCOM",
+        "slot": 7
+      }
+    ],
+    "cursoId": "deea-6144-engenharia-de-controle-e-automacao-matriz-velha",
+    "id": "t69",
+    "materias": [
+      {
+        "id": "-130",
+        "nome": "Controle de Sistemas Discretos",
+        "nomeCurto": "Contr. Discretos",
+        "semestre": 8
+      },
+      {
+        "id": "-367",
+        "nome": "Inteligência Artificial",
+        "nomeCurto": "Intel. Artificial",
+        "semestre": 8
+      },
+      {
+        "id": "-685",
+        "nome": "Tecnologia de Comando Numérico",
+        "nomeCurto": "TdCN",
+        "semestre": 8
+      }
+    ],
+    "nome": "DEEA 6144.8I Engenharia de Controle e Automação (Matriz Velha)",
+    "semestre": 8
+  }
+}

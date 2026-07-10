@@ -1,0 +1,113 @@
+{
+  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "schemaVersion": 1,
+  "turma": {
+    "aulas": [
+      {
+        "diaSemana": 1,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "-234",
+        "professor": "Otavio Carvalho",
+        "slot": 12
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "-588",
+        "professor": "Érica Marques",
+        "slot": 14
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "*795",
+        "professor": "Subst. Turismo",
+        "slot": 12
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "*795",
+        "professor": "Subst. Turismo",
+        "slot": 14
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "-344",
+        "professor": "Joicy Lara",
+        "sala": "DCOM",
+        "slot": 12
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "-263",
+        "professor": "Karine Assunção",
+        "slot": 14
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "*601",
+        "professor": "Marli Spolidoro",
+        "slot": 12
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "*508",
+        "professor": "Ana Monlevade",
+        "slot": 14
+      }
+    ],
+    "cursoId": "dgh-013211-hospedagem-subsequente",
+    "id": "t135",
+    "materias": [
+      {
+        "id": "-234",
+        "nome": "Ética Profissional",
+        "nomeCurto": "ÉP"
+      },
+      {
+        "id": "-263",
+        "nome": "Fundamentos de Administração",
+        "nomeCurto": "FdA"
+      },
+      {
+        "id": "*508",
+        "nome": "Fundamentos do Turismo",
+        "nomeCurto": "FT"
+      },
+      {
+        "id": "*601",
+        "nome": "Hospitalidade",
+        "nomeCurto": "H"
+      },
+      {
+        "id": "-344",
+        "nome": "Informática Básica",
+        "nomeCurto": "Informática Básica"
+      },
+      {
+        "id": "*795",
+        "nome": "Meios de Hospedagem",
+        "nomeCurto": "MdH"
+      },
+      {
+        "id": "-588",
+        "nome": "Relações Interpessoais",
+        "nomeCurto": "RI"
+      }
+    ],
+    "nome": "DGH 013211 HOSPEDAGEM Subsequente"
+  }
+}

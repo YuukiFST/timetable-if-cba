@@ -1,0 +1,34 @@
+{
+  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "schemaVersion": 1,
+  "turma": {
+    "aulas": [
+      {
+        "diaSemana": 0,
+        "horaFim": "16:20",
+        "horaInicio": "14:30",
+        "materiaId": "*263",
+        "professor": "Ana Paula",
+        "slot": 8
+      },
+      {
+        "diaSemana": 0,
+        "horaFim": "16:20",
+        "horaInicio": "14:30",
+        "materiaId": "*263",
+        "professor": "Adriano Mamedes",
+        "slot": 8
+      }
+    ],
+    "cursoId": "dabc-dep-mat-iv",
+    "id": "t15",
+    "materias": [
+      {
+        "id": "*263",
+        "nome": "Dependência de Matemática IV",
+        "nomeCurto": "DdMI"
+      }
+    ],
+    "nome": "DABC - DEP. MAT. IV"
+  }
+}

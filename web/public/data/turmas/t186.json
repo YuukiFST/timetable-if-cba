@@ -1,0 +1,89 @@
+{
+  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "schemaVersion": 1,
+  "turma": {
+    "aulas": [
+      {
+        "diaSemana": 0,
+        "horaFim": "22:25",
+        "horaInicio": "18:50",
+        "materiaId": "-254",
+        "professor": "Cléia Neves",
+        "sala": "B-110",
+        "slot": 12
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "22:25",
+        "horaInicio": "18:50",
+        "materiaId": "-446",
+        "professor": "Juzélia Santos",
+        "sala": "DINFRA",
+        "slot": 12
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "22:25",
+        "horaInicio": "18:50",
+        "materiaId": "-78",
+        "professor": "Jefferson Bento",
+        "sala": "B-110",
+        "slot": 12
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "22:25",
+        "horaInicio": "18:50",
+        "materiaId": "*792",
+        "professor": "Hugo Cedro",
+        "sala": "B-110",
+        "slot": 12
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "22:25",
+        "horaInicio": "18:50",
+        "materiaId": "*530",
+        "professor": "Noelto Teixeira",
+        "sala": "B-110",
+        "slot": 12
+      }
+    ],
+    "cursoId": "dinfra-0140063-eng-civil",
+    "id": "t186",
+    "materias": [
+      {
+        "id": "-78",
+        "nome": "Cálculo Diferencial e Integral III",
+        "nomeCurto": "Cálculo III",
+        "semestre": 3
+      },
+      {
+        "id": "-254",
+        "nome": "Física Geral e Experimental III",
+        "nomeCurto": "Fís G e E III",
+        "semestre": 3
+      },
+      {
+        "id": "*530",
+        "nome": "Geomática",
+        "nomeCurto": "Geomática",
+        "semestre": 3
+      },
+      {
+        "id": "-446",
+        "nome": "Materiais de Construção II",
+        "nomeCurto": "MCII",
+        "semestre": 3
+      },
+      {
+        "id": "*792",
+        "nome": "Mecânica Técnica",
+        "nomeCurto": "Mecânica Técnica",
+        "semestre": 3
+      }
+    ],
+    "nome": "DINFRA 0140063.3N Eng. Civil",
+    "semestre": 3
+  }
+}

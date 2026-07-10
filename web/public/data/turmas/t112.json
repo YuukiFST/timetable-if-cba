@@ -1,0 +1,146 @@
+{
+  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "schemaVersion": 1,
+  "turma": {
+    "aulas": [
+      {
+        "diaSemana": 0,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "*1238",
+        "professor": "Marli Spolidoro",
+        "sala": "B-220",
+        "slot": 12
+      },
+      {
+        "diaSemana": 0,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "*1153",
+        "professor": "Sandro Santos",
+        "sala": "B-124",
+        "slot": 14
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "*888",
+        "professor": "Subst. Turismo",
+        "sala": "B-124",
+        "slot": 12
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "*24",
+        "professor": "Ana Monlevade",
+        "sala": "B-124",
+        "slot": 14
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "*795",
+        "professor": "Subst. Turismo",
+        "sala": "B-220",
+        "slot": 12
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "*795",
+        "professor": "Subst. Turismo",
+        "sala": "B-124",
+        "slot": 14
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "*382",
+        "professor": "Karine Assunção",
+        "sala": "B-124",
+        "slot": 12
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "*691",
+        "professor": "Rosemary Mendes",
+        "sala": "B-124",
+        "slot": 14
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "*24",
+        "professor": "Ana Monlevade",
+        "sala": "B-124",
+        "slot": 12
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "*691",
+        "professor": "Rosemary Mendes",
+        "sala": "B-124",
+        "slot": 14
+      }
+    ],
+    "cursoId": "dgh-7243-tur-bach",
+    "id": "t112",
+    "materias": [
+      {
+        "id": "*24",
+        "nome": "Agenciamento de Viagens e Operações Turisticas",
+        "nomeCurto": "AVOT",
+        "semestre": 3
+      },
+      {
+        "id": "*382",
+        "nome": "Empreendedorismo e Inovação",
+        "nomeCurto": "EeI",
+        "semestre": 3
+      },
+      {
+        "id": "*691",
+        "nome": "Língua Espanhola Aplicada ao Turismo",
+        "nomeCurto": "LEAaT",
+        "semestre": 3
+      },
+      {
+        "id": "*795",
+        "nome": "Meios de Hospedagem",
+        "nomeCurto": "MdH",
+        "semestre": 3
+      },
+      {
+        "id": "*888",
+        "nome": "Planejamento do Turismo II",
+        "nomeCurto": "PdTI",
+        "semestre": 3
+      },
+      {
+        "id": "*1153",
+        "nome": "Sociologia do Turismo",
+        "nomeCurto": "SdT",
+        "semestre": 3
+      },
+      {
+        "id": "*1238",
+        "nome": "Transportes e Turismo",
+        "nomeCurto": "TeT",
+        "semestre": 3
+      }
+    ],
+    "nome": "DGH 7243.3N Tur. Bach.",
+    "semestre": 3
+  }
+}

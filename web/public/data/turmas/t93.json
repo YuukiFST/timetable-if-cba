@@ -1,0 +1,67 @@
+{
+  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "schemaVersion": 1,
+  "turma": {
+    "aulas": [
+      {
+        "diaSemana": 0,
+        "horaFim": "16:20",
+        "horaInicio": "13:45",
+        "materiaId": "-460",
+        "professor": "Luis Pedroso",
+        "slot": 7
+      },
+      {
+        "diaSemana": 0,
+        "horaFim": "17:50",
+        "horaInicio": "16:20",
+        "materiaId": "-30",
+        "professor": "Luis Pedroso",
+        "slot": 10
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "17:50",
+        "horaInicio": "15:35",
+        "materiaId": "*4",
+        "professor": "Gilmarcos Correa",
+        "sala": "DEEA E112 Lab. Acion. Elétricos",
+        "slot": 9
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "11:05",
+        "horaInicio": "08:30",
+        "materiaId": "*226",
+        "professor": "Guilherme Seixas",
+        "sala": "DEEA E203 Lab. CLP Inicial",
+        "slot": 2
+      }
+    ],
+    "cursoId": "deea-dependencia",
+    "id": "t93",
+    "materias": [
+      {
+        "id": "*4",
+        "nome": "Acionamentos Elétricos",
+        "nomeCurto": "AE"
+      },
+      {
+        "id": "-30",
+        "nome": "Análise de Circuitos",
+        "nomeCurto": "Anál. Circ."
+      },
+      {
+        "id": "*226",
+        "nome": "Dependência - Circuitos Elétricos CC e CA",
+        "nomeCurto": "CECeC(Dp)"
+      },
+      {
+        "id": "-460",
+        "nome": "Microcontroladores",
+        "nomeCurto": "Microcontroladores"
+      }
+    ],
+    "nome": "DEEA - Dependência"
+  }
+}

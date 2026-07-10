@@ -1,0 +1,134 @@
+{
+  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "schemaVersion": 1,
+  "turma": {
+    "aulas": [
+      {
+        "diaSemana": 0,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "*954",
+        "professor": "Paulo Lopes",
+        "sala": "DCOM",
+        "slot": 12
+      },
+      {
+        "diaSemana": 0,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "*954",
+        "professor": "Paulo Lopes",
+        "sala": "DCOM",
+        "slot": 14
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "*486",
+        "professor": "Rafael Rocha",
+        "sala": "DCOM",
+        "slot": 12
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "*486",
+        "professor": "Rafael Rocha",
+        "sala": "DCOM",
+        "slot": 14
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "*624",
+        "professor": "João Filho",
+        "sala": "DCOM",
+        "slot": 12
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "*624",
+        "professor": "João Filho",
+        "sala": "DCOM",
+        "slot": 14
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "-456",
+        "professor": "Inara Ferrer",
+        "sala": "DCOM",
+        "slot": 12
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "-456",
+        "professor": "Inara Ferrer",
+        "sala": "DCOM",
+        "slot": 14
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "-574",
+        "professor": "Joicy Lara",
+        "sala": "DCOM",
+        "slot": 12
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "-574",
+        "professor": "Joicy Lara",
+        "sala": "DCOM",
+        "slot": 14
+      }
+    ],
+    "cursoId": "dcom-7342-tecnol-sis-internet",
+    "id": "t40",
+    "materias": [
+      {
+        "id": "*486",
+        "nome": "Framewroks Front-End",
+        "nomeCurto": "Frame. Front-End",
+        "semestre": 3
+      },
+      {
+        "id": "*624",
+        "nome": "Inglês",
+        "nomeCurto": "Inglês",
+        "semestre": 3
+      },
+      {
+        "id": "-456",
+        "nome": "Metodologia de Pesquisa",
+        "nomeCurto": "Metod de P.",
+        "semestre": 3
+      },
+      {
+        "id": "*954",
+        "nome": "Programação Desktop",
+        "nomeCurto": "PD",
+        "semestre": 3
+      },
+      {
+        "id": "-574",
+        "nome": "Redes de Computadores",
+        "nomeCurto": "RdC",
+        "semestre": 3
+      }
+    ],
+    "nome": "DCOM 7342.3N Tecnol. Sis. Internet.",
+    "semestre": 3
+  }
+}

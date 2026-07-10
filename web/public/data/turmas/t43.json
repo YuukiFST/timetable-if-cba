@@ -1,0 +1,110 @@
+{
+  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "schemaVersion": 1,
+  "turma": {
+    "aulas": [
+      {
+        "diaSemana": 2,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "*1217",
+        "professor": "Orlando Júnior",
+        "sala": "DCOM",
+        "slot": 12
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "*1217",
+        "professor": "Orlando Júnior",
+        "sala": "DCOM",
+        "slot": 14
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "*11",
+        "professor": "Waldinei Bispo",
+        "sala": "DCOM",
+        "slot": 12
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "*11",
+        "professor": "Waldinei Bispo",
+        "sala": "DCOM",
+        "slot": 14
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "-206",
+        "professor": "Karine Assunção",
+        "sala": "B-203",
+        "slot": 12
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "-206",
+        "professor": "Karine Assunção",
+        "sala": "B-203",
+        "slot": 14
+      },
+      {
+        "diaSemana": 5,
+        "horaFim": "09:15",
+        "horaInicio": "07:45",
+        "materiaId": "*847",
+        "professor": "Orlando Júnior",
+        "sala": "DCOM",
+        "slot": 1
+      },
+      {
+        "diaSemana": 5,
+        "horaFim": "11:05",
+        "horaInicio": "09:35",
+        "materiaId": "*847",
+        "professor": "Orlando Júnior",
+        "sala": "DCOM",
+        "slot": 3
+      }
+    ],
+    "cursoId": "dcom-7342-tecnol-sis-internet",
+    "id": "t43",
+    "materias": [
+      {
+        "id": "*11",
+        "nome": "Administração de Banco de Dados",
+        "nomeCurto": "Adm. B.D.",
+        "semestre": 6
+      },
+      {
+        "id": "-206",
+        "nome": "Empreendedorismo",
+        "nomeCurto": "Empreendedorismo",
+        "semestre": 6
+      },
+      {
+        "id": "*847",
+        "nome": "Oficina de Desenvolvimento III",
+        "nomeCurto": "Ofic. Des. III",
+        "semestre": 6
+      },
+      {
+        "id": "*1217",
+        "nome": "Teste de Software",
+        "nomeCurto": "TdS",
+        "semestre": 6
+      }
+    ],
+    "nome": "DCOM 7342.6N Tecnol. Sis. Internet.",
+    "semestre": 6
+  }
+}

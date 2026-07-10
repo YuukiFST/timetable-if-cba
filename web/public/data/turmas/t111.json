@@ -1,0 +1,41 @@
+{
+  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "schemaVersion": 1,
+  "turma": {
+    "aulas": [
+      {
+        "diaSemana": 1,
+        "horaFim": "07:45",
+        "horaInicio": "07:00",
+        "materiaId": "-341",
+        "slot": 0
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "08:30",
+        "horaInicio": "07:45",
+        "materiaId": "-341",
+        "slot": 1
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "09:15",
+        "horaInicio": "08:30",
+        "materiaId": "-341",
+        "slot": 2
+      }
+    ],
+    "cursoId": "dgh-001-even-concom",
+    "id": "t111",
+    "materias": [
+      {
+        "id": "-341",
+        "nome": "Informatica ",
+        "nomeCurto": "INF",
+        "semestre": 1
+      }
+    ],
+    "nome": "DGH 001.1M Even. Concom.",
+    "semestre": 1
+  }
+}

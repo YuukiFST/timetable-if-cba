@@ -1,0 +1,125 @@
+{
+  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "schemaVersion": 1,
+  "turma": {
+    "aulas": [
+      {
+        "diaSemana": 0,
+        "horaFim": "14:30",
+        "horaInicio": "13:00",
+        "materiaId": "-78",
+        "professor": "Jorge Monsalve",
+        "sala": "D-014",
+        "slot": 6
+      },
+      {
+        "diaSemana": 0,
+        "horaFim": "16:20",
+        "horaInicio": "14:30",
+        "materiaId": "-254",
+        "professor": "Cristiano Cunha",
+        "sala": "D-014",
+        "slot": 8
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "17:50",
+        "horaInicio": "16:20",
+        "materiaId": "-254",
+        "professor": "Cristiano Cunha",
+        "sala": "DEEA E007 Lab. Física",
+        "slot": 10
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "14:30",
+        "horaInicio": "13:00",
+        "materiaId": "-407",
+        "professor": "João Preti",
+        "sala": "DCOM",
+        "slot": 6
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "16:20",
+        "horaInicio": "14:30",
+        "materiaId": "-407",
+        "professor": "João Preti",
+        "sala": "DCOM",
+        "slot": 8
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "16:20",
+        "horaInicio": "14:30",
+        "materiaId": "*667",
+        "professor": "Guilherme Seixas",
+        "sala": "DEEA E107 Lab. Circuitos Elétricos",
+        "slot": 8
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "17:50",
+        "horaInicio": "16:20",
+        "materiaId": "-78",
+        "professor": "Jorge Monsalve",
+        "sala": "B-206",
+        "slot": 10
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "14:30",
+        "horaInicio": "13:00",
+        "materiaId": "*152",
+        "professor": "Guilherme Seixas",
+        "sala": "DEEA E107 Lab. Circuitos Elétricos",
+        "slot": 6
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "16:20",
+        "horaInicio": "14:30",
+        "materiaId": "*152",
+        "professor": "Guilherme Seixas",
+        "sala": "DEEA E107 Lab. Circuitos Elétricos",
+        "slot": 8
+      }
+    ],
+    "cursoId": "deea-6144-engenharia-de-controle-e-automacao",
+    "id": "t63",
+    "materias": [
+      {
+        "id": "-78",
+        "nome": "Cálculo Diferencial e Integral III",
+        "nomeCurto": "Cálculo III",
+        "semestre": 3
+      },
+      {
+        "id": "*152",
+        "nome": "Circuitos Elétricos I",
+        "nomeCurto": "CE-I",
+        "semestre": 3
+      },
+      {
+        "id": "-254",
+        "nome": "Física Geral e Experimental III",
+        "nomeCurto": "Fís G e E III",
+        "semestre": 3
+      },
+      {
+        "id": "*667",
+        "nome": "Laboratório de Circuitos Elétricos I",
+        "nomeCurto": "Lab.Circ.Ele.I",
+        "semestre": 3
+      },
+      {
+        "id": "-407",
+        "nome": "Linguagem de Programação",
+        "nomeCurto": "LdP",
+        "semestre": 3
+      }
+    ],
+    "nome": "DEEA 6144.3 Engenharia de Controle e Automação",
+    "semestre": 3
+  }
+}

@@ -1,0 +1,224 @@
+{
+  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "schemaVersion": 1,
+  "turma": {
+    "aulas": [
+      {
+        "diaSemana": 0,
+        "horaFim": "07:45",
+        "horaInicio": "07:00",
+        "materiaId": "-563",
+        "professor": "Silvana Marchezini",
+        "sala": "B-004",
+        "slot": 0
+      },
+      {
+        "diaSemana": 0,
+        "horaFim": "08:30",
+        "horaInicio": "07:45",
+        "materiaId": "-295",
+        "professor": "Silvana Marchezini",
+        "sala": "B-004",
+        "slot": 1
+      },
+      {
+        "diaSemana": 0,
+        "horaFim": "09:15",
+        "horaInicio": "08:30",
+        "materiaId": "-298",
+        "professor": "Simone Raquel",
+        "sala": "B-004",
+        "slot": 2
+      },
+      {
+        "diaSemana": 0,
+        "horaFim": "10:20",
+        "horaInicio": "09:35",
+        "materiaId": "-332",
+        "professor": "Sidney da Silva",
+        "sala": "B-004",
+        "slot": 3
+      },
+      {
+        "diaSemana": 0,
+        "horaFim": "11:05",
+        "horaInicio": "10:20",
+        "materiaId": "-597",
+        "professor": "Adelson Ribeiro",
+        "sala": "B-004",
+        "slot": 4
+      },
+      {
+        "diaSemana": 0,
+        "horaFim": "11:50",
+        "horaInicio": "11:05",
+        "materiaId": "-288",
+        "professor": "Stephanie Freire",
+        "sala": "B-004",
+        "slot": 5
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "08:30",
+        "horaInicio": "07:00",
+        "materiaId": "-702",
+        "professor": "Marcio Antunes",
+        "sala": "B-004",
+        "slot": 0
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "11:05",
+        "horaInicio": "08:30",
+        "materiaId": "-476",
+        "professor": "Luiz Figueiredo",
+        "sala": "DINFRA",
+        "slot": 2
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "09:15",
+        "horaInicio": "07:00",
+        "materiaId": "-403",
+        "professor": "Leisly Poletto",
+        "sala": "B-004",
+        "slot": 0
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "10:20",
+        "horaInicio": "09:35",
+        "materiaId": "-651",
+        "professor": "Marlene Renck",
+        "sala": "B-004",
+        "slot": 3
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "11:50",
+        "horaInicio": "10:20",
+        "materiaId": "-439",
+        "professor": "Castelino Silva",
+        "sala": "B-108",
+        "slot": 4
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "09:15",
+        "horaInicio": "07:00",
+        "materiaId": "-446",
+        "professor": "Fernanda Santos",
+        "sala": "B-004",
+        "slot": 0
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "10:20",
+        "horaInicio": "09:35",
+        "materiaId": "-246",
+        "professor": "Livio Wogel",
+        "sala": "B-004",
+        "slot": 3
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "11:05",
+        "horaInicio": "07:00",
+        "materiaId": "-682",
+        "professor": "Elisangela França",
+        "sala": "B-004",
+        "slot": 0
+      }
+    ],
+    "cursoId": "dinfra-1031-edific-integ",
+    "id": "t145",
+    "materias": [
+      {
+        "id": "-246",
+        "nome": "Filosofia III",
+        "nomeCurto": "FIL III",
+        "semestre": 4
+      },
+      {
+        "id": "-288",
+        "nome": "Geografia IV",
+        "nomeCurto": "GEO IV",
+        "semestre": 4
+      },
+      {
+        "id": "-295",
+        "nome": "Gerenciamento de Canteiro de Obras",
+        "nomeCurto": "Gerenciamento de Canteiro de Obras",
+        "semestre": 4
+      },
+      {
+        "id": "-298",
+        "nome": "Gestão Ambiental",
+        "nomeCurto": "Gestão Ambiental",
+        "semestre": 4
+      },
+      {
+        "id": "-332",
+        "nome": "História IV",
+        "nomeCurto": "HIST IV",
+        "semestre": 4
+      },
+      {
+        "id": "-403",
+        "nome": "Língua Portuguesa IV",
+        "nomeCurto": "LP IV",
+        "semestre": 4
+      },
+      {
+        "id": "-439",
+        "nome": "Matemática IV",
+        "nomeCurto": "MAT IV",
+        "semestre": 4
+      },
+      {
+        "id": "-446",
+        "nome": "Materiais de Construção II",
+        "nomeCurto": "MCII",
+        "semestre": 4
+      },
+      {
+        "id": "-476",
+        "nome": "Orçamento de Obras",
+        "nomeCurto": "Orçamento de Obras",
+        "semestre": 4
+      },
+      {
+        "id": "-563",
+        "nome": "Qualidade em Obras de Edificações",
+        "nomeCurto": "Qualidade em Obras de Edificações",
+        "semestre": 4
+      },
+      {
+        "id": "-597",
+        "nome": "Saúde e Segurança no Trabalho",
+        "nomeCurto": "Saúde e Segurança no Trabalho",
+        "semestre": 4
+      },
+      {
+        "id": "-651",
+        "nome": "Sociologia III",
+        "nomeCurto": "SOC  III",
+        "semestre": 4
+      },
+      {
+        "id": "-682",
+        "nome": "Tecnologia das Construções",
+        "nomeCurto": "Tecnologia das Construções",
+        "semestre": 4
+      },
+      {
+        "id": "-702",
+        "nome": "Topografia",
+        "nomeCurto": "Topografia",
+        "semestre": 4
+      }
+    ],
+    "nome": "DINFRA 1031.4BM Edific. Integ.",
+    "semestre": 4
+  }
+}

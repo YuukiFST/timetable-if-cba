@@ -1,0 +1,89 @@
+{
+  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "schemaVersion": 1,
+  "turma": {
+    "aulas": [
+      {
+        "diaSemana": 0,
+        "horaFim": "22:25",
+        "horaInicio": "18:50",
+        "materiaId": "*543",
+        "professor": "Silvana Marchezini",
+        "sala": "B-003",
+        "slot": 12
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "22:25",
+        "horaInicio": "18:50",
+        "materiaId": "*392",
+        "professor": "Douglas Carvalho",
+        "sala": "DINFRA",
+        "slot": 12
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "*390",
+        "professor": "Juzélia Santos",
+        "sala": "B-004",
+        "slot": 12
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "*645",
+        "professor": "Alan Sato",
+        "sala": "B-004",
+        "slot": 14
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "22:25",
+        "horaInicio": "18:50",
+        "materiaId": "*391",
+        "professor": "Douglas Carvalho",
+        "sala": "B-106",
+        "slot": 12
+      }
+    ],
+    "cursoId": "dinfra-2841-tecnol-cont-obr",
+    "id": "t179",
+    "materias": [
+      {
+        "id": "*390",
+        "nome": "Ensaio de artefato de cimento e cerâmica vermelha",
+        "nomeCurto": "Edadcecv",
+        "semestre": 5
+      },
+      {
+        "id": "*391",
+        "nome": "Ensaio de Campo para Inspeção de Obra",
+        "nomeCurto": "EdCpIdO",
+        "semestre": 5
+      },
+      {
+        "id": "*392",
+        "nome": "Ensaios em pavimentos",
+        "nomeCurto": "Eep",
+        "semestre": 5
+      },
+      {
+        "id": "*543",
+        "nome": "Gerenciamento de Laboratório",
+        "nomeCurto": "Gerenciamento de Laboratório",
+        "semestre": 5
+      },
+      {
+        "id": "*645",
+        "nome": "Instrumentação e monitoramento das estruturas",
+        "nomeCurto": "Iemde",
+        "semestre": 5
+      }
+    ],
+    "nome": "DINFRA 2841.5N Tecnol. Cont. Obr.",
+    "semestre": 5
+  }
+}

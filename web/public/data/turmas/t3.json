@@ -1,0 +1,27 @@
+{
+  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "schemaVersion": 1,
+  "turma": {
+    "aulas": [
+      {
+        "diaSemana": 2,
+        "horaFim": "14:30",
+        "horaInicio": "13:00",
+        "materiaId": "*249",
+        "professor": "Juliano Santos",
+        "sala": "DABC",
+        "slot": 6
+      }
+    ],
+    "cursoId": "dabc-dep-filo-i",
+    "id": "t3",
+    "materias": [
+      {
+        "id": "*249",
+        "nome": "Dependência de Filosofia I",
+        "nomeCurto": "Dependência de Filosofia I"
+      }
+    ],
+    "nome": "DABC - DEP. FILO I"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "schemaVersion": 1,
+  "turma": {
+    "aulas": [
+      {
+        "diaSemana": 1,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "-432",
+        "professor": "Luis Paoli",
+        "sala": "B-107",
+        "slot": 14
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "*1167",
+        "professor": "Eloísa Azeredo",
+        "sala": "B-204",
+        "slot": 12
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "*1167",
+        "professor": "Eloísa Azeredo",
+        "sala": "B-105",
+        "slot": 12
+      }
+    ],
+    "cursoId": "dinfra-1041-tecnol-const-edif",
+    "id": "t153",
+    "materias": [
+      {
+        "id": "-432",
+        "nome": "Matemática Financeira",
+        "nomeCurto": "MAT F",
+        "semestre": 7
+      },
+      {
+        "id": "*1167",
+        "nome": "TCC II",
+        "nomeCurto": "TCC II",
+        "semestre": 7
+      }
+    ],
+    "nome": "DINFRA 1041.7N Tecnol. Const. Edif.",
+    "semestre": 7
+  }
+}

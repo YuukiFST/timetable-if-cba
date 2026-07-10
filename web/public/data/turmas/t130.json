@@ -1,0 +1,152 @@
+{
+  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "schemaVersion": 1,
+  "turma": {
+    "aulas": [
+      {
+        "diaSemana": 0,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "-383",
+        "professor": "Rosária Silva",
+        "sala": "B-213",
+        "slot": 12
+      },
+      {
+        "diaSemana": 0,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "-8",
+        "professor": "Danilo Herbert",
+        "sala": "B-213",
+        "slot": 14
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "-401",
+        "professor": "José Silva",
+        "sala": "B-007",
+        "slot": 12
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "-347",
+        "professor": "Rothschild Antunes",
+        "sala": "DCOM",
+        "slot": 14
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "-675",
+        "professor": "Marcia Fernandes",
+        "sala": "B-213",
+        "slot": 12
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "-401",
+        "professor": "José Silva",
+        "sala": "B-002",
+        "slot": 14
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "-392",
+        "professor": "Edilene Campos",
+        "sala": "B-213",
+        "slot": 12
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "-120",
+        "professor": "Dejenana",
+        "sala": "B-220",
+        "slot": 14
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "-675",
+        "professor": "Marcia Fernandes",
+        "sala": "B-213",
+        "slot": 12
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "-646",
+        "professor": "Sandro Santos",
+        "sala": "B-213",
+        "slot": 14
+      }
+    ],
+    "cursoId": "dgh-7643-secr-bach",
+    "id": "t130",
+    "materias": [
+      {
+        "id": "-8",
+        "nome": "Administração II",
+        "nomeCurto": "ADM II",
+        "semestre": 2
+      },
+      {
+        "id": "-120",
+        "nome": "Contabilidade I",
+        "nomeCurto": "CONT  I",
+        "semestre": 2
+      },
+      {
+        "id": "-347",
+        "nome": "Informatica II",
+        "nomeCurto": "INFO II",
+        "semestre": 2
+      },
+      {
+        "id": "-383",
+        "nome": "Língua Espanhola II",
+        "nomeCurto": "LE II",
+        "semestre": 2
+      },
+      {
+        "id": "-392",
+        "nome": "Lingua Inglesa II",
+        "nomeCurto": "LI II",
+        "semestre": 2
+      },
+      {
+        "id": "-401",
+        "nome": "Língua Portuguesa II",
+        "nomeCurto": "Língua Portuguesa II",
+        "semestre": 2
+      },
+      {
+        "id": "-646",
+        "nome": "Sociologia",
+        "nomeCurto": "Sociologia",
+        "semestre": 2
+      },
+      {
+        "id": "-675",
+        "nome": "Técnicas Profissionais Secretariais II",
+        "nomeCurto": "TPS II",
+        "semestre": 2
+      }
+    ],
+    "nome": "DGH 7643.2N Secr. Bach.",
+    "semestre": 2
+  }
+}

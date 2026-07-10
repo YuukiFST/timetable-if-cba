@@ -1,0 +1,152 @@
+{
+  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "schemaVersion": 1,
+  "turma": {
+    "aulas": [
+      {
+        "diaSemana": 0,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "-421",
+        "professor": "Eudinei Silva",
+        "sala": "DEEA E006 Lab. Máquinas Elétricas",
+        "slot": 12
+      },
+      {
+        "diaSemana": 0,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "-364",
+        "professor": "Valentino Corrêa",
+        "sala": "DEEA E209 Lab. Instr. Efic. Energética",
+        "slot": 14
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "-353",
+        "professor": "João Filho",
+        "sala": "B-204",
+        "slot": 12
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "-201",
+        "professor": "Andrei Coimbra",
+        "sala": "D-014",
+        "slot": 14
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "-637",
+        "professor": "Eudinei Silva",
+        "sala": "DEEA E112 Lab. Acion. Elétricos",
+        "slot": 12
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "-123",
+        "professor": "Gilmarcos Correa",
+        "sala": "DEEA E204 Lab. CLP Avançado",
+        "slot": 14
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "-106",
+        "professor": "Matheus Silveira",
+        "sala": "DEEA E111 Lab. Acion. Elétricos",
+        "slot": 12
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "-106",
+        "professor": "Matheus Silveira",
+        "sala": "DEEA E111 Lab. Acion. Elétricos",
+        "slot": 14
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "-421",
+        "professor": "Eudinei Silva",
+        "sala": "DEEA E006 Lab. Máquinas Elétricas",
+        "slot": 12
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "-414",
+        "professor": "Eudinei Silva",
+        "sala": "DEEA E006 Lab. Máquinas Elétricas",
+        "slot": 14
+      }
+    ],
+    "cursoId": "deea-6533-eletrotenica-subsequente",
+    "id": "t82",
+    "materias": [
+      {
+        "id": "-106",
+        "nome": "Comandos Elétricos",
+        "nomeCurto": "Com Ele",
+        "semestre": 4
+      },
+      {
+        "id": "-123",
+        "nome": "Controlador Lógico Programável",
+        "nomeCurto": "CLP",
+        "semestre": 4
+      },
+      {
+        "id": "-201",
+        "nome": "Eletrônica Digital",
+        "nomeCurto": "Eletrônica Digital",
+        "semestre": 4
+      },
+      {
+        "id": "-353",
+        "nome": "Inglês Instrumental ",
+        "nomeCurto": "ING-INST",
+        "semestre": 4
+      },
+      {
+        "id": "-364",
+        "nome": "Instrumentação em Sistemas Industriais",
+        "nomeCurto": "Instr. Sistemas. Ind.",
+        "semestre": 4
+      },
+      {
+        "id": "-414",
+        "nome": "Manutenção Elétrica Industrial",
+        "nomeCurto": "MEI",
+        "semestre": 4
+      },
+      {
+        "id": "-421",
+        "nome": "Máquinas Eletricas",
+        "nomeCurto": "Maq Ele",
+        "semestre": 4
+      },
+      {
+        "id": "-637",
+        "nome": "Sistemas Eletro-eletrônicos",
+        "nomeCurto": "SE",
+        "semestre": 4
+      }
+    ],
+    "nome": "DEEA 6533.4N Eletroténica Subsequente",
+    "semestre": 4
+  }
+}

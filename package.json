@@ -1,0 +1,19 @@
+{
+  "name": "horarios-ifmt-cba",
+  "private": true,
+  "workspaces": [
+    "shared",
+    "scraper",
+    "web"
+  ],
+  "scripts": {
+    "scrape": "npm run scrape -w scraper",
+    "typecheck": "tsc --noEmit -p scraper && tsc --noEmit -p web && tsc --noEmit -p shared",
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "@types/node": "^26.1.1",
+    "typescript": "^5.8.0",
+    "vitest": "^3.2.0"
+  }
+}

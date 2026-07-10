@@ -1,0 +1,134 @@
+{
+  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "schemaVersion": 1,
+  "turma": {
+    "aulas": [
+      {
+        "diaSemana": 0,
+        "horaFim": "09:15",
+        "horaInicio": "07:00",
+        "materiaId": "*1055",
+        "professor": "André Couto",
+        "sala": "DCOM",
+        "slot": 0
+      },
+      {
+        "diaSemana": 0,
+        "horaFim": "11:05",
+        "horaInicio": "09:35",
+        "materiaId": "-264",
+        "professor": "Érica Figueiredo",
+        "sala": "DCOM",
+        "slot": 3
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "09:15",
+        "horaInicio": "07:45",
+        "materiaId": "-112",
+        "professor": "Gerson Kida",
+        "sala": "DCOM",
+        "slot": 1
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "11:05",
+        "horaInicio": "09:35",
+        "materiaId": "-112",
+        "professor": "Gerson Kida",
+        "sala": "DCOM",
+        "slot": 3
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "09:15",
+        "horaInicio": "07:00",
+        "materiaId": "*1055",
+        "professor": "André Couto",
+        "sala": "DCOM",
+        "slot": 0
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "11:05",
+        "horaInicio": "09:35",
+        "materiaId": "-264",
+        "professor": "Érica Figueiredo",
+        "sala": "DCOM",
+        "slot": 3
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "09:15",
+        "horaInicio": "07:00",
+        "materiaId": "*16",
+        "professor": "Marilson O. Corrêa",
+        "sala": "DCOM",
+        "slot": 0
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "11:50",
+        "horaInicio": "09:35",
+        "materiaId": "*16",
+        "professor": "Marilson O. Corrêa",
+        "sala": "DCOM",
+        "slot": 3
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "09:15",
+        "horaInicio": "07:45",
+        "materiaId": "*624",
+        "professor": "João Filho",
+        "sala": "DCOM",
+        "slot": 1
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "11:05",
+        "horaInicio": "09:35",
+        "materiaId": "*624",
+        "professor": "João Filho",
+        "sala": "DCOM",
+        "slot": 3
+      }
+    ],
+    "cursoId": "dcom-7441-tecnol-redes",
+    "id": "t46",
+    "materias": [
+      {
+        "id": "*16",
+        "nome": "Administração de Sistemas Operacionais",
+        "nomeCurto": "AdSO",
+        "semestre": 3
+      },
+      {
+        "id": "-112",
+        "nome": "Comunicação de Dados",
+        "nomeCurto": "Com. de Dados",
+        "semestre": 3
+      },
+      {
+        "id": "-264",
+        "nome": "Fundamentos de Banco de Dados",
+        "nomeCurto": "FdBdD",
+        "semestre": 3
+      },
+      {
+        "id": "*624",
+        "nome": "Inglês",
+        "nomeCurto": "Inglês",
+        "semestre": 3
+      },
+      {
+        "id": "*1055",
+        "nome": "Redes de Longa Distância",
+        "nomeCurto": "RdLD(WAN)",
+        "semestre": 3
+      }
+    ],
+    "nome": "DCOM 7441.3M Tecnol. Redes",
+    "semestre": 3
+  }
+}

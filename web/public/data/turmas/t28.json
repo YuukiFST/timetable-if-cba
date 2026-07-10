@@ -1,0 +1,44 @@
+{
+  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "schemaVersion": 1,
+  "turma": {
+    "aulas": [
+      {
+        "diaSemana": 1,
+        "horaFim": "17:50",
+        "horaInicio": "16:20",
+        "materiaId": "-545",
+        "professor": "Juliana Silva",
+        "sala": "DCOM",
+        "slot": 10
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "17:05",
+        "horaInicio": "14:30",
+        "materiaId": "*985",
+        "professor": "Monica Crispim",
+        "sala": "DCOM",
+        "slot": 8
+      }
+    ],
+    "cursoId": "dcom-7131-inform-integ",
+    "id": "t28",
+    "materias": [
+      {
+        "id": "*985",
+        "nome": "Projeto de Interface de Usuários",
+        "nomeCurto": "PdIdU",
+        "semestre": 1
+      },
+      {
+        "id": "-545",
+        "nome": "Projeto Integrador",
+        "nomeCurto": "Proj.Int.",
+        "semestre": 1
+      }
+    ],
+    "nome": "DCOM 7131.1 Inform. Integ.",
+    "semestre": 1
+  }
+}

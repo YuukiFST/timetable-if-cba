@@ -1,0 +1,321 @@
+{
+  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "schemaVersion": 1,
+  "turma": {
+    "aulas": [
+      {
+        "diaSemana": 0,
+        "horaFim": "08:30",
+        "horaInicio": "07:00",
+        "materiaId": "-331",
+        "professor": "Sidney da Silva",
+        "sala": "B-203",
+        "slot": 0
+      },
+      {
+        "diaSemana": 0,
+        "horaFim": "10:20",
+        "horaInicio": "08:30",
+        "materiaId": "-179",
+        "professor": "Wagner Ribeiro",
+        "slot": 2
+      },
+      {
+        "diaSemana": 0,
+        "horaFim": "11:50",
+        "horaInicio": "10:20",
+        "materiaId": "-437",
+        "professor": "Castelino Silva",
+        "sala": "B-203",
+        "slot": 4
+      },
+      {
+        "diaSemana": 0,
+        "horaFim": "13:45",
+        "horaInicio": "13:00",
+        "materiaId": "-437",
+        "professor": "Castelino Silva",
+        "slot": 6
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "08:30",
+        "horaInicio": "07:00",
+        "materiaId": "-258",
+        "professor": "Wescley Souza",
+        "sala": "B-202",
+        "slot": 0
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "10:20",
+        "horaInicio": "08:30",
+        "materiaId": "-571",
+        "professor": "Cláudia Nehme",
+        "sala": "B-202",
+        "slot": 2
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "11:50",
+        "horaInicio": "10:20",
+        "materiaId": "-287",
+        "professor": "Roger Bartlo",
+        "sala": "B-202",
+        "slot": 4
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "08:30",
+        "horaInicio": "07:00",
+        "materiaId": "-509",
+        "professor": "Luis Pedroso",
+        "sala": "DEEA E105 Lab. Informática",
+        "slot": 0
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "08:30",
+        "horaInicio": "07:00",
+        "materiaId": "*1005",
+        "professor": "Rodrigo Junges",
+        "sala": "DEEA E103 Lab. Microcontroladores",
+        "slot": 0
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "10:20",
+        "horaInicio": "08:30",
+        "materiaId": "-69",
+        "professor": "Fabiane Batista",
+        "sala": "B-203",
+        "slot": 2
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "11:50",
+        "horaInicio": "10:20",
+        "materiaId": "-507",
+        "professor": "José Martins",
+        "sala": "DEEA E203 Lab. CLP Inicial",
+        "slot": 4
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "15:15",
+        "horaInicio": "13:00",
+        "materiaId": "-57",
+        "professor": "João Lucas",
+        "sala": "DEEA E204 Lab. CLP Avançado",
+        "slot": 6
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "15:15",
+        "horaInicio": "13:00",
+        "materiaId": "-57",
+        "professor": "Flavilene Souza",
+        "sala": "DEEA E208 Lab. Automação Industrial",
+        "slot": 6
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "17:50",
+        "horaInicio": "15:35",
+        "materiaId": "-402",
+        "professor": "Nadir Bittencour",
+        "sala": "B-203",
+        "slot": 9
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "08:30",
+        "horaInicio": "07:00",
+        "materiaId": "*1100",
+        "professor": "Valentino Corrêa",
+        "sala": "B-203",
+        "slot": 0
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "10:20",
+        "horaInicio": "08:30",
+        "materiaId": "-200",
+        "professor": "Luciana Lima",
+        "sala": "DEEA E113 Lab. Informatica",
+        "slot": 2
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "10:20",
+        "horaInicio": "08:30",
+        "materiaId": "-365",
+        "professor": "Bernanci Almeida",
+        "sala": "DEEA E209 Lab. Instr. Efic. Energética",
+        "slot": 2
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "11:50",
+        "horaInicio": "10:20",
+        "materiaId": "-200",
+        "professor": "Luciana Lima",
+        "sala": "DEEA E113 Lab. Informatica",
+        "slot": 4
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "11:50",
+        "horaInicio": "10:20",
+        "materiaId": "-365",
+        "professor": "Bernanci Almeida",
+        "sala": "DEEA E209 Lab. Instr. Efic. Energética",
+        "slot": 4
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "08:30",
+        "horaInicio": "07:00",
+        "materiaId": "*707",
+        "professor": "Thaynara Silva",
+        "sala": "B-203",
+        "slot": 0
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "10:20",
+        "horaInicio": "08:30",
+        "materiaId": "-646",
+        "professor": "Monica Spinelli",
+        "sala": "B-203",
+        "slot": 2
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "11:50",
+        "horaInicio": "10:20",
+        "materiaId": "-509",
+        "professor": "Rodrigo Junges",
+        "sala": "DEEA E116 Lab. Telecomunicações",
+        "slot": 4
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "11:50",
+        "horaInicio": "10:20",
+        "materiaId": "*1005",
+        "professor": "Rafael Máximo",
+        "sala": "DEEA E105 Lab. Informática",
+        "slot": 4
+      }
+    ],
+    "cursoId": "deea-6631-eletronica-int",
+    "id": "t87",
+    "materias": [
+      {
+        "id": "-57",
+        "nome": "Automação Industrial",
+        "nomeCurto": "Autom. Ind.",
+        "semestre": 3
+      },
+      {
+        "id": "-69",
+        "nome": "Biologia III",
+        "nomeCurto": "BIO III",
+        "semestre": 3
+      },
+      {
+        "id": "-179",
+        "nome": "Educação Física III",
+        "nomeCurto": "EFI III",
+        "semestre": 3
+      },
+      {
+        "id": "-200",
+        "nome": "Eletrônica de Potência",
+        "nomeCurto": "EdP",
+        "semestre": 3
+      },
+      {
+        "id": "-258",
+        "nome": "Física III",
+        "nomeCurto": "Física III",
+        "semestre": 3
+      },
+      {
+        "id": "-287",
+        "nome": "Geografia III",
+        "nomeCurto": "GEO III",
+        "semestre": 3
+      },
+      {
+        "id": "-331",
+        "nome": "História III",
+        "nomeCurto": "HIST III",
+        "semestre": 3
+      },
+      {
+        "id": "-365",
+        "nome": "Instrumentação Industrial",
+        "nomeCurto": "Instr. Industrial",
+        "semestre": 3
+      },
+      {
+        "id": "*707",
+        "nome": "Língua Inglesa Aplicada II",
+        "nomeCurto": "L.Ing.Apl.II",
+        "semestre": 3
+      },
+      {
+        "id": "-402",
+        "nome": "Língua Portuguesa III",
+        "nomeCurto": "LP III",
+        "semestre": 3
+      },
+      {
+        "id": "-437",
+        "nome": "Matemática III",
+        "nomeCurto": "Matemática III",
+        "semestre": 3
+      },
+      {
+        "id": "-507",
+        "nome": "Princípios de Comunicação",
+        "nomeCurto": "PdC",
+        "semestre": 3
+      },
+      {
+        "id": "-509",
+        "nome": "Procedimentos de Manutenção",
+        "nomeCurto": "PdM",
+        "semestre": 3
+      },
+      {
+        "id": "*1005",
+        "nome": "Projeto Integrador III",
+        "nomeCurto": "Proj. III",
+        "semestre": 3
+      },
+      {
+        "id": "-571",
+        "nome": "Química III",
+        "nomeCurto": "QUI III",
+        "semestre": 3
+      },
+      {
+        "id": "*1100",
+        "nome": "Segurança no Trabalho",
+        "nomeCurto": "Segurança no Trabalho",
+        "semestre": 3
+      },
+      {
+        "id": "-646",
+        "nome": "Sociologia",
+        "nomeCurto": "Sociologia",
+        "semestre": 3
+      }
+    ],
+    "nome": "DEEA 6631.3A Eletrônica Int.",
+    "semestre": 3
+  }
+}

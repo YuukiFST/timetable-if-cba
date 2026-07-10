@@ -1,0 +1,146 @@
+{
+  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "schemaVersion": 1,
+  "turma": {
+    "aulas": [
+      {
+        "diaSemana": 0,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "*1027",
+        "professor": "Érica Marques",
+        "sala": "B-219",
+        "slot": 12
+      },
+      {
+        "diaSemana": 0,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "-25",
+        "professor": "Marli Spolidoro",
+        "sala": "B-106",
+        "slot": 14
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "*756",
+        "professor": "William Benedito",
+        "sala": "B-219",
+        "slot": 12
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "*306",
+        "professor": "Otavio Carvalho",
+        "sala": "B-219",
+        "slot": 14
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "*1203",
+        "professor": "Ana Monlevade",
+        "sala": "B-219",
+        "slot": 12
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "-309",
+        "professor": "Karine Assunção",
+        "sala": "B-219",
+        "slot": 14
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "*1203",
+        "professor": "Ana Monlevade",
+        "sala": "B-219",
+        "slot": 12
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "-25",
+        "professor": "Marli Spolidoro",
+        "sala": "B-219",
+        "slot": 14
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "*756",
+        "professor": "William Benedito",
+        "sala": "B-219",
+        "slot": 12
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "*889",
+        "professor": "Subst. Turismo",
+        "sala": "B-219",
+        "slot": 14
+      }
+    ],
+    "cursoId": "dgh-7243-tur-bach",
+    "id": "t113",
+    "materias": [
+      {
+        "id": "-25",
+        "nome": "Alimentos e Bebidas",
+        "nomeCurto": "AeB",
+        "semestre": 4
+      },
+      {
+        "id": "*306",
+        "nome": "Direito Aplicado ao Turismo I",
+        "nomeCurto": "DAaTI",
+        "semestre": 4
+      },
+      {
+        "id": "-309",
+        "nome": "Gestão de Pessoas",
+        "nomeCurto": "GP",
+        "semestre": 4
+      },
+      {
+        "id": "*756",
+        "nome": "Marketing Turístico",
+        "nomeCurto": "MT",
+        "semestre": 4
+      },
+      {
+        "id": "*889",
+        "nome": "Planejamento do Turismo III",
+        "nomeCurto": "PdTI",
+        "semestre": 4
+      },
+      {
+        "id": "*1027",
+        "nome": "Psicologia do Turismo",
+        "nomeCurto": "PdT",
+        "semestre": 4
+      },
+      {
+        "id": "*1203",
+        "nome": "Tecnologia Social e Produção Associada ao Turismo",
+        "nomeCurto": "TSePAaT",
+        "semestre": 4
+      }
+    ],
+    "nome": "DGH 7243.4N Tur. Bach.",
+    "semestre": 4
+  }
+}

@@ -1,0 +1,164 @@
+{
+  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "schemaVersion": 1,
+  "turma": {
+    "aulas": [
+      {
+        "diaSemana": 0,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "-421",
+        "professor": "Rupert Pereira",
+        "sala": "DEEA E014 Lab. Inst. Elétricas",
+        "slot": 12
+      },
+      {
+        "diaSemana": 0,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "-95",
+        "professor": "Simone Raquel",
+        "sala": "B-206",
+        "slot": 14
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "*401",
+        "professor": "Elzio Metello",
+        "sala": "B-201",
+        "slot": 12
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "*401",
+        "professor": "Elzio Metello",
+        "sala": "B-201",
+        "slot": 14
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "-460",
+        "professor": "Alberto Mascarenhas",
+        "sala": "DEEA E103 Lab. Microcontroladores",
+        "slot": 12
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "-460",
+        "professor": "Alberto Mascarenhas",
+        "sala": "DEEA E103 Lab. Microcontroladores",
+        "slot": 14
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "17:50",
+        "horaInicio": "16:20",
+        "materiaId": "*208",
+        "professor": "Cristovam Junior",
+        "sala": "B-203",
+        "slot": 10
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "*1002",
+        "professor": "Edelson Duarte",
+        "sala": "DEEA E201 Lab. Automação Predial",
+        "slot": 12
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "*208",
+        "professor": "Cristovam Junior",
+        "sala": "DEEA E113 Lab. Informatica",
+        "slot": 12
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "-421",
+        "professor": "Rupert Pereira",
+        "sala": "DEEA E006 Lab. Máquinas Elétricas",
+        "slot": 14
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "*193",
+        "professor": "Robson Pereira",
+        "sala": "B-206",
+        "slot": 12
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "*193",
+        "professor": "Robson Pereira",
+        "sala": "B-206",
+        "slot": 14
+      }
+    ],
+    "cursoId": "deea-eng-eletrica",
+    "id": "t-521",
+    "materias": [
+      {
+        "id": "-95",
+        "nome": "Ciências do Ambiente",
+        "nomeCurto": "Ciên Amb",
+        "semestre": 7
+      },
+      {
+        "id": "*193",
+        "nome": "Controle de Sistemas Lineares",
+        "nomeCurto": "Controle Lin",
+        "semestre": 7
+      },
+      {
+        "id": "*208",
+        "nome": "Curricularização da Extensão I",
+        "nomeCurto": "CdEI",
+        "semestre": 7
+      },
+      {
+        "id": "*401",
+        "nome": "Equipamentos de Potência",
+        "nomeCurto": "Equ. Pot.",
+        "semestre": 7
+      },
+      {
+        "id": "-421",
+        "nome": "Máquinas Eletricas",
+        "nomeCurto": "Maq Ele",
+        "semestre": 7
+      },
+      {
+        "id": "-460",
+        "nome": "Microcontroladores",
+        "nomeCurto": "Microcontroladores",
+        "semestre": 7
+      },
+      {
+        "id": "*1002",
+        "nome": "Projeto Integrador I",
+        "nomeCurto": "Proj. I",
+        "semestre": 7
+      }
+    ],
+    "nome": "DEEA Eng. Elétrica 7º Sem",
+    "semestre": 7
+  }
+}

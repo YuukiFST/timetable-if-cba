@@ -1,0 +1,259 @@
+{
+  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "schemaVersion": 1,
+  "turma": {
+    "aulas": [
+      {
+        "diaSemana": 0,
+        "horaFim": "08:30",
+        "horaInicio": "07:00",
+        "materiaId": "-258",
+        "professor": "Cléia Neves",
+        "sala": "B-219",
+        "slot": 0
+      },
+      {
+        "diaSemana": 0,
+        "horaFim": "10:20",
+        "horaInicio": "08:30",
+        "materiaId": "-69",
+        "professor": "Lucimar Rodrigues",
+        "sala": "B-219",
+        "slot": 2
+      },
+      {
+        "diaSemana": 0,
+        "horaFim": "11:50",
+        "horaInicio": "10:20",
+        "materiaId": "*1006",
+        "professor": "Érica Marques",
+        "sala": "B-219",
+        "slot": 4
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "07:45",
+        "horaInicio": "07:00",
+        "materiaId": "-437",
+        "professor": "Leonardo Santos",
+        "sala": "B-219",
+        "slot": 0
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "08:30",
+        "horaInicio": "07:45",
+        "materiaId": "-437",
+        "professor": "Leonardo Santos",
+        "sala": "B-219",
+        "slot": 1
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "10:20",
+        "horaInicio": "08:30",
+        "materiaId": "-720",
+        "professor": "Marcia Fernandes",
+        "sala": "B-219",
+        "slot": 2
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "11:50",
+        "horaInicio": "10:20",
+        "materiaId": "-299",
+        "professor": "Dejenana",
+        "sala": "B-219",
+        "slot": 4
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "08:30",
+        "horaInicio": "07:00",
+        "materiaId": "-392",
+        "professor": "Arivan",
+        "sala": "B-219",
+        "slot": 0
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "09:15",
+        "horaInicio": "08:30",
+        "materiaId": "-402",
+        "professor": "Soila Canam",
+        "sala": "B-219",
+        "slot": 2
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "10:20",
+        "horaInicio": "09:35",
+        "materiaId": "-402",
+        "professor": "Soila Canam",
+        "sala": "B-219",
+        "slot": 3
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "11:50",
+        "horaInicio": "10:20",
+        "materiaId": "-331",
+        "professor": "Leonam Silva",
+        "sala": "B-219",
+        "slot": 4
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "07:45",
+        "horaInicio": "07:00",
+        "materiaId": "-437",
+        "professor": "Leonardo Santos",
+        "sala": "B-219",
+        "slot": 0
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "08:30",
+        "horaInicio": "07:45",
+        "materiaId": "-402",
+        "professor": "Soila Canam",
+        "sala": "B-219",
+        "slot": 1
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "10:20",
+        "horaInicio": "08:30",
+        "materiaId": "-287",
+        "professor": "Stephanie Freire",
+        "slot": 2
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "11:50",
+        "horaInicio": "10:20",
+        "materiaId": "-167",
+        "professor": "Fabricio Moraes",
+        "sala": "B-219",
+        "slot": 4
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "08:30",
+        "horaInicio": "07:00",
+        "materiaId": "-571",
+        "professor": "Danilo Flumignan",
+        "sala": "B-219",
+        "slot": 0
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "10:20",
+        "horaInicio": "08:30",
+        "materiaId": "-179",
+        "professor": "Mauricio Razeira",
+        "sala": "B-219",
+        "slot": 2
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "11:50",
+        "horaInicio": "10:20",
+        "materiaId": "-650",
+        "professor": "Monica Spinelli",
+        "sala": "B-219",
+        "slot": 4
+      }
+    ],
+    "cursoId": "dgh-7631-secr-integ",
+    "id": "t127",
+    "materias": [
+      {
+        "id": "-69",
+        "nome": "Biologia III",
+        "nomeCurto": "BIO III",
+        "semestre": 3
+      },
+      {
+        "id": "-167",
+        "nome": "Economia ",
+        "nomeCurto": "ECON",
+        "semestre": 3
+      },
+      {
+        "id": "-179",
+        "nome": "Educação Física III",
+        "nomeCurto": "EFI III",
+        "semestre": 3
+      },
+      {
+        "id": "-258",
+        "nome": "Física III",
+        "nomeCurto": "Física III",
+        "semestre": 3
+      },
+      {
+        "id": "-287",
+        "nome": "Geografia III",
+        "nomeCurto": "GEO III",
+        "semestre": 3
+      },
+      {
+        "id": "-299",
+        "nome": "Gestão Contábil",
+        "nomeCurto": "GC",
+        "semestre": 3
+      },
+      {
+        "id": "-331",
+        "nome": "História III",
+        "nomeCurto": "HIST III",
+        "semestre": 3
+      },
+      {
+        "id": "-392",
+        "nome": "Lingua Inglesa II",
+        "nomeCurto": "LI II",
+        "semestre": 3
+      },
+      {
+        "id": "-402",
+        "nome": "Língua Portuguesa III",
+        "nomeCurto": "LP III",
+        "semestre": 3
+      },
+      {
+        "id": "-437",
+        "nome": "Matemática III",
+        "nomeCurto": "Matemática III",
+        "semestre": 3
+      },
+      {
+        "id": "*1006",
+        "nome": "Projeto Integrador III",
+        "nomeCurto": "PII",
+        "semestre": 3
+      },
+      {
+        "id": "-571",
+        "nome": "Química III",
+        "nomeCurto": "QUI III",
+        "semestre": 3
+      },
+      {
+        "id": "-650",
+        "nome": "Sociologia II",
+        "nomeCurto": "SOC II",
+        "semestre": 3
+      },
+      {
+        "id": "-720",
+        "nome": "Técnicas Profissionais III",
+        "nomeCurto": "TP III",
+        "semestre": 3
+      }
+    ],
+    "nome": "DGH 7631.3AI Secr. Integ.",
+    "semestre": 3
+  }
+}

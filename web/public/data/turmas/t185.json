@@ -1,0 +1,131 @@
+{
+  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "schemaVersion": 1,
+  "turma": {
+    "aulas": [
+      {
+        "diaSemana": 0,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "-253",
+        "professor": "Lúcio Vidal",
+        "sala": "B-101",
+        "slot": 12
+      },
+      {
+        "diaSemana": 0,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "-77",
+        "professor": "Emerson Dutra",
+        "sala": "B-101",
+        "slot": 14
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "22:25",
+        "horaInicio": "18:50",
+        "materiaId": "*502",
+        "professor": "Joicy Lara",
+        "sala": "DCOM",
+        "slot": 12
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "-445",
+        "professor": "Douglas Carvalho",
+        "sala": "B-101",
+        "slot": 12
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "-253",
+        "professor": "Lúcio Vidal",
+        "sala": "B-101",
+        "slot": 14
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "-77",
+        "professor": "Emerson Dutra",
+        "sala": "B-101",
+        "slot": 12
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "-17",
+        "professor": "Emerson Dutra",
+        "sala": "B-101",
+        "slot": 14
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "-298",
+        "professor": "Adelson Ribeiro",
+        "sala": "B-101",
+        "slot": 12
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "-17",
+        "professor": "Emerson Dutra",
+        "sala": "B-101",
+        "slot": 14
+      }
+    ],
+    "cursoId": "dinfra-0140063-eng-civil",
+    "id": "t185",
+    "materias": [
+      {
+        "id": "-17",
+        "nome": "Álgebra Linear",
+        "nomeCurto": "AL",
+        "semestre": 2
+      },
+      {
+        "id": "-77",
+        "nome": "Cálculo Diferencial e Integral II",
+        "nomeCurto": "Cálculo II",
+        "semestre": 2
+      },
+      {
+        "id": "-253",
+        "nome": "Física Geral e Experimental II",
+        "nomeCurto": "FGeE II",
+        "semestre": 2
+      },
+      {
+        "id": "*502",
+        "nome": "Fundamentos de Programação",
+        "nomeCurto": "Fund. de Progr.",
+        "semestre": 2
+      },
+      {
+        "id": "-298",
+        "nome": "Gestão Ambiental",
+        "nomeCurto": "Gestão Ambiental",
+        "semestre": 2
+      },
+      {
+        "id": "-445",
+        "nome": "Materiais de Construção I",
+        "nomeCurto": "MCI",
+        "semestre": 2
+      }
+    ],
+    "nome": "DINFRA 0140063.2N Eng. Civil",
+    "semestre": 2
+  }
+}

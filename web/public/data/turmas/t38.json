@@ -1,0 +1,134 @@
+{
+  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "schemaVersion": 1,
+  "turma": {
+    "aulas": [
+      {
+        "diaSemana": 0,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "*502",
+        "professor": "Alexandre Torrezam",
+        "sala": "DCOM",
+        "slot": 12
+      },
+      {
+        "diaSemana": 0,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "*502",
+        "professor": "Alexandre Torrezam",
+        "sala": "DCOM",
+        "slot": 14
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "*498",
+        "professor": "Waldinei Bispo",
+        "sala": "DCOM",
+        "slot": 12
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "*498",
+        "professor": "Waldinei Bispo",
+        "sala": "DCOM",
+        "slot": 14
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "*964",
+        "professor": "Paulo Lopes",
+        "sala": "DCOM",
+        "slot": 12
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "*964",
+        "professor": "Paulo Lopes",
+        "sala": "DCOM",
+        "slot": 14
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "-262",
+        "professor": "Aldo Silva",
+        "sala": "DCOM",
+        "slot": 12
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "-262",
+        "professor": "Aldo Silva",
+        "sala": "DCOM",
+        "slot": 14
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "*760",
+        "professor": "Jeferson Júnior",
+        "sala": "D-015",
+        "slot": 12
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "*760",
+        "professor": "Jeferson Júnior",
+        "sala": "D-015",
+        "slot": 14
+      }
+    ],
+    "cursoId": "dcom-7342-tecnol-sis-internet",
+    "id": "t38",
+    "materias": [
+      {
+        "id": "-262",
+        "nome": "Fundamentos da Computação",
+        "nomeCurto": "FdC",
+        "semestre": 1
+      },
+      {
+        "id": "*498",
+        "nome": "Fundamentos de Engenharia de Software",
+        "nomeCurto": "FdEdS",
+        "semestre": 1
+      },
+      {
+        "id": "*502",
+        "nome": "Fundamentos de Programação",
+        "nomeCurto": "Fund. de Progr.",
+        "semestre": 1
+      },
+      {
+        "id": "*760",
+        "nome": "Matemática Computacional",
+        "nomeCurto": "Mat. Comp.",
+        "semestre": 1
+      },
+      {
+        "id": "*964",
+        "nome": "Programação Web Front-End",
+        "nomeCurto": "PWF",
+        "semestre": 1
+      }
+    ],
+    "nome": "DCOM 7342.1N Tecnol. Sis. Internet.",
+    "semestre": 1
+  }
+}

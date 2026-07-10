@@ -1,0 +1,164 @@
+{
+  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "schemaVersion": 1,
+  "turma": {
+    "aulas": [
+      {
+        "diaSemana": 0,
+        "horaFim": "14:30",
+        "horaInicio": "13:00",
+        "materiaId": "-641",
+        "professor": "Rafael Simões",
+        "sala": "DCOM",
+        "slot": 6
+      },
+      {
+        "diaSemana": 0,
+        "horaFim": "16:20",
+        "horaInicio": "14:30",
+        "materiaId": "-228",
+        "professor": "Constantino Dias",
+        "sala": "DCOM",
+        "slot": 8
+      },
+      {
+        "diaSemana": 0,
+        "horaFim": "17:50",
+        "horaInicio": "16:20",
+        "materiaId": "-228",
+        "professor": "Constantino Dias",
+        "sala": "DCOM",
+        "slot": 10
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "14:30",
+        "horaInicio": "13:00",
+        "materiaId": "-253",
+        "professor": "Cristiano Cunha",
+        "sala": "DEEA E007 Lab. Física",
+        "slot": 6
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "16:20",
+        "horaInicio": "14:30",
+        "materiaId": "*930",
+        "professor": "Jorge Monsalve",
+        "sala": "B-104",
+        "slot": 8
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "17:50",
+        "horaInicio": "16:20",
+        "materiaId": "-77",
+        "professor": "Willian Pereira",
+        "sala": "B-003",
+        "slot": 10
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "14:30",
+        "horaInicio": "13:00",
+        "materiaId": "-253",
+        "professor": "Cristiano Cunha",
+        "sala": "DEEA E007 Lab. Física",
+        "slot": 6
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "16:20",
+        "horaInicio": "14:30",
+        "materiaId": "-77",
+        "professor": "Willian Pereira",
+        "sala": "B-106",
+        "slot": 8
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "17:50",
+        "horaInicio": "16:20",
+        "materiaId": "-201",
+        "professor": "Edelson Duarte",
+        "sala": "DEEA E105 Lab. Informática",
+        "slot": 10
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "14:30",
+        "horaInicio": "13:00",
+        "materiaId": "-641",
+        "professor": "Rafael Simões",
+        "sala": "DCOM",
+        "slot": 6
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "16:20",
+        "horaInicio": "14:30",
+        "materiaId": "*658",
+        "professor": "Rafael Simões",
+        "sala": "DCOM",
+        "slot": 8
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "17:50",
+        "horaInicio": "16:20",
+        "materiaId": "-201",
+        "professor": "Edelson Duarte",
+        "sala": "DEEA E105 Lab. Informática",
+        "slot": 10
+      }
+    ],
+    "cursoId": "dcom-7844-engenh-comput",
+    "id": "t52",
+    "materias": [
+      {
+        "id": "-77",
+        "nome": "Cálculo Diferencial e Integral II",
+        "nomeCurto": "Cálculo II",
+        "semestre": 3
+      },
+      {
+        "id": "-201",
+        "nome": "Eletrônica Digital",
+        "nomeCurto": "Eletrônica Digital",
+        "semestre": 3
+      },
+      {
+        "id": "-228",
+        "nome": "Estrutura de Dados",
+        "nomeCurto": "EdD",
+        "semestre": 3
+      },
+      {
+        "id": "-253",
+        "nome": "Física Geral e Experimental II",
+        "nomeCurto": "FGeE II",
+        "semestre": 3
+      },
+      {
+        "id": "*658",
+        "nome": "Introdução à Extensão",
+        "nomeCurto": "Introdução à Extensão",
+        "semestre": 3
+      },
+      {
+        "id": "*930",
+        "nome": "Probabilidade e Estatística Computacional",
+        "nomeCurto": "PeEC",
+        "semestre": 3
+      },
+      {
+        "id": "-641",
+        "nome": "Sistemas Operacionais",
+        "nomeCurto": "SO",
+        "semestre": 3
+      }
+    ],
+    "nome": "DCOM 7844.3 Engenh. Comput.",
+    "semestre": 3
+  }
+}

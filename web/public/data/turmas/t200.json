@@ -1,0 +1,25 @@
+{
+  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "schemaVersion": 1,
+  "turma": {
+    "aulas": [
+      {
+        "diaSemana": 3,
+        "horaFim": "16:20",
+        "horaInicio": "14:30",
+        "materiaId": "-428",
+        "slot": 8
+      }
+    ],
+    "cursoId": "monitoria-matematica-1-ano-agrimensura",
+    "id": "t200",
+    "materias": [
+      {
+        "id": "-428",
+        "nome": "Matemática",
+        "nomeCurto": "Matemática"
+      }
+    ],
+    "nome": "Monitoria - matemática - 1 ano - agrimensura"
+  }
+}

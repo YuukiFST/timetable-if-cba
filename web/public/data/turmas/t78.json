@@ -1,0 +1,265 @@
+{
+  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "schemaVersion": 1,
+  "turma": {
+    "aulas": [
+      {
+        "diaSemana": 0,
+        "horaFim": "08:30",
+        "horaInicio": "07:00",
+        "materiaId": "-287",
+        "professor": "Stephanie Freire",
+        "sala": "B-205",
+        "slot": 0
+      },
+      {
+        "diaSemana": 0,
+        "horaFim": "10:20",
+        "horaInicio": "08:30",
+        "materiaId": "-179",
+        "professor": "Sebastião G da Silva",
+        "slot": 2
+      },
+      {
+        "diaSemana": 0,
+        "horaFim": "11:50",
+        "horaInicio": "10:20",
+        "materiaId": "-69",
+        "professor": "Rhavena Liotti",
+        "sala": "B-205",
+        "slot": 4
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "08:30",
+        "horaInicio": "07:00",
+        "materiaId": "-437",
+        "professor": "Castelino Silva",
+        "sala": "B-205",
+        "slot": 0
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "10:20",
+        "horaInicio": "08:30",
+        "materiaId": "-258",
+        "professor": "Cristiano Cunha",
+        "sala": "B-205",
+        "slot": 2
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "13:45",
+        "horaInicio": "10:20",
+        "materiaId": "*97",
+        "professor": "João Lucas",
+        "sala": "DEEA E201 Lab. Automação Predial",
+        "slot": 4
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "13:45",
+        "horaInicio": "10:20",
+        "materiaId": "*97",
+        "professor": "Flavilene Souza",
+        "sala": "DEEA E204 Lab. CLP Avançado",
+        "slot": 4
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "08:30",
+        "horaInicio": "07:00",
+        "materiaId": "-571",
+        "professor": "Mônica Bidarra",
+        "sala": "B-208",
+        "slot": 0
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "09:15",
+        "horaInicio": "08:30",
+        "materiaId": "-437",
+        "professor": "Castelino Silva",
+        "sala": "B-208",
+        "slot": 2
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "11:05",
+        "horaInicio": "09:35",
+        "materiaId": "-331",
+        "professor": "Manuela Arruda",
+        "sala": "B-208",
+        "slot": 3
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "11:50",
+        "horaInicio": "11:05",
+        "materiaId": "-402",
+        "professor": "Jenniffer Santos",
+        "sala": "B-208",
+        "slot": 5
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "08:30",
+        "horaInicio": "07:00",
+        "materiaId": "*882",
+        "professor": "Palmiro Rodrigues",
+        "sala": "DEEA E113 Lab. Informatica",
+        "slot": 0
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "10:20",
+        "horaInicio": "08:30",
+        "materiaId": "*1030",
+        "professor": "Marco Castro",
+        "sala": "DEEA E118 Lab. Eletrônica",
+        "slot": 2
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "11:50",
+        "horaInicio": "10:20",
+        "materiaId": "*707",
+        "professor": "Thaynara Silva",
+        "sala": "B-205",
+        "slot": 4
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "14:30",
+        "horaInicio": "13:00",
+        "materiaId": "-650",
+        "professor": "Christiany Fonseca",
+        "sala": "B-204",
+        "slot": 6
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "08:30",
+        "horaInicio": "07:00",
+        "materiaId": "*1007",
+        "professor": "Djalma Campos",
+        "sala": "B-205",
+        "slot": 0
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "10:20",
+        "horaInicio": "08:30",
+        "materiaId": "-402",
+        "professor": "Jenniffer Santos",
+        "sala": "B-205",
+        "slot": 2
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "11:50",
+        "horaInicio": "10:20",
+        "materiaId": "*1054",
+        "professor": "Palmiro Rodrigues",
+        "sala": "B-205",
+        "slot": 4
+      }
+    ],
+    "cursoId": "deea-6531-eletrotecnica-integrado-b",
+    "id": "t78",
+    "materias": [
+      {
+        "id": "*97",
+        "nome": "Automação Industrial e Residencial",
+        "nomeCurto": "AIeR",
+        "semestre": 3
+      },
+      {
+        "id": "-69",
+        "nome": "Biologia III",
+        "nomeCurto": "BIO III",
+        "semestre": 3
+      },
+      {
+        "id": "-179",
+        "nome": "Educação Física III",
+        "nomeCurto": "EFI III",
+        "semestre": 3
+      },
+      {
+        "id": "-258",
+        "nome": "Física III",
+        "nomeCurto": "Física III",
+        "semestre": 3
+      },
+      {
+        "id": "-287",
+        "nome": "Geografia III",
+        "nomeCurto": "GEO III",
+        "semestre": 3
+      },
+      {
+        "id": "-331",
+        "nome": "História III",
+        "nomeCurto": "HIST III",
+        "semestre": 3
+      },
+      {
+        "id": "*707",
+        "nome": "Língua Inglesa Aplicada II",
+        "nomeCurto": "L.Ing.Apl.II",
+        "semestre": 3
+      },
+      {
+        "id": "-402",
+        "nome": "Língua Portuguesa III",
+        "nomeCurto": "LP III",
+        "semestre": 3
+      },
+      {
+        "id": "-437",
+        "nome": "Matemática III",
+        "nomeCurto": "Matemática III",
+        "semestre": 3
+      },
+      {
+        "id": "*882",
+        "nome": "PIE - Industrial, Urbana/Rural",
+        "nomeCurto": "PIE - Ind. Urb/Rural",
+        "semestre": 3
+      },
+      {
+        "id": "*1007",
+        "nome": "Projeto Integrador III - Geração e Transmissão de Energia",
+        "nomeCurto": "PI - III",
+        "semestre": 3
+      },
+      {
+        "id": "*1030",
+        "nome": "Qualidade de Energi Elétrica",
+        "nomeCurto": "QdEE",
+        "semestre": 3
+      },
+      {
+        "id": "-571",
+        "nome": "Química III",
+        "nomeCurto": "QUI III",
+        "semestre": 3
+      },
+      {
+        "id": "*1054",
+        "nome": "Redes de Distribuição de Energia",
+        "nomeCurto": "RdDdE",
+        "semestre": 3
+      },
+      {
+        "id": "-650",
+        "nome": "Sociologia II",
+        "nomeCurto": "SOC II",
+        "semestre": 3
+      }
+    ],
+    "nome": "DEEA 6531.3B Eletrotécnica Integrado B",
+    "semestre": 3
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "schemaVersion": 1,
+  "turma": {
+    "aulas": [
+      {
+        "diaSemana": 0,
+        "horaFim": "14:30",
+        "horaInicio": "13:00",
+        "materiaId": "-64",
+        "professor": "Evandro Freiberger",
+        "sala": "DCOM",
+        "slot": 6
+      },
+      {
+        "diaSemana": 0,
+        "horaFim": "16:20",
+        "horaInicio": "14:30",
+        "materiaId": "-254",
+        "professor": "Cristiano Cunha",
+        "sala": "D-014",
+        "slot": 8
+      },
+      {
+        "diaSemana": 0,
+        "horaFim": "17:50",
+        "horaInicio": "16:20",
+        "materiaId": "-215",
+        "professor": "Jorge Monsalve",
+        "sala": "D-014",
+        "slot": 10
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "16:20",
+        "horaInicio": "14:30",
+        "materiaId": "*762",
+        "professor": "Emerson Dutra",
+        "sala": "D-014",
+        "slot": 8
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "17:50",
+        "horaInicio": "16:20",
+        "materiaId": "-254",
+        "professor": "Cristiano Cunha",
+        "sala": "DEEA E007 Lab. Física",
+        "slot": 10
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "14:30",
+        "horaInicio": "13:00",
+        "materiaId": "-529",
+        "professor": "Tiago Lacerda",
+        "sala": "DCOM",
+        "slot": 6
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "16:20",
+        "horaInicio": "14:30",
+        "materiaId": "-529",
+        "professor": "Tiago Lacerda",
+        "sala": "DCOM",
+        "slot": 8
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "17:50",
+        "horaInicio": "16:20",
+        "materiaId": "-64",
+        "professor": "Evandro Freiberger",
+        "sala": "DCOM",
+        "slot": 10
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "14:30",
+        "horaInicio": "13:00",
+        "materiaId": "-80",
+        "professor": "Valtemir Nascimento",
+        "sala": "D-014",
+        "slot": 6
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "16:20",
+        "horaInicio": "14:30",
+        "materiaId": "*1239",
+        "professor": "Ruy Oliveira",
+        "sala": "DCOM",
+        "slot": 8
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "17:50",
+        "horaInicio": "16:20",
+        "materiaId": "*1239",
+        "professor": "Ruy Oliveira",
+        "sala": "DCOM",
+        "slot": 10
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "14:30",
+        "horaInicio": "13:00",
+        "materiaId": "-80",
+        "professor": "Valtemir Nascimento",
+        "sala": "D-014",
+        "slot": 6
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "16:20",
+        "horaInicio": "14:30",
+        "materiaId": "-215",
+        "professor": "Jorge Monsalve",
+        "sala": "D-014",
+        "slot": 8
+      }
+    ],
+    "cursoId": "dcom-7844-engenh-comput",
+    "id": "t53",
+    "materias": [
+      {
+        "id": "-64",
+        "nome": "Banco de Dados",
+        "nomeCurto": "BdD",
+        "semestre": 4
+      },
+      {
+        "id": "-80",
+        "nome": "Cálculo Numérico",
+        "nomeCurto": "CN",
+        "semestre": 4
+      },
+      {
+        "id": "-215",
+        "nome": "Equações Diferenciais",
+        "nomeCurto": "Equações Diferenciais",
+        "semestre": 4
+      },
+      {
+        "id": "-254",
+        "nome": "Física Geral e Experimental III",
+        "nomeCurto": "Fís G e E III",
+        "semestre": 4
+      },
+      {
+        "id": "*762",
+        "nome": "Matemática Discreta e Teoria dos Grafos",
+        "nomeCurto": "MDeTdG",
+        "semestre": 4
+      },
+      {
+        "id": "-529",
+        "nome": "Programação Orientada a Objetos",
+        "nomeCurto": "POaO",
+        "semestre": 4
+      },
+      {
+        "id": "*1239",
+        "nome": "Trasnmissão e Comunicação de Dados",
+        "nomeCurto": "TeCdD",
+        "semestre": 4
+      }
+    ],
+    "nome": "DCOM 7844.4 Engenh. Comput.",
+    "semestre": 4
+  }
+}

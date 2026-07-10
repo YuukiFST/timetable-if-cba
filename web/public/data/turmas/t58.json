@@ -1,0 +1,29 @@
+{
+  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "schemaVersion": 1,
+  "turma": {
+    "aulas": [
+      {
+        "diaSemana": 0,
+        "horaFim": "17:50",
+        "horaInicio": "16:20",
+        "materiaId": "*420",
+        "professor": "Juliana Silva",
+        "sala": "DCOM",
+        "slot": 10
+      }
+    ],
+    "cursoId": "dcom-7844-engenh-comput",
+    "id": "t58",
+    "materias": [
+      {
+        "id": "*420",
+        "nome": "Estágio Supervisionado",
+        "nomeCurto": "ES",
+        "semestre": 9
+      }
+    ],
+    "nome": "DCOM 7844.9 Engenh. Comput.",
+    "semestre": 9
+  }
+}

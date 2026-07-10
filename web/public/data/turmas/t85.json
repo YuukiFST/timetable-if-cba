@@ -1,0 +1,298 @@
+{
+  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "schemaVersion": 1,
+  "turma": {
+    "aulas": [
+      {
+        "diaSemana": 0,
+        "horaFim": "15:15",
+        "horaInicio": "13:00",
+        "materiaId": "-436",
+        "professor": "Lia Costa",
+        "sala": "B-209",
+        "slot": 6
+      },
+      {
+        "diaSemana": 0,
+        "horaFim": "17:50",
+        "horaInicio": "15:35",
+        "materiaId": "-460",
+        "professor": "Ernany Silva",
+        "sala": "DEEA E113 Lab. Informatica",
+        "slot": 9
+      },
+      {
+        "diaSemana": 0,
+        "horaFim": "17:50",
+        "horaInicio": "15:35",
+        "materiaId": "*742",
+        "professor": "Murilo Santos",
+        "sala": "DEEA E014 Lab. Inst. Elétricas",
+        "slot": 9
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "14:30",
+        "horaInicio": "13:00",
+        "materiaId": "-245",
+        "professor": "Josadaque Martins",
+        "sala": "B-203",
+        "slot": 6
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "16:20",
+        "horaInicio": "14:30",
+        "materiaId": "-199",
+        "professor": "Luciana Lima",
+        "sala": "DEEA E103 Lab. Microcontroladores",
+        "slot": 8
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "16:20",
+        "horaInicio": "14:30",
+        "materiaId": "-30",
+        "professor": "João Lira",
+        "sala": "DEEA E102 Lab. Eletrônica",
+        "slot": 8
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "17:50",
+        "horaInicio": "16:20",
+        "materiaId": "-199",
+        "professor": "Luciana Lima",
+        "sala": "DEEA E103 Lab. Microcontroladores",
+        "slot": 10
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "17:50",
+        "horaInicio": "16:20",
+        "materiaId": "-30",
+        "professor": "João Lira",
+        "sala": "DEEA E102 Lab. Eletrônica",
+        "slot": 10
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "08:30",
+        "horaInicio": "07:00",
+        "materiaId": "-178",
+        "professor": "Wagner Ribeiro",
+        "slot": 0
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "10:20",
+        "horaInicio": "08:30",
+        "materiaId": "*706",
+        "professor": "Weslley Siqueira",
+        "sala": "B-209",
+        "slot": 2
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "11:50",
+        "horaInicio": "10:20",
+        "materiaId": "-570",
+        "professor": "Mônica Bidarra",
+        "sala": "B-209",
+        "slot": 4
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "14:30",
+        "horaInicio": "13:00",
+        "materiaId": "-68",
+        "professor": "Rosane Segalla",
+        "sala": "B-209",
+        "slot": 6
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "16:20",
+        "horaInicio": "14:30",
+        "materiaId": "-257",
+        "professor": "Luciano Schlaucher",
+        "sala": "B-209",
+        "slot": 8
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "17:50",
+        "horaInicio": "16:20",
+        "materiaId": "-330",
+        "professor": "Subst. Historia",
+        "sala": "B-209",
+        "slot": 10
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "15:15",
+        "horaInicio": "13:00",
+        "materiaId": "-401",
+        "professor": "Edsonia de Souza Oliveira Melo",
+        "sala": "B-209",
+        "slot": 6
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "17:50",
+        "horaInicio": "15:35",
+        "materiaId": "-460",
+        "professor": "Ernany Silva",
+        "sala": "DEEA E113 Lab. Informatica",
+        "slot": 9
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "17:50",
+        "horaInicio": "15:35",
+        "materiaId": "*742",
+        "professor": "Murilo Santos",
+        "sala": "DEEA E014 Lab. Inst. Elétricas",
+        "slot": 9
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "14:30",
+        "horaInicio": "13:00",
+        "materiaId": "-286",
+        "professor": "Suzy Klemp",
+        "sala": "B-209",
+        "slot": 6
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "16:20",
+        "horaInicio": "14:30",
+        "materiaId": "-649",
+        "professor": "Claudyanne Almeida",
+        "sala": "B-209",
+        "slot": 8
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "17:50",
+        "horaInicio": "16:20",
+        "materiaId": "*880",
+        "professor": "Rodrigo Junges",
+        "sala": "DEEA E116 Lab. Telecomunicações",
+        "slot": 10
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "17:50",
+        "horaInicio": "16:20",
+        "materiaId": "*880",
+        "professor": "Rafael Máximo",
+        "sala": "DEEA E112 Lab. Acion. Elétricos",
+        "slot": 10
+      }
+    ],
+    "cursoId": "deea-6631-eletronica-int",
+    "id": "t85",
+    "materias": [
+      {
+        "id": "-30",
+        "nome": "Análise de Circuitos",
+        "nomeCurto": "Anál. Circ.",
+        "semestre": 2
+      },
+      {
+        "id": "-68",
+        "nome": "Biologia II",
+        "nomeCurto": "BIO II",
+        "semestre": 2
+      },
+      {
+        "id": "-178",
+        "nome": "Educação Fisica II",
+        "nomeCurto": "EF II",
+        "semestre": 2
+      },
+      {
+        "id": "-199",
+        "nome": "Eletrônica Avançada",
+        "nomeCurto": "Eletrônica Avançada",
+        "semestre": 2
+      },
+      {
+        "id": "-245",
+        "nome": "Filosofia II",
+        "nomeCurto": "FIL II",
+        "semestre": 2
+      },
+      {
+        "id": "-257",
+        "nome": "Física II",
+        "nomeCurto": "Física II",
+        "semestre": 2
+      },
+      {
+        "id": "-286",
+        "nome": "Geografia II",
+        "nomeCurto": "GEO II",
+        "semestre": 2
+      },
+      {
+        "id": "-330",
+        "nome": "História II",
+        "nomeCurto": "HIST II",
+        "semestre": 2
+      },
+      {
+        "id": "*706",
+        "nome": "Lingua Inglesa Aplicada I",
+        "nomeCurto": "L.Ing.Apl.I",
+        "semestre": 2
+      },
+      {
+        "id": "-401",
+        "nome": "Língua Portuguesa II",
+        "nomeCurto": "Língua Portuguesa II",
+        "semestre": 2
+      },
+      {
+        "id": "*742",
+        "nome": "Máq.Elétr/Acion.",
+        "nomeCurto": "MEeA",
+        "semestre": 2
+      },
+      {
+        "id": "-436",
+        "nome": "Matemática II",
+        "nomeCurto": "Matemática II",
+        "semestre": 2
+      },
+      {
+        "id": "-460",
+        "nome": "Microcontroladores",
+        "nomeCurto": "Microcontroladores",
+        "semestre": 2
+      },
+      {
+        "id": "*880",
+        "nome": "PI. Aut. Resid/Predial",
+        "nomeCurto": "P.Aut.Predial",
+        "semestre": 2
+      },
+      {
+        "id": "-570",
+        "nome": "Química II",
+        "nomeCurto": "QUI II",
+        "semestre": 2
+      },
+      {
+        "id": "-649",
+        "nome": "Sociologia I",
+        "nomeCurto": "SOC I",
+        "semestre": 2
+      }
+    ],
+    "nome": "DEEA 6631.2A Eletrônica Int.",
+    "semestre": 2
+  }
+}

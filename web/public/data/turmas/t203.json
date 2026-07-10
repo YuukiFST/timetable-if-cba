@@ -1,0 +1,46 @@
+{
+  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "schemaVersion": 1,
+  "turma": {
+    "aulas": [
+      {
+        "diaSemana": 0,
+        "horaFim": "22:25",
+        "horaInicio": "18:50",
+        "materiaId": "*832",
+        "slot": 12
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "22:25",
+        "horaInicio": "18:50",
+        "materiaId": "*832",
+        "slot": 12
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "22:25",
+        "horaInicio": "18:50",
+        "materiaId": "*832",
+        "slot": 12
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "22:25",
+        "horaInicio": "18:50",
+        "materiaId": "*832",
+        "slot": 12
+      }
+    ],
+    "cursoId": "mulheres-mil-3",
+    "id": "t203",
+    "materias": [
+      {
+        "id": "*832",
+        "nome": "Mulheres Mil 3",
+        "nomeCurto": "Mulheres Mil 4"
+      }
+    ],
+    "nome": "Mulheres Mil 3"
+  }
+}

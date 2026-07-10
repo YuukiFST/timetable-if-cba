@@ -1,0 +1,79 @@
+{
+  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "schemaVersion": 1,
+  "turma": {
+    "aulas": [
+      {
+        "diaSemana": 0,
+        "horaFim": "22:25",
+        "horaInicio": "18:50",
+        "materiaId": "*968",
+        "professor": "Guilherme Almeida",
+        "sala": "DCOM",
+        "slot": 12
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "22:25",
+        "horaInicio": "18:50",
+        "materiaId": "*384",
+        "professor": "Ed Wilson Ferreira",
+        "slot": 12
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "22:25",
+        "horaInicio": "18:50",
+        "materiaId": "*178",
+        "professor": "André Couto",
+        "slot": 12
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "22:25",
+        "horaInicio": "18:50",
+        "materiaId": "*511",
+        "professor": "Gerson Kida",
+        "slot": 12
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "22:25",
+        "horaInicio": "18:50",
+        "materiaId": "*866",
+        "professor": "Rothschild Antunes",
+        "slot": 12
+      }
+    ],
+    "cursoId": "dcom-tecnico-em-redes-de-computadores-ead",
+    "id": "t60",
+    "materias": [
+      {
+        "id": "*178",
+        "nome": "Conectividade e Protocolo de Enlace",
+        "nomeCurto": "CePdE"
+      },
+      {
+        "id": "*384",
+        "nome": "Endereçamento IP e Configuração Básica",
+        "nomeCurto": "EIeCB"
+      },
+      {
+        "id": "*511",
+        "nome": "Fundamentos e Arquitetura de Redes",
+        "nomeCurto": "FeAdR"
+      },
+      {
+        "id": "*866",
+        "nome": "Orientação e Acompanhamento",
+        "nomeCurto": "OeA"
+      },
+      {
+        "id": "*968",
+        "nome": "Projeto Aplicado 1",
+        "nomeCurto": "PA1"
+      }
+    ],
+    "nome": "DCOM Técnico em Redes de Computadores - EaD"
+  }
+}

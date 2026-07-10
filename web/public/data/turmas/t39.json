@@ -1,0 +1,134 @@
+{
+  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "schemaVersion": 1,
+  "turma": {
+    "aulas": [
+      {
+        "diaSemana": 0,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "-264",
+        "professor": "Juliana Silva",
+        "sala": "DCOM",
+        "slot": 12
+      },
+      {
+        "diaSemana": 0,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "-264",
+        "professor": "Juliana Silva",
+        "sala": "DCOM",
+        "slot": 14
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "-641",
+        "professor": "Gerson Kida",
+        "sala": "DCOM",
+        "slot": 12
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "-641",
+        "professor": "Gerson Kida",
+        "sala": "DCOM",
+        "slot": 14
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "-529",
+        "professor": "Joicy Lara",
+        "sala": "DCOM",
+        "slot": 12
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "-529",
+        "professor": "Joicy Lara",
+        "sala": "DCOM",
+        "slot": 14
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "*379",
+        "professor": "Monica Crispim",
+        "sala": "DCOM",
+        "slot": 12
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "*379",
+        "professor": "Monica Crispim",
+        "sala": "DCOM",
+        "slot": 14
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "-398",
+        "professor": "José Silva",
+        "sala": "D-014",
+        "slot": 12
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "-398",
+        "professor": "José Silva",
+        "sala": "D-014",
+        "slot": 14
+      }
+    ],
+    "cursoId": "dcom-7342-tecnol-sis-internet",
+    "id": "t39",
+    "materias": [
+      {
+        "id": "*379",
+        "nome": "Elicitação e Análise de Requesitos",
+        "nomeCurto": "EeAdR",
+        "semestre": 2
+      },
+      {
+        "id": "-264",
+        "nome": "Fundamentos de Banco de Dados",
+        "nomeCurto": "FdBdD",
+        "semestre": 2
+      },
+      {
+        "id": "-398",
+        "nome": "Lingua Portuguesa",
+        "nomeCurto": "LP",
+        "semestre": 2
+      },
+      {
+        "id": "-529",
+        "nome": "Programação Orientada a Objetos",
+        "nomeCurto": "POaO",
+        "semestre": 2
+      },
+      {
+        "id": "-641",
+        "nome": "Sistemas Operacionais",
+        "nomeCurto": "SO",
+        "semestre": 2
+      }
+    ],
+    "nome": "DCOM 7342.2N Tecnol. Sis. Internet.",
+    "semestre": 2
+  }
+}

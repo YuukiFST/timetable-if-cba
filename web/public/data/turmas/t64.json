@@ -1,0 +1,145 @@
+{
+  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "schemaVersion": 1,
+  "turma": {
+    "aulas": [
+      {
+        "diaSemana": 0,
+        "horaFim": "14:30",
+        "horaInicio": "13:00",
+        "materiaId": "*668",
+        "professor": "Ronan Martins",
+        "slot": 6
+      },
+      {
+        "diaSemana": 0,
+        "horaFim": "16:20",
+        "horaInicio": "14:30",
+        "materiaId": "-79",
+        "professor": "Willian Pereira",
+        "sala": "B-210",
+        "slot": 8
+      },
+      {
+        "diaSemana": 0,
+        "horaFim": "17:50",
+        "horaInicio": "16:20",
+        "materiaId": "-239",
+        "professor": "Paulo Lenço",
+        "sala": "B-209",
+        "slot": 10
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "16:20",
+        "horaInicio": "14:30",
+        "materiaId": "*290",
+        "professor": "Armindo Neto",
+        "sala": "DEEA E114 Lab. Informatica",
+        "slot": 8
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "17:50",
+        "horaInicio": "16:20",
+        "materiaId": "*290",
+        "professor": "Armindo Neto",
+        "sala": "DEEA E114 Lab. Informatica",
+        "slot": 10
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "-453",
+        "professor": "Carlos Henrique",
+        "sala": "DEEA E102 Lab. Eletrônica",
+        "slot": 12
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "14:30",
+        "horaInicio": "13:00",
+        "materiaId": "*153",
+        "professor": "Ronan Martins",
+        "sala": "DEEA E107 Lab. Circuitos Elétricos",
+        "slot": 6
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "16:20",
+        "horaInicio": "14:30",
+        "materiaId": "*153",
+        "professor": "Ronan Martins",
+        "sala": "DEEA E107 Lab. Circuitos Elétricos",
+        "slot": 8
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "17:50",
+        "horaInicio": "16:20",
+        "materiaId": "-79",
+        "professor": "Willian Pereira",
+        "sala": "B-210",
+        "slot": 10
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "-508",
+        "professor": "Luis Paoli",
+        "sala": "B-201",
+        "slot": 12
+      }
+    ],
+    "cursoId": "deea-6144-engenharia-de-controle-e-automacao",
+    "id": "t64",
+    "materias": [
+      {
+        "id": "-79",
+        "nome": "Cálculo Diferencial e Integral IV",
+        "nomeCurto": "Cálculo IV",
+        "semestre": 4
+      },
+      {
+        "id": "*153",
+        "nome": "Circuitos Elétricos II",
+        "nomeCurto": "CE-II",
+        "semestre": 4
+      },
+      {
+        "id": "*290",
+        "nome": "Desenho Técnico em Ambiente Computacional",
+        "nomeCurto": "DTeAC",
+        "semestre": 4
+      },
+      {
+        "id": "-239",
+        "nome": "Fenômeno de Transporte",
+        "nomeCurto": "FenTran",
+        "semestre": 4
+      },
+      {
+        "id": "*668",
+        "nome": "Laboratório de Circuitos Elétricos II",
+        "nomeCurto": "Lab.C.Eletr.II",
+        "semestre": 4
+      },
+      {
+        "id": "-453",
+        "nome": "Mecânica Geral",
+        "nomeCurto": "Mec.Geral",
+        "semestre": 4
+      },
+      {
+        "id": "-508",
+        "nome": "Probabilidade e Estatística",
+        "nomeCurto": "Probabilidade e Estatística",
+        "semestre": 4
+      }
+    ],
+    "nome": "DEEA 6144.4 Engenharia de Controle e Automação",
+    "semestre": 4
+  }
+}

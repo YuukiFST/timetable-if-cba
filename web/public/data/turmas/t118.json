@@ -1,0 +1,264 @@
+{
+  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "schemaVersion": 1,
+  "turma": {
+    "aulas": [
+      {
+        "diaSemana": 0,
+        "horaFim": "08:30",
+        "horaInicio": "07:00",
+        "materiaId": "*557",
+        "professor": "Karen França",
+        "sala": "B-220",
+        "slot": 0
+      },
+      {
+        "diaSemana": 0,
+        "horaFim": "10:20",
+        "horaInicio": "08:30",
+        "materiaId": "-400",
+        "professor": "Adriane Lima",
+        "sala": "B-220",
+        "slot": 2
+      },
+      {
+        "diaSemana": 0,
+        "horaFim": "11:50",
+        "horaInicio": "10:20",
+        "materiaId": "*602",
+        "professor": "Subst. Turismo",
+        "sala": "B-220",
+        "slot": 4
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "08:30",
+        "horaInicio": "07:00",
+        "materiaId": "-435",
+        "professor": "Daniel Cintra",
+        "sala": "B-220",
+        "slot": 0
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "09:15",
+        "horaInicio": "08:30",
+        "materiaId": "*65",
+        "sala": "B-220",
+        "slot": 2
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "10:20",
+        "horaInicio": "09:35",
+        "materiaId": "*65",
+        "sala": "B-220",
+        "slot": 3
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "11:50",
+        "horaInicio": "10:20",
+        "materiaId": "-67",
+        "professor": "Rhavena Liotti",
+        "sala": "B-220",
+        "slot": 4
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "08:30",
+        "horaInicio": "07:00",
+        "materiaId": "-569",
+        "professor": "Dirce Silva",
+        "sala": "B-220",
+        "slot": 0
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "10:20",
+        "horaInicio": "08:30",
+        "materiaId": "-256",
+        "professor": "William Jesus",
+        "sala": "B-220",
+        "slot": 2
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "11:50",
+        "horaInicio": "10:20",
+        "materiaId": "-588",
+        "professor": "Érica Marques",
+        "sala": "B-220",
+        "slot": 4
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "08:30",
+        "horaInicio": "07:00",
+        "materiaId": "-329",
+        "professor": "Karina Brito",
+        "sala": "B-220",
+        "slot": 0
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "10:20",
+        "horaInicio": "08:30",
+        "materiaId": "-435",
+        "professor": "Daniel Cintra",
+        "sala": "B-220",
+        "slot": 2
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "11:50",
+        "horaInicio": "10:20",
+        "materiaId": "-400",
+        "professor": "Adriane Lima",
+        "sala": "B-220",
+        "slot": 4
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "15:15",
+        "horaInicio": "13:45",
+        "materiaId": "-244",
+        "professor": "Luiz Torquato",
+        "sala": "B-220",
+        "slot": 7
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "17:05",
+        "horaInicio": "15:35",
+        "materiaId": "*337",
+        "professor": "Lethícia Castilhos",
+        "sala": "B-220",
+        "slot": 9
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "08:30",
+        "horaInicio": "07:00",
+        "materiaId": "-285",
+        "professor": "Mauro França",
+        "sala": "B-222",
+        "slot": 0
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "10:20",
+        "horaInicio": "08:30",
+        "materiaId": "*1002",
+        "professor": "Monica Crispim",
+        "sala": "B-220",
+        "slot": 2
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "11:50",
+        "horaInicio": "10:20",
+        "materiaId": "-381",
+        "professor": "Rosemary Mendes",
+        "sala": "B-220",
+        "slot": 4
+      }
+    ],
+    "cursoId": "dgh-7531-even-integ",
+    "id": "t118",
+    "materias": [
+      {
+        "id": "*65",
+        "nome": "Arte",
+        "nomeCurto": "Arte",
+        "semestre": 1
+      },
+      {
+        "id": "-67",
+        "nome": "Biologia I",
+        "nomeCurto": "BIO I",
+        "semestre": 1
+      },
+      {
+        "id": "*337",
+        "nome": "Educação Física I",
+        "nomeCurto": "EFI",
+        "semestre": 1
+      },
+      {
+        "id": "-244",
+        "nome": "Filosofia I",
+        "nomeCurto": "FIL I",
+        "semestre": 1
+      },
+      {
+        "id": "-256",
+        "nome": "Física I",
+        "nomeCurto": "Física I",
+        "semestre": 1
+      },
+      {
+        "id": "-285",
+        "nome": "Geografia I",
+        "nomeCurto": "GEO I",
+        "semestre": 1
+      },
+      {
+        "id": "*557",
+        "nome": "Gestão de Eventos I",
+        "nomeCurto": "Gest. Ev. I",
+        "semestre": 1
+      },
+      {
+        "id": "-329",
+        "nome": "Historia I",
+        "nomeCurto": "HIST I",
+        "semestre": 1
+      },
+      {
+        "id": "*602",
+        "nome": "Hospitalidade e Eventos",
+        "nomeCurto": "HeE",
+        "semestre": 1
+      },
+      {
+        "id": "-381",
+        "nome": "Língua Espanhola",
+        "nomeCurto": "LE",
+        "semestre": 1
+      },
+      {
+        "id": "-400",
+        "nome": "Língua Portuguesa I",
+        "nomeCurto": "Lingua Portuguesa I",
+        "semestre": 1
+      },
+      {
+        "id": "-435",
+        "nome": "Matemática I",
+        "nomeCurto": "Matemática I",
+        "semestre": 1
+      },
+      {
+        "id": "*1002",
+        "nome": "Projeto Integrador I",
+        "nomeCurto": "Proj. I",
+        "semestre": 1
+      },
+      {
+        "id": "-569",
+        "nome": "Química I",
+        "nomeCurto": "QUI I",
+        "semestre": 1
+      },
+      {
+        "id": "-588",
+        "nome": "Relações Interpessoais",
+        "nomeCurto": "RI",
+        "semestre": 1
+      }
+    ],
+    "nome": "DGH 7531.1BI Even. Integ.",
+    "semestre": 1
+  }
+}

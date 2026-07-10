@@ -1,0 +1,104 @@
+{
+  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "schemaVersion": 1,
+  "turma": {
+    "aulas": [
+      {
+        "diaSemana": 0,
+        "horaFim": "22:25",
+        "horaInicio": "18:50",
+        "materiaId": "*1116",
+        "professor": "Moises Santiago Ribeiro",
+        "sala": "DINFRA",
+        "slot": 12
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "22:25",
+        "horaInicio": "18:50",
+        "materiaId": "-72",
+        "professor": "Geraldo Almeida",
+        "sala": "DINFRA",
+        "slot": 12
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "22:25",
+        "horaInicio": "18:50",
+        "materiaId": "*682",
+        "professor": "Moises Santiago Ribeiro",
+        "sala": "DINFRA",
+        "slot": 12
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "22:25",
+        "horaInicio": "18:50",
+        "materiaId": "-608",
+        "professor": "Luiz Canto",
+        "sala": "DINFRA",
+        "slot": 12
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "22:25",
+        "horaInicio": "18:50",
+        "materiaId": "-155",
+        "professor": "Fernanda Santos",
+        "sala": "DINFRA",
+        "slot": 12
+      },
+      {
+        "diaSemana": 5,
+        "horaFim": "11:05",
+        "horaInicio": "07:45",
+        "materiaId": "*516",
+        "professor": "Hérida Reis",
+        "sala": "B-002",
+        "slot": 1
+      }
+    ],
+    "cursoId": "dinfra-2641-tecnol-geop",
+    "id": "t172",
+    "materias": [
+      {
+        "id": "-72",
+        "nome": "Cadastro Técnico Multifinalitário",
+        "nomeCurto": "Cadastro Técnico Multifinalitário",
+        "semestre": 4
+      },
+      {
+        "id": "-155",
+        "nome": "Diagnóstico e caracterização ambiental",
+        "nomeCurto": "Diagnóstico e caracterização ambiental",
+        "semestre": 4
+      },
+      {
+        "id": "*516",
+        "nome": "Geociências EAD",
+        "nomeCurto": "Geociências EAD",
+        "semestre": 4
+      },
+      {
+        "id": "*682",
+        "nome": "Levantamento Topográfico e Geodésico",
+        "nomeCurto": "Levant. Topog. e Geod.",
+        "semestre": 4
+      },
+      {
+        "id": "-608",
+        "nome": "Sensoriamento Remoto",
+        "nomeCurto": "Sensoriamento Remoto",
+        "semestre": 4
+      },
+      {
+        "id": "*1116",
+        "nome": "Sistema de Informação Geográfica II",
+        "nomeCurto": "Sist. de Inf. Geográfica II",
+        "semestre": 4
+      }
+    ],
+    "nome": "DINFRA 2641.4N Tecnol. Geop.",
+    "semestre": 4
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "schemaVersion": 1,
+  "turma": {
+    "aulas": [
+      {
+        "diaSemana": 0,
+        "horaFim": "16:20",
+        "horaInicio": "14:30",
+        "materiaId": "-561",
+        "professor": "Marco Castro",
+        "sala": "DEEA E105 Lab. Informática",
+        "slot": 8
+      },
+      {
+        "diaSemana": 0,
+        "horaFim": "17:50",
+        "horaInicio": "16:20",
+        "materiaId": "-561",
+        "professor": "Marco Castro",
+        "sala": "DEEA E105 Lab. Informática",
+        "slot": 10
+      },
+      {
+        "diaSemana": 0,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "*1166",
+        "professor": "Edilson Silva",
+        "sala": "DEEA E103 Lab. Microcontroladores",
+        "slot": 12
+      },
+      {
+        "diaSemana": 0,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "*1166",
+        "professor": "Edilson Silva",
+        "sala": "DEEA E103 Lab. Microcontroladores",
+        "slot": 14
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "14:30",
+        "horaInicio": "13:00",
+        "materiaId": "-55",
+        "professor": "Edilson Silva",
+        "sala": "DEEA E208 Lab. Automação Industrial",
+        "slot": 6
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "16:20",
+        "horaInicio": "14:30",
+        "materiaId": "-55",
+        "professor": "Edilson Silva",
+        "sala": "DEEA E208 Lab. Automação Industrial",
+        "slot": 8
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "17:50",
+        "horaInicio": "16:20",
+        "materiaId": "*1166",
+        "professor": "Edilson Silva",
+        "sala": "DEEA E105 Lab. Informática",
+        "slot": 10
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "22:25",
+        "horaInicio": "18:50",
+        "materiaId": "-601",
+        "professor": "Ademar Silva",
+        "sala": "D-015",
+        "slot": 12
+      }
+    ],
+    "cursoId": "deea-6144-engenharia-de-controle-e-automacao",
+    "id": "t71",
+    "materias": [
+      {
+        "id": "-55",
+        "nome": "Automação e Supervisão de Processos II",
+        "nomeCurto": "Aut.Sup.Processos II",
+        "semestre": 10
+      },
+      {
+        "id": "-561",
+        "nome": "Qualidade e Eficiência da Energia",
+        "nomeCurto": "QeEdE",
+        "semestre": 10
+      },
+      {
+        "id": "-601",
+        "nome": "Segurança do Trabalho",
+        "nomeCurto": "Seg-Trab",
+        "semestre": 10
+      },
+      {
+        "id": "*1166",
+        "nome": "TCC I",
+        "nomeCurto": "T",
+        "semestre": 10
+      }
+    ],
+    "nome": "DEEA 6144.10I Engenharia de Controle e Automação",
+    "semestre": 10
+  }
+}

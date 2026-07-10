@@ -1,0 +1,29 @@
+{
+  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "schemaVersion": 1,
+  "turma": {
+    "aulas": [
+      {
+        "diaSemana": 3,
+        "horaFim": "22:25",
+        "horaInicio": "18:50",
+        "materiaId": "-139",
+        "professor": "Angela Oliveira",
+        "sala": "DINFRA",
+        "slot": 12
+      }
+    ],
+    "cursoId": "dinfra-0140063-b-eng-civil",
+    "id": "t184",
+    "materias": [
+      {
+        "id": "-139",
+        "nome": "Desenho Arquitetônico",
+        "nomeCurto": "Des Arquitetônico",
+        "semestre": 1
+      }
+    ],
+    "nome": "DINFRA 0140063.1N B Eng. Civil",
+    "semestre": 1
+  }
+}

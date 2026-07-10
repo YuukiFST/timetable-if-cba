@@ -1,0 +1,173 @@
+{
+  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "schemaVersion": 1,
+  "turma": {
+    "aulas": [
+      {
+        "diaSemana": 0,
+        "horaFim": "14:30",
+        "horaInicio": "13:00",
+        "materiaId": "*668",
+        "professor": "Paulo Morais",
+        "sala": "DEEA E107 Lab. Circuitos Elétricos",
+        "slot": 6
+      },
+      {
+        "diaSemana": 0,
+        "horaFim": "16:20",
+        "horaInicio": "14:30",
+        "materiaId": "*55",
+        "professor": "Evandro Freiberger",
+        "sala": "DCOM",
+        "slot": 8
+      },
+      {
+        "diaSemana": 0,
+        "horaFim": "17:50",
+        "horaInicio": "16:20",
+        "materiaId": "-613",
+        "professor": "Fabiano Pádua",
+        "sala": "DEEA E116 Lab. Telecomunicações",
+        "slot": 10
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "14:30",
+        "horaInicio": "13:00",
+        "materiaId": "*55",
+        "professor": "Evandro Freiberger",
+        "sala": "DCOM",
+        "slot": 6
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "16:20",
+        "horaInicio": "14:30",
+        "materiaId": "-367",
+        "professor": "Juliana Antunes",
+        "sala": "DCOM",
+        "slot": 8
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "17:50",
+        "horaInicio": "16:20",
+        "materiaId": "-574",
+        "professor": "Juliana Antunes",
+        "sala": "DCOM",
+        "slot": 10
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "14:30",
+        "horaInicio": "13:00",
+        "materiaId": "*153",
+        "professor": "Ronan Martins",
+        "sala": "DEEA E107 Lab. Circuitos Elétricos",
+        "slot": 6
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "16:20",
+        "horaInicio": "14:30",
+        "materiaId": "*153",
+        "professor": "Ronan Martins",
+        "sala": "DEEA E107 Lab. Circuitos Elétricos",
+        "slot": 8
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "-613",
+        "professor": "Fabiano Pádua",
+        "sala": "DEEA E116 Lab. Telecomunicações",
+        "slot": 12
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "15:15",
+        "horaInicio": "13:45",
+        "materiaId": "-367",
+        "professor": "Juliana Antunes",
+        "sala": "DCOM",
+        "slot": 7
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "17:05",
+        "horaInicio": "15:35",
+        "materiaId": "-574",
+        "professor": "Juliana Antunes",
+        "sala": "DCOM",
+        "slot": 9
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "-204",
+        "professor": "Alberto Mascarenhas",
+        "sala": "DEEA E101 Lab. Eletrônica",
+        "slot": 12
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "-204",
+        "professor": "Alberto Mascarenhas",
+        "sala": "DEEA E101 Lab. Eletrônica",
+        "slot": 14
+      }
+    ],
+    "cursoId": "dcom-7844-engenh-comput",
+    "id": "t55",
+    "materias": [
+      {
+        "id": "*55",
+        "nome": "Análise e Projeto de Sistemas",
+        "nomeCurto": "AePdS",
+        "semestre": 6
+      },
+      {
+        "id": "*153",
+        "nome": "Circuitos Elétricos II",
+        "nomeCurto": "CE-II",
+        "semestre": 6
+      },
+      {
+        "id": "-204",
+        "nome": "Eletrônica I",
+        "nomeCurto": "Elet I",
+        "semestre": 6
+      },
+      {
+        "id": "-367",
+        "nome": "Inteligência Artificial",
+        "nomeCurto": "Intel. Artificial",
+        "semestre": 6
+      },
+      {
+        "id": "*668",
+        "nome": "Laboratório de Circuitos Elétricos II",
+        "nomeCurto": "Lab.C.Eletr.II",
+        "semestre": 6
+      },
+      {
+        "id": "-574",
+        "nome": "Redes de Computadores",
+        "nomeCurto": "RdC",
+        "semestre": 6
+      },
+      {
+        "id": "-613",
+        "nome": "Sinais e Sistemas Lineares",
+        "nomeCurto": "SeSL",
+        "semestre": 6
+      }
+    ],
+    "nome": "DCOM 7844.6 Engenh. Comput.",
+    "semestre": 6
+  }
+}

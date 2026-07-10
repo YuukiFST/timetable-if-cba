@@ -1,0 +1,40 @@
+{
+  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "schemaVersion": 1,
+  "turma": {
+    "aulas": [
+      {
+        "diaSemana": 3,
+        "horaFim": "10:20",
+        "horaInicio": "07:00",
+        "materiaId": "*260",
+        "professor": "Leandro Ferreira",
+        "slot": 0
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "11:05",
+        "horaInicio": "07:45",
+        "materiaId": "*259",
+        "professor": "Adriano Mamedes",
+        "sala": "B-002",
+        "slot": 1
+      }
+    ],
+    "cursoId": "dabc-dep-mat-i",
+    "id": "t12",
+    "materias": [
+      {
+        "id": "*259",
+        "nome": "Dependência de Matemática IA",
+        "nomeCurto": "Dependência de Matemática IA"
+      },
+      {
+        "id": "*260",
+        "nome": "Dependência de Matemática IB",
+        "nomeCurto": "DdMI"
+      }
+    ],
+    "nome": "DABC - DEP. MAT. I"
+  }
+}

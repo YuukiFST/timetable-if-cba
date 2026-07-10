@@ -1,0 +1,46 @@
+{
+  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "schemaVersion": 1,
+  "turma": {
+    "aulas": [
+      {
+        "diaSemana": 0,
+        "horaFim": "22:25",
+        "horaInicio": "17:05",
+        "materiaId": "*830",
+        "slot": 11
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "22:25",
+        "horaInicio": "17:05",
+        "materiaId": "*830",
+        "slot": 11
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "22:25",
+        "horaInicio": "18:50",
+        "materiaId": "*830",
+        "slot": 12
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "22:25",
+        "horaInicio": "17:05",
+        "materiaId": "*830",
+        "slot": 11
+      }
+    ],
+    "cursoId": "mulheres-mil-1",
+    "id": "t201",
+    "materias": [
+      {
+        "id": "*830",
+        "nome": "Mulheres Mil 1",
+        "nomeCurto": "Mulheres Mil 1"
+      }
+    ],
+    "nome": "Mulheres Mil 1"
+  }
+}

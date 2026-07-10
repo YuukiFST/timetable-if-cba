@@ -1,0 +1,131 @@
+{
+  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "schemaVersion": 1,
+  "turma": {
+    "aulas": [
+      {
+        "diaSemana": 0,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "-76",
+        "professor": "Marcos Gonçalves",
+        "sala": "B-206",
+        "slot": 12
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "-76",
+        "professor": "Marcos Gonçalves",
+        "sala": "B-202",
+        "slot": 12
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "-448",
+        "professor": "Ana Azevedo",
+        "sala": "DEEA E115 Lab. Elepot",
+        "slot": 14
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "*270",
+        "professor": "Angela Oliveira",
+        "sala": "DEEA E114 Lab. Informatica",
+        "slot": 12
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "*270",
+        "professor": "Angela Oliveira",
+        "sala": "DEEA E114 Lab. Informatica",
+        "slot": 14
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "*474",
+        "professor": "Gilson Lima",
+        "sala": "B-003",
+        "slot": 12
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "*474",
+        "professor": "Gilson Lima",
+        "sala": "B-208",
+        "slot": 14
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "*600",
+        "professor": "Sandro Santos",
+        "sala": "B-201",
+        "slot": 12
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "-407",
+        "professor": "Érica Figueiredo",
+        "sala": "DCOM",
+        "slot": 14
+      }
+    ],
+    "cursoId": "deea-eng-eletrica",
+    "id": "t98",
+    "materias": [
+      {
+        "id": "-76",
+        "nome": "Cálculo Diferencial e Integral I",
+        "nomeCurto": "Cálculo I",
+        "semestre": 2
+      },
+      {
+        "id": "*270",
+        "nome": "Des.Téc.Ambiente Computacional",
+        "nomeCurto": "Desenho CAD",
+        "semestre": 2
+      },
+      {
+        "id": "*474",
+        "nome": "Física Geral e Experimental I",
+        "nomeCurto": "FGeEI",
+        "semestre": 2
+      },
+      {
+        "id": "*600",
+        "nome": "Homem, Cultura e Sociedade",
+        "nomeCurto": "H.Cultura e Soc.",
+        "semestre": 2
+      },
+      {
+        "id": "-407",
+        "nome": "Linguagem de Programação",
+        "nomeCurto": "LdP",
+        "semestre": 2
+      },
+      {
+        "id": "-448",
+        "nome": "Materiais Elétricos",
+        "nomeCurto": "Materiais Elétricos",
+        "semestre": 2
+      }
+    ],
+    "nome": "DEEA Eng. Elétrica 2º Sem.",
+    "semestre": 2
+  }
+}

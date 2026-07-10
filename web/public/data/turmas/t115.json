@@ -1,0 +1,136 @@
+{
+  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "schemaVersion": 1,
+  "turma": {
+    "aulas": [
+      {
+        "diaSemana": 0,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "-379",
+        "professor": "Jenniffer Santos",
+        "slot": 12
+      },
+      {
+        "diaSemana": 0,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "*579",
+        "professor": "Dejenana, Fabricio Moraes",
+        "slot": 14
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "*864",
+        "professor": "Marli Spolidoro",
+        "slot": 12
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "*864",
+        "professor": "Marli Spolidoro",
+        "slot": 14
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "*907",
+        "professor": "Francielle Oliveira",
+        "slot": 12
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "*579",
+        "professor": "Dejenana, Fabricio Moraes",
+        "slot": 14
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "*404",
+        "professor": "Marli Spolidoro",
+        "slot": 12
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "-706",
+        "professor": "Ana Monlevade",
+        "slot": 14
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "-729",
+        "professor": "Julio Duarte",
+        "slot": 12
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "-729",
+        "professor": "Julio Duarte",
+        "slot": 14
+      }
+    ],
+    "cursoId": "dgh-7243-tur-bach",
+    "id": "t115",
+    "materias": [
+      {
+        "id": "-729",
+        "nome": "Consultoria em Turismo",
+        "nomeCurto": "Consultoria Tur",
+        "semestre": 6
+      },
+      {
+        "id": "*404",
+        "nome": "Espaços de Laser e Entretenimento",
+        "nomeCurto": "EdLeE",
+        "semestre": 6
+      },
+      {
+        "id": "*579",
+        "nome": "Gestão Financeira em Turismo",
+        "nomeCurto": "GFeT",
+        "semestre": 6
+      },
+      {
+        "id": "-379",
+        "nome": "LIBRAS",
+        "nomeCurto": "L",
+        "semestre": 6
+      },
+      {
+        "id": "*864",
+        "nome": "Orientação de Estágio Supervisionado",
+        "nomeCurto": "OdES",
+        "semestre": 6
+      },
+      {
+        "id": "*907",
+        "nome": "Políticas Públicas em Turismo",
+        "nomeCurto": "PPeT",
+        "semestre": 6
+      },
+      {
+        "id": "-706",
+        "nome": "Trabalho de Conclusão de Curso (TCC)",
+        "nomeCurto": "TCC",
+        "semestre": 6
+      }
+    ],
+    "nome": "DGH 7243.6N Tur. Bach.",
+    "semestre": 6
+  }
+}

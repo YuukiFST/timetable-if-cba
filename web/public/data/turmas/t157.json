@@ -1,0 +1,29 @@
+{
+  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "schemaVersion": 1,
+  "turma": {
+    "aulas": [
+      {
+        "diaSemana": 0,
+        "horaFim": "16:20",
+        "horaInicio": "14:30",
+        "materiaId": "-741",
+        "professor": "Luiz Canto",
+        "sala": "DINFRA",
+        "slot": 8
+      }
+    ],
+    "cursoId": "dinfra-2631-dependencia-agrim-integ",
+    "id": "t157",
+    "materias": [
+      {
+        "id": "-741",
+        "nome": "Ajustamento de Observações",
+        "nomeCurto": "Ajustamento de Observações",
+        "semestre": 2
+      }
+    ],
+    "nome": "DINFRA 2631.2 Dependencia Agrim. Integ.",
+    "semestre": 2
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "schemaVersion": 1,
+  "turma": {
+    "aulas": [
+      {
+        "diaSemana": 2,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "-529",
+        "professor": "Joicy Lara",
+        "sala": "DCOM",
+        "slot": 12
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "-529",
+        "professor": "Joicy Lara",
+        "sala": "DCOM",
+        "slot": 14
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "14:30",
+        "horaInicio": "13:00",
+        "materiaId": "-638",
+        "professor": "Rodrigo Junges",
+        "slot": 6
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "16:20",
+        "horaInicio": "14:30",
+        "materiaId": "-638",
+        "professor": "Rodrigo Junges",
+        "slot": 8
+      }
+    ],
+    "cursoId": "deea-6144-engenharia-de-controle-e-automacao-optativas",
+    "id": "t72",
+    "materias": [
+      {
+        "id": "-529",
+        "nome": "Programação Orientada a Objetos",
+        "nomeCurto": "POaO",
+        "semestre": 11
+      },
+      {
+        "id": "-638",
+        "nome": "Sistemas Embarcados",
+        "nomeCurto": "Sist. Embarcados",
+        "semestre": 11
+      }
+    ],
+    "nome": "DEEA 6144.11 Engenharia de Controle e Automação - OPTATIVAS",
+    "semestre": 11
+  }
+}

@@ -1,0 +1,164 @@
+{
+  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "schemaVersion": 1,
+  "turma": {
+    "aulas": [
+      {
+        "diaSemana": 0,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "-423",
+        "professor": "William Benedito",
+        "sala": "B-207",
+        "slot": 12
+      },
+      {
+        "diaSemana": 0,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "-558",
+        "professor": "Érica Marques",
+        "sala": "B-207",
+        "slot": 14
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "-322",
+        "professor": "Dejenana",
+        "sala": "B-207",
+        "slot": 12
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "-379",
+        "professor": "Jenniffer Santos",
+        "sala": "B-207",
+        "slot": 14
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "*879",
+        "professor": "Tatiane de Oliveira",
+        "sala": "B-207",
+        "slot": 12
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "-171",
+        "professor": "Breno Antunes",
+        "sala": "B-207",
+        "slot": 14
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "-387",
+        "professor": "Rosária Silva",
+        "sala": "B-207",
+        "slot": 12
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "*429",
+        "professor": "Jeferson Júnior",
+        "sala": "B-207",
+        "slot": 14
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "-161",
+        "professor": "Otavio Carvalho",
+        "sala": "B-207",
+        "slot": 12
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "-396",
+        "professor": "Edilene Campos",
+        "sala": "B-207",
+        "slot": 14
+      }
+    ],
+    "cursoId": "dgh-7643-secr-bach",
+    "id": "t133",
+    "materias": [
+      {
+        "id": "-161",
+        "nome": "Direito III",
+        "nomeCurto": "D III",
+        "semestre": 5
+      },
+      {
+        "id": "-171",
+        "nome": "Economia II",
+        "nomeCurto": "ECON II",
+        "semestre": 5
+      },
+      {
+        "id": "*429",
+        "nome": "Estatística I",
+        "nomeCurto": "Estatística I",
+        "semestre": 5
+      },
+      {
+        "id": "-322",
+        "nome": "Gestão Secretarial II",
+        "nomeCurto": "GS II",
+        "semestre": 5
+      },
+      {
+        "id": "-379",
+        "nome": "LIBRAS",
+        "nomeCurto": "L",
+        "semestre": 5
+      },
+      {
+        "id": "-387",
+        "nome": "Língua Espanhola V",
+        "nomeCurto": "LE V",
+        "semestre": 5
+      },
+      {
+        "id": "-396",
+        "nome": "Língua Inglesa V",
+        "nomeCurto": "LI V",
+        "semestre": 5
+      },
+      {
+        "id": "-423",
+        "nome": "Marketing",
+        "nomeCurto": "Mark",
+        "semestre": 5
+      },
+      {
+        "id": "*879",
+        "nome": "Pesquisa Aplicada ao Secretariado",
+        "nomeCurto": "PAS",
+        "semestre": 5
+      },
+      {
+        "id": "-558",
+        "nome": "Psicologia Organizacional",
+        "nomeCurto": "PO",
+        "semestre": 5
+      }
+    ],
+    "nome": "DGH 7643.5N Secr. Bach.",
+    "semestre": 5
+  }
+}

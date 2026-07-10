@@ -1,0 +1,146 @@
+{
+  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "schemaVersion": 1,
+  "turma": {
+    "aulas": [
+      {
+        "diaSemana": 0,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "*890",
+        "professor": "Subst. Turismo",
+        "sala": "B-217",
+        "slot": 12
+      },
+      {
+        "diaSemana": 0,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "*307",
+        "professor": "José Vinicius",
+        "sala": "B-217",
+        "slot": 14
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "-457",
+        "professor": "Ana Monlevade",
+        "sala": "B-217",
+        "slot": 12
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "*705",
+        "professor": "Edilene Campos",
+        "sala": "B-217",
+        "slot": 14
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "*426",
+        "professor": "Jeferson Júnior",
+        "sala": "B-217",
+        "slot": 12
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "-457",
+        "professor": "Ana Monlevade",
+        "sala": "B-217",
+        "slot": 14
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "*446",
+        "professor": "Simone Raquel",
+        "sala": "B-217",
+        "slot": 12
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "*705",
+        "professor": "Edilene Campos",
+        "sala": "B-217",
+        "slot": 14
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "*890",
+        "professor": "Subst. Turismo",
+        "sala": "B-217",
+        "slot": 12
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "-169",
+        "professor": "Breno Antunes",
+        "sala": "B-217",
+        "slot": 14
+      }
+    ],
+    "cursoId": "dgh-7243-tur-bach",
+    "id": "t114",
+    "materias": [
+      {
+        "id": "*307",
+        "nome": "Direito Aplicado ao Turismo II",
+        "nomeCurto": "DAaTI",
+        "semestre": 5
+      },
+      {
+        "id": "-169",
+        "nome": "Economia do Turismo",
+        "nomeCurto": "EcTur",
+        "semestre": 5
+      },
+      {
+        "id": "*426",
+        "nome": "Estatistica",
+        "nomeCurto": "Estatistica",
+        "semestre": 5
+      },
+      {
+        "id": "*446",
+        "nome": "Ética, Responsabilidade Sócio Ambiental",
+        "nomeCurto": "ÉRSA",
+        "semestre": 5
+      },
+      {
+        "id": "*705",
+        "nome": "Lingua Inglesa Aplicada ao Turismo",
+        "nomeCurto": "LIAaT",
+        "semestre": 5
+      },
+      {
+        "id": "-457",
+        "nome": "Métodos e Técnicas de Pesquisa em Turismo",
+        "nomeCurto": "MTP",
+        "semestre": 5
+      },
+      {
+        "id": "*890",
+        "nome": "Planejamento do Turismo IV",
+        "nomeCurto": "PdTI",
+        "semestre": 5
+      }
+    ],
+    "nome": "DGH 7243.5N Tur. Bach.",
+    "semestre": 5
+  }
+}

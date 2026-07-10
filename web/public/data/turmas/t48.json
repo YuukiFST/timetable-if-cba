@@ -1,0 +1,110 @@
+{
+  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "schemaVersion": 1,
+  "turma": {
+    "aulas": [
+      {
+        "diaSemana": 1,
+        "horaFim": "09:15",
+        "horaInicio": "07:00",
+        "materiaId": "*1224",
+        "professor": "Marilson O. Corrêa",
+        "sala": "DCOM",
+        "slot": 0
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "11:50",
+        "horaInicio": "09:35",
+        "materiaId": "*1224",
+        "professor": "Marilson O. Corrêa",
+        "sala": "DCOM",
+        "slot": 3
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "09:15",
+        "horaInicio": "07:45",
+        "materiaId": "*221",
+        "professor": "Marilson O. Corrêa",
+        "sala": "DCOM",
+        "slot": 1
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "11:05",
+        "horaInicio": "09:35",
+        "materiaId": "*221",
+        "professor": "Marilson O. Corrêa",
+        "sala": "DCOM",
+        "slot": 3
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "09:15",
+        "horaInicio": "07:00",
+        "materiaId": "*849",
+        "professor": "Ed Wilson Ferreira",
+        "sala": "DCOM",
+        "slot": 0
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "11:50",
+        "horaInicio": "09:35",
+        "materiaId": "*849",
+        "professor": "Ed Wilson Ferreira",
+        "sala": "DCOM",
+        "slot": 3
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "09:15",
+        "horaInicio": "07:45",
+        "materiaId": "*468",
+        "professor": "Livio Wogel",
+        "sala": "D-014",
+        "slot": 1
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "11:05",
+        "horaInicio": "09:35",
+        "materiaId": "*468",
+        "professor": "Livio Wogel",
+        "sala": "D-014",
+        "slot": 3
+      }
+    ],
+    "cursoId": "dcom-7441-tecnol-redes",
+    "id": "t48",
+    "materias": [
+      {
+        "id": "*221",
+        "nome": "Data Center (Opt.)",
+        "nomeCurto": "Data Center",
+        "semestre": 5
+      },
+      {
+        "id": "*468",
+        "nome": "Filosofia, Ética e Sociedade",
+        "nomeCurto": "Filos., Éti. e Soc.",
+        "semestre": 5
+      },
+      {
+        "id": "*849",
+        "nome": "Oficina de Implementação de Rede II",
+        "nomeCurto": "OdIdRI",
+        "semestre": 5
+      },
+      {
+        "id": "*1224",
+        "nome": "Tópicos Especiais",
+        "nomeCurto": "Tópicos Especiais",
+        "semestre": 5
+      }
+    ],
+    "nome": "DCOM 7441.5M Tecnol. Redes",
+    "semestre": 5
+  }
+}

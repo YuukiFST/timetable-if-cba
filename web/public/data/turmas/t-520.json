@@ -1,0 +1,149 @@
+{
+  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "schemaVersion": 1,
+  "turma": {
+    "aulas": [
+      {
+        "diaSemana": 0,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "-205",
+        "professor": "Elzio Metello",
+        "sala": "DEEA E118 Lab. Eletrônica",
+        "slot": 12
+      },
+      {
+        "diaSemana": 0,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "-205",
+        "professor": "Elzio Metello",
+        "sala": "DEEA E118 Lab. Eletrônica",
+        "slot": 14
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "*196",
+        "professor": "André Fonseca",
+        "sala": "DEEA E006 Lab. Máquinas Elétricas",
+        "slot": 12
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "*196",
+        "professor": "André Fonseca",
+        "sala": "DEEA E006 Lab. Máquinas Elétricas",
+        "slot": 14
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "-454",
+        "professor": "Armindo Neto",
+        "sala": "DEEA E105 Lab. Informática",
+        "slot": 12
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "*666",
+        "professor": "Paulo Morais",
+        "sala": "DEEA E111 Lab. Acion. Elétricos",
+        "slot": 12
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "*666",
+        "professor": "Matheus Silveira",
+        "sala": "DEEA E111 Lab. Acion. Elétricos",
+        "slot": 14
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "*793",
+        "professor": "Marco Castro",
+        "sala": "DEEA E118 Lab. Eletrônica",
+        "slot": 12
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "*793",
+        "professor": "Marco Castro",
+        "sala": "DEEA E118 Lab. Eletrônica",
+        "slot": 14
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "*1014",
+        "professor": "Fabiano Pádua",
+        "sala": "DEEA E114 Lab. Informatica",
+        "slot": 12
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "*1014",
+        "professor": "Fabiano Pádua",
+        "sala": "DEEA E114 Lab. Informatica",
+        "slot": 14
+      }
+    ],
+    "cursoId": "deea-eng-eletrica",
+    "id": "t-520",
+    "materias": [
+      {
+        "id": "*196",
+        "nome": "Conversão Eletromecânica de Energia",
+        "nomeCurto": "Conversão E.Energ.",
+        "semestre": 6
+      },
+      {
+        "id": "-205",
+        "nome": "Eletronica II",
+        "nomeCurto": "Elet II",
+        "semestre": 6
+      },
+      {
+        "id": "*666",
+        "nome": "Lab. de Instalaçoes Elétricas Residencial e Predial",
+        "nomeCurto": "Lab.Instalações Ele.",
+        "semestre": 6
+      },
+      {
+        "id": "*793",
+        "nome": "Med.Elétricas Instr.",
+        "nomeCurto": "M.Eletr.Instr.",
+        "semestre": 6
+      },
+      {
+        "id": "-454",
+        "nome": "Metodologia Científica",
+        "nomeCurto": "Metodologia Científica",
+        "semestre": 6
+      },
+      {
+        "id": "*1014",
+        "nome": "Projetos de Instalações Elétricas Residencial e Predial",
+        "nomeCurto": "Proj.IEResid.Predial",
+        "semestre": 6
+      }
+    ],
+    "nome": "DEEA Eng. Elétrica 6º Sem",
+    "semestre": 6
+  }
+}

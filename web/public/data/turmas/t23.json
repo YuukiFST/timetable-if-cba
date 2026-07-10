@@ -1,0 +1,164 @@
+{
+  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "schemaVersion": 1,
+  "turma": {
+    "aulas": [
+      {
+        "diaSemana": 0,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "*112",
+        "professor": "José Mauricio",
+        "sala": "B-004",
+        "slot": 12
+      },
+      {
+        "diaSemana": 0,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "*941",
+        "professor": "Jenniffer Santos",
+        "sala": "B-002",
+        "slot": 14
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "*1085",
+        "professor": "Priscila Morais",
+        "sala": "B-003",
+        "slot": 12
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "*1085",
+        "professor": "Priscila Morais",
+        "sala": "B-003",
+        "slot": 14
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "*335",
+        "professor": "Carlos Eduardo",
+        "sala": "B-002",
+        "slot": 12
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "*335",
+        "professor": "Carlos Eduardo",
+        "sala": "B-105",
+        "slot": 14
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "*736",
+        "professor": "Carlos Eduardo",
+        "sala": "B-004",
+        "slot": 12
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "*736",
+        "professor": "Carlos Eduardo",
+        "sala": "B-004",
+        "slot": 14
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "*408",
+        "professor": "Priscila Morais",
+        "sala": "B-002",
+        "slot": 12
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "*408",
+        "professor": "Priscila Morais",
+        "sala": "B-002",
+        "slot": 14
+      },
+      {
+        "diaSemana": 5,
+        "horaFim": "10:20",
+        "horaInicio": "08:30",
+        "materiaId": "*81",
+        "professor": "Kleber Bignarde",
+        "sala": "B-003",
+        "slot": 2
+      },
+      {
+        "diaSemana": 5,
+        "horaFim": "11:50",
+        "horaInicio": "10:20",
+        "materiaId": "*81",
+        "professor": "Kleber Bignarde",
+        "sala": "B-004",
+        "slot": 4
+      }
+    ],
+    "cursoId": "dabc-licenc-em-educ-fis",
+    "id": "t23",
+    "materias": [
+      {
+        "id": "*81",
+        "nome": "Atividades Acadêmicas Integradoras IV",
+        "nomeCurto": "At. Ac.Int. IV",
+        "semestre": 4
+      },
+      {
+        "id": "*112",
+        "nome": "Biomecânica",
+        "nomeCurto": "BioMec.",
+        "semestre": 4
+      },
+      {
+        "id": "*335",
+        "nome": "Educação Física Adaptada",
+        "nomeCurto": "Educ.Fis.Ad.",
+        "semestre": 4
+      },
+      {
+        "id": "*408",
+        "nome": "Esportes Coletivos",
+        "nomeCurto": "Esp.Coletivos",
+        "semestre": 4
+      },
+      {
+        "id": "*736",
+        "nome": "Lutas",
+        "nomeCurto": "L",
+        "semestre": 4
+      },
+      {
+        "id": "*941",
+        "nome": "Produção de Texto e Pesquisa Científica",
+        "nomeCurto": "P.Texto.P.Cient.",
+        "semestre": 4
+      },
+      {
+        "id": "*1085",
+        "nome": "Saúde e Nutrição",
+        "nomeCurto": "Saude Nutr.",
+        "semestre": 4
+      }
+    ],
+    "nome": "DABC - Licenc. em Educ. Fís. - 4o SEM.",
+    "semestre": 4
+  }
+}

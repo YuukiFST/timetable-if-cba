@@ -1,0 +1,29 @@
+{
+  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "schemaVersion": 1,
+  "turma": {
+    "aulas": [
+      {
+        "diaSemana": 1,
+        "horaFim": "17:50",
+        "horaInicio": "16:20",
+        "materiaId": "-454",
+        "professor": "Eloísa Azeredo",
+        "sala": "B-101",
+        "slot": 10
+      }
+    ],
+    "cursoId": "dinfra-0140063-eng-civil",
+    "id": "t191",
+    "materias": [
+      {
+        "id": "-454",
+        "nome": "Metodologia Científica",
+        "nomeCurto": "Metodologia Científica",
+        "semestre": 8
+      }
+    ],
+    "nome": "DINFRA 0140063.8N Eng. Civil",
+    "semestre": 8
+  }
+}

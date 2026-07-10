@@ -1,0 +1,279 @@
+{
+  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "schemaVersion": 1,
+  "turma": {
+    "aulas": [
+      {
+        "diaSemana": 0,
+        "horaFim": "08:30",
+        "horaInicio": "07:00",
+        "materiaId": "-283",
+        "professor": "Mauro França",
+        "sala": "B-207",
+        "slot": 0
+      },
+      {
+        "diaSemana": 0,
+        "horaFim": "10:20",
+        "horaInicio": "08:30",
+        "materiaId": "-565",
+        "professor": "Sonia Biaggi",
+        "sala": "B-207",
+        "slot": 2
+      },
+      {
+        "diaSemana": 0,
+        "horaFim": "11:50",
+        "horaInicio": "10:20",
+        "materiaId": "*732",
+        "professor": "Maurício Catharino",
+        "sala": "DCOM",
+        "slot": 4
+      },
+      {
+        "diaSemana": 0,
+        "horaFim": "15:15",
+        "horaInicio": "13:45",
+        "materiaId": "-381",
+        "professor": "Jussara Silva",
+        "sala": "B-007",
+        "slot": 7
+      },
+      {
+        "diaSemana": 0,
+        "horaFim": "17:05",
+        "horaInicio": "15:35",
+        "materiaId": "*1002",
+        "professor": "Pedro Clarindo",
+        "sala": "DCOM",
+        "slot": 9
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "08:30",
+        "horaInicio": "07:00",
+        "materiaId": "*732",
+        "professor": "Maurício Catharino",
+        "sala": "DCOM",
+        "slot": 0
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "10:20",
+        "horaInicio": "08:30",
+        "materiaId": "-262",
+        "professor": "Aldo Silva",
+        "sala": "DCOM",
+        "slot": 2
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "11:50",
+        "horaInicio": "10:20",
+        "materiaId": "-248",
+        "professor": "Luis Otávio",
+        "sala": "B-207",
+        "slot": 4
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "09:15",
+        "horaInicio": "07:00",
+        "materiaId": "*456",
+        "professor": "Aldo Silva",
+        "sala": "DCOM",
+        "slot": 0
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "11:05",
+        "horaInicio": "09:35",
+        "materiaId": "-428",
+        "professor": "Marcos Paulo",
+        "sala": "B-206",
+        "slot": 3
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "14:30",
+        "horaInicio": "13:00",
+        "materiaId": "*65",
+        "professor": "Claudio Dias",
+        "slot": 6
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "16:20",
+        "horaInicio": "14:30",
+        "materiaId": "-177",
+        "professor": "Sebastião G da Silva",
+        "slot": 8
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "09:15",
+        "horaInicio": "07:00",
+        "materiaId": "*985",
+        "professor": "Custódio Junior",
+        "sala": "DCOM",
+        "slot": 0
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "11:05",
+        "horaInicio": "09:35",
+        "materiaId": "-326",
+        "professor": "Kleber Corbalan",
+        "sala": "B-207",
+        "slot": 3
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "14:30",
+        "horaInicio": "13:00",
+        "materiaId": "-243",
+        "professor": "Juliano Santos",
+        "sala": "B-207",
+        "slot": 6
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "16:20",
+        "horaInicio": "14:30",
+        "materiaId": "-398",
+        "professor": "Raimone Fagundes",
+        "sala": "D-015",
+        "slot": 8
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "17:50",
+        "horaInicio": "16:20",
+        "materiaId": "-66",
+        "professor": "Roberto Campos",
+        "sala": "B-207",
+        "slot": 10
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "09:15",
+        "horaInicio": "07:45",
+        "materiaId": "-428",
+        "professor": "Marcos Paulo",
+        "sala": "B-207",
+        "slot": 1
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "11:05",
+        "horaInicio": "09:35",
+        "materiaId": "-398",
+        "professor": "Raimone Fagundes",
+        "sala": "B-002",
+        "slot": 3
+      }
+    ],
+    "cursoId": "dcom-7131-inform-integ",
+    "id": "t30",
+    "materias": [
+      {
+        "id": "*65",
+        "nome": "Arte",
+        "nomeCurto": "Arte",
+        "semestre": 1
+      },
+      {
+        "id": "-66",
+        "nome": "Biologia ",
+        "nomeCurto": "Bio",
+        "semestre": 1
+      },
+      {
+        "id": "-177",
+        "nome": "Educação Física",
+        "nomeCurto": "EF",
+        "semestre": 1
+      },
+      {
+        "id": "*456",
+        "nome": "Ferramentas de Informática E Organização Computacional",
+        "nomeCurto": "FdIEOC",
+        "semestre": 1
+      },
+      {
+        "id": "-243",
+        "nome": "Filosofia",
+        "nomeCurto": "FIL",
+        "semestre": 1
+      },
+      {
+        "id": "-248",
+        "nome": "Física",
+        "nomeCurto": "Física",
+        "semestre": 1
+      },
+      {
+        "id": "-262",
+        "nome": "Fundamentos da Computação",
+        "nomeCurto": "FdC",
+        "semestre": 1
+      },
+      {
+        "id": "-283",
+        "nome": "Geografia",
+        "nomeCurto": "G",
+        "semestre": 1
+      },
+      {
+        "id": "-326",
+        "nome": "História",
+        "nomeCurto": "HIST",
+        "semestre": 1
+      },
+      {
+        "id": "-381",
+        "nome": "Língua Espanhola",
+        "nomeCurto": "LE",
+        "semestre": 1
+      },
+      {
+        "id": "-398",
+        "nome": "Lingua Portuguesa",
+        "nomeCurto": "LP",
+        "semestre": 1
+      },
+      {
+        "id": "*732",
+        "nome": "Lógica Computacional e Algoritmos",
+        "nomeCurto": "LCeA",
+        "semestre": 1
+      },
+      {
+        "id": "-428",
+        "nome": "Matemática",
+        "nomeCurto": "Matemática",
+        "semestre": 1
+      },
+      {
+        "id": "*985",
+        "nome": "Projeto de Interface de Usuários",
+        "nomeCurto": "PdIdU",
+        "semestre": 1
+      },
+      {
+        "id": "*1002",
+        "nome": "Projeto Integrador I",
+        "nomeCurto": "Proj. I",
+        "semestre": 1
+      },
+      {
+        "id": "-565",
+        "nome": "Química",
+        "nomeCurto": "Química",
+        "semestre": 1
+      }
+    ],
+    "nome": "DCOM 7131.1B Inform. Integ.",
+    "semestre": 1
+  }
+}

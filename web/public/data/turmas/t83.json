@@ -1,0 +1,281 @@
+{
+  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "schemaVersion": 1,
+  "turma": {
+    "aulas": [
+      {
+        "diaSemana": 0,
+        "horaFim": "09:15",
+        "horaInicio": "07:45",
+        "materiaId": "-435",
+        "professor": "Juscenilton Vasconcelos",
+        "sala": "B-211",
+        "slot": 1
+      },
+      {
+        "diaSemana": 0,
+        "horaFim": "11:50",
+        "horaInicio": "09:35",
+        "materiaId": "-407",
+        "professor": "Constantino Dias",
+        "sala": "DEEA E114 Lab. Informatica",
+        "slot": 3
+      },
+      {
+        "diaSemana": 0,
+        "horaFim": "14:30",
+        "horaInicio": "13:00",
+        "materiaId": "-285",
+        "professor": "Roger Bartlo",
+        "sala": "B-211",
+        "slot": 6
+      },
+      {
+        "diaSemana": 0,
+        "horaFim": "16:20",
+        "horaInicio": "14:30",
+        "materiaId": "-177",
+        "professor": "Wagner Ribeiro",
+        "slot": 8
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "08:30",
+        "horaInicio": "07:00",
+        "materiaId": "-67",
+        "professor": "Rhavena Liotti",
+        "sala": "B-211",
+        "slot": 0
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "10:20",
+        "horaInicio": "08:30",
+        "materiaId": "-569",
+        "professor": "Eduardo Maciel",
+        "sala": "B-211",
+        "slot": 2
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "11:50",
+        "horaInicio": "10:20",
+        "materiaId": "-400",
+        "professor": "Edsonia de Souza Oliveira Melo",
+        "sala": "B-211",
+        "slot": 4
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "08:30",
+        "horaInicio": "07:00",
+        "materiaId": "-381",
+        "professor": "Rosemary Mendes",
+        "sala": "B-211",
+        "slot": 0
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "10:20",
+        "horaInicio": "08:30",
+        "materiaId": "-400",
+        "professor": "Edsonia de Souza Oliveira Melo",
+        "sala": "B-211",
+        "slot": 2
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "11:50",
+        "horaInicio": "10:20",
+        "materiaId": "-244",
+        "professor": "Francisco Rosa",
+        "sala": "B-211",
+        "slot": 4
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "08:30",
+        "horaInicio": "07:00",
+        "materiaId": "-256",
+        "professor": "William Jesus",
+        "sala": "B-211",
+        "slot": 0
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "10:20",
+        "horaInicio": "08:30",
+        "materiaId": "*65",
+        "slot": 2
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "11:50",
+        "horaInicio": "10:20",
+        "materiaId": "-329",
+        "professor": "Subst. Historia",
+        "sala": "B-211",
+        "slot": 4
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "09:15",
+        "horaInicio": "07:45",
+        "materiaId": "-435",
+        "professor": "Juscenilton Vasconcelos",
+        "sala": "B-211",
+        "slot": 1
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "11:50",
+        "horaInicio": "09:35",
+        "materiaId": "*365",
+        "professor": "Djalma Campos",
+        "sala": "DEEA E118 Lab. Eletrônica",
+        "slot": 3
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "11:50",
+        "horaInicio": "09:35",
+        "materiaId": "*966",
+        "professor": "Roney Pinhorati",
+        "sala": "DEEA E114 Lab. Informatica",
+        "slot": 3
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "14:30",
+        "horaInicio": "13:00",
+        "materiaId": "-201",
+        "professor": "Luis Pedroso",
+        "sala": "DEEA E101 Lab. Eletrônica",
+        "slot": 6
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "15:15",
+        "horaInicio": "13:00",
+        "materiaId": "*966",
+        "professor": "Roney Pinhorati",
+        "sala": "DEEA E114 Lab. Informatica",
+        "slot": 6
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "17:05",
+        "horaInicio": "14:30",
+        "materiaId": "*365",
+        "professor": "Djalma Campos",
+        "sala": "DEEA E118 Lab. Eletrônica",
+        "slot": 8
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "17:05",
+        "horaInicio": "15:35",
+        "materiaId": "-201",
+        "professor": "Luis Pedroso",
+        "sala": "DEEA E101 Lab. Eletrônica",
+        "slot": 9
+      }
+    ],
+    "cursoId": "deea-6631-eletronica-int",
+    "id": "t83",
+    "materias": [
+      {
+        "id": "*65",
+        "nome": "Arte",
+        "nomeCurto": "Arte",
+        "semestre": 1
+      },
+      {
+        "id": "-67",
+        "nome": "Biologia I",
+        "nomeCurto": "BIO I",
+        "semestre": 1
+      },
+      {
+        "id": "-177",
+        "nome": "Educação Física",
+        "nomeCurto": "EF",
+        "semestre": 1
+      },
+      {
+        "id": "*365",
+        "nome": "Eletrônica Analógica",
+        "nomeCurto": "Eletr. A.",
+        "semestre": 1
+      },
+      {
+        "id": "-201",
+        "nome": "Eletrônica Digital",
+        "nomeCurto": "Eletrônica Digital",
+        "semestre": 1
+      },
+      {
+        "id": "-244",
+        "nome": "Filosofia I",
+        "nomeCurto": "FIL I",
+        "semestre": 1
+      },
+      {
+        "id": "-256",
+        "nome": "Física I",
+        "nomeCurto": "Física I",
+        "semestre": 1
+      },
+      {
+        "id": "-285",
+        "nome": "Geografia I",
+        "nomeCurto": "GEO I",
+        "semestre": 1
+      },
+      {
+        "id": "-329",
+        "nome": "Historia I",
+        "nomeCurto": "HIST I",
+        "semestre": 1
+      },
+      {
+        "id": "-381",
+        "nome": "Língua Espanhola",
+        "nomeCurto": "LE",
+        "semestre": 1
+      },
+      {
+        "id": "-400",
+        "nome": "Língua Portuguesa I",
+        "nomeCurto": "Lingua Portuguesa I",
+        "semestre": 1
+      },
+      {
+        "id": "-407",
+        "nome": "Linguagem de Programação",
+        "nomeCurto": "LdP",
+        "semestre": 1
+      },
+      {
+        "id": "-435",
+        "nome": "Matemática I",
+        "nomeCurto": "Matemática I",
+        "semestre": 1
+      },
+      {
+        "id": "*966",
+        "nome": "Proj. Int. Desenho e Confecção de PCI",
+        "nomeCurto": "Desenho PCI",
+        "semestre": 1
+      },
+      {
+        "id": "-569",
+        "nome": "Química I",
+        "nomeCurto": "QUI I",
+        "semestre": 1
+      }
+    ],
+    "nome": "DEEA 6631.1A Eletrônica Int.",
+    "semestre": 1
+  }
+}

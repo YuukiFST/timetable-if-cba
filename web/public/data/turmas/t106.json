@@ -1,0 +1,113 @@
+{
+  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "schemaVersion": 1,
+  "turma": {
+    "aulas": [
+      {
+        "diaSemana": 0,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "*1058",
+        "professor": "Delcio Saldanha",
+        "sala": "DEEA E105 Lab. Informática",
+        "slot": 12
+      },
+      {
+        "diaSemana": 0,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "-314",
+        "professor": "Karine Assunção",
+        "sala": "B-201",
+        "slot": 14
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "*1237",
+        "professor": "Letícia Rodrigues",
+        "sala": "DEEA E103 Lab. Microcontroladores",
+        "slot": 12
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "*1237",
+        "professor": "Letícia Rodrigues",
+        "sala": "DEEA E103 Lab. Microcontroladores",
+        "slot": 14
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "*976",
+        "professor": "Ruan Carlos",
+        "sala": "DEEA E115 Lab. Elepot",
+        "slot": 12
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "*536",
+        "professor": "Paulo Lenço",
+        "sala": "B-202",
+        "slot": 12
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "-234",
+        "professor": "Marcos Vinicius",
+        "sala": "B-203",
+        "slot": 14
+      }
+    ],
+    "cursoId": "deea-eng-eletrica",
+    "id": "t106",
+    "materias": [
+      {
+        "id": "-234",
+        "nome": "Ética Profissional",
+        "nomeCurto": "ÉP",
+        "semestre": 10
+      },
+      {
+        "id": "*536",
+        "nome": "Geração Termelétrica e Bioenergia",
+        "nomeCurto": "GTerm.Bioen.",
+        "semestre": 10
+      },
+      {
+        "id": "-314",
+        "nome": "Gestão e Empreendedorismo",
+        "nomeCurto": "GE",
+        "semestre": 10
+      },
+      {
+        "id": "*976",
+        "nome": "Projeto de Energias Renováveis III",
+        "nomeCurto": "Proj.E.Reno.III",
+        "semestre": 10
+      },
+      {
+        "id": "*1058",
+        "nome": "Redes Inteligentes",
+        "nomeCurto": "Redes.Int.",
+        "semestre": 10
+      },
+      {
+        "id": "*1237",
+        "nome": "Transmissão de Energia Elétrica",
+        "nomeCurto": "Trans.E.Elétrica",
+        "semestre": 10
+      }
+    ],
+    "nome": "DEEA Eng. Elétrica 10º Sem",
+    "semestre": 10
+  }
+}

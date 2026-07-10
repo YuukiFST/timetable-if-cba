@@ -1,0 +1,152 @@
+{
+  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "schemaVersion": 1,
+  "turma": {
+    "aulas": [
+      {
+        "diaSemana": 0,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "-7",
+        "professor": "Danilo Herbert",
+        "sala": "B-216",
+        "slot": 12
+      },
+      {
+        "diaSemana": 0,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "-400",
+        "professor": "José Silva",
+        "sala": "B-216",
+        "slot": 14
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "-346",
+        "professor": "Rothschild Antunes",
+        "sala": "DCOM",
+        "slot": 12
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "-382",
+        "professor": "Rosária Silva",
+        "sala": "B-216",
+        "slot": 14
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "-674",
+        "professor": "Cláudia Marcele",
+        "sala": "B-216",
+        "slot": 12
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "-456",
+        "professor": "Francielle Oliveira",
+        "sala": "B-216",
+        "slot": 14
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "-400",
+        "professor": "José Silva",
+        "sala": "B-216",
+        "slot": 12
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "-674",
+        "professor": "Cláudia Marcele",
+        "sala": "B-216",
+        "slot": 14
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "-243",
+        "professor": "Francisco Rosa",
+        "sala": "B-216",
+        "slot": 12
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "-391",
+        "professor": "Thaynara Silva",
+        "sala": "B-216",
+        "slot": 14
+      }
+    ],
+    "cursoId": "dgh-7643-secr-bach",
+    "id": "t129",
+    "materias": [
+      {
+        "id": "-7",
+        "nome": "Administração I",
+        "nomeCurto": "ADM I",
+        "semestre": 1
+      },
+      {
+        "id": "-243",
+        "nome": "Filosofia",
+        "nomeCurto": "FIL",
+        "semestre": 1
+      },
+      {
+        "id": "-346",
+        "nome": "Informática I",
+        "nomeCurto": "INFO I",
+        "semestre": 1
+      },
+      {
+        "id": "-382",
+        "nome": "Língua Espanhola I",
+        "nomeCurto": "LEI",
+        "semestre": 1
+      },
+      {
+        "id": "-391",
+        "nome": "Língua Inglesa I",
+        "nomeCurto": "LII",
+        "semestre": 1
+      },
+      {
+        "id": "-400",
+        "nome": "Língua Portuguesa I",
+        "nomeCurto": "Lingua Portuguesa I",
+        "semestre": 1
+      },
+      {
+        "id": "-456",
+        "nome": "Metodologia de Pesquisa",
+        "nomeCurto": "Metod de P.",
+        "semestre": 1
+      },
+      {
+        "id": "-674",
+        "nome": "Técnicas Profissionais Secretariais I",
+        "nomeCurto": "TPS I",
+        "semestre": 1
+      }
+    ],
+    "nome": "DGH 7643.1N Secr. Bach.",
+    "semestre": 1
+  }
+}

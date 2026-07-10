@@ -1,0 +1,26 @@
+{
+  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "schemaVersion": 1,
+  "turma": {
+    "aulas": [
+      {
+        "diaSemana": 3,
+        "horaFim": "16:20",
+        "horaInicio": "14:30",
+        "materiaId": "*246",
+        "professor": "Liandra Cristine",
+        "slot": 8
+      }
+    ],
+    "cursoId": "dabc-dep-bio-ii",
+    "id": "t2",
+    "materias": [
+      {
+        "id": "*246",
+        "nome": "Dependência Biologia II",
+        "nomeCurto": "Dep. Bio. II"
+      }
+    ],
+    "nome": "DABC - DEP. BIO. II"
+  }
+}

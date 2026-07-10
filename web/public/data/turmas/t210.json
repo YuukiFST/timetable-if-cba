@@ -1,0 +1,47 @@
+{
+  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "schemaVersion": 1,
+  "turma": {
+    "aulas": [
+      {
+        "diaSemana": 3,
+        "horaFim": "19:40",
+        "horaInicio": "17:05",
+        "materiaId": "*1224",
+        "professor": "André Fonseca",
+        "slot": 11
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "15:15",
+        "horaInicio": "13:45",
+        "materiaId": "*1214",
+        "professor": "Tatiane de Oliveira, José Vinicius",
+        "slot": 7
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "17:05",
+        "horaInicio": "15:35",
+        "materiaId": "*1214",
+        "professor": "Tatiane de Oliveira, José Vinicius",
+        "slot": 9
+      }
+    ],
+    "cursoId": "profept-mestrado-02",
+    "id": "t210",
+    "materias": [
+      {
+        "id": "*1214",
+        "nome": "Teorias e Práticas do Ensino e Aprendizagem",
+        "nomeCurto": "TePdEeA"
+      },
+      {
+        "id": "*1224",
+        "nome": "Tópicos Especiais",
+        "nomeCurto": "Tópicos Especiais"
+      }
+    ],
+    "nome": "ProfEPT - Mestrado - 02"
+  }
+}

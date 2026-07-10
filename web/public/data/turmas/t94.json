@@ -1,0 +1,182 @@
+{
+  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "schemaVersion": 1,
+  "turma": {
+    "aulas": [
+      {
+        "diaSemana": 0,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "-150",
+        "professor": "Fabiano Pádua",
+        "sala": "DEEA E113 Lab. Informatica",
+        "slot": 12
+      },
+      {
+        "diaSemana": 0,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "-150",
+        "professor": "Fabiano Pádua",
+        "sala": "DEEA E113 Lab. Informatica",
+        "slot": 14
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "*636",
+        "professor": "Eudinei Silva",
+        "sala": "DEEA E014 Lab. Inst. Elétricas",
+        "slot": 12
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "*636",
+        "professor": "Eudinei Silva",
+        "sala": "DEEA E014 Lab. Inst. Elétricas",
+        "slot": 14
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "-201",
+        "professor": "Edelson Duarte",
+        "sala": "B-206",
+        "slot": 12
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "-411",
+        "professor": "Fabiano Pádua",
+        "sala": "B-206",
+        "slot": 14
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "*150",
+        "professor": "Robson Pereira",
+        "sala": "DEEA E103 Lab. Microcontroladores",
+        "slot": 12
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "*150",
+        "professor": "João Lira",
+        "sala": "DEEA E102 Lab. Eletrônica",
+        "slot": 12
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "*150",
+        "professor": "Robson Pereira",
+        "sala": "DEEA E103 Lab. Microcontroladores",
+        "slot": 14
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "*150",
+        "professor": "João Lira",
+        "sala": "DEEA E102 Lab. Eletrônica",
+        "slot": 14
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "*378",
+        "professor": "Paulo Morais",
+        "sala": "DEEA E102 Lab. Eletrônica",
+        "slot": 12
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "*378",
+        "professor": "Andrei Coimbra",
+        "sala": "DEEA E201 Lab. Automação Predial",
+        "slot": 12
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "*378",
+        "professor": "Paulo Morais",
+        "sala": "DEEA E102 Lab. Eletrônica",
+        "slot": 14
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "*378",
+        "professor": "Andrei Coimbra",
+        "sala": "DEEA E201 Lab. Automação Predial",
+        "slot": 14
+      },
+      {
+        "diaSemana": 5,
+        "horaFim": "11:50",
+        "horaInicio": "10:20",
+        "materiaId": "*937",
+        "professor": "Elzio Metello",
+        "slot": 4
+      }
+    ],
+    "cursoId": "deea-1n-automacao-industrial-subsquente",
+    "id": "t94",
+    "materias": [
+      {
+        "id": "*150",
+        "nome": "Circuitos Elétricos CC e CA",
+        "nomeCurto": "Circ. CC/CA"
+      },
+      {
+        "id": "-150",
+        "nome": "Desenho Técnico",
+        "nomeCurto": "Desenho Técnico"
+      },
+      {
+        "id": "-201",
+        "nome": "Eletrônica Digital",
+        "nomeCurto": "Eletrônica Digital"
+      },
+      {
+        "id": "*378",
+        "nome": "Eletrônica Industrial",
+        "nomeCurto": "Eletr. Ind."
+      },
+      {
+        "id": "*636",
+        "nome": "Instalação Elétrica Residencial e Predial",
+        "nomeCurto": "IEReP"
+      },
+      {
+        "id": "-411",
+        "nome": "Lógica de Programação ",
+        "nomeCurto": "LdP"
+      },
+      {
+        "id": "*937",
+        "nome": "Processos Industriais – (EaD)",
+        "nomeCurto": "Proc. Ind. (EaD)"
+      }
+    ],
+    "nome": "DEEA .1N Automação Industrial Subsquente"
+  }
+}

@@ -1,0 +1,140 @@
+{
+  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "schemaVersion": 1,
+  "turma": {
+    "aulas": [
+      {
+        "diaSemana": 0,
+        "horaFim": "15:15",
+        "horaInicio": "13:45",
+        "materiaId": "-507",
+        "professor": "José Martins",
+        "sala": "DEEA E101 Lab. Eletrônica",
+        "slot": 7
+      },
+      {
+        "diaSemana": 0,
+        "horaFim": "17:05",
+        "horaInicio": "15:35",
+        "materiaId": "-198",
+        "professor": "Elzio Metello",
+        "sala": "DEEA E101 Lab. Eletrônica",
+        "slot": 9
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "16:20",
+        "horaInicio": "14:30",
+        "materiaId": "-454",
+        "professor": "Cristovam Junior",
+        "sala": "B-211",
+        "slot": 8
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "17:50",
+        "horaInicio": "16:20",
+        "materiaId": "-198",
+        "professor": "Elzio Metello",
+        "sala": "DEEA E101 Lab. Eletrônica",
+        "slot": 10
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "16:20",
+        "horaInicio": "14:30",
+        "materiaId": "-360",
+        "professor": "Saulo Piereti",
+        "sala": "DEEA E201 Lab. Automação Predial",
+        "slot": 8
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "17:50",
+        "horaInicio": "16:20",
+        "materiaId": "-360",
+        "professor": "Saulo Piereti",
+        "sala": "DEEA E114 Lab. Informatica",
+        "slot": 10
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "14:30",
+        "horaInicio": "13:00",
+        "materiaId": "-460",
+        "professor": "Alberto Mascarenhas",
+        "sala": "DEEA E103 Lab. Microcontroladores",
+        "slot": 6
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "16:20",
+        "horaInicio": "14:30",
+        "materiaId": "-460",
+        "professor": "Alberto Mascarenhas",
+        "sala": "DEEA E103 Lab. Microcontroladores",
+        "slot": 8
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "17:50",
+        "horaInicio": "16:20",
+        "materiaId": "*208",
+        "professor": "Cristovam Junior",
+        "sala": "B-203",
+        "slot": 10
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "*208",
+        "professor": "Cristovam Junior",
+        "sala": "DEEA E113 Lab. Informatica",
+        "slot": 12
+      }
+    ],
+    "cursoId": "deea-6144-engenharia-de-controle-e-automacao",
+    "id": "t66",
+    "materias": [
+      {
+        "id": "*208",
+        "nome": "Curricularização da Extensão I",
+        "nomeCurto": "CdEI",
+        "semestre": 6
+      },
+      {
+        "id": "-198",
+        "nome": "Eletrônica Analógica II",
+        "nomeCurto": "EA II",
+        "semestre": 6
+      },
+      {
+        "id": "-360",
+        "nome": "Instalações Elétricas Industriais",
+        "nomeCurto": "IEI",
+        "semestre": 6
+      },
+      {
+        "id": "-454",
+        "nome": "Metodologia Científica",
+        "nomeCurto": "Metodologia Científica",
+        "semestre": 6
+      },
+      {
+        "id": "-460",
+        "nome": "Microcontroladores",
+        "nomeCurto": "Microcontroladores",
+        "semestre": 6
+      },
+      {
+        "id": "-507",
+        "nome": "Princípios de Comunicação",
+        "nomeCurto": "PdC",
+        "semestre": 6
+      }
+    ],
+    "nome": "DEEA 6144.6I Engenharia de Controle e Automação",
+    "semestre": 6
+  }
+}

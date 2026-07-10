@@ -1,0 +1,134 @@
+{
+  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "schemaVersion": 1,
+  "turma": {
+    "aulas": [
+      {
+        "diaSemana": 0,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "*878",
+        "professor": "Pedro Clarindo",
+        "sala": "DCOM",
+        "slot": 12
+      },
+      {
+        "diaSemana": 0,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "*878",
+        "professor": "Pedro Clarindo",
+        "sala": "DCOM",
+        "slot": 14
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "*945",
+        "professor": "Juliana Silva",
+        "sala": "DCOM",
+        "slot": 12
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "*945",
+        "professor": "Juliana Silva",
+        "sala": "DCOM",
+        "slot": 14
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "*963",
+        "professor": "Alberto Sales",
+        "sala": "DCOM",
+        "slot": 12
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "*963",
+        "professor": "Alberto Sales",
+        "sala": "DCOM",
+        "slot": 14
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "*851",
+        "professor": "Rafael Rocha",
+        "sala": "DCOM",
+        "slot": 12
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "*851",
+        "professor": "Rafael Rocha",
+        "sala": "DCOM",
+        "slot": 14
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "*468",
+        "professor": "Josadaque Martins",
+        "sala": "B-105",
+        "slot": 12
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "*468",
+        "professor": "Josadaque Martins",
+        "sala": "B-105",
+        "slot": 14
+      }
+    ],
+    "cursoId": "dcom-7342-tecnol-sis-internet",
+    "id": "t41",
+    "materias": [
+      {
+        "id": "*468",
+        "nome": "Filosofia, Ética e Sociedade",
+        "nomeCurto": "Filos., Éti. e Soc.",
+        "semestre": 4
+      },
+      {
+        "id": "*851",
+        "nome": "Oficina de Prática Extensionista I",
+        "nomeCurto": "Oficina I",
+        "semestre": 4
+      },
+      {
+        "id": "*878",
+        "nome": "Persistência Orientada a Objetos",
+        "nomeCurto": "POaO",
+        "semestre": 4
+      },
+      {
+        "id": "*945",
+        "nome": "Progamação de Banco de Dados",
+        "nomeCurto": "PdBdD",
+        "semestre": 4
+      },
+      {
+        "id": "*963",
+        "nome": "Programação web back-end",
+        "nomeCurto": "Pwb",
+        "semestre": 4
+      }
+    ],
+    "nome": "DCOM 7342.4N Tecnol. Sis. Internet.",
+    "semestre": 4
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "schemaVersion": 1,
+  "turma": {
+    "aulas": [
+      {
+        "diaSemana": 0,
+        "horaFim": "08:30",
+        "horaInicio": "07:00",
+        "materiaId": "*256",
+        "professor": "Lucas Café",
+        "sala": "B-113",
+        "slot": 0
+      }
+    ],
+    "cursoId": "dabc-dep-hist-i",
+    "id": "t8",
+    "materias": [
+      {
+        "id": "*256",
+        "nome": "Dependência de História I",
+        "nomeCurto": "Dependência de História I"
+      }
+    ],
+    "nome": "DABC - DEP. HIST. I"
+  }
+}

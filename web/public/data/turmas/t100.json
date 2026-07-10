@@ -1,0 +1,140 @@
+{
+  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "schemaVersion": 1,
+  "turma": {
+    "aulas": [
+      {
+        "diaSemana": 0,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "-78",
+        "professor": "Jefferson Bento",
+        "sala": "B-203",
+        "slot": 12
+      },
+      {
+        "diaSemana": 0,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "-78",
+        "professor": "Jefferson Bento",
+        "sala": "B-203",
+        "slot": 14
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "-196",
+        "professor": "Ana Azevedo",
+        "sala": "DEEA E105 Lab. Informática",
+        "slot": 12
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "-449",
+        "professor": "Carlos Henrique",
+        "sala": "B-208",
+        "slot": 14
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "-508",
+        "professor": "Luis Paoli",
+        "sala": "B-201",
+        "slot": 12
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "-196",
+        "professor": "Ana Azevedo",
+        "sala": "DEEA E105 Lab. Informática",
+        "slot": 14
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "*153",
+        "professor": "Andrei Coimbra",
+        "sala": "B-206",
+        "slot": 12
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "*153",
+        "professor": "Andrei Coimbra",
+        "sala": "B-206",
+        "slot": 14
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "*668",
+        "professor": "Guilherme Seixas",
+        "sala": "DEEA E107 Lab. Circuitos Elétricos",
+        "slot": 12
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "*668",
+        "professor": "Guilherme Seixas",
+        "sala": "DEEA E107 Lab. Circuitos Elétricos",
+        "slot": 14
+      }
+    ],
+    "cursoId": "deea-eng-eletrica",
+    "id": "t100",
+    "materias": [
+      {
+        "id": "-78",
+        "nome": "Cálculo Diferencial e Integral III",
+        "nomeCurto": "Cálculo III",
+        "semestre": 4
+      },
+      {
+        "id": "*153",
+        "nome": "Circuitos Elétricos II",
+        "nomeCurto": "CE-II",
+        "semestre": 4
+      },
+      {
+        "id": "-196",
+        "nome": "Eletromagnetismo",
+        "nomeCurto": "Etromag",
+        "semestre": 4
+      },
+      {
+        "id": "*668",
+        "nome": "Laboratório de Circuitos Elétricos II",
+        "nomeCurto": "Lab.C.Eletr.II",
+        "semestre": 4
+      },
+      {
+        "id": "-449",
+        "nome": "Mecânica dos Fluidos",
+        "nomeCurto": "Mec.Fluidos",
+        "semestre": 4
+      },
+      {
+        "id": "-508",
+        "nome": "Probabilidade e Estatística",
+        "nomeCurto": "Probabilidade e Estatística",
+        "semestre": 4
+      }
+    ],
+    "nome": "DEEA Eng. Elétrica 4º Sem",
+    "semestre": 4
+  }
+}

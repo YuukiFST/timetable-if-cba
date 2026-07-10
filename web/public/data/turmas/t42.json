@@ -1,0 +1,110 @@
+{
+  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "schemaVersion": 1,
+  "turma": {
+    "aulas": [
+      {
+        "diaSemana": 1,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "*852",
+        "professor": "Paulo Lopes",
+        "sala": "DCOM",
+        "slot": 12
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "*852",
+        "professor": "Paulo Lopes",
+        "sala": "DCOM",
+        "slot": 14
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "*959",
+        "professor": "Evandro Freiberger",
+        "sala": "DCOM",
+        "slot": 12
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "*959",
+        "professor": "Evandro Freiberger",
+        "sala": "DCOM",
+        "slot": 14
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "-530",
+        "professor": "Alberto Sales",
+        "sala": "DCOM",
+        "slot": 12
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "-530",
+        "professor": "Alberto Sales",
+        "sala": "DCOM",
+        "slot": 14
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "*991",
+        "professor": "Orlando Júnior",
+        "sala": "DCOM",
+        "slot": 12
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "*991",
+        "professor": "Orlando Júnior",
+        "sala": "DCOM",
+        "slot": 14
+      }
+    ],
+    "cursoId": "dcom-7342-tecnol-sis-internet",
+    "id": "t42",
+    "materias": [
+      {
+        "id": "*852",
+        "nome": "Oficina de Prática Extensionista II",
+        "nomeCurto": "Oficina II",
+        "semestre": 5
+      },
+      {
+        "id": "*959",
+        "nome": "Programação Orientada a Serviços",
+        "nomeCurto": "Progr. Orient. a Serv.",
+        "semestre": 5
+      },
+      {
+        "id": "-530",
+        "nome": "Programação p/ Dispositivos Móveis",
+        "nomeCurto": "Prog. Disp. Móveis",
+        "semestre": 5
+      },
+      {
+        "id": "*991",
+        "nome": "Projeto de Software",
+        "nomeCurto": "PdS",
+        "semestre": 5
+      }
+    ],
+    "nome": "DCOM 7342.5N Tecnol. Sis. Internet.",
+    "semestre": 5
+  }
+}

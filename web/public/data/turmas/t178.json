@@ -1,0 +1,43 @@
+{
+  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "schemaVersion": 1,
+  "turma": {
+    "aulas": [
+      {
+        "diaSemana": 0,
+        "horaFim": "22:25",
+        "horaInicio": "18:50",
+        "materiaId": "*532",
+        "professor": "Luiz Figueiredo",
+        "sala": "DINFRA",
+        "slot": 12
+      },
+      {
+        "diaSemana": 5,
+        "horaFim": "10:20",
+        "horaInicio": "08:30",
+        "materiaId": "*798",
+        "professor": "Angela Rocha",
+        "slot": 2
+      }
+    ],
+    "cursoId": "dinfra-2841-tecnol-cont-obr",
+    "id": "t178",
+    "materias": [
+      {
+        "id": "*532",
+        "nome": "Geotecnia de Campo",
+        "nomeCurto": "Geotecnia de Campo",
+        "semestre": 4
+      },
+      {
+        "id": "*798",
+        "nome": "Metodologia Científica EAD",
+        "nomeCurto": "Metodologia Científica EAD",
+        "semestre": 4
+      }
+    ],
+    "nome": "DINFRA 2841.4N Tecnol. Cont. Obr.",
+    "semestre": 4
+  }
+}

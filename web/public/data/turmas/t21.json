@@ -1,0 +1,164 @@
+{
+  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "schemaVersion": 1,
+  "turma": {
+    "aulas": [
+      {
+        "diaSemana": 0,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "*300",
+        "professor": "Eloísa Azeredo",
+        "sala": "B-209",
+        "slot": 12
+      },
+      {
+        "diaSemana": 0,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "*300",
+        "professor": "Eloísa Azeredo",
+        "sala": "B-209",
+        "slot": 14
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "*83",
+        "professor": "Elisângela Almeida",
+        "sala": "B-209",
+        "slot": 12
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "*83",
+        "professor": "Elisângela Almeida",
+        "sala": "B-209",
+        "slot": 14
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "*60",
+        "professor": "Priscila Morais",
+        "sala": "B-209",
+        "slot": 12
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "*60",
+        "professor": "Priscila Morais",
+        "sala": "B-209",
+        "slot": 14
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "*794",
+        "professor": "José Mauricio",
+        "sala": "B-209",
+        "slot": 12
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "*1160",
+        "professor": "José Mauricio",
+        "sala": "B-209",
+        "slot": 14
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "*480",
+        "professor": "José Mauricio",
+        "sala": "B-209",
+        "slot": 12
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "*480",
+        "professor": "José Mauricio",
+        "sala": "B-209",
+        "slot": 14
+      },
+      {
+        "diaSemana": 5,
+        "horaFim": "08:30",
+        "horaInicio": "07:00",
+        "materiaId": "*79",
+        "professor": "Lethícia Castilhos",
+        "sala": "B-209",
+        "slot": 0
+      },
+      {
+        "diaSemana": 5,
+        "horaFim": "10:20",
+        "horaInicio": "08:30",
+        "materiaId": "*79",
+        "professor": "Lethícia Castilhos",
+        "sala": "B-209",
+        "slot": 2
+      }
+    ],
+    "cursoId": "dabc-licenc-em-educ-fis",
+    "id": "t21",
+    "materias": [
+      {
+        "id": "*60",
+        "nome": "Aprendizagem Motora",
+        "nomeCurto": "AM",
+        "semestre": 2
+      },
+      {
+        "id": "*79",
+        "nome": "Atividades Acadêmicas Integradoras II",
+        "nomeCurto": "AAI",
+        "semestre": 2
+      },
+      {
+        "id": "*83",
+        "nome": "Atividades Ritmicas, Expressivas e Dança",
+        "nomeCurto": "AREeD",
+        "semestre": 2
+      },
+      {
+        "id": "*300",
+        "nome": "Didática",
+        "nomeCurto": "D",
+        "semestre": 2
+      },
+      {
+        "id": "*480",
+        "nome": "Fisiologia do Exercício",
+        "nomeCurto": "FdE",
+        "semestre": 2
+      },
+      {
+        "id": "*794",
+        "nome": "Medidas e Avaliação",
+        "nomeCurto": "MeA",
+        "semestre": 2
+      },
+      {
+        "id": "*1160",
+        "nome": "Socorros e Urgência",
+        "nomeCurto": "SeU",
+        "semestre": 2
+      }
+    ],
+    "nome": "DABC - Licenc. em Educ. Fís. - 2o SEM.",
+    "semestre": 2
+  }
+}

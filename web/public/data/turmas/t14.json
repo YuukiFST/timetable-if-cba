@@ -1,0 +1,27 @@
+{
+  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "schemaVersion": 1,
+  "turma": {
+    "aulas": [
+      {
+        "diaSemana": 4,
+        "horaFim": "16:20",
+        "horaInicio": "13:00",
+        "materiaId": "*262",
+        "professor": "Daniel Cintra",
+        "sala": "B-211",
+        "slot": 6
+      }
+    ],
+    "cursoId": "dabc-dep-mat-iii",
+    "id": "t14",
+    "materias": [
+      {
+        "id": "*262",
+        "nome": "Dependência de Matemática III",
+        "nomeCurto": "Dependência de Matemática III"
+      }
+    ],
+    "nome": "DABC - DEP. MAT. III"
+  }
+}

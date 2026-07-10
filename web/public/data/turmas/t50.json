@@ -1,0 +1,146 @@
+{
+  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "schemaVersion": 1,
+  "turma": {
+    "aulas": [
+      {
+        "diaSemana": 0,
+        "horaFim": "14:30",
+        "horaInicio": "13:00",
+        "materiaId": "-22",
+        "professor": "Pedro Clarindo",
+        "sala": "DCOM",
+        "slot": 6
+      },
+      {
+        "diaSemana": 0,
+        "horaFim": "16:20",
+        "horaInicio": "14:30",
+        "materiaId": "*290",
+        "professor": "Paulo Lenço",
+        "sala": "DCOM",
+        "slot": 8
+      },
+      {
+        "diaSemana": 0,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "-167",
+        "professor": "Fabricio Moraes",
+        "sala": "B-201",
+        "slot": 12
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "15:15",
+        "horaInicio": "13:45",
+        "materiaId": "-22",
+        "professor": "Pedro Clarindo",
+        "sala": "DCOM",
+        "slot": 7
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "17:05",
+        "horaInicio": "15:35",
+        "materiaId": "*126",
+        "professor": "Francisco Silva",
+        "sala": "B-105",
+        "slot": 9
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "19:40",
+        "horaInicio": "17:05",
+        "materiaId": "*126",
+        "professor": "Francisco Silva",
+        "sala": "B-105",
+        "slot": 11
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "16:20",
+        "horaInicio": "14:30",
+        "materiaId": "*492",
+        "professor": "Marcos Paulo",
+        "sala": "B-201",
+        "slot": 8
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "17:50",
+        "horaInicio": "16:20",
+        "materiaId": "*1040",
+        "professor": "Cláudia Nehme",
+        "sala": "B-201",
+        "slot": 10
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "16:20",
+        "horaInicio": "14:30",
+        "materiaId": "*492",
+        "professor": "Marcos Paulo",
+        "sala": "B-219",
+        "slot": 8
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "17:50",
+        "horaInicio": "16:20",
+        "materiaId": "*656",
+        "professor": "Valtemir Nascimento",
+        "sala": "DCOM",
+        "slot": 10
+      }
+    ],
+    "cursoId": "dcom-7844-engenh-comput",
+    "id": "t50",
+    "materias": [
+      {
+        "id": "-22",
+        "nome": "Algoritmos I",
+        "nomeCurto": "AI",
+        "semestre": 1
+      },
+      {
+        "id": "*126",
+        "nome": "Calculo Vetorial e Geometria Analítica",
+        "nomeCurto": "Cal. VGA",
+        "semestre": 1
+      },
+      {
+        "id": "*290",
+        "nome": "Desenho Técnico em Ambiente Computacional",
+        "nomeCurto": "DTeAC",
+        "semestre": 1
+      },
+      {
+        "id": "-167",
+        "nome": "Economia ",
+        "nomeCurto": "ECON",
+        "semestre": 1
+      },
+      {
+        "id": "*492",
+        "nome": "Fundamentos da Matemática",
+        "nomeCurto": "FdM",
+        "semestre": 1
+      },
+      {
+        "id": "*656",
+        "nome": "Introdução à Engenharia da Computação",
+        "nomeCurto": "IàEdC",
+        "semestre": 1
+      },
+      {
+        "id": "*1040",
+        "nome": "Química Geral e Ciência dos Materiais",
+        "nomeCurto": "QGeCdM",
+        "semestre": 1
+      }
+    ],
+    "nome": "DCOM 7844.1 Engenh. Comput.",
+    "semestre": 1
+  }
+}

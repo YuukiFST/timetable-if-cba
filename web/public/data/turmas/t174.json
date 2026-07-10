@@ -1,0 +1,29 @@
+{
+  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "schemaVersion": 1,
+  "turma": {
+    "aulas": [
+      {
+        "diaSemana": 2,
+        "horaFim": "22:25",
+        "horaInicio": "18:50",
+        "materiaId": "-546",
+        "professor": "Raquel Louzada, Weverton Costa",
+        "sala": "DINFRA",
+        "slot": 12
+      }
+    ],
+    "cursoId": "dinfra-2641-tecnol-geop",
+    "id": "t174",
+    "materias": [
+      {
+        "id": "-546",
+        "nome": "Projeto Integrador II",
+        "nomeCurto": "Proj.Int. II",
+        "semestre": 6
+      }
+    ],
+    "nome": "DINFRA 2641.6N Tecnol. Geop.",
+    "semestre": 6
+  }
+}

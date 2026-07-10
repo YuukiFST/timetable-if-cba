@@ -1,0 +1,164 @@
+{
+  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "schemaVersion": 1,
+  "turma": {
+    "aulas": [
+      {
+        "diaSemana": 0,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "-160",
+        "professor": "José Vinicius",
+        "sala": "B-215",
+        "slot": 12
+      },
+      {
+        "diaSemana": 0,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "-434",
+        "professor": "Jeferson Júnior",
+        "sala": "B-215",
+        "slot": 14
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "-587",
+        "professor": "Francielle Oliveira",
+        "sala": "B-215",
+        "slot": 12
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "-10",
+        "professor": "Danilo Herbert",
+        "sala": "B-215",
+        "slot": 14
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "-395",
+        "professor": "Edilene Campos",
+        "sala": "B-215",
+        "slot": 12
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "-321",
+        "professor": "Cláudia Marcele",
+        "sala": "B-215",
+        "slot": 14
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "-122",
+        "professor": "Dejenana",
+        "sala": "B-215",
+        "slot": 12
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "-386",
+        "professor": "Rosária Silva",
+        "sala": "B-215",
+        "slot": 14
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "-170",
+        "professor": "Breno Antunes",
+        "sala": "B-215",
+        "slot": 12
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "*420",
+        "professor": "Marcia Fernandes",
+        "sala": "B-215",
+        "slot": 14
+      }
+    ],
+    "cursoId": "dgh-7643-secr-bach",
+    "id": "t132",
+    "materias": [
+      {
+        "id": "-10",
+        "nome": "Administração IV",
+        "nomeCurto": "ADM IV",
+        "semestre": 4
+      },
+      {
+        "id": "-122",
+        "nome": "Contabilidade III",
+        "nomeCurto": "CONT III",
+        "semestre": 4
+      },
+      {
+        "id": "-160",
+        "nome": "Direito II",
+        "nomeCurto": "D II",
+        "semestre": 4
+      },
+      {
+        "id": "-170",
+        "nome": "Economia I",
+        "nomeCurto": "ECON I",
+        "semestre": 4
+      },
+      {
+        "id": "*420",
+        "nome": "Estágio Supervisionado",
+        "nomeCurto": "ES",
+        "semestre": 4
+      },
+      {
+        "id": "-321",
+        "nome": "Gestão Secretarial I",
+        "nomeCurto": "GS I",
+        "semestre": 4
+      },
+      {
+        "id": "-386",
+        "nome": "Língua Espanhola IV",
+        "nomeCurto": "LE IV",
+        "semestre": 4
+      },
+      {
+        "id": "-395",
+        "nome": "Língua Inglesa IV",
+        "nomeCurto": "LII",
+        "semestre": 4
+      },
+      {
+        "id": "-434",
+        "nome": "Matemática Financeira II",
+        "nomeCurto": "MAT F II",
+        "semestre": 4
+      },
+      {
+        "id": "-587",
+        "nome": "Relações Humanas no Trabalho",
+        "nomeCurto": "RHT",
+        "semestre": 4
+      }
+    ],
+    "nome": "DGH 7643.4N Secr. Bach.",
+    "semestre": 4
+  }
+}

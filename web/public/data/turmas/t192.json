@@ -1,0 +1,112 @@
+{
+  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "schemaVersion": 1,
+  "turma": {
+    "aulas": [
+      {
+        "diaSemana": 0,
+        "horaFim": "22:25",
+        "horaInicio": "18:50",
+        "materiaId": "*424",
+        "professor": "Vinicius Barros",
+        "sala": "DINFRA",
+        "slot": 12
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "22:25",
+        "horaInicio": "18:50",
+        "materiaId": "-702",
+        "professor": "Fernanda Santos",
+        "sala": "B-104",
+        "slot": 12
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "22:25",
+        "horaInicio": "18:50",
+        "materiaId": "*289",
+        "professor": "Adelson Ribeiro",
+        "sala": "DINFRA",
+        "slot": 12
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "*808",
+        "professor": "Mychelle Sato",
+        "slot": 12
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "*871",
+        "professor": "Valery Pires",
+        "sala": "B-002",
+        "slot": 14
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "22:25",
+        "horaInicio": "18:50",
+        "materiaId": "-445",
+        "professor": "Alan Sato",
+        "sala": "DINFRA",
+        "slot": 12
+      },
+      {
+        "diaSemana": 5,
+        "horaFim": "10:20",
+        "horaInicio": "08:30",
+        "materiaId": "*871",
+        "professor": "Valery Pires",
+        "sala": "B-104",
+        "slot": 2
+      }
+    ],
+    "cursoId": "dinfra-10133113-edific-subs",
+    "id": "t192",
+    "materias": [
+      {
+        "id": "*289",
+        "nome": "Desenho Técnico e Arquitetônico",
+        "nomeCurto": "DTeA",
+        "semestre": 1
+      },
+      {
+        "id": "*424",
+        "nome": "Estática das Estruturas",
+        "nomeCurto": "EdE",
+        "semestre": 1
+      },
+      {
+        "id": "-445",
+        "nome": "Materiais de Construção I",
+        "nomeCurto": "MCI",
+        "semestre": 1
+      },
+      {
+        "id": "*808",
+        "nome": "Modelagem da Informação da Construção",
+        "nomeCurto": "Modelagem da Informação da Construção",
+        "semestre": 1
+      },
+      {
+        "id": "*871",
+        "nome": "Patologia",
+        "nomeCurto": "PC II",
+        "semestre": 1
+      },
+      {
+        "id": "-702",
+        "nome": "Topografia",
+        "nomeCurto": "Topografia",
+        "semestre": 1
+      }
+    ],
+    "nome": "DINFRA 10133113.1N Edific. Subs.",
+    "semestre": 1
+  }
+}

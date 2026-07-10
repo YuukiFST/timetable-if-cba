@@ -1,0 +1,42 @@
+{
+  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "schemaVersion": 1,
+  "turma": {
+    "aulas": [
+      {
+        "diaSemana": 3,
+        "horaFim": "17:05",
+        "horaInicio": "13:00",
+        "materiaId": "*82",
+        "professor": "Ronan Martins, Jefferson Bento",
+        "slot": 6
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "07:45",
+        "horaInicio": "07:00",
+        "materiaId": "*82",
+        "professor": "Ronan Martins, Jefferson Bento",
+        "slot": 0
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "11:50",
+        "horaInicio": "07:45",
+        "materiaId": "*82",
+        "professor": "Ronan Martins, Jefferson Bento",
+        "slot": 1
+      }
+    ],
+    "cursoId": "profept-mestrado-05",
+    "id": "t-525",
+    "materias": [
+      {
+        "id": "*82",
+        "nome": "Atividades ProfEPT",
+        "nomeCurto": "Atividades ProfEPT"
+      }
+    ],
+    "nome": "ProfEPT - Mestrado - 05"
+  }
+}

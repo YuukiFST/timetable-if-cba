@@ -1,0 +1,238 @@
+{
+  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "schemaVersion": 1,
+  "turma": {
+    "aulas": [
+      {
+        "diaSemana": 0,
+        "horaFim": "08:30",
+        "horaInicio": "07:00",
+        "materiaId": "-177",
+        "professor": "Sebastião G da Silva",
+        "slot": 0
+      },
+      {
+        "diaSemana": 0,
+        "horaFim": "10:20",
+        "horaInicio": "08:30",
+        "materiaId": "-248",
+        "professor": "Haline Josefa",
+        "sala": "B-213",
+        "slot": 2
+      },
+      {
+        "diaSemana": 0,
+        "horaFim": "11:50",
+        "horaInicio": "10:20",
+        "materiaId": "-66",
+        "professor": "Fabiane Batista",
+        "sala": "B-213",
+        "slot": 4
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "09:15",
+        "horaInicio": "07:00",
+        "materiaId": "*297",
+        "professor": "Antonio Gonçalves",
+        "sala": "DCOM",
+        "slot": 0
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "11:50",
+        "horaInicio": "09:35",
+        "materiaId": "*296",
+        "professor": "Pedro Clarindo",
+        "sala": "DCOM",
+        "slot": 3
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "16:20",
+        "horaInicio": "13:45",
+        "materiaId": "-428",
+        "professor": "Marcos Gonçalves",
+        "sala": "B-216",
+        "slot": 7
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "17:50",
+        "horaInicio": "16:20",
+        "materiaId": "*1005",
+        "professor": "Pedro Clarindo",
+        "sala": "DCOM",
+        "slot": 10
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "08:30",
+        "horaInicio": "07:00",
+        "materiaId": "-326",
+        "professor": "Manuela Arruda",
+        "sala": "D-014",
+        "slot": 0
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "10:20",
+        "horaInicio": "08:30",
+        "materiaId": "-565",
+        "professor": "Cláudia Nehme",
+        "sala": "D-014",
+        "slot": 2
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "11:50",
+        "horaInicio": "10:20",
+        "materiaId": "-392",
+        "professor": "João Freitas",
+        "sala": "DCOM",
+        "slot": 4
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "08:30",
+        "horaInicio": "07:00",
+        "materiaId": "-283",
+        "professor": "Marcelo Barbosa",
+        "sala": "D-014",
+        "slot": 0
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "10:20",
+        "horaInicio": "08:30",
+        "materiaId": "-206",
+        "professor": "William Benedito",
+        "sala": "D-014",
+        "slot": 2
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "11:50",
+        "horaInicio": "10:20",
+        "materiaId": "-646",
+        "professor": "Christiany Fonseca",
+        "sala": "D-014",
+        "slot": 4
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "09:15",
+        "horaInicio": "07:00",
+        "materiaId": "-398",
+        "professor": "Walkyria Mandu",
+        "sala": "B-206",
+        "slot": 0
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "11:50",
+        "horaInicio": "09:35",
+        "materiaId": "-525",
+        "professor": "Custódio Junior",
+        "sala": "DCOM",
+        "slot": 3
+      }
+    ],
+    "cursoId": "dcom-7131-inform-integ",
+    "id": "t37",
+    "materias": [
+      {
+        "id": "-66",
+        "nome": "Biologia ",
+        "nomeCurto": "Bio",
+        "semestre": 3
+      },
+      {
+        "id": "*296",
+        "nome": "Desenvolvimento Web Back-End",
+        "nomeCurto": "DWB",
+        "semestre": 3
+      },
+      {
+        "id": "*297",
+        "nome": "Desenvolvimento Web Front-End",
+        "nomeCurto": "DWF",
+        "semestre": 3
+      },
+      {
+        "id": "-177",
+        "nome": "Educação Física",
+        "nomeCurto": "EF",
+        "semestre": 3
+      },
+      {
+        "id": "-206",
+        "nome": "Empreendedorismo",
+        "nomeCurto": "Empreendedorismo",
+        "semestre": 3
+      },
+      {
+        "id": "-248",
+        "nome": "Física",
+        "nomeCurto": "Física",
+        "semestre": 3
+      },
+      {
+        "id": "-283",
+        "nome": "Geografia",
+        "nomeCurto": "G",
+        "semestre": 3
+      },
+      {
+        "id": "-326",
+        "nome": "História",
+        "nomeCurto": "HIST",
+        "semestre": 3
+      },
+      {
+        "id": "-392",
+        "nome": "Lingua Inglesa II",
+        "nomeCurto": "LI II",
+        "semestre": 3
+      },
+      {
+        "id": "-398",
+        "nome": "Lingua Portuguesa",
+        "nomeCurto": "LP",
+        "semestre": 3
+      },
+      {
+        "id": "-428",
+        "nome": "Matemática",
+        "nomeCurto": "Matemática",
+        "semestre": 3
+      },
+      {
+        "id": "-525",
+        "nome": "Programação de Robótica",
+        "nomeCurto": "PdR",
+        "semestre": 3
+      },
+      {
+        "id": "*1005",
+        "nome": "Projeto Integrador III",
+        "nomeCurto": "Proj. III",
+        "semestre": 3
+      },
+      {
+        "id": "-565",
+        "nome": "Química",
+        "nomeCurto": "Química",
+        "semestre": 3
+      },
+      {
+        "id": "-646",
+        "nome": "Sociologia",
+        "nomeCurto": "Sociologia",
+        "semestre": 3
+      }
+    ],
+    "nome": "DCOM 7131.3C Inform. Integ.",
+    "semestre": 3
+  }
+}

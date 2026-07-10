@@ -1,0 +1,137 @@
+{
+  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "schemaVersion": 1,
+  "turma": {
+    "aulas": [
+      {
+        "diaSemana": 0,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "-19",
+        "professor": "Rafael Rocha",
+        "sala": "DCOM",
+        "slot": 12
+      },
+      {
+        "diaSemana": 0,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "-19",
+        "professor": "Rafael Rocha",
+        "sala": "DCOM",
+        "slot": 14
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "*734",
+        "professor": "Edelson Duarte",
+        "sala": "DEEA E107 Lab. Circuitos Elétricos",
+        "slot": 12
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "-398",
+        "professor": "José Silva",
+        "sala": "DEEA E203 Lab. CLP Inicial",
+        "slot": 14
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "*657",
+        "professor": "Marcos Vinicius",
+        "sala": "DEEA E203 Lab. CLP Inicial",
+        "slot": 12
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "*501",
+        "professor": "Luis Paoli",
+        "sala": "DEEA E203 Lab. CLP Inicial",
+        "slot": 14
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "*127",
+        "professor": "Francisco Silva",
+        "sala": "DEEA E203 Lab. CLP Inicial",
+        "slot": 12
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "*127",
+        "professor": "Francisco Silva",
+        "sala": "DEEA E203 Lab. CLP Inicial",
+        "slot": 14
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "*1040",
+        "professor": "Dario Perna",
+        "sala": "DEEA E203 Lab. CLP Inicial",
+        "slot": 12
+      }
+    ],
+    "cursoId": "deea-eng-eletrica",
+    "id": "t97",
+    "materias": [
+      {
+        "id": "-19",
+        "nome": "Algoritmos",
+        "nomeCurto": "Algor.",
+        "semestre": 1
+      },
+      {
+        "id": "*127",
+        "nome": "Cálculo Vetorial e Geometria Analítica",
+        "nomeCurto": "CVGA",
+        "semestre": 1
+      },
+      {
+        "id": "*501",
+        "nome": "Fundamentos de Matemática",
+        "nomeCurto": "FdM",
+        "semestre": 1
+      },
+      {
+        "id": "*657",
+        "nome": "Introdução à Engenharia Elétrica",
+        "nomeCurto": "IntENE",
+        "semestre": 1
+      },
+      {
+        "id": "-398",
+        "nome": "Lingua Portuguesa",
+        "nomeCurto": "LP",
+        "semestre": 1
+      },
+      {
+        "id": "*734",
+        "nome": "Lógica Digital",
+        "nomeCurto": "LD",
+        "semestre": 1
+      },
+      {
+        "id": "*1040",
+        "nome": "Química Geral e Ciência dos Materiais",
+        "nomeCurto": "QGeCdM",
+        "semestre": 1
+      }
+    ],
+    "nome": "DEEA Eng. Elétrica 1º Sem.",
+    "semestre": 1
+  }
+}

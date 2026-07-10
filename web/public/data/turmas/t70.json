@@ -1,0 +1,77 @@
+{
+  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "schemaVersion": 1,
+  "turma": {
+    "aulas": [
+      {
+        "diaSemana": 0,
+        "horaFim": "16:20",
+        "horaInicio": "14:30",
+        "materiaId": "-596",
+        "professor": "Ronan Martins",
+        "sala": "DEEA E207 Lab. Robótica",
+        "slot": 8
+      },
+      {
+        "diaSemana": 0,
+        "horaFim": "17:50",
+        "horaInicio": "16:20",
+        "materiaId": "-596",
+        "professor": "Ronan Martins",
+        "sala": "DEEA E207 Lab. Robótica",
+        "slot": 10
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "16:20",
+        "horaInicio": "14:30",
+        "materiaId": "-95",
+        "professor": "Simone Raquel",
+        "sala": "B-204",
+        "slot": 8
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "17:50",
+        "horaInicio": "16:20",
+        "materiaId": "-596",
+        "professor": "Ronan Martins",
+        "sala": "DEEA E207 Lab. Robótica",
+        "slot": 10
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "*653",
+        "professor": "Fabricio Moraes",
+        "sala": "B-208",
+        "slot": 12
+      }
+    ],
+    "cursoId": "deea-6144-engenharia-de-controle-e-automacao",
+    "id": "t70",
+    "materias": [
+      {
+        "id": "-95",
+        "nome": "Ciências do Ambiente",
+        "nomeCurto": "Ciên Amb",
+        "semestre": 9
+      },
+      {
+        "id": "*653",
+        "nome": "Introdução à Economia para Engenharia",
+        "nomeCurto": "Int.Economia",
+        "semestre": 9
+      },
+      {
+        "id": "-596",
+        "nome": "Robótica",
+        "nomeCurto": "Robótica",
+        "semestre": 9
+      }
+    ],
+    "nome": "DEEA 6144.9I Engenharia de Controle e Automação",
+    "semestre": 9
+  }
+}

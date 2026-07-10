@@ -1,0 +1,62 @@
+{
+  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "schemaVersion": 1,
+  "turma": {
+    "aulas": [
+      {
+        "diaSemana": 1,
+        "horaFim": "14:30",
+        "horaInicio": "13:00",
+        "materiaId": "*474",
+        "professor": "Wescley Souza",
+        "sala": "B-201",
+        "slot": 6
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "14:30",
+        "horaInicio": "13:00",
+        "materiaId": "-76",
+        "professor": "Marcos Paulo",
+        "sala": "B-003",
+        "slot": 6
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "16:20",
+        "horaInicio": "14:30",
+        "materiaId": "*474",
+        "professor": "Wescley Souza",
+        "sala": "DEEA E007 Lab. Física",
+        "slot": 8
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "14:30",
+        "horaInicio": "13:00",
+        "materiaId": "-76",
+        "professor": "Marcos Paulo",
+        "sala": "B-003",
+        "slot": 6
+      }
+    ],
+    "cursoId": "deea-6144-engenharia-de-controle-e-automacao",
+    "id": "t61",
+    "materias": [
+      {
+        "id": "-76",
+        "nome": "Cálculo Diferencial e Integral I",
+        "nomeCurto": "Cálculo I",
+        "semestre": 1
+      },
+      {
+        "id": "*474",
+        "nome": "Física Geral e Experimental I",
+        "nomeCurto": "FGeEI",
+        "semestre": 1
+      }
+    ],
+    "nome": "DEEA 6144.1 Engenharia de Controle e Automação",
+    "semestre": 1
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "schemaVersion": 1,
+  "turma": {
+    "aulas": [
+      {
+        "diaSemana": 3,
+        "horaFim": "15:15",
+        "horaInicio": "13:45",
+        "materiaId": "*922",
+        "professor": "Lúcio Vidal, Danilo Herbert",
+        "slot": 7
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "17:05",
+        "horaInicio": "15:35",
+        "materiaId": "*922",
+        "professor": "Lúcio Vidal, Danilo Herbert",
+        "slot": 9
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "15:15",
+        "horaInicio": "13:45",
+        "materiaId": "*863",
+        "professor": "Ronan Martins, Jefferson Bento",
+        "slot": 7
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "17:05",
+        "horaInicio": "15:35",
+        "materiaId": "*863",
+        "professor": "Ronan Martins, Jefferson Bento",
+        "slot": 9
+      }
+    ],
+    "cursoId": "profept-mestrado-01",
+    "id": "t209",
+    "materias": [
+      {
+        "id": "*863",
+        "nome": "Organização e Memórias de Espaços Pedagógicos em Educação Profissional e Tecnológica",
+        "nomeCurto": "OeMdEPeEPeT"
+      },
+      {
+        "id": "*922",
+        "nome": "Práticas Educativas em Educação Profissional e Tecnológica",
+        "nomeCurto": "PEeEPeT"
+      }
+    ],
+    "nome": "ProfEPT - Mestrado - 01"
+  }
+}

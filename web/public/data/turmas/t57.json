@@ -1,0 +1,113 @@
+{
+  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "schemaVersion": 1,
+  "turma": {
+    "aulas": [
+      {
+        "diaSemana": 0,
+        "horaFim": "16:20",
+        "horaInicio": "14:30",
+        "materiaId": "-2",
+        "professor": "Francielle Oliveira",
+        "sala": "B-004",
+        "slot": 8
+      },
+      {
+        "diaSemana": 0,
+        "horaFim": "17:50",
+        "horaInicio": "16:20",
+        "materiaId": "-379",
+        "professor": "Jenniffer Santos",
+        "sala": "B-004",
+        "slot": 10
+      },
+      {
+        "diaSemana": 0,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "-96",
+        "professor": "Sandro Santos",
+        "sala": "B-002",
+        "slot": 12
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "14:30",
+        "horaInicio": "13:00",
+        "materiaId": "-512",
+        "professor": "Walterley Moura",
+        "sala": "B-109",
+        "slot": 6
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "14:30",
+        "horaInicio": "13:00",
+        "materiaId": "*989",
+        "professor": "Ruy Oliveira",
+        "sala": "DCOM",
+        "slot": 6
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "16:20",
+        "horaInicio": "14:30",
+        "materiaId": "*989",
+        "professor": "Ruy Oliveira",
+        "sala": "DCOM",
+        "slot": 8
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "14:30",
+        "horaInicio": "13:00",
+        "materiaId": "*1166",
+        "professor": "Monica Crispim",
+        "sala": "DCOM",
+        "slot": 6
+      }
+    ],
+    "cursoId": "dcom-7844-engenh-comput",
+    "id": "t57",
+    "materias": [
+      {
+        "id": "-2",
+        "nome": "Administração",
+        "nomeCurto": "ADM",
+        "semestre": 8
+      },
+      {
+        "id": "-96",
+        "nome": "Ciências Sociais",
+        "nomeCurto": "CS",
+        "semestre": 8
+      },
+      {
+        "id": "-379",
+        "nome": "LIBRAS",
+        "nomeCurto": "L",
+        "semestre": 8
+      },
+      {
+        "id": "-512",
+        "nome": "Processamento Digital de Sinais",
+        "nomeCurto": "PDdS",
+        "semestre": 8
+      },
+      {
+        "id": "*989",
+        "nome": "Projeto de Sistemas Inteligentes",
+        "nomeCurto": "PdSI",
+        "semestre": 8
+      },
+      {
+        "id": "*1166",
+        "nome": "TCC I",
+        "nomeCurto": "T",
+        "semestre": 8
+      }
+    ],
+    "nome": "DCOM 7844.8 Engenh. Comput.",
+    "semestre": 8
+  }
+}

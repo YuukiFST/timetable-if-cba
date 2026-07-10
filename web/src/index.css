@@ -1,0 +1,74 @@
+@import "tailwindcss";
+
+/* Verde institucional IFMT (#2f9e41) como primária; tema segue prefers-color-scheme. */
+:root {
+  --background: oklch(0.985 0.004 145);
+  --surface: oklch(1 0 0);
+  --surface-2: oklch(0.962 0.006 145);
+  --foreground: oklch(0.24 0.02 150);
+  --muted: oklch(0.52 0.02 150);
+  --border: oklch(0.9 0.008 145);
+  --primary: #2f9e41;
+  --primary-soft: oklch(0.95 0.045 148);
+  --on-primary: #ffffff;
+  --danger: oklch(0.55 0.2 27);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: oklch(0.19 0.012 150);
+    --surface: oklch(0.235 0.014 150);
+    --surface-2: oklch(0.28 0.016 150);
+    --foreground: oklch(0.94 0.008 145);
+    --muted: oklch(0.68 0.015 148);
+    --border: oklch(0.31 0.016 150);
+    --primary: oklch(0.72 0.17 148);
+    --primary-soft: oklch(0.3 0.05 150);
+    --on-primary: oklch(0.16 0.03 150);
+    --danger: oklch(0.68 0.18 25);
+  }
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-foreground: var(--foreground);
+  --color-muted: var(--muted);
+  --color-border: var(--border);
+  --color-primary: var(--primary);
+  --color-primary-soft: var(--primary-soft);
+  --color-on-primary: var(--on-primary);
+  --color-danger: var(--danger);
+}
+
+@layer base {
+  html {
+    font: 100%/1.5 system-ui, -apple-system, "Segoe UI", sans-serif;
+    -webkit-tap-highlight-color: transparent;
+  }
+  body {
+    background-color: var(--background);
+    color: var(--foreground);
+    overscroll-behavior-y: none;
+  }
+}
+
+@layer utilities {
+  /* chrome translúcida (tab bar / header) */
+  .glass {
+    background: color-mix(in oklab, var(--background) 78%, transparent);
+    backdrop-filter: blur(16px) saturate(160%);
+    -webkit-backdrop-filter: blur(16px) saturate(160%);
+  }
+  .safe-bottom {
+    padding-bottom: env(safe-area-inset-bottom);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}

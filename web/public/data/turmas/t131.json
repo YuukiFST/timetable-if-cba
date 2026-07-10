@@ -1,0 +1,158 @@
+{
+  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "schemaVersion": 1,
+  "turma": {
+    "aulas": [
+      {
+        "diaSemana": 0,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "*459",
+        "professor": "Karine Assunção",
+        "sala": "B-218",
+        "slot": 12
+      },
+      {
+        "diaSemana": 0,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "-384",
+        "professor": "Rosária Silva",
+        "sala": "B-218",
+        "slot": 14
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "-159",
+        "professor": "José Vinicius",
+        "sala": "B-218",
+        "slot": 12
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "-121",
+        "professor": "Dejenana",
+        "sala": "B-218",
+        "slot": 14
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "-9",
+        "professor": "Danilo Herbert",
+        "sala": "B-218",
+        "slot": 12
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "-393",
+        "professor": "Edilene Campos",
+        "sala": "B-218",
+        "slot": 14
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "-433",
+        "professor": "Jeferson Júnior",
+        "sala": "B-218",
+        "slot": 12
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "*556",
+        "professor": "Marcia Fernandes",
+        "sala": "B-218",
+        "slot": 14
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "-402",
+        "professor": "Nadir Bittencour",
+        "sala": "B-218",
+        "slot": 12
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "-402",
+        "professor": "Nadir Bittencour",
+        "sala": "B-218",
+        "slot": 14
+      }
+    ],
+    "cursoId": "dgh-7643-secr-bach",
+    "id": "t131",
+    "materias": [
+      {
+        "id": "-9",
+        "nome": "Administração III",
+        "nomeCurto": "ADM III",
+        "semestre": 3
+      },
+      {
+        "id": "-121",
+        "nome": "Contabilidade II",
+        "nomeCurto": "CONT II",
+        "semestre": 3
+      },
+      {
+        "id": "-159",
+        "nome": "Direito I",
+        "nomeCurto": "D I",
+        "semestre": 3
+      },
+      {
+        "id": "*459",
+        "nome": "Ferramentas Técnicas Administrativas",
+        "nomeCurto": "FTA",
+        "semestre": 3
+      },
+      {
+        "id": "*556",
+        "nome": "Gestão de Eventos",
+        "nomeCurto": "GE",
+        "semestre": 3
+      },
+      {
+        "id": "-384",
+        "nome": "Língua Espanhola III",
+        "nomeCurto": "LE III",
+        "semestre": 3
+      },
+      {
+        "id": "-393",
+        "nome": "Língua Inglesa III",
+        "nomeCurto": "LI III",
+        "semestre": 3
+      },
+      {
+        "id": "-402",
+        "nome": "Língua Portuguesa III",
+        "nomeCurto": "LP III",
+        "semestre": 3
+      },
+      {
+        "id": "-433",
+        "nome": "Matemática Financeira I",
+        "nomeCurto": "MAT F I",
+        "semestre": 3
+      }
+    ],
+    "nome": "DGH 7643.3N Secr. Bach.",
+    "semestre": 3
+  }
+}

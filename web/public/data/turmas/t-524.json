@@ -1,0 +1,42 @@
+{
+  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "schemaVersion": 1,
+  "turma": {
+    "aulas": [
+      {
+        "diaSemana": 3,
+        "horaFim": "11:50",
+        "horaInicio": "07:45",
+        "materiaId": "*82",
+        "professor": "André Fonseca",
+        "slot": 1
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "11:50",
+        "horaInicio": "07:45",
+        "materiaId": "*82",
+        "professor": "André Fonseca",
+        "slot": 1
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "16:20",
+        "horaInicio": "13:45",
+        "materiaId": "*82",
+        "professor": "André Fonseca",
+        "slot": 7
+      }
+    ],
+    "cursoId": "profept-mestrado-04",
+    "id": "t-524",
+    "materias": [
+      {
+        "id": "*82",
+        "nome": "Atividades ProfEPT",
+        "nomeCurto": "Atividades ProfEPT"
+      }
+    ],
+    "nome": "ProfEPT - Mestrado - 04"
+  }
+}

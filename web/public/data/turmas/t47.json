@@ -1,0 +1,110 @@
+{
+  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "schemaVersion": 1,
+  "turma": {
+    "aulas": [
+      {
+        "diaSemana": 1,
+        "horaFim": "09:15",
+        "horaInicio": "07:45",
+        "materiaId": "-206",
+        "professor": "Francielle Oliveira",
+        "sala": "DCOM",
+        "slot": 1
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "11:05",
+        "horaInicio": "09:35",
+        "materiaId": "-206",
+        "professor": "Francielle Oliveira",
+        "sala": "DCOM",
+        "slot": 3
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "09:15",
+        "horaInicio": "07:45",
+        "materiaId": "*961",
+        "professor": "João Preti",
+        "sala": "DCOM",
+        "slot": 1
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "11:05",
+        "horaInicio": "09:35",
+        "materiaId": "*961",
+        "professor": "João Preti",
+        "sala": "DCOM",
+        "slot": 3
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "09:15",
+        "horaInicio": "07:00",
+        "materiaId": "*541",
+        "professor": "Guilherme Almeida",
+        "sala": "DCOM",
+        "slot": 0
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "11:50",
+        "horaInicio": "09:35",
+        "materiaId": "*541",
+        "professor": "Guilherme Almeida",
+        "sala": "DCOM",
+        "slot": 3
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "09:15",
+        "horaInicio": "07:00",
+        "materiaId": "*848",
+        "professor": "Guilherme Almeida",
+        "sala": "DCOM",
+        "slot": 0
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "11:50",
+        "horaInicio": "09:35",
+        "materiaId": "*848",
+        "professor": "Guilherme Almeida",
+        "sala": "DCOM",
+        "slot": 3
+      }
+    ],
+    "cursoId": "dcom-7441-tecnol-redes",
+    "id": "t47",
+    "materias": [
+      {
+        "id": "-206",
+        "nome": "Empreendedorismo",
+        "nomeCurto": "Empreendedorismo",
+        "semestre": 4
+      },
+      {
+        "id": "*541",
+        "nome": "Gerência e Segurança de Redes",
+        "nomeCurto": "GeSdR",
+        "semestre": 4
+      },
+      {
+        "id": "*848",
+        "nome": "Oficína de Implementação de Rede I",
+        "nomeCurto": "OdIdRI",
+        "semestre": 4
+      },
+      {
+        "id": "*961",
+        "nome": "Programação para Redes",
+        "nomeCurto": "Progr. p/ Redes",
+        "semestre": 4
+      }
+    ],
+    "nome": "DCOM 7441.4M Tecnol. Redes",
+    "semestre": 4
+  }
+}

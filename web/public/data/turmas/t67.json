@@ -1,0 +1,163 @@
+{
+  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "schemaVersion": 1,
+  "turma": {
+    "aulas": [
+      {
+        "diaSemana": 0,
+        "horaFim": "14:30",
+        "horaInicio": "13:00",
+        "materiaId": "*5",
+        "professor": "Edilson Silva",
+        "sala": "DEEA E111 Lab. Acion. Elétricos",
+        "slot": 6
+      },
+      {
+        "diaSemana": 0,
+        "horaFim": "16:20",
+        "horaInicio": "14:30",
+        "materiaId": "*5",
+        "professor": "Edilson Silva",
+        "sala": "DEEA E111 Lab. Acion. Elétricos",
+        "slot": 8
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "14:30",
+        "horaInicio": "13:00",
+        "materiaId": "-512",
+        "professor": "Walterley Moura",
+        "sala": "B-109",
+        "slot": 6
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "16:20",
+        "horaInicio": "14:30",
+        "materiaId": "-421",
+        "professor": "André Fonseca",
+        "slot": 8
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "17:50",
+        "horaInicio": "16:20",
+        "materiaId": "-421",
+        "professor": "André Fonseca",
+        "sala": "DEEA E006 Lab. Máquinas Elétricas",
+        "slot": 10
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "14:30",
+        "horaInicio": "13:00",
+        "materiaId": "-128",
+        "professor": "Alberto Mascarenhas",
+        "sala": "DEEA E113 Lab. Informatica",
+        "slot": 6
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "16:20",
+        "horaInicio": "14:30",
+        "materiaId": "-128",
+        "professor": "Alberto Mascarenhas",
+        "sala": "DEEA E113 Lab. Informatica",
+        "slot": 8
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "16:20",
+        "horaInicio": "14:30",
+        "materiaId": "-200",
+        "professor": "Ana Azevedo",
+        "sala": "DEEA E115 Lab. Elepot",
+        "slot": 8
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "17:50",
+        "horaInicio": "16:20",
+        "materiaId": "-200",
+        "professor": "Ana Azevedo",
+        "sala": "DEEA E115 Lab. Elepot",
+        "slot": 10
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "*1002",
+        "professor": "Edelson Duarte",
+        "sala": "DEEA E201 Lab. Automação Predial",
+        "slot": 12
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "16:20",
+        "horaInicio": "14:30",
+        "materiaId": "-365",
+        "professor": "Robson Pereira",
+        "sala": "DEEA E209 Lab. Instr. Efic. Energética",
+        "slot": 8
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "17:50",
+        "horaInicio": "16:20",
+        "materiaId": "-365",
+        "professor": "Robson Pereira",
+        "sala": "DEEA E209 Lab. Instr. Efic. Energética",
+        "slot": 10
+      }
+    ],
+    "cursoId": "deea-6144-engenharia-de-controle-e-automacao",
+    "id": "t67",
+    "materias": [
+      {
+        "id": "*5",
+        "nome": "Acionamentos Elétricos e Eletrônicos",
+        "nomeCurto": "AEeE",
+        "semestre": 7
+      },
+      {
+        "id": "-128",
+        "nome": "Controle de Sistemas Contínuos I",
+        "nomeCurto": "Controle i",
+        "semestre": 7
+      },
+      {
+        "id": "-200",
+        "nome": "Eletrônica de Potência",
+        "nomeCurto": "EdP",
+        "semestre": 7
+      },
+      {
+        "id": "-365",
+        "nome": "Instrumentação Industrial",
+        "nomeCurto": "Instr. Industrial",
+        "semestre": 7
+      },
+      {
+        "id": "-421",
+        "nome": "Máquinas Eletricas",
+        "nomeCurto": "Maq Ele",
+        "semestre": 7
+      },
+      {
+        "id": "-512",
+        "nome": "Processamento Digital de Sinais",
+        "nomeCurto": "PDdS",
+        "semestre": 7
+      },
+      {
+        "id": "*1002",
+        "nome": "Projeto Integrador I",
+        "nomeCurto": "Proj. I",
+        "semestre": 7
+      }
+    ],
+    "nome": "DEEA 6144.7I Engenharia de Controle e Automação",
+    "semestre": 7
+  }
+}

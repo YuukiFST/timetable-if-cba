@@ -1,0 +1,149 @@
+{
+  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "schemaVersion": 1,
+  "turma": {
+    "aulas": [
+      {
+        "diaSemana": 0,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "-39",
+        "professor": "Joicy Lara",
+        "sala": "DCOM",
+        "slot": 12
+      },
+      {
+        "diaSemana": 0,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "-39",
+        "professor": "Joicy Lara",
+        "sala": "DCOM",
+        "slot": 14
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "14:30",
+        "horaInicio": "13:00",
+        "materiaId": "*474",
+        "professor": "Wescley Souza",
+        "sala": "B-201",
+        "slot": 6
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "16:20",
+        "horaInicio": "14:30",
+        "materiaId": "-17",
+        "professor": "Willian Pereira",
+        "sala": "B-003",
+        "slot": 8
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "17:50",
+        "horaInicio": "16:20",
+        "materiaId": "-23",
+        "professor": "Paulo Lopes",
+        "sala": "DCOM",
+        "slot": 10
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "14:30",
+        "horaInicio": "13:00",
+        "materiaId": "-76",
+        "professor": "Marcos Paulo",
+        "sala": "B-003",
+        "slot": 6
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "16:20",
+        "horaInicio": "14:30",
+        "materiaId": "*474",
+        "professor": "Wescley Souza",
+        "sala": "DEEA E007 Lab. Física",
+        "slot": 8
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "17:50",
+        "horaInicio": "16:20",
+        "materiaId": "-23",
+        "professor": "Paulo Lopes",
+        "sala": "DCOM",
+        "slot": 10
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "-454",
+        "professor": "Juliana Silva",
+        "sala": "DCOM",
+        "slot": 12
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "14:30",
+        "horaInicio": "13:00",
+        "materiaId": "-76",
+        "professor": "Marcos Paulo",
+        "sala": "B-003",
+        "slot": 6
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "16:20",
+        "horaInicio": "14:30",
+        "materiaId": "-17",
+        "professor": "Willian Pereira",
+        "sala": "B-205",
+        "slot": 8
+      }
+    ],
+    "cursoId": "dcom-7844-engenh-comput",
+    "id": "t51",
+    "materias": [
+      {
+        "id": "-17",
+        "nome": "Álgebra Linear",
+        "nomeCurto": "AL",
+        "semestre": 2
+      },
+      {
+        "id": "-23",
+        "nome": "Algoritmos II",
+        "nomeCurto": "Algorit. II",
+        "semestre": 2
+      },
+      {
+        "id": "-39",
+        "nome": "Arquitetura e Organização de Computadores",
+        "nomeCurto": "Arq Org",
+        "semestre": 2
+      },
+      {
+        "id": "-76",
+        "nome": "Cálculo Diferencial e Integral I",
+        "nomeCurto": "Cálculo I",
+        "semestre": 2
+      },
+      {
+        "id": "*474",
+        "nome": "Física Geral e Experimental I",
+        "nomeCurto": "FGeEI",
+        "semestre": 2
+      },
+      {
+        "id": "-454",
+        "nome": "Metodologia Científica",
+        "nomeCurto": "Metodologia Científica",
+        "semestre": 2
+      }
+    ],
+    "nome": "DCOM 7844.2 Engenh. Comput.",
+    "semestre": 2
+  }
+}

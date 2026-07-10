@@ -1,0 +1,272 @@
+{
+  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "schemaVersion": 1,
+  "turma": {
+    "aulas": [
+      {
+        "diaSemana": 0,
+        "horaFim": "14:30",
+        "horaInicio": "13:00",
+        "materiaId": "*40",
+        "professor": "Marli Spolidoro",
+        "sala": "B-217",
+        "slot": 6
+      },
+      {
+        "diaSemana": 0,
+        "horaFim": "16:20",
+        "horaInicio": "14:30",
+        "materiaId": "-330",
+        "professor": "Manuela Arruda",
+        "sala": "B-217",
+        "slot": 8
+      },
+      {
+        "diaSemana": 0,
+        "horaFim": "17:50",
+        "horaInicio": "16:20",
+        "materiaId": "-570",
+        "professor": "Danilo Flumignan",
+        "sala": "B-217",
+        "slot": 10
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "09:15",
+        "horaInicio": "07:45",
+        "materiaId": "-257",
+        "professor": "Gilson Lima",
+        "sala": "B-218",
+        "slot": 1
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "11:05",
+        "horaInicio": "09:35",
+        "materiaId": "-546",
+        "professor": "Julio Duarte",
+        "sala": "B-218",
+        "slot": 3
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "14:30",
+        "horaInicio": "13:00",
+        "materiaId": "-649",
+        "professor": "Sandro Santos",
+        "sala": "B-217",
+        "slot": 6
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "16:20",
+        "horaInicio": "14:30",
+        "materiaId": "*558",
+        "professor": "Subst. Turismo",
+        "sala": "B-217",
+        "slot": 8
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "17:50",
+        "horaInicio": "16:20",
+        "materiaId": "-178",
+        "professor": "Lethícia Castilhos",
+        "sala": "B-217",
+        "slot": 10
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "15:15",
+        "horaInicio": "13:00",
+        "materiaId": "-436",
+        "professor": "Ana Paula",
+        "sala": "B-217",
+        "slot": 6
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "16:20",
+        "horaInicio": "15:35",
+        "materiaId": "-401",
+        "professor": "Maristela Guimarães",
+        "sala": "B-217",
+        "slot": 9
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "17:50",
+        "horaInicio": "16:20",
+        "materiaId": "*573",
+        "professor": "Arthur Farias",
+        "sala": "B-217",
+        "slot": 10
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "14:30",
+        "horaInicio": "13:00",
+        "materiaId": "-92",
+        "professor": "Subst. Turismo",
+        "sala": "B-217",
+        "slot": 6
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "16:20",
+        "horaInicio": "14:30",
+        "materiaId": "-286",
+        "professor": "Paulo Daniel Curti de Almeida",
+        "sala": "B-217",
+        "slot": 8
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "17:50",
+        "horaInicio": "16:20",
+        "materiaId": "-68",
+        "professor": "Liandra Cristine",
+        "sala": "B-217",
+        "slot": 10
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "14:30",
+        "horaInicio": "13:00",
+        "materiaId": "-391",
+        "professor": "Arivan",
+        "sala": "B-217",
+        "slot": 6
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "16:20",
+        "horaInicio": "14:30",
+        "materiaId": "-245",
+        "professor": "Luiz Torquato",
+        "sala": "B-217",
+        "slot": 8
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "17:05",
+        "horaInicio": "16:20",
+        "materiaId": "-401",
+        "professor": "Maristela Guimarães",
+        "sala": "B-217",
+        "slot": 10
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "17:50",
+        "horaInicio": "17:05",
+        "materiaId": "-401",
+        "professor": "Maristela Guimarães",
+        "sala": "B-217",
+        "slot": 11
+      }
+    ],
+    "cursoId": "dgh-7531-even-integ",
+    "id": "t119",
+    "materias": [
+      {
+        "id": "*40",
+        "nome": "Alimentos e Bebidas para Eventos I",
+        "nomeCurto": "AeB I",
+        "semestre": 2
+      },
+      {
+        "id": "-68",
+        "nome": "Biologia II",
+        "nomeCurto": "BIO II",
+        "semestre": 2
+      },
+      {
+        "id": "-92",
+        "nome": "Cerimonial, Protocolo e Etiqueta",
+        "nomeCurto": "CPeE",
+        "semestre": 2
+      },
+      {
+        "id": "-178",
+        "nome": "Educação Fisica II",
+        "nomeCurto": "EF II",
+        "semestre": 2
+      },
+      {
+        "id": "-245",
+        "nome": "Filosofia II",
+        "nomeCurto": "FIL II",
+        "semestre": 2
+      },
+      {
+        "id": "-257",
+        "nome": "Física II",
+        "nomeCurto": "Física II",
+        "semestre": 2
+      },
+      {
+        "id": "-286",
+        "nome": "Geografia II",
+        "nomeCurto": "GEO II",
+        "semestre": 2
+      },
+      {
+        "id": "*558",
+        "nome": "Gestão de Eventos II",
+        "nomeCurto": "GdEI",
+        "semestre": 2
+      },
+      {
+        "id": "*573",
+        "nome": "Gestão e Liderança ",
+        "nomeCurto": "GeL",
+        "semestre": 2
+      },
+      {
+        "id": "-330",
+        "nome": "História II",
+        "nomeCurto": "HIST II",
+        "semestre": 2
+      },
+      {
+        "id": "-391",
+        "nome": "Língua Inglesa I",
+        "nomeCurto": "LII",
+        "semestre": 2
+      },
+      {
+        "id": "-401",
+        "nome": "Língua Portuguesa II",
+        "nomeCurto": "Língua Portuguesa II",
+        "semestre": 2
+      },
+      {
+        "id": "-436",
+        "nome": "Matemática II",
+        "nomeCurto": "Matemática II",
+        "semestre": 2
+      },
+      {
+        "id": "-546",
+        "nome": "Projeto Integrador II",
+        "nomeCurto": "Proj.Int. II",
+        "semestre": 2
+      },
+      {
+        "id": "-570",
+        "nome": "Química II",
+        "nomeCurto": "QUI II",
+        "semestre": 2
+      },
+      {
+        "id": "-649",
+        "nome": "Sociologia I",
+        "nomeCurto": "SOC I",
+        "semestre": 2
+      }
+    ],
+    "nome": "DGH 7531.2AI Even. Integ.",
+    "semestre": 2
+  }
+}

@@ -1,0 +1,155 @@
+{
+  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "schemaVersion": 1,
+  "turma": {
+    "aulas": [
+      {
+        "diaSemana": 0,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "*415",
+        "professor": "Aline Dutton, Carlos Eduardo, Priscila Morais",
+        "sala": "B-106",
+        "slot": 12
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "*1025",
+        "professor": "Érica Marques",
+        "sala": "B-101",
+        "slot": 12
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "*917",
+        "professor": "Larissa Kawashima",
+        "sala": "B-101",
+        "slot": 14
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "16:20",
+        "horaInicio": "13:00",
+        "materiaId": "*415",
+        "professor": "Aline Dutton, Carlos Eduardo, Priscila Morais",
+        "sala": "B-105",
+        "slot": 6
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "-537",
+        "professor": "José Mauricio",
+        "sala": "B-105",
+        "slot": 12
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "-537",
+        "professor": "José Mauricio",
+        "sala": "B-106",
+        "slot": 14
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "*220",
+        "professor": "Elisângela Almeida",
+        "sala": "B-007",
+        "slot": 12
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "*439",
+        "professor": "Elisângela Almeida",
+        "sala": "B-007",
+        "slot": 14
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "*343",
+        "professor": "Carlos Eduardo",
+        "sala": "B-003",
+        "slot": 12
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "*343",
+        "professor": "Carlos Eduardo",
+        "sala": "B-003",
+        "slot": 14
+      },
+      {
+        "diaSemana": 5,
+        "horaFim": "11:50",
+        "horaInicio": "10:20",
+        "materiaId": "*415",
+        "professor": "Aline Dutton, Carlos Eduardo, Priscila Morais",
+        "sala": "B-003",
+        "slot": 4
+      }
+    ],
+    "cursoId": "dabc-licenc-em-educ-fis",
+    "id": "t25",
+    "materias": [
+      {
+        "id": "*220",
+        "nome": "Dança e Ginástica na Escola",
+        "nomeCurto": "Dança G.Esc.",
+        "semestre": 6
+      },
+      {
+        "id": "*343",
+        "nome": "Educação Física no Ensino Fundamental I",
+        "nomeCurto": "Ed. Fís. no Ensino Fund. I",
+        "semestre": 6
+      },
+      {
+        "id": "*415",
+        "nome": "Estagio no Ensino Fundamental I",
+        "nomeCurto": "Est. no Ens. Fund. I",
+        "semestre": 6
+      },
+      {
+        "id": "*439",
+        "nome": "Estudos Integradores II",
+        "nomeCurto": "Est. Int. II",
+        "semestre": 6
+      },
+      {
+        "id": "*917",
+        "nome": "Práticas Corporais de Aventura na Escola",
+        "nomeCurto": "Práticas Corporais",
+        "semestre": 6
+      },
+      {
+        "id": "-537",
+        "nome": "Projeto de Pesquisa",
+        "nomeCurto": "Projeto de Pesquisa",
+        "semestre": 6
+      },
+      {
+        "id": "*1025",
+        "nome": "Psicologia da Educação",
+        "nomeCurto": "Psicologia da Educação",
+        "semestre": 6
+      }
+    ],
+    "nome": "DABC - Licenc. em Educ. Fís. - 6o SEM.",
+    "semestre": 6
+  }
+}

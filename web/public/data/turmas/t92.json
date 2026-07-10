@@ -1,0 +1,27 @@
+{
+  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "schemaVersion": 1,
+  "turma": {
+    "aulas": [
+      {
+        "diaSemana": 2,
+        "horaFim": "16:20",
+        "horaInicio": "14:30",
+        "materiaId": "-755",
+        "professor": "José Cândido",
+        "sala": "DEEA E115 Lab. Elepot",
+        "slot": 8
+      }
+    ],
+    "cursoId": "deea-atendimento-ao-aluno",
+    "id": "t92",
+    "materias": [
+      {
+        "id": "-755",
+        "nome": "Atendimento ao Aluno - DAEE",
+        "nomeCurto": "Atendimento ao Aluno - DAEE"
+      }
+    ],
+    "nome": "DEEA - Atendimento ao Aluno"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "schemaVersion": 1,
+  "turma": {
+    "aulas": [
+      {
+        "diaSemana": 2,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "-546",
+        "slot": 12
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "17:50",
+        "horaInicio": "16:20",
+        "materiaId": "-546",
+        "slot": 10
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "-546",
+        "slot": 12
+      }
+    ],
+    "cursoId": "deea-tec-aut-ind",
+    "id": "t109",
+    "materias": [
+      {
+        "id": "-546",
+        "nome": "Projeto Integrador II",
+        "nomeCurto": "Proj.Int. II",
+        "semestre": 7
+      }
+    ],
+    "nome": "DEEA Tec. Aut. Ind. 7 Sem",
+    "semestre": 7
+  }
+}

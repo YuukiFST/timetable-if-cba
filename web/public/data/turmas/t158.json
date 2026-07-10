@@ -1,0 +1,296 @@
+{
+  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "schemaVersion": 1,
+  "turma": {
+    "aulas": [
+      {
+        "diaSemana": 0,
+        "horaFim": "14:30",
+        "horaInicio": "13:00",
+        "materiaId": "-478",
+        "professor": "Marcio Antunes",
+        "sala": "DINFRA",
+        "slot": 6
+      },
+      {
+        "diaSemana": 0,
+        "horaFim": "14:30",
+        "horaInicio": "13:00",
+        "materiaId": "-631",
+        "professor": "Moises Santiago Ribeiro",
+        "sala": "DINFRA",
+        "slot": 6
+      },
+      {
+        "diaSemana": 0,
+        "horaFim": "16:20",
+        "horaInicio": "14:30",
+        "materiaId": "-478",
+        "professor": "Marcio Antunes",
+        "sala": "DINFRA",
+        "slot": 8
+      },
+      {
+        "diaSemana": 0,
+        "horaFim": "16:20",
+        "horaInicio": "14:30",
+        "materiaId": "-631",
+        "professor": "Moises Santiago Ribeiro",
+        "sala": "DINFRA",
+        "slot": 8
+      },
+      {
+        "diaSemana": 0,
+        "horaFim": "17:05",
+        "horaInicio": "16:20",
+        "materiaId": "-436",
+        "professor": "Ana Paula",
+        "sala": "B-101",
+        "slot": 10
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "14:30",
+        "horaInicio": "13:00",
+        "materiaId": "-244",
+        "professor": "Francisco Rosa",
+        "sala": "B-110",
+        "slot": 6
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "16:20",
+        "horaInicio": "14:30",
+        "materiaId": "-68",
+        "professor": "Helíbera Capistrano",
+        "sala": "B-110",
+        "slot": 8
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "17:50",
+        "horaInicio": "16:20",
+        "materiaId": "-257",
+        "professor": "Luciano Schlaucher",
+        "sala": "B-110",
+        "slot": 10
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "08:30",
+        "horaInicio": "07:00",
+        "materiaId": "-178",
+        "professor": "Edézio",
+        "sala": "B-109",
+        "slot": 0
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "10:20",
+        "horaInicio": "08:30",
+        "materiaId": "-330",
+        "professor": "Lucas Café",
+        "sala": "B-109",
+        "slot": 2
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "11:50",
+        "horaInicio": "10:20",
+        "materiaId": "-649",
+        "professor": "Marlene Renck",
+        "sala": "B-110",
+        "slot": 4
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "16:20",
+        "horaInicio": "14:30",
+        "materiaId": "-624",
+        "professor": "Luiz Canto",
+        "sala": "DINFRA",
+        "slot": 8
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "17:50",
+        "horaInicio": "16:20",
+        "materiaId": "-741",
+        "professor": "Luiz Canto",
+        "sala": "B-109",
+        "slot": 10
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "15:15",
+        "horaInicio": "13:00",
+        "materiaId": "-401",
+        "professor": "Soila Canam",
+        "sala": "B-109",
+        "slot": 6
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "17:05",
+        "horaInicio": "15:35",
+        "materiaId": "-436",
+        "professor": "Ana Paula",
+        "sala": "B-110",
+        "slot": 9
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "08:30",
+        "horaInicio": "07:00",
+        "materiaId": "-391",
+        "professor": "Weslley Siqueira",
+        "sala": "B-109",
+        "slot": 0
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "10:20",
+        "horaInicio": "08:30",
+        "materiaId": "-608",
+        "professor": "Roberto Souto",
+        "sala": "DINFRA",
+        "slot": 2
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "11:50",
+        "horaInicio": "10:20",
+        "materiaId": "-286",
+        "professor": "Alessandra Fagundes",
+        "sala": "B-109",
+        "slot": 4
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "14:30",
+        "horaInicio": "13:00",
+        "materiaId": "-546",
+        "professor": "Roberto Souto",
+        "sala": "DINFRA",
+        "slot": 6
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "16:20",
+        "horaInicio": "14:30",
+        "materiaId": "-570",
+        "professor": "Mônica Bidarra",
+        "sala": "B-109",
+        "slot": 8
+      }
+    ],
+    "cursoId": "dinfra-2631-agrim-integ",
+    "id": "t158",
+    "materias": [
+      {
+        "id": "-741",
+        "nome": "Ajustamento de Observações",
+        "nomeCurto": "Ajustamento de Observações",
+        "semestre": 2
+      },
+      {
+        "id": "-68",
+        "nome": "Biologia II",
+        "nomeCurto": "BIO II",
+        "semestre": 2
+      },
+      {
+        "id": "-178",
+        "nome": "Educação Fisica II",
+        "nomeCurto": "EF II",
+        "semestre": 2
+      },
+      {
+        "id": "-244",
+        "nome": "Filosofia I",
+        "nomeCurto": "FIL I",
+        "semestre": 2
+      },
+      {
+        "id": "-257",
+        "nome": "Física II",
+        "nomeCurto": "Física II",
+        "semestre": 2
+      },
+      {
+        "id": "-286",
+        "nome": "Geografia II",
+        "nomeCurto": "GEO II",
+        "semestre": 2
+      },
+      {
+        "id": "-330",
+        "nome": "História II",
+        "nomeCurto": "HIST II",
+        "semestre": 2
+      },
+      {
+        "id": "-391",
+        "nome": "Língua Inglesa I",
+        "nomeCurto": "LII",
+        "semestre": 2
+      },
+      {
+        "id": "-401",
+        "nome": "Língua Portuguesa II",
+        "nomeCurto": "Língua Portuguesa II",
+        "semestre": 2
+      },
+      {
+        "id": "-436",
+        "nome": "Matemática II",
+        "nomeCurto": "Matemática II",
+        "semestre": 2
+      },
+      {
+        "id": "-478",
+        "nome": "Parcelamento de Solos",
+        "nomeCurto": "Parcelamento de Solos",
+        "semestre": 2
+      },
+      {
+        "id": "-546",
+        "nome": "Projeto Integrador II",
+        "nomeCurto": "Proj.Int. II",
+        "semestre": 2
+      },
+      {
+        "id": "-570",
+        "nome": "Química II",
+        "nomeCurto": "QUI II",
+        "semestre": 2
+      },
+      {
+        "id": "-608",
+        "nome": "Sensoriamento Remoto",
+        "nomeCurto": "Sensoriamento Remoto",
+        "semestre": 2
+      },
+      {
+        "id": "-624",
+        "nome": "Sistema de posicionamento por satélites",
+        "nomeCurto": "Sistema de posicionamento por satélites",
+        "semestre": 2
+      },
+      {
+        "id": "-631",
+        "nome": "Sistemas de Informações Geográficas",
+        "nomeCurto": "Sistemas de Informações Geográficas",
+        "semestre": 2
+      },
+      {
+        "id": "-649",
+        "nome": "Sociologia I",
+        "nomeCurto": "SOC I",
+        "semestre": 2
+      }
+    ],
+    "nome": "DINFRA 2631.2AV Agrim. Integ.",
+    "semestre": 2
+  }
+}

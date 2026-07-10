@@ -1,0 +1,257 @@
+{
+  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "schemaVersion": 1,
+  "turma": {
+    "aulas": [
+      {
+        "diaSemana": 0,
+        "horaFim": "08:30",
+        "horaInicio": "07:00",
+        "materiaId": "-331",
+        "professor": "Leonam Silva",
+        "sala": "B-124",
+        "slot": 0
+      },
+      {
+        "diaSemana": 0,
+        "horaFim": "09:15",
+        "horaInicio": "08:30",
+        "materiaId": "-402",
+        "professor": "Leisly Poletto",
+        "sala": "B-124",
+        "slot": 2
+      },
+      {
+        "diaSemana": 0,
+        "horaFim": "10:20",
+        "horaInicio": "09:35",
+        "materiaId": "-402",
+        "professor": "Leisly Poletto",
+        "sala": "B-124",
+        "slot": 3
+      },
+      {
+        "diaSemana": 0,
+        "horaFim": "11:50",
+        "horaInicio": "10:20",
+        "materiaId": "-258",
+        "professor": "Haline Josefa",
+        "sala": "B-124",
+        "slot": 4
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "08:30",
+        "horaInicio": "07:00",
+        "materiaId": "-392",
+        "professor": "Arivan",
+        "sala": "B-124",
+        "slot": 0
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "10:20",
+        "horaInicio": "08:30",
+        "materiaId": "*675",
+        "professor": "Otavio Carvalho",
+        "sala": "B-124",
+        "slot": 2
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "11:50",
+        "horaInicio": "10:20",
+        "materiaId": "-69",
+        "professor": "Liandra Cristine",
+        "sala": "B-124",
+        "slot": 4
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "10:20",
+        "horaInicio": "07:45",
+        "materiaId": "-437",
+        "professor": "Vicente Filho",
+        "sala": "B-124",
+        "slot": 1
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "11:05",
+        "horaInicio": "10:20",
+        "materiaId": "-402",
+        "professor": "Leisly Poletto",
+        "sala": "B-124",
+        "slot": 4
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "14:30",
+        "horaInicio": "13:00",
+        "materiaId": "-206",
+        "professor": "Arthur Farias",
+        "sala": "B-124",
+        "slot": 6
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "16:20",
+        "horaInicio": "14:30",
+        "materiaId": "*1006",
+        "professor": "Waldinei Bispo",
+        "sala": "B-124",
+        "slot": 8
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "08:30",
+        "horaInicio": "07:00",
+        "materiaId": "*559",
+        "professor": "Subst. Turismo",
+        "sala": "B-124",
+        "slot": 0
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "10:20",
+        "horaInicio": "08:30",
+        "materiaId": "-650",
+        "professor": "Christiany Fonseca",
+        "sala": "B-124",
+        "slot": 2
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "11:50",
+        "horaInicio": "10:20",
+        "materiaId": "-179",
+        "professor": "Lethícia Castilhos",
+        "sala": "B-124",
+        "slot": 4
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "08:30",
+        "horaInicio": "07:00",
+        "materiaId": "-287",
+        "professor": "Stephanie Freire",
+        "sala": "B-124",
+        "slot": 0
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "10:20",
+        "horaInicio": "08:30",
+        "materiaId": "-571",
+        "professor": "Danilo Flumignan",
+        "sala": "B-124",
+        "slot": 2
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "11:50",
+        "horaInicio": "10:20",
+        "materiaId": "*42",
+        "professor": "Marli Spolidoro",
+        "sala": "B-124",
+        "slot": 4
+      }
+    ],
+    "cursoId": "dgh-7531-even-integ",
+    "id": "t121",
+    "materias": [
+      {
+        "id": "*42",
+        "nome": "Alimentos e Bebidas para Eventos III",
+        "nomeCurto": "A&B III",
+        "semestre": 3
+      },
+      {
+        "id": "-69",
+        "nome": "Biologia III",
+        "nomeCurto": "BIO III",
+        "semestre": 3
+      },
+      {
+        "id": "-179",
+        "nome": "Educação Física III",
+        "nomeCurto": "EFI III",
+        "semestre": 3
+      },
+      {
+        "id": "-206",
+        "nome": "Empreendedorismo",
+        "nomeCurto": "Empreendedorismo",
+        "semestre": 3
+      },
+      {
+        "id": "-258",
+        "nome": "Física III",
+        "nomeCurto": "Física III",
+        "semestre": 3
+      },
+      {
+        "id": "-287",
+        "nome": "Geografia III",
+        "nomeCurto": "GEO III",
+        "semestre": 3
+      },
+      {
+        "id": "*559",
+        "nome": "Gestão de Eventos III",
+        "nomeCurto": "GE III",
+        "semestre": 3
+      },
+      {
+        "id": "-331",
+        "nome": "História III",
+        "nomeCurto": "HIST III",
+        "semestre": 3
+      },
+      {
+        "id": "*675",
+        "nome": "Legislação Aplicada aos Eventos",
+        "nomeCurto": "LAaE",
+        "semestre": 3
+      },
+      {
+        "id": "-392",
+        "nome": "Lingua Inglesa II",
+        "nomeCurto": "LI II",
+        "semestre": 3
+      },
+      {
+        "id": "-402",
+        "nome": "Língua Portuguesa III",
+        "nomeCurto": "LP III",
+        "semestre": 3
+      },
+      {
+        "id": "-437",
+        "nome": "Matemática III",
+        "nomeCurto": "Matemática III",
+        "semestre": 3
+      },
+      {
+        "id": "*1006",
+        "nome": "Projeto Integrador III",
+        "nomeCurto": "PII",
+        "semestre": 3
+      },
+      {
+        "id": "-571",
+        "nome": "Química III",
+        "nomeCurto": "QUI III",
+        "semestre": 3
+      },
+      {
+        "id": "-650",
+        "nome": "Sociologia II",
+        "nomeCurto": "SOC II",
+        "semestre": 3
+      }
+    ],
+    "nome": "DGH 7531.3AI Even. Integ.",
+    "semestre": 3
+  }
+}

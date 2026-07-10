@@ -1,0 +1,26 @@
+{
+  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "schemaVersion": 1,
+  "turma": {
+    "aulas": [
+      {
+        "diaSemana": 2,
+        "horaFim": "15:15",
+        "horaInicio": "13:45",
+        "materiaId": "-702",
+        "professor": "Alan Sato",
+        "slot": 7
+      }
+    ],
+    "cursoId": "dinfra-1031-dependencias-edificacoes",
+    "id": "t146",
+    "materias": [
+      {
+        "id": "-702",
+        "nome": "Topografia",
+        "nomeCurto": "Topografia"
+      }
+    ],
+    "nome": "DINFRA 1031 Dependências Edificações"
+  }
+}

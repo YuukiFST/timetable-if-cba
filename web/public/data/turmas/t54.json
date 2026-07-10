@@ -1,0 +1,164 @@
+{
+  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "schemaVersion": 1,
+  "turma": {
+    "aulas": [
+      {
+        "diaSemana": 0,
+        "horaFim": "15:15",
+        "horaInicio": "13:45",
+        "materiaId": "-209",
+        "professor": "João Preti",
+        "sala": "DCOM",
+        "slot": 7
+      },
+      {
+        "diaSemana": 0,
+        "horaFim": "17:50",
+        "horaInicio": "15:35",
+        "materiaId": "*452",
+        "professor": "Tiago Lacerda",
+        "sala": "DCOM",
+        "slot": 9
+      },
+      {
+        "diaSemana": 0,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "-234",
+        "professor": "Valentino Corrêa",
+        "sala": "D-014",
+        "slot": 12
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "16:20",
+        "horaInicio": "14:30",
+        "materiaId": "-110",
+        "professor": "Evandro Freiberger",
+        "sala": "DCOM",
+        "slot": 8
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "17:50",
+        "horaInicio": "16:20",
+        "materiaId": "-209",
+        "professor": "João Preti",
+        "sala": "DCOM",
+        "slot": 10
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "16:20",
+        "horaInicio": "14:30",
+        "materiaId": "-110",
+        "professor": "Evandro Freiberger",
+        "sala": "DCOM",
+        "slot": 8
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "19:40",
+        "horaInicio": "16:20",
+        "materiaId": "*452",
+        "professor": "Tiago Lacerda",
+        "sala": "DCOM",
+        "slot": 10
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "14:30",
+        "horaInicio": "13:00",
+        "materiaId": "*962",
+        "professor": "Alberto Sales",
+        "sala": "DCOM",
+        "slot": 6
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "16:20",
+        "horaInicio": "14:30",
+        "materiaId": "*962",
+        "professor": "Alberto Sales",
+        "sala": "DCOM",
+        "slot": 8
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "17:50",
+        "horaInicio": "16:20",
+        "materiaId": "*667",
+        "professor": "Guilherme Seixas",
+        "sala": "DEEA E107 Lab. Circuitos Elétricos",
+        "slot": 10
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "14:30",
+        "horaInicio": "13:00",
+        "materiaId": "*152",
+        "professor": "Guilherme Seixas",
+        "sala": "DEEA E107 Lab. Circuitos Elétricos",
+        "slot": 6
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "16:20",
+        "horaInicio": "14:30",
+        "materiaId": "*152",
+        "professor": "Guilherme Seixas",
+        "sala": "DEEA E107 Lab. Circuitos Elétricos",
+        "slot": 8
+      }
+    ],
+    "cursoId": "dcom-7844-engenh-comput",
+    "id": "t54",
+    "materias": [
+      {
+        "id": "*152",
+        "nome": "Circuitos Elétricos I",
+        "nomeCurto": "CE-I",
+        "semestre": 5
+      },
+      {
+        "id": "-110",
+        "nome": "Compiladores",
+        "nomeCurto": "C",
+        "semestre": 5
+      },
+      {
+        "id": "-209",
+        "nome": "Engenharia de Software",
+        "nomeCurto": "EdS",
+        "semestre": 5
+      },
+      {
+        "id": "-234",
+        "nome": "Ética Profissional",
+        "nomeCurto": "ÉP",
+        "semestre": 5
+      },
+      {
+        "id": "*452",
+        "nome": "Extensão I",
+        "nomeCurto": "EI",
+        "semestre": 5
+      },
+      {
+        "id": "*667",
+        "nome": "Laboratório de Circuitos Elétricos I",
+        "nomeCurto": "Lab.Circ.Ele.I",
+        "semestre": 5
+      },
+      {
+        "id": "*962",
+        "nome": "Programação Web",
+        "nomeCurto": "PW",
+        "semestre": 5
+      }
+    ],
+    "nome": "DCOM 7844.5 Engenh. Comput.",
+    "semestre": 5
+  }
+}

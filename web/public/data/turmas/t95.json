@@ -1,0 +1,106 @@
+{
+  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "schemaVersion": 1,
+  "turma": {
+    "aulas": [
+      {
+        "diaSemana": 0,
+        "horaFim": "17:50",
+        "horaInicio": "16:20",
+        "materiaId": "*387",
+        "sala": "B-108",
+        "slot": 10
+      },
+      {
+        "diaSemana": 0,
+        "horaFim": "22:25",
+        "horaInicio": "18:50",
+        "materiaId": "*387",
+        "sala": "B-108",
+        "slot": 12
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "17:50",
+        "horaInicio": "16:20",
+        "materiaId": "*387",
+        "sala": "B-108",
+        "slot": 10
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "22:25",
+        "horaInicio": "18:50",
+        "materiaId": "*387",
+        "sala": "B-108",
+        "slot": 12
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "17:50",
+        "horaInicio": "16:20",
+        "materiaId": "*387",
+        "sala": "B-108",
+        "slot": 10
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "22:25",
+        "horaInicio": "18:50",
+        "materiaId": "*387",
+        "sala": "B-108",
+        "slot": 12
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "17:50",
+        "horaInicio": "16:20",
+        "materiaId": "*387",
+        "sala": "B-108",
+        "slot": 10
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "22:25",
+        "horaInicio": "18:50",
+        "materiaId": "*387",
+        "sala": "B-108",
+        "slot": 12
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "17:50",
+        "horaInicio": "16:20",
+        "materiaId": "*387",
+        "sala": "B-108",
+        "slot": 10
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "22:25",
+        "horaInicio": "18:50",
+        "materiaId": "*387",
+        "sala": "B-108",
+        "slot": 12
+      },
+      {
+        "diaSemana": 5,
+        "horaFim": "11:50",
+        "horaInicio": "08:30",
+        "materiaId": "*387",
+        "sala": "DEEA E014 Lab. Inst. Elétricas",
+        "slot": 2
+      }
+    ],
+    "cursoId": "deea-energife-1",
+    "id": "t95",
+    "materias": [
+      {
+        "id": "*387",
+        "nome": "EnergIF - Disciplinas",
+        "nomeCurto": "EnergIF"
+      }
+    ],
+    "nome": "DEEA EnergIFE 1"
+  }
+}
