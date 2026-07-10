@@ -203,6 +203,48 @@ export const detectarChoquesPlano = (itens: ReadonlyArray<ItemPlano>): ChoquesPl
   return { pares, blocosEmChoque, materiasEmChoque }
 }
 
+export interface TabelaPlano {
+  faixas: string[] // horaInicio distintos, ordenados
+  dias: number[] // dias com alguma aula, ordenados
+  celulas: Map<string, string[]> // `${dia}-${horaInicio}` -> materiaId[]
+}
+
+/** Chave de célula da tabela (dia + horário de início). */
+export const chaveCelula = (dia: number, horaInicio: string): string => `${dia}-${horaInicio}`
+
+/**
+ * Monta a tabela do planner: matérias do pool posicionadas na célula do seu dia+horário.
+ * Uma matéria com blocos em vários dias aparece em várias células. Duas na mesma célula
+ * (mesmo dia e horário de início) se sobrepõem — o render trata como choque potencial.
+ * Invariante: `ofertas` vem de `mesclarAulas`, que funde blocos da mesma matéria no mesmo
+ * dia+início; então uma matéria entra no máximo uma vez por célula (chaves de render únicas).
+ */
+export const montarTabelaPlano = (
+  pool: ReadonlyArray<Materia>,
+  ofertas: ReadonlyMap<string, Oferta>,
+): TabelaPlano => {
+  const celulas = new Map<string, string[]>()
+  const faixasSet = new Set<string>()
+  const diasSet = new Set<number>()
+  for (const m of pool) {
+    const oferta = ofertas.get(m.id)
+    if (!oferta) continue
+    for (const b of oferta.blocos) {
+      faixasSet.add(b.horaInicio)
+      diasSet.add(b.diaSemana)
+      const chave = chaveCelula(b.diaSemana, b.horaInicio)
+      const lista = celulas.get(chave) ?? []
+      lista.push(m.id)
+      celulas.set(chave, lista)
+    }
+  }
+  return {
+    faixas: [...faixasSet].sort((a, b) => timeToMin(a) - timeToMin(b)),
+    dias: [...diasSet].sort((a, b) => a - b),
+    celulas,
+  }
+}
+
 /** Matérias do curso inteiro: união das matérias das turmas, únicas por id. */
 export const materiasDoCurso = (turmas: ReadonlyArray<{ materias: ReadonlyArray<Materia> }>): Materia[] => {
   const byId = new Map<string, Materia>()

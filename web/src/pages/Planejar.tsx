@@ -2,114 +2,61 @@ import { useMemo, useState } from "react"
 import type { Aula } from "shared/schema"
 import { loadMateriasDoCurso, useQuery } from "../data/api"
 import {
-  chaveBloco,
+  aulasSobrepoem,
+  chaveCelula,
   DIAS,
   DIAS_CURTO,
   detectarChoquesPlano,
+  diaLetivo,
   type ItemPlano,
+  montarTabelaPlano,
   ofertasPorMateria,
-  porSemestre,
-  timeToMin,
 } from "../lib/horario"
 import { togglePlano, useProgresso, usePlano } from "../storage"
 import { QueryView, Titulo } from "../components/ui"
 
-const PX_POR_MIN = 0.75
-const ALTURA_MIN_BLOCO = 40
+type Estado = "escolhida" | "choque" | "conflita" | "livre"
 
-/** Rótulo curto do horário de uma matéria: "Seg 13:00 · Ter 15:50". */
-const resumoHorario = (blocos: ReadonlyArray<Aula>): string =>
-  blocos
-    .slice()
-    .sort((a, b) => a.diaSemana - b.diaSemana || timeToMin(a.horaInicio) - timeToMin(b.horaInicio))
-    .map((b) => `${DIAS_CURTO[b.diaSemana]} ${b.horaInicio}`)
-    .join(" · ")
-
-interface BlocoNaGrade {
-  bloco: Aula
-  materiaId: string
-  nome: string
-  emChoque: boolean
+const CLASSE: Record<Estado, string> = {
+  choque: "border-warning bg-warning-soft text-foreground",
+  escolhida: "border-primary bg-primary-soft text-foreground",
+  conflita: "border-border bg-surface-2 text-muted opacity-60",
+  livre: "border-border bg-surface-2 text-foreground",
 }
 
-function GradePlano({
-  blocos,
-  diaFoco,
-  onFocarDia,
+function ChipMateria({
+  nome,
+  corto,
+  bloco,
+  estado,
+  onToggle,
 }: {
-  blocos: BlocoNaGrade[]
-  diaFoco: number | null
-  onFocarDia: (dia: number) => void
+  nome: string
+  corto: string
+  bloco: Aula | null
+  estado: Estado
+  onToggle: () => void
 }) {
-  const dias = useMemo(() => [...new Set(blocos.map((b) => b.bloco.diaSemana))].sort((a, b) => a - b), [blocos])
-  if (blocos.length === 0)
-    return (
-      <div className="rounded-2xl border border-dashed border-border bg-surface p-8 text-center text-sm text-muted">
-        Marque matérias abaixo para montar a grade.
-      </div>
-    )
-
-  const inicio = Math.min(...blocos.map((b) => timeToMin(b.bloco.horaInicio)))
-  const fim = Math.max(...blocos.map((b) => timeToMin(b.bloco.horaFim)))
-  const altura = (fim - inicio) * PX_POR_MIN
-  // marcas de hora inteiras dentro do intervalo
-  const horas: number[] = []
-  for (let h = Math.ceil(inicio / 60) * 60; h <= fim; h += 60) horas.push(h)
-
+  const alerta = estado === "choque" || estado === "conflita"
   return (
-    <div className="overflow-x-auto rounded-2xl border border-border bg-surface p-3">
-      <div className="flex gap-1.5" style={{ minWidth: "max-content" }}>
-        {/* eixo de horas */}
-        <div className="relative w-9 shrink-0" style={{ height: altura }}>
-          {horas.map((h) => (
-            <span
-              key={h}
-              className="absolute right-1 -translate-y-1/2 text-[11px] tabular-nums text-muted"
-              style={{ top: (h - inicio) * PX_POR_MIN }}
-            >
-              {String(Math.floor(h / 60)).padStart(2, "0")}h
-            </span>
-          ))}
-        </div>
-        {dias.map((dia) => {
-          const doDia = blocos.filter((b) => b.bloco.diaSemana === dia)
-          const focado = diaFoco === dia
-          return (
-            <div key={dia} className={`shrink-0 ${focado ? "w-40" : "w-24"} transition-[width] duration-200`}>
-              <button
-                type="button"
-                onClick={() => onFocarDia(dia)}
-                className={`mb-1.5 min-h-8 w-full rounded-lg text-xs font-bold uppercase tracking-wide transition-colors ${
-                  focado ? "bg-primary text-on-primary" : "bg-surface-2 text-muted"
-                }`}
-              >
-                {DIAS_CURTO[dia]}
-              </button>
-              <div className="relative" style={{ height: altura }}>
-                {doDia.map((b) => {
-                  const top = (timeToMin(b.bloco.horaInicio) - inicio) * PX_POR_MIN
-                  const h = Math.max((timeToMin(b.bloco.horaFim) - timeToMin(b.bloco.horaInicio)) * PX_POR_MIN, ALTURA_MIN_BLOCO)
-                  return (
-                    <div
-                      key={chaveBloco(b.bloco) + b.materiaId}
-                      className={`absolute inset-x-0 overflow-hidden rounded-lg border px-1.5 py-1 ${
-                        b.emChoque ? "border-warning bg-warning-soft" : "border-primary bg-primary-soft"
-                      }`}
-                      style={{ top, height: h }}
-                    >
-                      <p className="text-[11px] tabular-nums leading-tight text-muted">{b.bloco.horaInicio}</p>
-                      <p className={`truncate text-xs font-semibold leading-tight ${focado ? "whitespace-normal" : ""}`} title={b.nome}>
-                        {b.nome}
-                      </p>
-                    </div>
-                  )
-                })}
-              </div>
-            </div>
-          )
-        })}
-      </div>
-    </div>
+    <button
+      type="button"
+      onClick={onToggle}
+      title={estado === "conflita" ? `${nome} — colide com sua escolha` : nome}
+      aria-label={nome}
+      aria-pressed={estado === "escolhida" || estado === "choque"}
+      className={`flex w-full flex-col rounded-lg border px-2 py-1.5 text-left transition-transform duration-100 active:scale-[0.98] ${CLASSE[estado]}`}
+    >
+      <span className="flex items-center gap-1 text-xs font-semibold leading-tight">
+        {alerta && <span aria-hidden>⚠</span>}
+        <span className="truncate">{corto}</span>
+      </span>
+      {bloco && (
+        <span className="text-[11px] tabular-nums leading-tight text-muted">
+          {bloco.horaInicio}–{bloco.horaFim}
+        </span>
+      )}
+    </button>
   )
 }
 
@@ -120,11 +67,10 @@ export function Planejar({ turmaId }: { turmaId: string }) {
   )
   const progresso = useProgresso()
   const plano = usePlano()
-  const [diaFoco, setDiaFoco] = useState<number | null>(null)
+  const [dia, setDia] = useState(() => Math.max(0, Math.min(5, diaLetivo(new Date()))))
 
   const concluidas = useMemo(() => new Set(progresso?.materiasConcluidas ?? []), [progresso])
-  // plano só vale para a turma atual (togglePlano zera ao trocar); concluída marcada
-  // depois deixa de aparecer no pool — some da grade/resumo também para não travar.
+  // concluída marcada depois some do pool/plano para não travar (fix do review anterior)
   const selecionadas = useMemo(
     () => new Set((plano?.turmaId === turmaId ? plano.materiaIds : []).filter((id) => !concluidas.has(id))),
     [plano, turmaId, concluidas],
@@ -135,81 +81,132 @@ export function Planejar({ turmaId }: { turmaId: string }) {
       {({ curso, materias, turmas }) => {
         const ofertas = ofertasPorMateria(turmas)
         const nomePorId = new Map(materias.map((m) => [m.id, m.nome]))
+        const cortoPorId = new Map(materias.map((m) => [m.id, m.nomeCurto ?? m.nome]))
         const pool = materias.filter((m) => !concluidas.has(m.id))
+        const tabela = montarTabelaPlano(pool, ofertas)
 
-        const itens: ItemPlano[] = [...selecionadas]
+        const itensSel: ItemPlano[] = [...selecionadas]
           .map((id) => ({ materiaId: id, blocos: ofertas.get(id)?.blocos ?? [] }))
           .filter((it) => it.blocos.length > 0)
-        const choques = detectarChoquesPlano(itens)
+        const choques = detectarChoquesPlano(itensSel)
+        const blocosSel = itensSel.flatMap((it) => it.blocos)
 
-        const blocosGrade: BlocoNaGrade[] = itens.flatMap((it) =>
-          it.blocos.map((bloco) => ({
-            bloco,
-            materiaId: it.materiaId,
-            nome: nomePorId.get(it.materiaId) ?? it.materiaId,
-            emChoque: choques.blocosEmChoque.has(chaveBloco(bloco)),
-          })),
-        )
+        const estadoDe = (materiaId: string): Estado => {
+          if (selecionadas.has(materiaId)) return choques.materiasEmChoque.has(materiaId) ? "choque" : "escolhida"
+          const blocos = ofertas.get(materiaId)?.blocos ?? []
+          if (blocos.some((b) => blocosSel.some((s) => aulasSobrepoem(b, s)))) return "conflita"
+          return "livre"
+        }
+
+        // matérias sem horário: não entram na tabela nem em choque
+        const semHorario = pool.filter((m) => !(ofertas.get(m.id)?.blocos.length))
 
         const nChoques = choques.pares.length
         const resumo =
           selecionadas.size === 0
-            ? "Marque matérias para simular"
+            ? "Toque numa matéria para escolher"
             : `${selecionadas.size} escolhida${selecionadas.size === 1 ? "" : "s"}${
                 nChoques > 0 ? ` · ${nChoques} choque${nChoques === 1 ? "" : "s"}` : " · sem choques"
               }`
+
+        const chip = (materiaId: string, bloco: Aula | null) => (
+          <ChipMateria
+            key={materiaId}
+            nome={nomePorId.get(materiaId) ?? materiaId}
+            corto={cortoPorId.get(materiaId) ?? materiaId}
+            bloco={bloco}
+            estado={estadoDe(materiaId)}
+            onToggle={() => togglePlano(turmaId, materiaId)}
+          />
+        )
+        // bloco específico de uma matéria naquela célula (para mostrar o horário no chip)
+        const blocoNaCelula = (materiaId: string, d: number, faixa: string): Aula | null =>
+          ofertas.get(materiaId)?.blocos.find((b) => b.diaSemana === d && b.horaInicio === faixa) ?? null
 
         return (
           <div>
             <Titulo sub={`${curso.nome} · ${resumo}`}>Planejar</Titulo>
 
-            <section aria-label="Grade do plano" className="mb-6">
-              <GradePlano blocos={blocosGrade} diaFoco={diaFoco} onFocarDia={(d) => setDiaFoco((atual) => (atual === d ? null : d))} />
-              {diaFoco !== null && (
-                <p className="mt-2 px-1 text-xs text-muted">
-                  Mostrando {DIAS[diaFoco]} em destaque. Toque de novo para desfazer.
-                </p>
-              )}
-            </section>
-
-            {porSemestre(pool).map(([sem, doSemestre]) => (
-              <section key={sem ?? "sem"} className="mb-6">
-                <h2 className="mb-2 text-sm font-bold uppercase tracking-wide text-muted">
-                  {sem === null ? "Sem semestre definido" : `${sem}º semestre`}
-                </h2>
-                <ul className="overflow-hidden rounded-2xl border border-border bg-surface">
-                  {doSemestre.map((m) => {
-                    const oferta = ofertas.get(m.id)
-                    const marcada = selecionadas.has(m.id)
-                    const emChoque = marcada && choques.materiasEmChoque.has(m.id)
-                    return (
-                      <li key={m.id} className="border-b border-border last:border-b-0">
-                        <label className="flex min-h-12 cursor-pointer items-center gap-3 px-4 py-2.5 transition-colors active:bg-surface-2">
-                          <input
-                            type="checkbox"
-                            checked={marcada}
-                            onChange={() => togglePlano(turmaId, m.id)}
-                            aria-label={`Cursar ${m.nome}`}
-                            className="size-5 shrink-0 accent-(--primary)"
-                          />
-                          <span className="min-w-0 flex-1">
-                            <span className="block truncate">{m.nome}</span>
-                            <span className="block truncate text-xs text-muted">
-                              {oferta ? resumoHorario(oferta.blocos) : "sem horário"}
-                            </span>
-                          </span>
-                          {emChoque && (
-                            <span className="ml-auto shrink-0 rounded-full bg-warning-soft px-2 py-0.5 text-xs font-semibold text-warning">
-                              Choque
-                            </span>
-                          )}
-                        </label>
+            {tabela.dias.length === 0 ? (
+              <div className="rounded-2xl border border-dashed border-border bg-surface p-8 text-center text-sm text-muted">
+                Nenhuma matéria com horário para planejar.
+              </div>
+            ) : (
+              <>
+                {/* Mobile: abas por dia + linhas por faixa de horário */}
+                <div className="md:hidden">
+                  <div role="tablist" aria-label="Dia da semana" className="mb-4 flex gap-1 rounded-2xl bg-surface-2 p-1">
+                    {tabela.dias.map((d) => (
+                      <button
+                        key={d}
+                        role="tab"
+                        aria-selected={dia === d}
+                        onClick={() => setDia(d)}
+                        className={`min-h-11 flex-1 rounded-xl text-sm font-semibold transition-colors duration-150 ${
+                          dia === d ? "bg-surface text-primary shadow-sm" : "text-muted"
+                        }`}
+                      >
+                        {DIAS_CURTO[d]}
+                      </button>
+                    ))}
+                  </div>
+                  <ul className="space-y-2.5">
+                    {tabela.faixas
+                      .map((faixa) => [faixa, tabela.celulas.get(chaveCelula(dia, faixa)) ?? []] as const)
+                      .filter(([, ids]) => ids.length > 0)
+                      .map(([faixa, ids]) => (
+                        <li key={faixa} className="flex gap-3 rounded-2xl border border-border bg-surface p-3">
+                          <span className="w-12 shrink-0 pt-1 text-sm font-semibold tabular-nums text-muted">{faixa}</span>
+                          <div className="flex min-w-0 flex-1 flex-col gap-1.5">
+                            {ids.length > 1 && (
+                              <span className="text-xs font-semibold text-warning">⚠ {ids.length} no mesmo horário</span>
+                            )}
+                            {ids.map((id) => chip(id, blocoNaCelula(id, dia, faixa)))}
+                          </div>
+                        </li>
+                      ))}
+                    {!tabela.faixas.some((faixa) => (tabela.celulas.get(chaveCelula(dia, faixa)) ?? []).length > 0) && (
+                      <li className="rounded-2xl border border-border bg-surface p-6 text-center text-sm text-muted">
+                        Sem matérias em {DIAS[dia]}.
                       </li>
-                    )
-                  })}
-                </ul>
+                    )}
+                  </ul>
+                </div>
+
+                {/* Desktop: tabela semanal (faixa × dia) */}
+                <div
+                  className="hidden gap-px overflow-hidden rounded-2xl border border-border bg-border md:grid"
+                  style={{ gridTemplateColumns: `auto repeat(${tabela.dias.length}, minmax(0, 1fr))` }}
+                >
+                  <div className="bg-surface" />
+                  {tabela.dias.map((d) => (
+                    <div key={d} className="bg-surface px-2 py-2 text-center text-sm font-bold uppercase tracking-wide text-muted">
+                      {DIAS_CURTO[d]}
+                    </div>
+                  ))}
+                  {tabela.faixas.map((faixa) => (
+                    <div key={faixa} className="contents">
+                      <div className="bg-surface px-2 py-2 text-right text-xs font-semibold tabular-nums text-muted">{faixa}</div>
+                      {tabela.dias.map((d) => {
+                        const ids = tabela.celulas.get(chaveCelula(d, faixa)) ?? []
+                        return (
+                          <div key={d} className="flex flex-col gap-1 bg-surface p-1.5">
+                            {ids.map((id) => chip(id, blocoNaCelula(id, d, faixa)))}
+                          </div>
+                        )
+                      })}
+                    </div>
+                  ))}
+                </div>
+              </>
+            )}
+
+            {semHorario.length > 0 && (
+              <section className="mt-6">
+                <h2 className="mb-2 text-sm font-bold uppercase tracking-wide text-muted">Sem horário definido</h2>
+                <div className="flex flex-wrap gap-1.5">{semHorario.map((m) => chip(m.id, null))}</div>
               </section>
-            ))}
+            )}
           </div>
         )
       }}

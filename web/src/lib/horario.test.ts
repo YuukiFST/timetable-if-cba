@@ -6,8 +6,10 @@ import {
   calcularHoje,
   detectarChoques,
   detectarChoquesPlano,
+  chaveCelula,
   materiasDoCurso,
   mesclarAulas,
+  montarTabelaPlano,
   ofertasPorMateria,
   porSemestre,
 } from "./horario"
@@ -246,5 +248,39 @@ describe("detectarChoquesPlano", () => {
       item("m2", [aula(1, "13:00", "14:40", "m2")]),
     ])
     expect(r.pares).toHaveLength(0)
+  })
+})
+
+describe("montarTabelaPlano", () => {
+  // m1 em 2 dias; m2 no mesmo dia+horário que m1 (choque); m3 sozinha noutra faixa
+  const t = turma("A", [mat("m1"), mat("m2"), mat("m3")], [
+    aula(0, "13:00", "14:40", "m1"),
+    aula(1, "13:45", "15:15", "m1"),
+    aula(0, "13:00", "14:40", "m2"),
+    aula(0, "18:50", "20:30", "m3"),
+  ])
+  const ofertas = ofertasPorMateria([t])
+  const pool = [mat("m1"), mat("m2"), mat("m3")]
+
+  it("faixas ordenadas por horário e dias só os com aula", () => {
+    const tab = montarTabelaPlano(pool, ofertas)
+    expect(tab.faixas).toEqual(["13:00", "13:45", "18:50"])
+    expect(tab.dias).toEqual([0, 1])
+  })
+
+  it("matéria em dois dias aparece em duas células", () => {
+    const tab = montarTabelaPlano(pool, ofertas)
+    expect(tab.celulas.get(chaveCelula(0, "13:00"))).toContain("m1")
+    expect(tab.celulas.get(chaveCelula(1, "13:45"))).toEqual(["m1"])
+  })
+
+  it("duas matérias no mesmo dia+início caem na mesma célula", () => {
+    const tab = montarTabelaPlano(pool, ofertas)
+    expect(tab.celulas.get(chaveCelula(0, "13:00"))?.sort()).toEqual(["m1", "m2"])
+  })
+
+  it("matéria sem oferta não entra na tabela", () => {
+    const tab = montarTabelaPlano([...pool, mat("m4")], ofertas)
+    expect([...tab.celulas.values()].flat()).not.toContain("m4")
   })
 })
