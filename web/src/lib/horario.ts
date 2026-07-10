@@ -143,6 +143,66 @@ export const detectarChoques = (
   return mapa
 }
 
+export interface Oferta {
+  turmaNome: string
+  blocos: Aula[] // já mesclados
+}
+
+/**
+ * Para cada matéria oferecida no curso, sua oferta (turma + blocos mesclados).
+ * Usado pelo planner de matrícula para saber o horário de cada matéria marcada.
+ */
+export const ofertasPorMateria = (turmas: ReadonlyArray<Turma>): Map<string, Oferta> => {
+  // ponytail: união de ofertas; escolha por turma se um curso integrado precisar
+  const aulasPorMateria = new Map<string, { turmaNome: string; aulas: Aula[] }>()
+  for (const t of turmas)
+    for (const a of t.aulas) {
+      const e = aulasPorMateria.get(a.materiaId) ?? { turmaNome: t.nome, aulas: [] }
+      e.aulas.push(a)
+      aulasPorMateria.set(a.materiaId, e)
+    }
+  const mapa = new Map<string, Oferta>()
+  for (const [materiaId, { turmaNome, aulas }] of aulasPorMateria)
+    mapa.set(materiaId, { turmaNome, blocos: mesclarAulas(aulas) })
+  return mapa
+}
+
+/** Chave estável de um bloco de aula (dia+horário) para marcar choques na grade. */
+export const chaveBloco = (a: Aula): string => `${a.diaSemana}-${a.horaInicio}-${a.horaFim}`
+
+export interface ItemPlano {
+  materiaId: string
+  blocos: Aula[] // já mesclados (de ofertasPorMateria)
+}
+
+export interface ChoquesPlano {
+  pares: Array<{ a: ItemPlano; b: ItemPlano; blocoA: Aula; blocoB: Aula }>
+  blocosEmChoque: Set<string> // chaveBloco dos blocos que colidem com algum outro
+  materiasEmChoque: Set<string> // materiaId em algum choque
+}
+
+/** Choques entre as matérias marcadas no plano (comparação par a par dos blocos). */
+export const detectarChoquesPlano = (itens: ReadonlyArray<ItemPlano>): ChoquesPlano => {
+  const pares: ChoquesPlano["pares"] = []
+  const blocosEmChoque = new Set<string>()
+  const materiasEmChoque = new Set<string>()
+  for (let i = 0; i < itens.length; i++)
+    for (let j = i + 1; j < itens.length; j++) {
+      const a = itens[i]!
+      const b = itens[j]!
+      for (const blocoA of a.blocos)
+        for (const blocoB of b.blocos)
+          if (aulasSobrepoem(blocoA, blocoB)) {
+            pares.push({ a, b, blocoA, blocoB })
+            blocosEmChoque.add(chaveBloco(blocoA))
+            blocosEmChoque.add(chaveBloco(blocoB))
+            materiasEmChoque.add(a.materiaId)
+            materiasEmChoque.add(b.materiaId)
+          }
+    }
+  return { pares, blocosEmChoque, materiasEmChoque }
+}
+
 /** Matérias do curso inteiro: união das matérias das turmas, únicas por id. */
 export const materiasDoCurso = (turmas: ReadonlyArray<{ materias: ReadonlyArray<Materia> }>): Materia[] => {
   const byId = new Map<string, Materia>()

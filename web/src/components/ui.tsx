@@ -12,6 +12,7 @@ export const IconHoje = () => icon(<><circle cx="12" cy="12" r="9" /><path d="M1
 export const IconSemana = () => icon(<><rect x="3" y="5" width="18" height="16" rx="2.5" /><path d="M3 10h18M8 3v4M16 3v4" /></>)
 export const IconMaterias = () => icon(<><path d="M4 19V6a2 2 0 0 1 2-2h13v13H6a2 2 0 0 0-2 2Zm0 0a2 2 0 0 0 2 2h13" /><path d="M9 8h6" /></>)
 export const IconConfig = () => icon(<><circle cx="12" cy="12" r="3.5" /><path d="M12 2.5v3M12 18.5v3M2.5 12h3M18.5 12h3M5.3 5.3l2.1 2.1M16.6 16.6l2.1 2.1M18.7 5.3l-2.1 2.1M7.4 16.6l-2.1 2.1" /></>)
+export const IconPlanejar = () => icon(<><rect x="3.5" y="4" width="17" height="17" rx="2.5" /><path d="M3.5 9h17M8 3v3M16 3v3" /><path d="M7.5 13l2 2 4-4" /></>)
 
 export function Titulo({ children, sub }: { children: ReactNode; sub?: ReactNode }) {
   return (

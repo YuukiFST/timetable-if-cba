@@ -1,6 +1,16 @@
 import type { Aula, Materia, Turma } from "shared/schema"
 import { describe, expect, it } from "vitest"
-import { agregarProgresso, aulasSobrepoem, calcularHoje, detectarChoques, materiasDoCurso, mesclarAulas, porSemestre } from "./horario"
+import {
+  agregarProgresso,
+  aulasSobrepoem,
+  calcularHoje,
+  detectarChoques,
+  detectarChoquesPlano,
+  materiasDoCurso,
+  mesclarAulas,
+  ofertasPorMateria,
+  porSemestre,
+} from "./horario"
 
 const aula = (diaSemana: number, horaInicio: string, horaFim: string, materiaId = "m1"): Aula => ({
   diaSemana,
@@ -183,5 +193,58 @@ describe("detectarChoques", () => {
     const info = detectarChoques(grade, [grade, t2], new Set()).get("m2")
     expect(info?.[0]?.conflitos).toHaveLength(1)
     expect(info?.[0]?.conflitos[0]?.aula).toMatchObject({ horaInicio: "18:50", horaFim: "22:25" })
+  })
+})
+
+describe("ofertasPorMateria", () => {
+  it("agrupa aulas por matéria e mescla blocos consecutivos", () => {
+    const t = turma("A", [mat("m1"), mat("m2")], [
+      aula(2, "18:50", "20:30", "m1"),
+      aula(2, "20:45", "22:25", "m1"), // gap 15min → mescla com o anterior
+      aula(3, "13:00", "13:50", "m2"),
+    ])
+    const ofertas = ofertasPorMateria([t])
+    expect(ofertas.get("m1")?.blocos).toHaveLength(1)
+    expect(ofertas.get("m1")?.blocos[0]).toMatchObject({ horaInicio: "18:50", horaFim: "22:25" })
+    expect(ofertas.get("m2")?.blocos).toHaveLength(1)
+    expect(ofertas.get("m1")?.turmaNome).toBe("A")
+  })
+})
+
+describe("detectarChoquesPlano", () => {
+  const item = (materiaId: string, blocos: Aula[]) => ({ materiaId, blocos })
+
+  it("horários diversos no mesmo dia não chocam", () => {
+    const r = detectarChoquesPlano([
+      item("m1", [aula(0, "13:00", "14:40", "m1")]),
+      item("m2", [aula(0, "18:50", "20:30", "m2")]),
+    ])
+    expect(r.pares).toHaveLength(0)
+    expect(r.materiasEmChoque.size).toBe(0)
+  })
+
+  it("sobreposição real no mesmo dia = um par", () => {
+    const r = detectarChoquesPlano([
+      item("m1", [aula(0, "13:00", "14:40", "m1")]),
+      item("m2", [aula(0, "14:00", "15:30", "m2")]),
+    ])
+    expect(r.pares).toHaveLength(1)
+    expect([...r.materiasEmChoque].sort()).toEqual(["m1", "m2"])
+  })
+
+  it("blocos já mesclados sobrepondo = um par só, não dois", () => {
+    const r = detectarChoquesPlano([
+      item("m1", [aula(4, "18:50", "22:25", "m1")]),
+      item("m2", [aula(4, "19:40", "21:35", "m2")]),
+    ])
+    expect(r.pares).toHaveLength(1)
+  })
+
+  it("dias diferentes nunca chocam", () => {
+    const r = detectarChoquesPlano([
+      item("m1", [aula(0, "13:00", "14:40", "m1")]),
+      item("m2", [aula(1, "13:00", "14:40", "m2")]),
+    ])
+    expect(r.pares).toHaveLength(0)
   })
 })

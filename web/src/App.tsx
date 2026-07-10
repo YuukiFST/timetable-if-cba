@@ -1,17 +1,19 @@
 import { NavLink, Route, Routes } from "react-router"
 import { InstallHint } from "./components/InstallHint"
-import { IconConfig, IconHoje, IconMaterias, IconSemana } from "./components/ui"
+import { IconConfig, IconHoje, IconMaterias, IconPlanejar, IconSemana } from "./components/ui"
 import { useProgresso } from "./storage"
 import { Config } from "./pages/Config"
 import { Hoje } from "./pages/Hoje"
 import { Materias } from "./pages/Materias"
 import { Onboarding } from "./pages/Onboarding"
+import { Planejar } from "./pages/Planejar"
 import { Semana } from "./pages/Semana"
 
 const tabs = [
   { to: "/", label: "Hoje", icon: <IconHoje /> },
   { to: "/semana", label: "Semana", icon: <IconSemana /> },
   { to: "/materias", label: "Matérias", icon: <IconMaterias /> },
+  { to: "/planejar", label: "Planejar", icon: <IconPlanejar /> },
   { to: "/config", label: "Config", icon: <IconConfig /> },
 ] as const
 
@@ -26,6 +28,7 @@ export function App() {
           <Route path="/" element={<Hoje turmaId={progresso.turmaId} />} />
           <Route path="/semana" element={<Semana turmaId={progresso.turmaId} />} />
           <Route path="/materias" element={<Materias turmaId={progresso.turmaId} />} />
+          <Route path="/planejar" element={<Planejar turmaId={progresso.turmaId} />} />
           <Route path="/config" element={<Config turmaId={progresso.turmaId} />} />
         </Routes>
       </main>
