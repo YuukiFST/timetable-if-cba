@@ -1,7 +1,8 @@
-import { useMemo } from "react"
+import { useMemo, useState } from "react"
 import { loadMateriasDoCurso, useQuery } from "../data/api"
-import { agregarProgresso, DIAS_CURTO, detectarChoques, porSemestre, type ChoqueInfo } from "../lib/horario"
-import { toggleCursando, toggleMateria, useProgresso } from "../storage"
+import { agregarProgresso, diaInicialPorMateria, DIAS_CURTO, detectarChoques, porSemestre, type ChoqueInfo } from "../lib/horario"
+import { escolherTurma, toggleCursando, toggleMateria, useProgresso } from "../storage"
+import { EscolhaCurso } from "./Onboarding"
 import { QueryView, Titulo } from "../components/ui"
 
 const fmtAula = (a: { diaSemana: number; horaInicio: string; horaFim: string }) =>
@@ -33,20 +34,41 @@ function ChoqueDetalhes({ info }: { info: ChoqueInfo[] }) {
   )
 }
 
-export function Materias({ turmaId }: { turmaId: string }) {
+export function Curso({ turmaId }: { turmaId: string }) {
   const q = useQuery(useMemo(() => loadMateriasDoCurso(turmaId), [turmaId]), `materias-${turmaId}`)
   const progresso = useProgresso()
+  const [trocando, setTrocando] = useState(false)
   const concluidas = useMemo(() => new Set(progresso?.materiasConcluidas ?? []), [progresso])
   const cursando = useMemo(() => new Set(progresso?.cursando ?? []), [progresso])
+
+  if (trocando)
+    return (
+      <EscolhaCurso
+        titulo="Trocar de curso"
+        onPick={(id) => {
+          escolherTurma(id)
+          setTrocando(false)
+        }}
+      />
+    )
 
   return (
     <QueryView q={q}>
       {({ curso, materias, turmaAtual, turmas }) => {
         const total = agregarProgresso(materias, concluidas)
         const choques = detectarChoques(turmaAtual, turmas, concluidas)
+        const dia = diaInicialPorMateria(turmas)
         return (
           <div>
-            <Titulo sub={curso.nome}>Matérias</Titulo>
+            <Titulo sub={curso.nome}>Curso</Titulo>
+
+            <button
+              type="button"
+              onClick={() => setTrocando(true)}
+              className="mb-4 min-h-11 text-sm font-medium text-primary"
+            >
+              Trocar curso
+            </button>
 
             <section aria-label="Progresso do curso" className="mb-6 rounded-2xl border border-border bg-surface p-4">
               <div className="flex items-baseline justify-between">
@@ -72,9 +94,9 @@ export function Materias({ turmaId }: { turmaId: string }) {
                     </span>
                   </h2>
                   <ul className="overflow-hidden rounded-2xl border border-border bg-surface">
-                    {/* não-feitas primeiro para escanear o que falta; ordem por nome preservada dentro de cada bloco */}
+                    {/* ordem por dia de aula (seg→sáb); sort estável mantém empates e sem-aula no fim */}
                     {[...doSemestre]
-                      .sort((a, b) => Number(concluidas.has(a.id)) - Number(concluidas.has(b.id)))
+                      .sort((a, b) => (dia.get(a.id) ?? 99) - (dia.get(b.id) ?? 99))
                       .map((m) => {
                       const feita = concluidas.has(m.id)
                       const curso = cursando.has(m.id)

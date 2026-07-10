@@ -8,6 +8,7 @@ import {
   detectarChoques,
   detectarChoquesPlano,
   chaveCelula,
+  diaInicialPorMateria,
   materiasDoCurso,
   mesclarAulas,
   montarTabelaPlano,
@@ -311,5 +312,24 @@ describe("montarTabelaPlano", () => {
   it("matéria sem oferta não entra na tabela", () => {
     const tab = montarTabelaPlano([...pool, mat("m4")], ofertas)
     expect([...tab.celulas.values()].flat()).not.toContain("m4")
+  })
+})
+
+describe("diaInicialPorMateria", () => {
+  it("usa o menor dia quando a matéria tem aulas em dias diferentes", () => {
+    const t = turma("A", [mat("m1")], [aula(3, "19:00", "20:40", "m1"), aula(1, "19:00", "20:40", "m1")])
+    expect(diaInicialPorMateria([t]).get("m1")).toBe(1)
+  })
+
+  it("inclui sábado (dia 5)", () => {
+    const t = turma("A", [mat("m1")], [aula(5, "08:00", "12:00", "m1")])
+    expect(diaInicialPorMateria([t]).get("m1")).toBe(5)
+  })
+
+  it("matéria sem aula não aparece no mapa", () => {
+    const t = turma("A", [mat("m1"), mat("m2")], [aula(2, "07:00", "08:00", "m1")])
+    const dia = diaInicialPorMateria([t])
+    expect(dia.get("m1")).toBe(2)
+    expect(dia.has("m2")).toBe(false)
   })
 })

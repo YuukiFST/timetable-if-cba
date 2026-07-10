@@ -1,7 +1,7 @@
 import { useState } from "react"
 import { loadTurma, useQuery } from "../data/api"
 import { escolherTurma, resetProgresso } from "../storage"
-import { EscolhaTurma } from "./Onboarding"
+import { EscolhaCurso } from "./Onboarding"
 import { QueryView, Titulo } from "../components/ui"
 
 const DIAS_MS = 24 * 60 * 60 * 1000
@@ -13,8 +13,8 @@ export function Config({ turmaId }: { turmaId: string }) {
 
   if (trocando)
     return (
-      <EscolhaTurma
-        titulo="Trocar de turma"
+      <EscolhaCurso
+        titulo="Trocar de curso"
         onPick={(id) => {
           escolherTurma(id)
           setTrocando(false)

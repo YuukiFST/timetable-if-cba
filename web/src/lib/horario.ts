@@ -159,6 +159,17 @@ export const detectarChoques = (
   return mapa
 }
 
+/** Menor dia de aula (0=seg..5=sáb) por matéria, cruzando turmas. Sem aula → ausente. */
+export const diaInicialPorMateria = (turmas: ReadonlyArray<Turma>): Map<string, number> => {
+  const m = new Map<string, number>()
+  for (const t of turmas)
+    for (const a of t.aulas) {
+      const cur = m.get(a.materiaId)
+      if (cur === undefined || a.diaSemana < cur) m.set(a.materiaId, a.diaSemana)
+    }
+  return m
+}
+
 export interface Oferta {
   turmaNome: string
   blocos: Aula[] // já mesclados

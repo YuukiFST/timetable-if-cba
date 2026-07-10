@@ -22,15 +22,15 @@ export function Hoje({ turmaId }: { turmaId: string }) {
 
   return (
     <QueryView q={q}>
-      {({ turmaAtual, turmas, materias }) => {
+      {({ curso, turmaAtual, turmas, materias }) => {
         const hoje = calcularHoje(aulasVigentes(turmaAtual, turmas, cursando, concluidas), agora)
         const materiaNome = (id: string) => materias.find((m) => m.id === id)?.nome ?? id
         return (
           <div>
             <Titulo
               sub={
-                <Link to="/config" className="inline-flex min-h-11 items-center gap-1.5">
-                  {turmaAtual.nome} <span className="font-medium text-primary">trocar</span>
+                <Link to="/" className="inline-flex min-h-11 items-center gap-1.5">
+                  {curso.nome} <span className="font-medium text-primary">trocar</span>
                 </Link>
               }
             >

@@ -17,7 +17,7 @@ export function Semana({ turmaId }: { turmaId: string }) {
 
   return (
     <QueryView q={q}>
-      {({ turmaAtual, turmas, materias }) => {
+      {({ curso, turmaAtual, turmas, materias }) => {
         const materiaCurta = (id: string) => {
           const m = materias.find((m) => m.id === id)
           return m?.nomeCurto ?? m?.nome ?? id
@@ -27,7 +27,7 @@ export function Semana({ turmaId }: { turmaId: string }) {
         const diasComAula = [0, 1, 2, 3, 4, 5].filter((d) => aulas.some((a) => a.diaSemana === d))
         return (
           <div>
-            <Titulo sub={turmaAtual.nome}>Semana</Titulo>
+            <Titulo sub={curso.nome}>Semana</Titulo>
 
             {/* Mobile: tabs por dia */}
             <div className="md:hidden">
