@@ -1,6 +1,6 @@
 import { useState } from "react"
 import { loadTurma, useQuery } from "../data/api"
-import { aulasDoDia, diaLetivo, DIAS, DIAS_CURTO } from "../lib/horario"
+import { aulasDoDia, diaLetivo, DIAS, DIAS_CURTO, mesclarAulas } from "../lib/horario"
 import { AulaCard, QueryView, Titulo } from "../components/ui"
 
 export function Semana({ turmaId }: { turmaId: string }) {
@@ -15,7 +15,8 @@ export function Semana({ turmaId }: { turmaId: string }) {
           return m?.nomeCurto ?? m?.nome ?? id
         }
         const materiaNome = (id: string) => turma.materias.find((m) => m.id === id)?.nome ?? id
-        const diasComAula = [0, 1, 2, 3, 4, 5].filter((d) => turma.aulas.some((a) => a.diaSemana === d))
+        const aulas = mesclarAulas(turma.aulas)
+        const diasComAula = [0, 1, 2, 3, 4, 5].filter((d) => aulas.some((a) => a.diaSemana === d))
         return (
           <div>
             <Titulo sub={turma.nome}>Semana</Titulo>
@@ -38,10 +39,10 @@ export function Semana({ turmaId }: { turmaId: string }) {
                 ))}
               </div>
               <ul className="space-y-2.5">
-                {aulasDoDia(turma.aulas, dia).map((aula, i) => (
+                {aulasDoDia(aulas, dia).map((aula, i) => (
                   <AulaCard key={`${aula.slot}-${aula.materiaId}-${i}`} aula={aula} materia={materiaNome(aula.materiaId)} />
                 ))}
-                {aulasDoDia(turma.aulas, dia).length === 0 && (
+                {!aulas.some((a) => a.diaSemana === dia) && (
                   <li className="rounded-2xl border border-border bg-surface p-6 text-center text-sm text-muted">
                     Sem aulas em {DIAS[dia]}.
                   </li>
@@ -55,7 +56,7 @@ export function Semana({ turmaId }: { turmaId: string }) {
                 <section key={d} aria-label={DIAS[d]}>
                   <h2 className="mb-2 text-center text-sm font-bold uppercase tracking-wide text-muted">{DIAS[d]}</h2>
                   <ul className="space-y-2">
-                    {aulasDoDia(turma.aulas, d).map((aula, i) => (
+                    {aulasDoDia(aulas, d).map((aula, i) => (
                       <li key={`${aula.slot}-${aula.materiaId}-${i}`} className="rounded-xl border border-border bg-surface p-2.5">
                         <p className="text-xs tabular-nums text-muted">
                           {aula.horaInicio}–{aula.horaFim}

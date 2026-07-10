@@ -4,10 +4,17 @@ import { loadCursos, loadTurma, useQuery } from "../data/api"
 import { escolherTurma } from "../storage"
 import { QueryView } from "../components/ui"
 
+const norm = (s: string) =>
+  s
+    .normalize("NFD")
+    .replace(/[̀-ͯ]/g, "")
+    .toLowerCase()
+
 /** Escolha curso → turma (F1). Também usada pela tela Config para trocar de turma. */
 export function EscolhaTurma({ titulo, onDone }: { titulo: string; onDone?: () => void }) {
   const q = useQuery(loadCursos, "cursos")
   const [curso, setCurso] = useState<Curso | null>(null)
+  const [busca, setBusca] = useState("")
 
   return (
     <div>
@@ -21,23 +28,46 @@ export function EscolhaTurma({ titulo, onDone }: { titulo: string; onDone?: () =
       <QueryView q={q}>
         {(dados) =>
           curso === null ? (
-            <ul className="space-y-2">
-              {/* cursos com mais turmas primeiro: joga pseudo-cursos (dependências etc.) para o fim */}
-              {[...dados.cursos].sort((a, b) => b.turmaIds.length - a.turmaIds.length || a.nome.localeCompare(b.nome)).map((c) => (
-                <li key={c.id}>
-                  <button
-                    type="button"
-                    onClick={() => setCurso(c)}
-                    className="min-h-14 w-full rounded-2xl border border-border bg-surface p-4 text-left font-medium transition-transform duration-100 active:scale-[0.98]"
-                  >
-                    {c.nome}
-                    <span className="mt-0.5 block text-sm font-normal text-muted">
-                      {c.turmaIds.length} {c.turmaIds.length === 1 ? "turma" : "turmas"}
-                    </span>
-                  </button>
-                </li>
-              ))}
-            </ul>
+            (() => {
+              const filtrados = [...dados.cursos]
+                .filter((c) => norm(c.nome).includes(norm(busca)))
+                // cursos com mais turmas primeiro: joga pseudo-cursos (dependências etc.) para o fim
+                .sort((a, b) => b.turmaIds.length - a.turmaIds.length || a.nome.localeCompare(b.nome))
+              return (
+                <>
+                  <input
+                    type="search"
+                    value={busca}
+                    onChange={(e) => setBusca(e.target.value)}
+                    placeholder="Buscar curso…"
+                    aria-label="Buscar curso"
+                    className="mb-3 min-h-12 w-full rounded-2xl border border-border bg-surface px-4 text-base outline-none focus:border-primary"
+                  />
+                  {filtrados.length === 0 ? (
+                    <p className="rounded-2xl border border-border bg-surface p-6 text-center text-sm text-muted">
+                      Nenhum curso encontrado.
+                    </p>
+                  ) : (
+                    <ul className="space-y-2">
+                      {filtrados.map((c) => (
+                        <li key={c.id}>
+                          <button
+                            type="button"
+                            onClick={() => setCurso(c)}
+                            className="min-h-14 w-full rounded-2xl border border-border bg-surface p-4 text-left font-medium transition-transform duration-100 active:scale-[0.98]"
+                          >
+                            {c.nome}
+                            <span className="mt-0.5 block text-sm font-normal text-muted">
+                              {c.turmaIds.length} {c.turmaIds.length === 1 ? "turma" : "turmas"}
+                            </span>
+                          </button>
+                        </li>
+                      ))}
+                    </ul>
+                  )}
+                </>
+              )
+            })()
           ) : (
             <>
               <button type="button" onClick={() => setCurso(null)} className="mb-3 min-h-11 text-sm font-medium text-primary">

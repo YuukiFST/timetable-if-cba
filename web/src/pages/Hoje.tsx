@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react"
+import { Link } from "react-router"
 import { loadTurma, useQuery } from "../data/api"
-import { calcularHoje, DIAS } from "../lib/horario"
+import { calcularHoje, DIAS, mesclarAulas } from "../lib/horario"
 import { AulaCard, QueryView, Titulo } from "../components/ui"
 
 export function Hoje({ turmaId }: { turmaId: string }) {
@@ -14,11 +15,19 @@ export function Hoje({ turmaId }: { turmaId: string }) {
   return (
     <QueryView q={q}>
       {({ turma }) => {
-        const hoje = calcularHoje(turma.aulas, agora)
+        const hoje = calcularHoje(mesclarAulas(turma.aulas), agora)
         const materiaNome = (id: string) => turma.materias.find((m) => m.id === id)?.nome ?? id
         return (
           <div>
-            <Titulo sub={turma.nome}>{hoje.ehHoje ? "Hoje" : `Próximo dia letivo · ${DIAS[hoje.dia]}`}</Titulo>
+            <Titulo
+              sub={
+                <Link to="/config" className="inline-flex min-h-11 items-center gap-1.5">
+                  {turma.nome} <span className="font-medium text-primary">trocar</span>
+                </Link>
+              }
+            >
+              {hoje.ehHoje ? "Hoje" : `Próximo dia letivo · ${DIAS[hoje.dia]}`}
+            </Titulo>
             {hoje.aulas.length === 0 ? (
               <div className="rounded-2xl border border-border bg-surface p-8 text-center">
                 <p className="text-lg font-semibold">Sem aulas por aqui</p>

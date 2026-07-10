@@ -70,6 +70,34 @@ export const porSemestre = (materias: ReadonlyArray<Materia>): Array<[number | n
     .sort(([a], [b]) => (a ?? Infinity) - (b ?? Infinity))
 }
 
+const GAP_MAX_MIN = 25 // cobre o intervalo padrão (15–20 min) entre blocos da mesma aula
+
+/** Mescla aulas consecutivas da mesma matéria no mesmo dia quando o gap ≤ 25 min (display-only). */
+export const mesclarAulas = (aulas: ReadonlyArray<Aula>): Aula[] => {
+  const ordenadas = [...aulas].sort(
+    (a, b) => a.diaSemana - b.diaSemana || timeToMin(a.horaInicio) - timeToMin(b.horaInicio),
+  )
+  const blocos: Aula[] = []
+  for (const a of ordenadas) {
+    const ultimo = blocos[blocos.length - 1]
+    if (
+      ultimo &&
+      ultimo.materiaId === a.materiaId &&
+      ultimo.diaSemana === a.diaSemana &&
+      timeToMin(a.horaInicio) - timeToMin(ultimo.horaFim) <= GAP_MAX_MIN
+    ) {
+      // max: aula sobreposta/contida não encolhe o bloco
+      blocos[blocos.length - 1] = {
+        ...ultimo,
+        horaFim: timeToMin(a.horaFim) > timeToMin(ultimo.horaFim) ? a.horaFim : ultimo.horaFim,
+      }
+    } else {
+      blocos.push(a)
+    }
+  }
+  return blocos
+}
+
 /** Duas aulas colidem: mesmo dia e intervalos sobrepostos (fim==início não colide). */
 export const aulasSobrepoem = (a: Aula, b: Aula): boolean =>
   a.diaSemana === b.diaSemana &&

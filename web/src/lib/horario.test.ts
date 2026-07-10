@@ -1,6 +1,6 @@
 import type { Aula, Materia, Turma } from "shared/schema"
 import { describe, expect, it } from "vitest"
-import { agregarProgresso, aulasSobrepoem, calcularHoje, detectarChoques, materiasDoCurso, porSemestre } from "./horario"
+import { agregarProgresso, aulasSobrepoem, calcularHoje, detectarChoques, materiasDoCurso, mesclarAulas, porSemestre } from "./horario"
 
 const aula = (diaSemana: number, horaInicio: string, horaFim: string, materiaId = "m1"): Aula => ({
   diaSemana,
@@ -74,6 +74,48 @@ describe("materiasDoCurso", () => {
     const r = materiasDoCurso([{ materias: [mat("a")] }, { materias: [mat("a", 3), mat("b", 1)] }])
     expect(r.find((m) => m.id === "a")?.semestre).toBe(3)
     expect(r).toHaveLength(2)
+  })
+})
+
+describe("mesclarAulas", () => {
+  // caso real: 2 aulas coladas + intervalo 15min + 2 aulas coladas, mesma matéria
+  const bloco4 = [
+    aula(2, "18:50", "19:40"),
+    aula(2, "19:40", "20:30"),
+    aula(2, "20:45", "21:35"),
+    aula(2, "21:35", "22:25"),
+  ]
+
+  it("4 aulas com intervalo de 15min viram 1 bloco", () => {
+    const r = mesclarAulas(bloco4)
+    expect(r).toHaveLength(1)
+    expect(r[0]).toMatchObject({ horaInicio: "18:50", horaFim: "22:25" })
+  })
+
+  it("gap > 25min não mescla", () => {
+    const r = mesclarAulas([aula(2, "07:00", "07:50"), aula(2, "08:20", "09:10")])
+    expect(r).toHaveLength(2)
+  })
+
+  it("matérias diferentes coladas não mesclam", () => {
+    const r = mesclarAulas([aula(2, "07:00", "07:50", "m1"), aula(2, "07:50", "08:40", "m2")])
+    expect(r).toHaveLength(2)
+  })
+
+  it("dias diferentes não mesclam", () => {
+    const r = mesclarAulas([aula(2, "07:00", "07:50"), aula(3, "07:50", "08:40")])
+    expect(r).toHaveLength(2)
+  })
+
+  it("aula contida não encolhe o bloco", () => {
+    const r = mesclarAulas([aula(2, "07:00", "09:00"), aula(2, "07:30", "08:00")])
+    expect(r).toHaveLength(1)
+    expect(r[0]).toMatchObject({ horaInicio: "07:00", horaFim: "09:00" })
+  })
+
+  it("durante o intervalo o bloco mesclado é a aula atual", () => {
+    const r = calcularHoje(mesclarAulas(bloco4), quarta(20, 35))
+    expect(r.atualIdx).toBe(0)
   })
 })
 
