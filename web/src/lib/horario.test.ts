@@ -146,7 +146,7 @@ describe("detectarChoques", () => {
   it("matéria em duas turmas: uma choca, outra não", () => {
     const t2 = turma("B", [mat("m2")], [aula(1, "19:00", "20:40", "m2")]) // choca
     const t3 = turma("C", [mat("m2")], [aula(3, "19:00", "20:40", "m2")]) // sem choque
-    const mapa = detectarChoques(atual, [atual, t2, t3])
+    const mapa = detectarChoques(atual, [atual, t2, t3], new Set())
     const info = mapa.get("m2")
     expect(info).toHaveLength(2)
     const b = info?.find((c) => c.turma.id === "B")
@@ -158,10 +158,30 @@ describe("detectarChoques", () => {
 
   it("matéria já na grade atual fica fora do mapa", () => {
     const t2 = turma("B", [mat("m1")], [aula(1, "19:00", "20:40", "m1")])
-    expect(detectarChoques(atual, [atual, t2]).has("m1")).toBe(false)
+    expect(detectarChoques(atual, [atual, t2], new Set()).has("m1")).toBe(false)
   })
 
   it("sem turmas extras: mapa vazio", () => {
-    expect(detectarChoques(atual, [atual]).size).toBe(0)
+    expect(detectarChoques(atual, [atual], new Set()).size).toBe(0)
+  })
+
+  it("matéria da grade já concluída não gera choque", () => {
+    const t2 = turma("B", [mat("m2")], [aula(1, "19:00", "20:40", "m2")])
+    const info = detectarChoques(atual, [atual, t2], new Set(["m1"])).get("m2")
+    expect(info?.[0]?.conflitos).toHaveLength(0)
+  })
+
+  it("candidata concluída fica fora do mapa", () => {
+    const t2 = turma("B", [mat("m2")], [aula(1, "19:00", "20:40", "m2")])
+    expect(detectarChoques(atual, [atual, t2], new Set(["m2"])).has("m2")).toBe(false)
+  })
+
+  it("aula candidata em dois blocos consecutivos = um conflito só", () => {
+    // grade atual como bloco único 18:50–22:25; candidata em 2 sub-blocos (gap 15min)
+    const grade = turma("A", [mat("m1")], [aula(4, "18:50", "22:25", "m1")])
+    const t2 = turma("B", [mat("m2")], [aula(4, "18:50", "20:30", "m2"), aula(4, "20:45", "22:25", "m2")])
+    const info = detectarChoques(grade, [grade, t2], new Set()).get("m2")
+    expect(info?.[0]?.conflitos).toHaveLength(1)
+    expect(info?.[0]?.conflitos[0]?.aula).toMatchObject({ horaInicio: "18:50", horaFim: "22:25" })
   })
 })

@@ -1,6 +1,6 @@
 import { useState } from "react"
 import { loadTurma, useQuery } from "../data/api"
-import { resetProgresso } from "../storage"
+import { escolherTurma, resetProgresso } from "../storage"
 import { EscolhaTurma } from "./Onboarding"
 import { QueryView, Titulo } from "../components/ui"
 
@@ -11,7 +11,16 @@ export function Config({ turmaId }: { turmaId: string }) {
   const [trocando, setTrocando] = useState(false)
   const [confirmandoReset, setConfirmandoReset] = useState(false)
 
-  if (trocando) return <EscolhaTurma titulo="Trocar de turma" onDone={() => setTrocando(false)} />
+  if (trocando)
+    return (
+      <EscolhaTurma
+        titulo="Trocar de turma"
+        onPick={(id) => {
+          escolherTurma(id)
+          setTrocando(false)
+        }}
+      />
+    )
 
   return (
     <QueryView q={q}>

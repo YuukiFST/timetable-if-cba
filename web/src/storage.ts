@@ -48,6 +48,10 @@ export const useProgresso = (): ProgressoLocal | null =>
     () => (cache !== undefined ? cache : (cache = readProgresso())),
   )
 
+/** Onboarding: grava turma + concluídas marcadas de uma vez (progresso ainda não existe). */
+export const iniciarProgresso = (turmaId: string, concluidas: string[]): void =>
+  writeProgresso({ version: VERSION, turmaId, materiasConcluidas: [...concluidas].sort() })
+
 export const escolherTurma = (turmaId: string): void => {
   const atual = readProgresso()
   writeProgresso({

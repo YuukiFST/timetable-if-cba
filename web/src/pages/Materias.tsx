@@ -1,29 +1,8 @@
-import { Effect } from "effect"
 import { useMemo } from "react"
-import { loadCursos, loadTurma, loadTurmas, useQuery, type DataError } from "../data/api"
-import { agregarProgresso, DIAS_CURTO, detectarChoques, materiasDoCurso, porSemestre, type ChoqueInfo } from "../lib/horario"
+import { loadMateriasDoCurso, useQuery } from "../data/api"
+import { agregarProgresso, DIAS_CURTO, detectarChoques, porSemestre, type ChoqueInfo } from "../lib/horario"
 import { toggleMateria, useProgresso } from "../storage"
 import { QueryView, Titulo } from "../components/ui"
-import type { Curso, Materia, Turma } from "shared/schema"
-
-interface MateriasDoCurso {
-  curso: Curso
-  materias: Materia[]
-  turmaAtual: Turma
-  turmas: Turma[]
-}
-
-// Matérias do curso inteiro: cursos.json → turmas do curso → união das matérias (F3).
-const loadMateriasDoCurso = (turmaId: string): Effect.Effect<MateriasDoCurso, DataError> =>
-  Effect.gen(function* () {
-    const { turma } = yield* loadTurma(turmaId)
-    const { cursos } = yield* loadCursos
-    const curso = cursos.find((c) => c.id === turma.cursoId)
-    if (!curso)
-      return { curso: { id: turma.cursoId, nome: turma.cursoId, turmaIds: [turmaId] }, materias: [...turma.materias], turmaAtual: turma, turmas: [turma] }
-    const turmas = (yield* loadTurmas(curso.turmaIds)).map((t) => t.turma)
-    return { curso, materias: materiasDoCurso(turmas), turmaAtual: turma, turmas }
-  })
 
 const fmtAula = (a: { diaSemana: number; horaInicio: string; horaFim: string }) =>
   `${DIAS_CURTO[a.diaSemana]} ${a.horaInicio}–${a.horaFim}`
@@ -63,7 +42,7 @@ export function Materias({ turmaId }: { turmaId: string }) {
     <QueryView q={q}>
       {({ curso, materias, turmaAtual, turmas }) => {
         const total = agregarProgresso(materias, concluidas)
-        const choques = detectarChoques(turmaAtual, turmas)
+        const choques = detectarChoques(turmaAtual, turmas, concluidas)
         return (
           <div>
             <Titulo sub={curso.nome}>Matérias</Titulo>
@@ -92,7 +71,10 @@ export function Materias({ turmaId }: { turmaId: string }) {
                     </span>
                   </h2>
                   <ul className="overflow-hidden rounded-2xl border border-border bg-surface">
-                    {doSemestre.map((m) => {
+                    {/* não-feitas primeiro para escanear o que falta; ordem por nome preservada dentro de cada bloco */}
+                    {[...doSemestre]
+                      .sort((a, b) => Number(concluidas.has(a.id)) - Number(concluidas.has(b.id)))
+                      .map((m) => {
                       const feita = concluidas.has(m.id)
                       const info = choques.get(m.id)
                       const temChoque = !feita && !!info?.some((c) => c.conflitos.length > 0)

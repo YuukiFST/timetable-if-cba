@@ -112,22 +112,29 @@ export interface ChoqueInfo {
 /**
  * Para cada matéria fora da grade da turma atual mas oferecida em outra turma do curso,
  * uma entrada por turma ofertante com seus conflitos contra a grade atual (lista vazia = sem choque).
+ * Ignora matérias já concluídas (não vão ser cursadas) e mescla blocos consecutivos antes de comparar.
  */
-export const detectarChoques = (turmaAtual: Turma, turmasDoCurso: ReadonlyArray<Turma>): Map<string, ChoqueInfo[]> => {
+export const detectarChoques = (
+  turmaAtual: Turma,
+  turmasDoCurso: ReadonlyArray<Turma>,
+  concluidas: ReadonlySet<string>,
+): Map<string, ChoqueInfo[]> => {
   const naGrade = new Set(turmaAtual.materias.map((m) => m.id))
   const nomeContra = new Map(turmaAtual.materias.map((m) => [m.id, m.nome]))
+  // grade real do aluno: sem concluídas (não vai assistir), blocos consecutivos mesclados
+  const gradeAtual = mesclarAulas(turmaAtual.aulas.filter((a) => !concluidas.has(a.materiaId)))
   const mapa = new Map<string, ChoqueInfo[]>()
   for (const t of turmasDoCurso) {
     if (t.id === turmaAtual.id) continue
-    const materiaIds = new Set(t.aulas.map((a) => a.materiaId).filter((id) => !naGrade.has(id)))
+    const materiaIds = new Set(
+      t.aulas.map((a) => a.materiaId).filter((id) => !naGrade.has(id) && !concluidas.has(id)),
+    )
     for (const materiaId of materiaIds) {
-      const conflitos = t.aulas
-        .filter((a) => a.materiaId === materiaId)
-        .flatMap((aula) =>
-          turmaAtual.aulas
-            .filter((contra) => aulasSobrepoem(aula, contra))
-            .map((contra) => ({ aula, contra, materiaContraNome: nomeContra.get(contra.materiaId) ?? contra.materiaId })),
-        )
+      const conflitos = mesclarAulas(t.aulas.filter((a) => a.materiaId === materiaId)).flatMap((aula) =>
+        gradeAtual
+          .filter((contra) => aulasSobrepoem(aula, contra))
+          .map((contra) => ({ aula, contra, materiaContraNome: nomeContra.get(contra.materiaId) ?? contra.materiaId })),
+      )
       const lista = mapa.get(materiaId) ?? []
       lista.push({ turma: { id: t.id, nome: t.nome }, conflitos })
       mapa.set(materiaId, lista)

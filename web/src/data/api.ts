@@ -1,6 +1,7 @@
 import { Data, Effect, Schema } from "effect"
-import { ArquivoCursos, ArquivoTurma } from "shared/schema"
+import { ArquivoCursos, ArquivoTurma, type Curso, type Materia, type Turma } from "shared/schema"
 import { useEffect, useState } from "react"
+import { materiasDoCurso } from "../lib/horario"
 
 export class DataError extends Data.TaggedError("DataError")<{ path: string; cause: unknown }> {}
 
@@ -22,6 +23,25 @@ export const loadCursos = loadJson("/data/cursos.json", ArquivoCursos)
 export const loadTurma = (turmaId: string) => loadJson(`/data/turmas/${turmaId}.json`, ArquivoTurma)
 export const loadTurmas = (ids: ReadonlyArray<string>) =>
   Effect.all(ids.map(loadTurma), { concurrency: 6 })
+
+export interface MateriasDoCurso {
+  curso: Curso
+  materias: Materia[]
+  turmaAtual: Turma
+  turmas: Turma[]
+}
+
+// Matérias do curso inteiro: cursos.json → turmas do curso → união das matérias (F3).
+export const loadMateriasDoCurso = (turmaId: string): Effect.Effect<MateriasDoCurso, DataError> =>
+  Effect.gen(function* () {
+    const { turma } = yield* loadTurma(turmaId)
+    const { cursos } = yield* loadCursos
+    const curso = cursos.find((c) => c.id === turma.cursoId)
+    if (!curso)
+      return { curso: { id: turma.cursoId, nome: turma.cursoId, turmaIds: [turmaId] }, materias: [...turma.materias], turmaAtual: turma, turmas: [turma] }
+    const turmas = (yield* loadTurmas(curso.turmaIds)).map((t) => t.turma)
+    return { curso, materias: materiasDoCurso(turmas), turmaAtual: turma, turmas }
+  })
 
 export type Query<A> = { status: "loading" } | { status: "error"; error: DataError } | { status: "ok"; value: A }
 
