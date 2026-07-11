@@ -1,7 +1,7 @@
 import { useMemo, useState } from "react"
 import { loadMateriasDoCurso, useQuery } from "../data/api"
 import { agregarProgresso, diaInicialPorMateria, DIAS_CURTO, detectarChoques, fmtHorarioMateria, ofertasPorMateria, porSemestre, type ChoqueInfo } from "../lib/horario"
-import { escolherTurma, toggleCursando, toggleMateria, useProgresso } from "../storage"
+import { escolherTurma, toggleMateria, useProgresso } from "../storage"
 import { EscolhaCurso } from "./Onboarding"
 import { AvisoFonteDados, QueryView, Titulo } from "../components/ui"
 
@@ -39,7 +39,6 @@ export function Curso({ turmaId }: { turmaId: string }) {
   const progresso = useProgresso()
   const [trocando, setTrocando] = useState(false)
   const concluidas = useMemo(() => new Set(progresso?.materiasConcluidas ?? []), [progresso])
-  const cursando = useMemo(() => new Set(progresso?.cursando ?? []), [progresso])
 
   if (trocando)
     return (
@@ -102,7 +101,6 @@ export function Curso({ turmaId }: { turmaId: string }) {
                       .sort((a, b) => (dia.get(a.id) ?? 99) - (dia.get(b.id) ?? 99))
                       .map((m) => {
                       const feita = concluidas.has(m.id)
-                      const curso = cursando.has(m.id)
                       const info = choques.get(m.id)
                       const temChoque = !feita && !!info?.some((c) => c.conflitos.length > 0)
                       const horario = fmtHorarioMateria(ofertas.get(m.id)?.blocos ?? [])
@@ -120,17 +118,7 @@ export function Curso({ turmaId }: { turmaId: string }) {
                                 Choque
                               </span>
                             )}
-                            <div className="ml-auto flex shrink-0 gap-1">
-                              <button
-                                type="button"
-                                aria-pressed={curso}
-                                onClick={() => toggleCursando(m.id)}
-                                className={`min-h-9 rounded-lg px-2.5 text-xs font-semibold active:scale-[0.97] ${
-                                  curso ? "ix-btn bg-primary text-on-primary" : "ix-pill bg-surface-2 text-muted"
-                                }`}
-                              >
-                                Cursando
-                              </button>
+                            <div className="ml-auto shrink-0">
                               <button
                                 type="button"
                                 aria-pressed={feita}

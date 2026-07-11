@@ -271,14 +271,14 @@ describe("aulasVigentes", () => {
     expect(r.map((a) => a.materiaId)).toEqual(["m3"])
   })
 
-  it("cursando vazio: fallback = grade da turma atual sem concluídas", () => {
+  it("cursando vazio: retorna array vazio (sem fallback)", () => {
     const r = aulasVigentes(atual, [atual, outra], new Set(), new Set(["m2"]))
-    expect(r.map((a) => a.materiaId)).toEqual(["m1"])
+    expect(r).toEqual([])
   })
 
-  it("cursando vazio e sem concluídas: grade inteira da turma atual", () => {
+  it("cursando vazio mesmo sem concluídas: retorna vazio", () => {
     const r = aulasVigentes(atual, [atual, outra], new Set(), new Set())
-    expect(r.map((a) => a.materiaId).sort()).toEqual(["m1", "m2"])
+    expect(r).toEqual([])
   })
 })
 

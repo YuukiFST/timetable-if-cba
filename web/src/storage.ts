@@ -1,5 +1,5 @@
 import { Either, Schema } from "effect"
-import { PlanoLocal, ProgressoLocal } from "shared/schema"
+import { ProgressoLocal } from "shared/schema"
 import { useSyncExternalStore } from "react"
 
 // Store local versionado sobre localStorage, com cache + sync entre abas (PRD §6.3).
@@ -107,23 +107,27 @@ export const resetProgresso = (): void => {
   if (atual) progresso.write({ ...atual, materiasConcluidas: [] })
 }
 
-// --- Plano de matrícula (simulador do próximo semestre) ---
+const PLANO_KEY = "horarios-ifmt-plano"
 
-const VERSION_PLANO = 1
-const plano = makeStore<PlanoLocal>("horarios-ifmt-plano", (raw) => {
-  const decoded = Schema.decodeUnknownEither(PlanoLocal)(raw)
-  if (Either.isLeft(decoded)) return null
-  return decoded.right.version === VERSION_PLANO ? decoded.right : null
-})
-
-export const usePlano = plano.use
-
-/** Alterna uma matéria no plano; trocar de turma zera o plano (ids só valem dentro do curso). */
-export const togglePlano = (turmaId: string, materiaId: string): void => {
-  const atual = plano.read()
-  const base = atual?.turmaId === turmaId ? atual.materiaIds : []
-  const set = new Set(base)
-  if (set.has(materiaId)) set.delete(materiaId)
-  else set.add(materiaId)
-  plano.write({ version: VERSION_PLANO, turmaId, materiaIds: [...set].sort() })
+/** One-shot: copia plano legado para cursando se cursando estiver vazio. */
+export function migrarPlanoLegado(): void {
+  if (typeof window === "undefined") return
+  const atual = progresso.read()
+  if (!atual || (atual.cursando?.length ?? 0) > 0) return
+  try {
+    const raw = localStorage.getItem(PLANO_KEY)
+    if (!raw) return
+    const parsed = JSON.parse(raw) as { turmaId?: string; materiaIds?: string[] }
+    if (atual.turmaId !== parsed.turmaId || !parsed.materiaIds?.length) {
+      localStorage.removeItem(PLANO_KEY)
+      return
+    }
+    progresso.write({
+      ...atual,
+      cursando: [...new Set(parsed.materiaIds)].sort(),
+    })
+    localStorage.removeItem(PLANO_KEY)
+  } catch {
+    localStorage.removeItem(PLANO_KEY)
+  }
 }

@@ -64,12 +64,4 @@ export const ProgressoLocal = Schema.Struct({
 })
 export type ProgressoLocal = typeof ProgressoLocal.Type
 
-// Plano de matrícula do próximo semestre (simulador, localStorage separado do progresso):
-export const PlanoLocal = Schema.Struct({
-  version: Schema.Number,
-  turmaId: Schema.String, // identidade = turma atual (curso); trocar de turma zera o plano
-  materiaIds: Schema.Array(Schema.String), // matérias marcadas para cursar
-})
-export type PlanoLocal = typeof PlanoLocal.Type
-
 export const SCHEMA_VERSION = 1

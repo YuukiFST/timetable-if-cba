@@ -12,8 +12,8 @@ import {
   montarTabelaPlano,
   ofertasPorMateria,
 } from "../lib/horario"
-import { togglePlano, useProgresso, usePlano } from "../storage"
-import { AvisoFonteDados, QueryView, Titulo } from "../components/ui"
+import { toggleCursando, useProgresso } from "../storage"
+import { AvisoFonteDados, AvisoPlanejar, QueryView, Titulo } from "../components/ui"
 
 type Estado = "escolhida" | "choque" | "conflita" | "livre"
 
@@ -73,14 +73,12 @@ export function Planejar({ turmaId }: { turmaId: string }) {
     `materias-${turmaId}`,
   )
   const progresso = useProgresso()
-  const plano = usePlano()
   const [dia, setDia] = useState(() => Math.max(0, Math.min(5, diaLetivo(new Date()))))
 
   const concluidas = useMemo(() => new Set(progresso?.materiasConcluidas ?? []), [progresso])
-  // concluída marcada depois some do pool/plano para não travar (fix do review anterior)
   const selecionadas = useMemo(
-    () => new Set((plano?.turmaId === turmaId ? plano.materiaIds : []).filter((id) => !concluidas.has(id))),
-    [plano, turmaId, concluidas],
+    () => new Set((progresso?.cursando ?? []).filter((id) => !concluidas.has(id))),
+    [progresso, concluidas],
   )
 
   return (
@@ -123,7 +121,7 @@ export function Planejar({ turmaId }: { turmaId: string }) {
             corto={cortoPorId.get(materiaId) ?? materiaId}
             bloco={bloco}
             estado={estadoDe(materiaId)}
-            onToggle={() => togglePlano(turmaId, materiaId)}
+            onToggle={() => toggleCursando(materiaId)}
           />
         )
         // bloco específico de uma matéria naquela célula (para mostrar o horário no chip)
@@ -133,6 +131,7 @@ export function Planejar({ turmaId }: { turmaId: string }) {
         return (
           <div>
             <Titulo sub={`${curso.nome} · ${resumo}`}>Planejar</Titulo>
+            <AvisoPlanejar />
             <AvisoFonteDados generatedAt={generatedAt} />
 
             {tabela.dias.length === 0 ? (

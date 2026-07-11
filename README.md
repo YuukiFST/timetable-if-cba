@@ -6,8 +6,8 @@ Este projeto existe para isso. Lê os horários públicos do instituto e mostra 
 
 - **Curso** — todas as matérias do seu curso, agrupadas por semestre, com dia/horário de cada uma
 - **Progresso** — marque o que já cursou; veja quantas faltam e o % até concluir o curso
-- **Hoje / Semana** — próxima aula, sala e professor, sem fuçar na grade oficial
-- **Planejar** — simule matérias do próximo semestre e veja choques de horário
+- **Planejar** — marque as matérias que está cursando; a grade mostra o que há em cada dia
+- **Hoje** — aulas do dia das matérias marcadas em Planejar (sala, professor, próxima aula)
 - **Choques** — aviso quando duas turmas do mesmo curso batem no mesmo horário
 
 PWA gratuito e instalável. Sem login; sua turma e seu progresso ficam só no aparelho. Funciona offline depois do primeiro acesso.
