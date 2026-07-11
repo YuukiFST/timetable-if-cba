@@ -8,7 +8,7 @@ Executar na ordem abaixo. Cada executor: ler o plano inteiro, honrar STOP condit
 
 | Plan | Title | Priority | Effort | Depends on | Issue | Status |
 |------|-------|----------|--------|------------|-------|--------|
-| 001 | Seleção de turma no onboarding | P1 | M | — | [#1](https://github.com/YuukiFST/timetable-if-cba/issues/1) | TODO |
+| 001 | Seleção de turma no onboarding | P1 | M | — | [#1](https://github.com/YuukiFST/timetable-if-cba/issues/1) | DONE |
 | 002 | Reset progresso ao trocar de curso | P1 | S | 005 | [#5](https://github.com/YuukiFST/timetable-if-cba/issues/5) | TODO |
 | 003 | Reset limpa cursando | P1 | S | 005 | [#6](https://github.com/YuukiFST/timetable-if-cba/issues/6) | TODO |
 | 004 | Escrita atômica do scraper | P1 | M | — | [#7](https://github.com/YuukiFST/timetable-if-cba/issues/7) | TODO |

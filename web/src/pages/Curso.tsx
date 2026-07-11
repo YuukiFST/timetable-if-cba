@@ -44,8 +44,8 @@ export function Curso({ turmaId }: { turmaId: string }) {
     return (
       <EscolhaCurso
         titulo="Trocar de curso"
-        onPick={(id) => {
-          escolherTurma(id)
+        onPick={(turmaId, _cursoId) => {
+          escolherTurma(turmaId)
           setTrocando(false)
         }}
       />

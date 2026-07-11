@@ -1,5 +1,6 @@
 import { useState } from "react"
-import { loadCursos, useQuery } from "../data/api"
+import type { Curso } from "shared/schema"
+import { loadCursos, loadTurmas, useQuery } from "../data/api"
 import { iniciarProgresso } from "../storage"
 import { QueryView } from "../components/ui"
 
@@ -10,9 +11,71 @@ const norm = (s: string) =>
     .toLowerCase()
 
 /** Escolha do curso (F1). Também usada pela aba Curso e por Config para trocar de curso. */
-export function EscolhaCurso({ titulo, onPick }: { titulo: string; onPick: (turmaId: string) => void }) {
+export function EscolhaCurso({
+  titulo,
+  onPick,
+}: {
+  titulo: string
+  onPick: (turmaId: string, cursoId: string) => void
+}) {
   const q = useQuery(loadCursos, "cursos")
   const [busca, setBusca] = useState("")
+  const [cursoSelecionado, setCursoSelecionado] = useState<Curso | null>(null)
+  const turmasQ = useQuery(
+    cursoSelecionado ? loadTurmas(cursoSelecionado.turmaIds) : loadTurmas([]),
+    cursoSelecionado ? `turmas-${cursoSelecionado.id}` : "turmas-none",
+  )
+
+  const escolherCurso = (c: Curso) => {
+    if (c.turmaIds.length === 1) {
+      const id = c.turmaIds[0]
+      if (id) onPick(id, c.id)
+      return
+    }
+    setCursoSelecionado(c)
+  }
+
+  if (cursoSelecionado)
+    return (
+      <div>
+        <header className="mb-6">
+          <p className="text-sm font-semibold uppercase tracking-wide text-primary">Trilha IF CBA</p>
+          <h1 className="mt-1 text-2xl font-bold tracking-tight">Qual turma?</h1>
+          <p className="mt-1 text-sm text-muted">
+            {cursoSelecionado.nome} — escolha sua turma/semestre. Dá para trocar depois em Config.
+          </p>
+        </header>
+        <button
+          type="button"
+          onClick={() => setCursoSelecionado(null)}
+          className="ix-ghost mb-4 min-h-11 rounded-lg px-2 text-sm font-medium text-primary"
+        >
+          ← Voltar
+        </button>
+        <QueryView q={turmasQ}>
+          {(arquivos) => (
+            <ul className="space-y-2">
+              {[...arquivos]
+                .sort((a, b) => (a.turma.semestre ?? 99) - (b.turma.semestre ?? 99) || a.turma.nome.localeCompare(b.turma.nome))
+                .map(({ turma }) => (
+                  <li key={turma.id}>
+                    <button
+                      type="button"
+                      onClick={() => onPick(turma.id, cursoSelecionado.id)}
+                      className="ix-card min-h-14 w-full rounded-2xl border border-border bg-surface p-4 text-left font-medium active:scale-[0.98]"
+                    >
+                      {turma.nome}
+                      {turma.semestre !== undefined && (
+                        <span className="ml-2 text-sm font-normal text-muted">{turma.semestre}º sem</span>
+                      )}
+                    </button>
+                  </li>
+                ))}
+            </ul>
+          )}
+        </QueryView>
+      </div>
+    )
 
   return (
     <div>
@@ -47,10 +110,7 @@ export function EscolhaCurso({ titulo, onPick }: { titulo: string; onPick: (turm
                     <li key={c.id}>
                       <button
                         type="button"
-                        onClick={() => {
-                          const id = c.turmaIds[0]
-                          if (id) onPick(id)
-                        }}
+                        onClick={() => escolherCurso(c)}
                         className="ix-card min-h-14 w-full rounded-2xl border border-border bg-surface p-4 text-left font-medium active:scale-[0.98]"
                       >
                         {c.nome}
@@ -70,7 +130,7 @@ export function EscolhaCurso({ titulo, onPick }: { titulo: string; onPick: (turm
 export function Onboarding() {
   return (
     <div className="mx-auto min-h-dvh max-w-3xl px-4 py-8">
-      <EscolhaCurso titulo="Qual curso você faz?" onPick={(id) => iniciarProgresso(id, [])} />
+      <EscolhaCurso titulo="Qual curso você faz?" onPick={(turmaId) => iniciarProgresso(turmaId, [])} />
     </div>
   )
 }
