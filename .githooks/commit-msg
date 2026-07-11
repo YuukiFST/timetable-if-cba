@@ -1,0 +1,27 @@
+#!/usr/bin/env bash
+# Valida Conventional Commits (ver CLAUDE.md e ~/.cursor/rules/git.mdc).
+set -euo pipefail
+
+msg_file="${1:?caminho da mensagem de commit}"
+subject=$(head -n1 "$msg_file")
+
+if grep -qiE '^(Co-authored-by|Co-Authored-By):.*(cursor|cursoragent|claude|copilot|openai|gemini|chatgpt)' "$msg_file"; then
+  echo "commit-msg: trailer de agente/IA proibido" >&2
+  exit 1
+fi
+
+if grep -qiE '^(Made with|Generated with)' "$msg_file"; then
+  echo "commit-msg: atribuição de ferramenta proibida" >&2
+  exit 1
+fi
+
+if ! printf '%s' "$subject" | grep -qE '^(feat|fix|chore|docs|style|refactor|perf|test|ci)(\([a-z0-9._-]+\))?: .{1,72}$'; then
+  echo "commit-msg: use Conventional Commits — ex.: feat(web): descrição curta" >&2
+  echo "  recebido: $subject" >&2
+  exit 1
+fi
+
+if printf '%s' "$subject" | grep -qE '\.$'; then
+  echo "commit-msg: subject sem ponto final" >&2
+  exit 1
+fi
