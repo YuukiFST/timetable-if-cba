@@ -17,7 +17,7 @@ export function EscolhaCurso({ titulo, onPick }: { titulo: string; onPick: (turm
   return (
     <div>
       <header className="mb-6">
-        <p className="text-sm font-semibold uppercase tracking-wide text-primary">Horários IFMT Cuiabá</p>
+        <p className="text-sm font-semibold uppercase tracking-wide text-primary">Trilha IF CBA</p>
         <h1 className="mt-1 text-2xl font-bold tracking-tight">{titulo}</h1>
         <p className="mt-1 text-sm text-muted">Escolha seu curso. Dá para trocar depois em Config.</p>
       </header>

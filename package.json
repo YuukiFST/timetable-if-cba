@@ -1,5 +1,5 @@
 {
-  "name": "horarios-ifmt-cba",
+  "name": "trilha-if-cba",
   "private": true,
   "workspaces": [
     "shared",

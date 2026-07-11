@@ -12,9 +12,9 @@ export default defineConfig({
       injectRegister: null,
       devOptions: { enabled: false },
       manifest: {
-        name: "Horários IFMT Cuiabá",
-        short_name: "Horários IFMT",
-        description: "Grade de aulas e progresso do curso — IFMT Campus Cuiabá",
+        name: "Trilha IF CBA",
+        short_name: "Trilha",
+        description: "Matérias, progresso e horários — IFMT Campus Cuiabá",
         lang: "pt-BR",
         display: "standalone",
         theme_color: "#2f9e41",

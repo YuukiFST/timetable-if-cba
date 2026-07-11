@@ -1,27 +1,41 @@
-# Horários IFMT Cuiabá
+# Trilha IF CBA
 
-O aluno do IFMT Campus Cuiabá abre o app e em menos de 5 segundos sabe a próxima aula, a sala e quanto falta para terminar o curso — coisa que o EdUpage oficial não responde bem no celular.
+O **timetable** do IFMT Campus Cuiabá ([EdUpage](https://ifmtcba.edupage.org/timetable/)) é antigo, pouco intuitivo e ruim no celular: a grade aparece como tabela genérica, sem visão de curso, sem contagem do que falta cursar e sem resposta rápida para o dia a dia.
 
-PWA gratuito e instalável: grade da turma (Hoje / Semana), matérias por semestre com progresso marcável, tudo offline após o primeiro acesso. Sem login; progresso fica no aparelho.
+Este projeto existe para isso. Lê os horários públicos do instituto e mostra do jeito que o aluno precisa:
+
+- **Curso** — todas as matérias do seu curso, agrupadas por semestre, com dia/horário de cada uma
+- **Progresso** — marque o que já cursou; veja quantas faltam e o % até concluir o curso
+- **Hoje / Semana** — próxima aula, sala e professor, sem fuçar na grade oficial
+- **Planejar** — simule matérias do próximo semestre e veja choques de horário
+- **Choques** — aviso quando duas turmas do mesmo curso batem no mesmo horário
+
+PWA gratuito e instalável. Sem login; sua turma e seu progresso ficam só no aparelho. Funciona offline depois do primeiro acesso.
+
+> Os nomes, dias e horários vêm do EdUpage. Se algo estiver errado, o problema está nos dados da instituição — não neste app.
 
 ## Rodar
 
 ```sh
 npm install
-npm run scrape        # gera web/public/data/*.json do EdUpage (verificar scraper/README.md)
-./dev.sh              # sobe o app e abre o navegador (http://localhost:5173)
+npm run scrape        # gera web/public/data/*.json a partir do EdUpage (ver scraper/README.md)
+./dev.sh              # sobe o app e abre http://localhost:5173 no navegador
 ```
 
-Alternativa manual: `npm run dev -w web`
+Alternativa: `npm run dev`
 
-Gates de qualidade: `npm run typecheck` e `npm test`.
+## Qualidade
 
-Commits: Conventional Commits (`feat(web): descrição`); hook em `.githooks/commit-msg` (ativado no `npm install`).
+- `npm run typecheck` — TypeScript
+- `npm test` — testes
+- Commits: Conventional Commits (`feat(web): descrição`); hook em `.githooks/commit-msg` (ativado no `npm install`)
 
 ## Estrutura
 
-- `scraper/` — Node + Effect: EdUpage → JSON estático (cron semanal via GitHub Actions)
-- `web/` — Vite + React 19 + Tailwind 4 + vite-plugin-pwa
-- `shared/schema.ts` — schemas `effect/Schema` compartilhados
+| Pasta | Função |
+|-------|--------|
+| `web/` | App React (Vite, Tailwind 4, PWA) |
+| `scraper/` | Extrai dados do EdUpage → JSON estático |
+| `shared/` | Schemas compartilhados (`effect/Schema`) |
 
-Detalhes de arquitetura no [PRD](PRD.md) e em [scraper/README.md](scraper/README.md). Deploy: Vercel (config em `vercel.json`).
+Mais detalhes: [PRD.md](PRD.md), [scraper/README.md](scraper/README.md). Deploy na Vercel (`vercel.json`).

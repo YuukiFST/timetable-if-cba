@@ -1,4 +1,4 @@
-# PRD — Horários IFMT Cuiabá
+# PRD — Trilha IF CBA
 
 > **PWA gratuito para alunos do IFMT Campus Cuiabá consultarem grade de aulas (matérias, dias, horários, salas, professores) e acompanharem o progresso do curso (matérias feitas vs faltantes).**
 >
