@@ -1,10 +1,11 @@
 import { Effect, Schema } from "effect"
-import { mkdir, readFile, rm, writeFile } from "node:fs/promises"
+import { readFile } from "node:fs/promises"
 import { dirname, join } from "node:path"
 import { fileURLToPath } from "node:url"
 import { ArquivoCursos, ArquivoTurma, SCHEMA_VERSION } from "shared/schema"
 import { fetchRegularTT, fetchTimetables, pickTimetable } from "./edupage.js"
 import { transform, TransformError, type Overrides } from "./transform.js"
+import { writeDataAtomically } from "./write-data.js"
 
 const root = join(dirname(fileURLToPath(import.meta.url)), "..", "..")
 const dataDir = join(root, "web", "public", "data")
@@ -41,12 +42,13 @@ const pipeline = Effect.gen(function* () {
   )
 
   // Escrita só depois de fetch+decode+transform completos: falha preserva JSON anterior.
-  yield* Effect.promise(async () => {
-    await rm(join(dataDir, "turmas"), { recursive: true, force: true })
-    await mkdir(join(dataDir, "turmas"), { recursive: true })
-    await writeFile(join(dataDir, "cursos.json"), stableStringify(cursosFile))
-    for (const f of turmaFiles) await writeFile(join(dataDir, "turmas", `${f.turma.id}.json`), stableStringify(f))
-  })
+  yield* Effect.promise(() =>
+    writeDataAtomically(
+      dataDir,
+      stableStringify(cursosFile),
+      turmaFiles.map((f) => ({ id: f.turma.id, content: stableStringify(f) })),
+    ),
+  )
   yield* Effect.log(`OK: ${cursos.length} cursos, ${turmas.length} turmas, ${discarded.length} itens descartados`)
 })
 
