@@ -2,7 +2,7 @@ import { useMemo, useState } from "react"
 import { loadMateriasDoCurso, useQuery } from "../data/api"
 import { aulasDoDia, aulasVigentes, diaLetivo, DIAS, DIAS_CURTO } from "../lib/horario"
 import { useProgresso } from "../storage"
-import { AulaCard, QueryView, Titulo } from "../components/ui"
+import { AulaCard, AvisoFonteDados, QueryView, Titulo } from "../components/ui"
 
 export function Semana({ turmaId }: { turmaId: string }) {
   const q = useQuery(
@@ -17,7 +17,7 @@ export function Semana({ turmaId }: { turmaId: string }) {
 
   return (
     <QueryView q={q}>
-      {({ curso, turmaAtual, turmas, materias }) => {
+      {({ curso, turmaAtual, turmas, materias, generatedAt }) => {
         const materiaCurta = (id: string) => {
           const m = materias.find((m) => m.id === id)
           return m?.nomeCurto ?? m?.nome ?? id
@@ -28,6 +28,7 @@ export function Semana({ turmaId }: { turmaId: string }) {
         return (
           <div>
             <Titulo sub={curso.nome}>Semana</Titulo>
+            <AvisoFonteDados generatedAt={generatedAt} />
 
             {/* Mobile: tabs por dia */}
             <div className="md:hidden">
@@ -38,8 +39,8 @@ export function Semana({ turmaId }: { turmaId: string }) {
                     role="tab"
                     aria-selected={dia === d}
                     onClick={() => setDia(d)}
-                    className={`min-h-11 flex-1 rounded-xl text-sm font-semibold transition-colors duration-150 ${
-                      dia === d ? "bg-surface text-primary shadow-sm" : "text-muted"
+                    className={`min-h-11 flex-1 rounded-xl text-sm font-semibold ${
+                      dia === d ? "bg-surface text-primary shadow-sm" : "ix-tab text-muted"
                     }`}
                   >
                     {DIAS_CURTO[d]}

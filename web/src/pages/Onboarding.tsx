@@ -51,7 +51,7 @@ export function EscolhaCurso({ titulo, onPick }: { titulo: string; onPick: (turm
                           const id = c.turmaIds[0]
                           if (id) onPick(id)
                         }}
-                        className="min-h-14 w-full rounded-2xl border border-border bg-surface p-4 text-left font-medium transition-transform duration-100 active:scale-[0.98]"
+                        className="ix-card min-h-14 w-full rounded-2xl border border-border bg-surface p-4 text-left font-medium active:scale-[0.98]"
                       >
                         {c.nome}
                       </button>

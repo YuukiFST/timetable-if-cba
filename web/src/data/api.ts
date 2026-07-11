@@ -29,18 +29,26 @@ export interface MateriasDoCurso {
   materias: Materia[]
   turmaAtual: Turma
   turmas: Turma[]
+  generatedAt: string
 }
 
 // Matérias do curso inteiro: cursos.json → turmas do curso → união das matérias (F3).
 export const loadMateriasDoCurso = (turmaId: string): Effect.Effect<MateriasDoCurso, DataError> =>
   Effect.gen(function* () {
-    const { turma } = yield* loadTurma(turmaId)
+    const arquivo = yield* loadTurma(turmaId)
+    const { turma } = arquivo
     const { cursos } = yield* loadCursos
     const curso = cursos.find((c) => c.id === turma.cursoId)
     if (!curso)
-      return { curso: { id: turma.cursoId, nome: turma.cursoId, turmaIds: [turmaId] }, materias: [...turma.materias], turmaAtual: turma, turmas: [turma] }
+      return {
+        curso: { id: turma.cursoId, nome: turma.cursoId, turmaIds: [turmaId] },
+        materias: [...turma.materias],
+        turmaAtual: turma,
+        turmas: [turma],
+        generatedAt: arquivo.generatedAt,
+      }
     const turmas = (yield* loadTurmas(curso.turmaIds)).map((t) => t.turma)
-    return { curso, materias: materiasDoCurso(turmas), turmaAtual: turma, turmas }
+    return { curso, materias: materiasDoCurso(turmas), turmaAtual: turma, turmas, generatedAt: arquivo.generatedAt }
   })
 
 export type Query<A> = { status: "loading" } | { status: "error"; error: DataError } | { status: "ok"; value: A }

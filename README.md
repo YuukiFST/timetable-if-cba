@@ -8,9 +8,11 @@ PWA gratuito e instalável: grade da turma (Hoje / Semana), matérias por semest
 
 ```sh
 npm install
-npm run scrape        # gera web/public/data/*.json do EdUpage (ver scraper/README.md)
-npm run dev -w web    # app em http://localhost:5173
+npm run scrape        # gera web/public/data/*.json do EdUpage (verificar scraper/README.md)
+./dev.sh              # sobe o app e abre o navegador (http://localhost:5173)
 ```
+
+Alternativa manual: `npm run dev -w web`
 
 Gates de qualidade: `npm run typecheck` e `npm test`.
 

@@ -13,7 +13,7 @@ import {
   ofertasPorMateria,
 } from "../lib/horario"
 import { togglePlano, useProgresso, usePlano } from "../storage"
-import { QueryView, Titulo } from "../components/ui"
+import { AvisoFonteDados, QueryView, Titulo } from "../components/ui"
 
 type Estado = "escolhida" | "choque" | "conflita" | "livre"
 
@@ -22,6 +22,13 @@ const CLASSE: Record<Estado, string> = {
   escolhida: "border-primary bg-primary-soft text-foreground",
   conflita: "border-border bg-surface-2 text-muted opacity-60",
   livre: "border-border bg-surface-2 text-foreground",
+}
+
+const HOVER_CHIP: Record<Estado, string> = {
+  choque: "ix-chip ix-chip-choque",
+  escolhida: "ix-chip ix-chip-escolhida",
+  conflita: "ix-chip",
+  livre: "ix-chip ix-chip-livre",
 }
 
 function ChipMateria({
@@ -45,7 +52,7 @@ function ChipMateria({
       title={estado === "conflita" ? `${nome} — colide com sua escolha` : nome}
       aria-label={nome}
       aria-pressed={estado === "escolhida" || estado === "choque"}
-      className={`flex w-full flex-col rounded-lg border px-2 py-1.5 text-left transition-transform duration-100 active:scale-[0.98] ${CLASSE[estado]}`}
+      className={`flex w-full flex-col rounded-lg border px-2 py-1.5 text-left active:scale-[0.98] ${CLASSE[estado]} ${HOVER_CHIP[estado]}`}
     >
       <span className="flex items-center gap-1 text-xs font-semibold leading-tight">
         {alerta && <span aria-hidden>⚠</span>}
@@ -78,7 +85,7 @@ export function Planejar({ turmaId }: { turmaId: string }) {
 
   return (
     <QueryView q={q}>
-      {({ curso, materias, turmas }) => {
+      {({ curso, materias, turmas, generatedAt }) => {
         const ofertas = ofertasPorMateria(turmas)
         const nomePorId = new Map(materias.map((m) => [m.id, m.nome]))
         const cortoPorId = new Map(materias.map((m) => [m.id, m.nomeCurto ?? m.nome]))
@@ -126,6 +133,7 @@ export function Planejar({ turmaId }: { turmaId: string }) {
         return (
           <div>
             <Titulo sub={`${curso.nome} · ${resumo}`}>Planejar</Titulo>
+            <AvisoFonteDados generatedAt={generatedAt} />
 
             {tabela.dias.length === 0 ? (
               <div className="rounded-2xl border border-dashed border-border bg-surface p-8 text-center text-sm text-muted">
@@ -142,8 +150,8 @@ export function Planejar({ turmaId }: { turmaId: string }) {
                         role="tab"
                         aria-selected={dia === d}
                         onClick={() => setDia(d)}
-                        className={`min-h-11 flex-1 rounded-xl text-sm font-semibold transition-colors duration-150 ${
-                          dia === d ? "bg-surface text-primary shadow-sm" : "text-muted"
+                        className={`min-h-11 flex-1 rounded-xl text-sm font-semibold ${
+                          dia === d ? "bg-surface text-primary shadow-sm" : "ix-tab text-muted"
                         }`}
                       >
                         {DIAS_CURTO[d]}

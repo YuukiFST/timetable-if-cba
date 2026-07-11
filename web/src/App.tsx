@@ -44,8 +44,8 @@ export function App() {
               to={t.to}
               end={t.to === "/"}
               className={({ isActive }) =>
-                `flex min-h-14 flex-1 flex-col items-center justify-center gap-0.5 text-xs font-medium transition-colors duration-150 md:flex-row md:gap-2 md:text-sm ${
-                  isActive ? "text-primary" : "text-muted active:text-foreground"
+                `flex min-h-14 flex-1 flex-col items-center justify-center gap-0.5 rounded-xl text-xs font-medium md:flex-row md:gap-2 md:text-sm ${
+                  isActive ? "text-primary" : "ix-tab text-muted active:text-foreground"
                 }`
               }
             >

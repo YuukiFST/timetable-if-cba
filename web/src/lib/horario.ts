@@ -170,6 +170,13 @@ export const diaInicialPorMateria = (turmas: ReadonlyArray<Turma>): Map<string, 
   return m
 }
 
+/** Rótulo compacto do horário de uma matéria (ex. "Seg 18:50–22:25"); null se sem aula. */
+export const fmtHorarioMateria = (blocos: ReadonlyArray<Aula>): string | null => {
+  const b = mesclarAulas(blocos)[0]
+  if (!b) return null
+  return `${DIAS_CURTO[b.diaSemana]} ${b.horaInicio}–${b.horaFim}`
+}
+
 export interface Oferta {
   turmaNome: string
   blocos: Aula[] // já mesclados

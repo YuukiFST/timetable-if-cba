@@ -30,7 +30,7 @@ export function InstallHint() {
           void evento.prompt()
           setEvento(null)
         }}
-        className="min-h-11 rounded-xl bg-primary px-3 text-sm font-semibold text-on-primary transition-transform active:scale-[0.97]"
+        className="ix-btn min-h-11 rounded-xl bg-primary px-3 text-sm font-semibold text-on-primary active:scale-[0.97]"
       >
         Instalar
       </button>
@@ -41,7 +41,7 @@ export function InstallHint() {
           localStorage.setItem(DISMISS_KEY, "1")
           setEvento(null)
         }}
-        className="min-h-11 px-2 text-sm text-muted"
+        className="ix-ghost min-h-11 rounded-lg px-2 text-sm text-muted"
       >
         ✕
       </button>

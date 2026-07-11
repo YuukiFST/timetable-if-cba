@@ -3,7 +3,7 @@ import { Link } from "react-router"
 import { loadMateriasDoCurso, useQuery } from "../data/api"
 import { aulasVigentes, calcularHoje, DIAS } from "../lib/horario"
 import { useProgresso } from "../storage"
-import { AulaCard, QueryView, Titulo } from "../components/ui"
+import { AulaCard, AvisoFonteDados, QueryView, Titulo } from "../components/ui"
 
 export function Hoje({ turmaId }: { turmaId: string }) {
   const q = useQuery(
@@ -22,20 +22,21 @@ export function Hoje({ turmaId }: { turmaId: string }) {
 
   return (
     <QueryView q={q}>
-      {({ curso, turmaAtual, turmas, materias }) => {
+      {({ curso, turmaAtual, turmas, materias, generatedAt }) => {
         const hoje = calcularHoje(aulasVigentes(turmaAtual, turmas, cursando, concluidas), agora)
         const materiaNome = (id: string) => materias.find((m) => m.id === id)?.nome ?? id
         return (
           <div>
             <Titulo
               sub={
-                <Link to="/" className="inline-flex min-h-11 items-center gap-1.5">
+                <Link to="/" className="ix-link inline-flex min-h-11 items-center gap-1.5">
                   {curso.nome} <span className="font-medium text-primary">trocar</span>
                 </Link>
               }
             >
               {hoje.ehHoje ? "Hoje" : `Próximo dia letivo · ${DIAS[hoje.dia]}`}
             </Titulo>
+            <AvisoFonteDados generatedAt={generatedAt} />
             {hoje.aulas.length === 0 ? (
               <div className="rounded-2xl border border-border bg-surface p-8 text-center">
                 <p className="text-lg font-semibold">Sem aulas por aqui</p>

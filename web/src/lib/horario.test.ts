@@ -9,6 +9,7 @@ import {
   detectarChoquesPlano,
   chaveCelula,
   diaInicialPorMateria,
+  fmtHorarioMateria,
   materiasDoCurso,
   mesclarAulas,
   montarTabelaPlano,
@@ -312,6 +313,16 @@ describe("montarTabelaPlano", () => {
   it("matéria sem oferta não entra na tabela", () => {
     const tab = montarTabelaPlano([...pool, mat("m4")], ofertas)
     expect([...tab.celulas.values()].flat()).not.toContain("m4")
+  })
+})
+
+describe("fmtHorarioMateria", () => {
+  it("formata o primeiro bloco mesclado", () => {
+    expect(fmtHorarioMateria([aula(0, "18:50", "20:30"), aula(0, "20:45", "22:25")])).toBe("Seg 18:50–22:25")
+  })
+
+  it("retorna null sem blocos", () => {
+    expect(fmtHorarioMateria([])).toBeNull()
   })
 })
 

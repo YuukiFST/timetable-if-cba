@@ -7,6 +7,7 @@
     "web"
   ],
   "scripts": {
+    "dev": "npm run dev -w web -- --open --host",
     "scrape": "npm run scrape -w scraper",
     "typecheck": "tsc --noEmit -p scraper && tsc --noEmit -p web && tsc --noEmit -p shared",
     "test": "vitest run"

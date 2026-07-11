@@ -70,6 +70,93 @@
   .safe-bottom {
     padding-bottom: env(safe-area-inset-bottom);
   }
+
+  /* feedback interativo — hover só em dispositivos com ponteiro fino */
+  .ix-card,
+  .ix-chip,
+  .ix-row,
+  .ix-tab,
+  .ix-pill,
+  .ix-link,
+  .ix-btn,
+  .ix-ghost,
+  .ix-summary {
+    transition:
+      background-color 150ms,
+      border-color 150ms,
+      color 150ms,
+      filter 150ms,
+      text-decoration-color 150ms,
+      transform 100ms;
+  }
+
+  .ix-card:focus-visible,
+  .ix-chip:focus-visible,
+  .ix-row:focus-visible,
+  .ix-tab:focus-visible,
+  .ix-pill:focus-visible,
+  .ix-link:focus-visible,
+  .ix-btn:focus-visible,
+  .ix-ghost:focus-visible,
+  .ix-summary:focus-visible {
+    outline: 2px solid var(--primary);
+    outline-offset: 2px;
+  }
+
+  @media (hover: hover) and (pointer: fine) {
+    .ix-card:hover {
+      background-color: var(--surface-2);
+      border-color: color-mix(in oklab, var(--border) 50%, var(--muted));
+    }
+
+    .ix-chip-livre:hover {
+      background-color: color-mix(in oklab, var(--surface-2) 80%, var(--foreground));
+      border-color: color-mix(in oklab, var(--border) 50%, var(--muted));
+    }
+
+    .ix-chip-escolhida:hover {
+      background-color: color-mix(in oklab, var(--primary-soft) 75%, var(--primary));
+      border-color: color-mix(in oklab, var(--primary) 40%, var(--border));
+    }
+
+    .ix-chip-choque:hover {
+      background-color: color-mix(in oklab, var(--warning-soft) 75%, var(--warning));
+      border-color: color-mix(in oklab, var(--warning) 40%, var(--border));
+    }
+
+    .ix-row:hover {
+      background-color: var(--surface-2);
+    }
+
+    .ix-tab:hover {
+      color: var(--foreground);
+      background-color: color-mix(in oklab, var(--surface) 55%, transparent);
+    }
+
+    .ix-pill:hover {
+      background-color: color-mix(in oklab, var(--surface-2) 65%, var(--foreground));
+      color: var(--foreground);
+    }
+
+    .ix-link:hover {
+      text-decoration: underline;
+      color: color-mix(in oklab, var(--primary) 85%, white);
+    }
+
+    .ix-btn:hover {
+      filter: brightness(1.1);
+    }
+
+    .ix-ghost:hover {
+      color: var(--foreground);
+      background-color: color-mix(in oklab, var(--surface-2) 50%, transparent);
+    }
+
+    .ix-summary:hover {
+      text-decoration: underline;
+      color: color-mix(in oklab, var(--warning) 80%, var(--foreground));
+    }
+  }
 }
 
 @media (prefers-reduced-motion: reduce) {
