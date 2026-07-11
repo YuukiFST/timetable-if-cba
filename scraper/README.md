@@ -24,7 +24,19 @@ npm run scrape   # na raiz do repo
 ```
 
 Pipeline Effect: `fetchTimetables → fetchRegularTT → decode (Schema) → transform → validar → escrever`.
-Retry com backoff exponencial (máx. 3 tentativas). Nenhum arquivo é escrito antes de decode + transform + validação completos: falha preserva o JSON anterior.
+Retry com backoff exponencial (máx. 3 tentativas). Nenhum arquivo é escrito antes de decode + transform + validação completos: falha preserva o JSON anterior. Escrita atômica em staging antes de substituir `turmas/` e `cursos.json`.
+
+## CI (GitHub Actions)
+
+Workflow `scrape.yml` (domingo 06:00 UTC + `workflow_dispatch`):
+
+1. Roda `npm run scrape`
+2. Se houver diff em `web/public/data`, abre PR para `main` (branch `data/scrape-YYYYMMDD-HHMM`)
+3. Se já existir PR aberto com o mesmo título, atualiza a branch e comenta
+4. Merge manual (recomendado: branch protection exigindo CI verde)
+5. Deploy Vercel só após merge do PR
+
+Não há push direto em `main` para dados do scrape.
 
 ## Semestre / curso por turma
 

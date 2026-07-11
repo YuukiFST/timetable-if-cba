@@ -7,6 +7,7 @@ on:
 
 permissions:
   contents: write
+  pull-requests: write
   issues: write
 
 jobs:
@@ -20,12 +21,37 @@ jobs:
           cache: npm
       - run: npm ci
       - run: npm run scrape
-      - name: Commit diff (se houver)
+      - name: Abrir PR com diff (se houver)
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add web/public/data
-          git diff --cached --quiet || (git commit -m "chore(data): atualiza dados do EdUpage" && git push)
+          git diff --cached --quiet && exit 0
+
+          EXISTING=$(gh pr list --state open --search "chore(data): atualiza dados do EdUpage" --json number --jq '.[0].number // empty')
+          if [ -n "$EXISTING" ]; then
+            echo "PR #$EXISTING já aberto — atualizando branch"
+            BRANCH=$(gh pr view "$EXISTING" --json headRefName --jq '.headRefName')
+            git checkout -B "$BRANCH"
+            git commit -m "chore(data): atualiza dados do EdUpage"
+            git push -u origin "$BRANCH"
+            gh pr comment "$EXISTING" --body "Scrape automático atualizado ($(date -u +%Y-%m-%dT%H:%MZ))."
+            exit 0
+          fi
+
+          BRANCH="data/scrape-$(date -u +%Y%m%d-%H%M)"
+          git checkout -b "$BRANCH"
+          git commit -m "chore(data): atualiza dados do EdUpage"
+          git push -u origin "$BRANCH"
+
+          gh pr create \
+            --title "chore(data): atualiza dados do EdUpage" \
+            --body "Scrape automático semanal. CI deve passar antes do merge." \
+            --base main \
+            --head "$BRANCH" \
+            --label scraper
       - name: Abrir issue em falha
         if: failure()
         uses: actions/github-script@v7
