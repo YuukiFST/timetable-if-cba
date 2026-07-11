@@ -38,4 +38,4 @@ Alternativa: `npm run dev`
 | `scraper/` | Extrai dados do EdUpage → JSON estático |
 | `shared/` | Schemas compartilhados (`effect/Schema`) |
 
-Mais detalhes: [PRD.md](PRD.md), [scraper/README.md](scraper/README.md). Deploy na Vercel (`vercel.json`).
+Mais detalhes: [scraper/README.md](scraper/README.md). Deploy na Vercel (`vercel.json`).
