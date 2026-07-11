@@ -3,12 +3,16 @@ web/dist/
 dev-dist/
 *.log
 
-# Harness / agentes (local — não versionar)
+# Harness / agentes / planos IA (local — não versionar)
 .claude/
 .cursor/
 .opencode/
+.githooks/
+plans/
 CLAUDE.md
 AGENTS.md
 GEMINI.md
 CODEX.md
 docs/superpowers/
+scripts/setup-githooks.sh
+scripts/validate-commit-msg.sh

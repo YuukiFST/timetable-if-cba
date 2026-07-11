@@ -65,7 +65,7 @@ Abrir o app e em menos de 5 segundos saber a próxima aula, a sala e quanto falt
 - **Curso** (`/`): matérias por semestre, progresso feitas/faltam, choques de horário, horários por matéria.
 - **Planejar** (`/planejar`): marcar matérias em `cursando`; grade semanal das ofertas; card explicativo ligando a Hoje.
 - **Hoje** (`/hoje`): aulas do dia das matérias em `cursando`; vazio + CTA para Planejar se nada marcado.
-- A aba **Semana** foi substituída por Planejar (pivot 2026-07-11; ver `docs/superpowers/specs/2026-07-11-planejar-hoje-design.md`).
+- A aba **Semana** foi substituída por Planejar (pivot 2026-07-11).
 
 ### F3 — Matérias e progresso
 - Lista de matérias do curso agrupada por semestre na aba **Curso**.
@@ -93,7 +93,7 @@ Abrir o app e em menos de 5 segundos saber a próxima aula, a sala e quanto falt
 - Substituições/alterações diárias de aula (EdUpage "substitutions") — só a grade regular.
 - Outros campi do IFMT.
 - Pré-requisitos entre matérias e planejamento de matrícula.
-- Aba **Semana** e rota `/semana` (substituídas por Planejar; pivot documentado em `docs/superpowers/specs/2026-07-11-planejar-hoje-design.md`).
+- Aba **Semana** e rota `/semana` (substituídas por Planejar; pivot 2026-07-11).
 - Rota inicial `/hoje` em vez de `/` (decisão de produto futura; hoje `/` = Curso).
 
 ---

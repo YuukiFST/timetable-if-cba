@@ -28,7 +28,7 @@ Alternativa: `npm run dev`
 
 - `npm run typecheck` — TypeScript
 - `npm test` — testes
-- Commits: Conventional Commits (`feat(web): descrição`); hook em `.githooks/commit-msg` (ativado no `npm install`)
+- Commits: Conventional Commits (`feat(web): descrição`)
 
 ## Estrutura
 
