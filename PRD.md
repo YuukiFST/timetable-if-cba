@@ -15,9 +15,8 @@ lenta para a pergunta do dia a dia ("qual minha próxima aula e em que sala?"), 
 
 ### Solução
 Um web app instalável (PWA) que:
-1. Mostra a grade da turma do aluno de forma clara e mobile-first (hoje / semana / próxima aula).
-2. Lista todas as matérias do curso por semestre.
-3. Deixa o aluno marcar matérias concluídas e vê contadores de progresso (feitas, faltantes, %).
+1. Mostra matérias do curso com progresso (feitas/faltam), choques e horários (aba **Curso**).
+2. Permite marcar matérias **cursando** em **Planejar** e ver aulas do dia em **Hoje**.
 
 ### Público
 Alunos do IFMT Campus Cuiabá, todos os cursos/turmas publicados no EdUpage.
@@ -45,8 +44,8 @@ Abrir o app e em menos de 5 segundos saber a próxima aula, a sala e quanto falt
 | # | User story | Critério de aceite |
 |---|---|---|
 | U1 | Como aluno, quero escolher meu curso e turma uma única vez | Escolha persiste entre sessões e reinstalações do PWA no mesmo navegador |
-| U2 | Como aluno, quero ver minha próxima aula (matéria, sala, horário, professor) ao abrir o app | Tela inicial destaca a aula atual/próxima com base no relógio do dispositivo |
-| U3 | Como aluno, quero ver a grade completa da semana | Visão semanal com dias × slots de horário, legível em tela de 360 px |
+| U2 | Como aluno, quero ver minhas aulas do dia após marcar matérias em Planejar | Aba **Hoje** lista aulas das matérias em `cursando`; vazio + CTA se nada marcado. Rota inicial permanece **Curso** (`/`) |
+| U3 | Como aluno, quero ver a grade semanal das matérias que estou cursando | Grade em **Planejar** (`/planejar`), não aba Semana (removida em 2026-07-11) |
 | U4 | Como aluno, quero ver todas as matérias do meu curso organizadas por semestre | Lista agrupada por semestre/módulo |
 | U5 | Como aluno, quero marcar matérias que já cursei | Toggle por matéria; persiste local |
 | U6 | Como aluno, quero ver quantas matérias fiz, quantas faltam e o % do curso | Contadores globais e por semestre, atualizados imediatamente ao marcar |
@@ -58,17 +57,20 @@ Abrir o app e em menos de 5 segundos saber a próxima aula, a sala e quanto falt
 ## 4. Funcionalidades (MVP)
 
 ### F1 — Onboarding
-- Primeira abertura: escolher **curso** → **turma** (dados vindos de `cursos.json`).
+- Primeira abertura: escolher **curso** → **turma** (dados vindos de `cursos.json` + `turmas/*.json`).
+- Cursos com múltiplas turmas exigem segundo passo de seleção de turma/semestre.
 - Persistir escolha em localStorage. Trocável depois em Configurações.
 
-### F2 — Grade de aulas
-- **Tela "Hoje"** (inicial): aulas do dia em lista cronológica; aula atual/próxima destacada (comparação com hora local). Fora do horário de aula, mostra o próximo dia letivo.
-- **Tela "Semana"**: grade dias × horários. No celular, navegação por dia (swipe/tabs); no desktop, semana inteira em grid.
-- Cada aula exibe: matéria, sala, professor, horário de início/fim.
+### F2 — Curso, Planejar e Hoje
+- **Curso** (`/`): matérias por semestre, progresso feitas/faltam, choques de horário, horários por matéria.
+- **Planejar** (`/planejar`): marcar matérias em `cursando`; grade semanal das ofertas; card explicativo ligando a Hoje.
+- **Hoje** (`/hoje`): aulas do dia das matérias em `cursando`; vazio + CTA para Planejar se nada marcado.
+- A aba **Semana** foi substituída por Planejar (pivot 2026-07-11; ver `docs/superpowers/specs/2026-07-11-planejar-hoje-design.md`).
 
 ### F3 — Matérias e progresso
-- Lista de matérias do curso agrupada por semestre.
-- Checkbox "concluída" por matéria → localStorage.
+- Lista de matérias do curso agrupada por semestre na aba **Curso**.
+- Toggle "feita" por matéria → localStorage (`materiasConcluidas`).
+- Toggle "cursando" em **Planejar** → localStorage (`cursando`).
 - Cabeçalho com: total de matérias, concluídas, faltantes, % (global e por semestre).
 
 ### F4 — PWA
@@ -91,6 +93,8 @@ Abrir o app e em menos de 5 segundos saber a próxima aula, a sala e quanto falt
 - Substituições/alterações diárias de aula (EdUpage "substitutions") — só a grade regular.
 - Outros campi do IFMT.
 - Pré-requisitos entre matérias e planejamento de matrícula.
+- Aba **Semana** e rota `/semana` (substituídas por Planejar; pivot documentado em `docs/superpowers/specs/2026-07-11-planejar-hoje-design.md`).
+- Rota inicial `/hoje` em vez de `/` (decisão de produto futura; hoje `/` = Curso).
 
 ---
 
@@ -104,7 +108,7 @@ Repositório único (GitHub, público)
 └── .github/workflows/scrape.yml   # cron semanal + dispatch manual
 ```
 
-**Fluxo:** GitHub Action (cron semanal, ex. domingo 03:00 BRT, + `workflow_dispatch`) roda o scraper → escreve `web/public/data/*.json` → se houver diff, commita → push dispara deploy automático do Vercel → app serve JSON estático novo. Sem servidor próprio, sem banco.
+**Fluxo:** GitHub Action (cron semanal, ex. domingo 03:00 BRT, + `workflow_dispatch`) roda o scraper → escreve `web/public/data/*.json` → se houver diff, abre PR para `main` → merge dispara deploy automático do Vercel → app serve JSON estático novo. Sem servidor próprio, sem banco.
 
 ### 6.1 Scraper (`scraper/`)
 
@@ -123,10 +127,10 @@ Repositório único (GitHub, público)
 
 ### 6.3 Web app (`web/`)
 
-- **Vite + React 19 + TypeScript + Tailwind CSS 4**, SPA estática. (npm install -D typescript@7Then run `npx tsc` as usual for a new native experience.)
-- **Effect no frontend:** camada de dados em `web/src/data/` — carregar JSON com `Effect` + `Schema.decodeUnknown` (mesmos schemas do scraper, compartilhados via pasta `shared/` ou package interno), erros tipados renderizados como estados de UI ("dados indisponíveis, tente online").
-- **Estado local:** localStorage com envelope versionado `{ version: 1, turmaId, materiasConcluidas: string[] }`; função de migração quando `version` mudar. IDs de matéria estáveis (id do EdUpage, não índice posicional).
-- **Roteamento:** React Router (ou TanStack Router) com 4 rotas: `/` (Hoje), `/semana`, `/materias`, `/config` + tela de onboarding quando não há turma escolhida.
+- **Vite + React 19 + TypeScript + Tailwind CSS 4**, SPA estática.
+- **Effect no frontend:** camada de dados em `web/src/data/` — carregar JSON com `Effect` + `Schema.decodeUnknown` (mesmos schemas do scraper, compartilhados via pasta `shared/`), erros tipados renderizados como estados de UI ("dados indisponíveis, tente online").
+- **Estado local:** localStorage com envelope versionado `{ version: 1, turmaId, materiasConcluidas: string[], cursando?: string[] }`; função de migração quando `version` mudar. Store legado `plano` migrado para `cursando` via `migrarPlanoLegado()`.
+- **Roteamento:** React Router com 4 rotas: `/` (Curso), `/planejar`, `/hoje`, `/config` + onboarding quando não há turma escolhida.
 - **PWA:** `vite-plugin-pwa` com Workbox; precache do bundle, runtime cache `StaleWhileRevalidate` para `/data/*.json`.
 - Sem Redux/Zustand; estado de servidor não existe (JSON estático), estado de UI com hooks + localStorage.
 
@@ -183,6 +187,7 @@ const ProgressoLocal = Schema.Struct({
   version: Schema.Number,
   turmaId: Schema.String,
   materiasConcluidas: Schema.Array(Schema.String), // materiaId[]
+  cursando: Schema.optional(Schema.Array(Schema.String)), // materiaId[] — fonte de Hoje/Planejar
 });
 ```
 
@@ -193,10 +198,10 @@ Campos opcionais existem porque o EdUpage é dado real e imperfeito: aulas sem s
 ## 8. UX / UI
 
 - **Mobile-first**, tela-alvo 360×800; desktop = layout expandido (semana em grid).
-- **Navegação:** bottom tab bar no mobile (Hoje / Semana / Matérias / Config); sidebar ou top nav no desktop.
-- **Tela Hoje:** cartões de aula em coluna; cartão da aula atual com destaque visual claro (borda/cor); vazio elegante em dia sem aula ("Sem aulas hoje 🎉 Próxima: segunda 07:00").
-- **Tela Semana:** mobile = tabs por dia; desktop = grid completo. Células compactas: sigla da matéria + sala.
-- **Tela Matérias:** progresso no topo (barra + números grandes: X feitas · Y faltam · Z%), lista por semestre com checkbox por matéria.
+- **Navegação:** bottom tab bar no mobile (Curso / Planejar / Hoje / Config); sidebar ou top nav no desktop.
+- **Tela Curso:** progresso no topo; matérias por semestre com toggle "feita", horário e choques.
+- **Tela Planejar:** card explicativo; grade semanal para marcar `cursando`.
+- **Tela Hoje:** cartões de aula em coluna das matérias em `cursando`; vazio com CTA para Planejar.
 - **Tema:** claro/escuro seguindo `prefers-color-scheme`. Verde institucional do IFMT (#2f9e41, padrão da Rede Federal) como cor primária.
 - Acessibilidade básica: contraste AA, alvos de toque ≥ 44 px, navegação por teclado nas listas, `aria-label` nos toggles.
 
@@ -224,7 +229,7 @@ Cada fase termina com: `npx tsc --noEmit` limpo, `npx vitest run` verde, e o cri
 - **Aceite:** rodar `npm run scrape` localmente produz JSON real do IFMT Cuiabá; testes unitários da transformação com fixture de resposta real gravada.
 
 ### Fase 2 — App com grade
-- Setup Vite/React/Tailwind; onboarding (curso → turma); telas Hoje e Semana lendo os JSON via camada Effect.
+- Setup Vite/React/Tailwind; onboarding (curso → turma); abas Curso, Planejar e Hoje lendo os JSON via camada Effect.
 - **Aceite:** com os dados da Fase 1, escolher uma turma real e ver a grade correta comparada manualmente com o EdUpage.
 
 ### Fase 3 — Matérias e progresso

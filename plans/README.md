@@ -13,9 +13,9 @@ Executar na ordem abaixo. Cada executor: ler o plano inteiro, honrar STOP condit
 | 003 | Reset limpa cursando | P1 | S | 005 | [#6](https://github.com/YuukiFST/timetable-if-cba/issues/6) | DONE |
 | 004 | Escrita atômica do scraper | P1 | M | — | [#7](https://github.com/YuukiFST/timetable-if-cba/issues/7) | DONE |
 | 005 | Testes de storage.ts | P1 | S | — | [#2](https://github.com/YuukiFST/timetable-if-cba/issues/2) | DONE |
-| 006 | Ofertas priorizam turmaAtual | P2 | M | 001 | [#8](https://github.com/YuukiFST/timetable-if-cba/issues/8) | TODO |
-| 007 | Reconciliar PRD com Planejar/Hoje | P2 | M | — | [#3](https://github.com/YuukiFST/timetable-if-cba/issues/3) | TODO |
-| 008 | Scrape via PR em vez de push direto | P2 | M | — | [#4](https://github.com/YuukiFST/timetable-if-cba/issues/4) | TODO |
+| 006 | Ofertas priorizam turmaAtual | P2 | M | 001 | [#8](https://github.com/YuukiFST/timetable-if-cba/issues/8) | DONE |
+| 007 | Reconciliar PRD com Planejar/Hoje | P2 | M | — | [#3](https://github.com/YuukiFST/timetable-if-cba/issues/3) | DONE |
+| 008 | Scrape via PR em vez de push direto | P2 | M | — | [#4](https://github.com/YuukiFST/timetable-if-cba/issues/4) | DONE |
 
 ## Dependency notes
 
