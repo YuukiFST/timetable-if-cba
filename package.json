@@ -11,6 +11,7 @@
     "scrape": "npm run scrape -w scraper",
     "typecheck": "tsc --noEmit -p scraper && tsc --noEmit -p web && tsc --noEmit -p shared",
     "test": "vitest run",
+    "validate:commit": "bash scripts/validate-commit-msg.sh",
     "postinstall": "bash scripts/setup-githooks.sh"
   },
   "devDependencies": {
