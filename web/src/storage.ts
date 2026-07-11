@@ -61,12 +61,16 @@ export const useProgresso = progresso.use
 export const iniciarProgresso = (turmaId: string, concluidas: string[]): void =>
   progresso.write({ version: VERSION, turmaId, materiasConcluidas: [...concluidas].sort(), cursando: [] })
 
-export const escolherTurma = (turmaId: string): void => {
+export const escolherTurma = (turmaId: string, novoCursoId: string, cursoIdAtual: string | null): void => {
   const atual = progresso.read()
+  const mesmoCurso = cursoIdAtual !== null && cursoIdAtual === novoCursoId
+  if (!mesmoCurso) {
+    progresso.write({ version: VERSION, turmaId, materiasConcluidas: [], cursando: [] })
+    return
+  }
   progresso.write({
     version: VERSION,
     turmaId,
-    // trocar de turma preserva progresso (mesmo curso, ids de matéria estáveis)
     materiasConcluidas: atual?.materiasConcluidas ?? [],
     cursando: atual?.cursando ?? [],
   })
@@ -104,7 +108,7 @@ export const toggleCursando = (materiaId: string): void => {
 
 export const resetProgresso = (): void => {
   const atual = progresso.read()
-  if (atual) progresso.write({ ...atual, materiasConcluidas: [] })
+  if (atual) progresso.write({ ...atual, materiasConcluidas: [], cursando: [] })
 }
 
 const PLANO_KEY = "horarios-ifmt-plano"

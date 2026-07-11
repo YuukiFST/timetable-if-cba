@@ -8,13 +8,14 @@ export function Config({ turmaId }: { turmaId: string }) {
   const q = useQuery(loadTurma(turmaId), turmaId)
   const [trocando, setTrocando] = useState(false)
   const [confirmandoReset, setConfirmandoReset] = useState(false)
+  const cursoIdAtual = q.status === "ok" ? q.value.turma.cursoId : null
 
   if (trocando)
     return (
       <EscolhaCurso
         titulo="Trocar de curso"
-        onPick={(turmaId, _cursoId) => {
-          escolherTurma(turmaId)
+        onPick={(turmaId, cursoId) => {
+          escolherTurma(turmaId, cursoId, cursoIdAtual)
           setTrocando(false)
         }}
       />

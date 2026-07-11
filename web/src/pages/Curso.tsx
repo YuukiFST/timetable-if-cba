@@ -39,13 +39,14 @@ export function Curso({ turmaId }: { turmaId: string }) {
   const progresso = useProgresso()
   const [trocando, setTrocando] = useState(false)
   const concluidas = useMemo(() => new Set(progresso?.materiasConcluidas ?? []), [progresso])
+  const cursoIdAtual = q.status === "ok" ? q.value.turmaAtual.cursoId : null
 
   if (trocando)
     return (
       <EscolhaCurso
         titulo="Trocar de curso"
-        onPick={(turmaId, _cursoId) => {
-          escolherTurma(turmaId)
+        onPick={(turmaId, cursoId) => {
+          escolherTurma(turmaId, cursoId, cursoIdAtual)
           setTrocando(false)
         }}
       />

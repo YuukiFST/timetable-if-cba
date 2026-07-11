@@ -55,10 +55,10 @@ describe("toggleMateria", () => {
 })
 
 describe("escolherTurma", () => {
-  it("preserva feitas e cursando ao trocar turma", () => {
+  it("preserva feitas e cursando ao trocar turma do mesmo curso", () => {
     iniciarProgresso("t1", ["m1"])
     toggleCursando("m2")
-    escolherTurma("t2")
+    escolherTurma("t2", "c1", "c1")
     expect(readProgresso()).toEqual({
       version: 1,
       turmaId: "t2",
@@ -66,15 +66,27 @@ describe("escolherTurma", () => {
       cursando: ["m2"],
     })
   })
+
+  it("zera progresso ao trocar para outro curso", () => {
+    iniciarProgresso("t1", ["m1"])
+    toggleCursando("m2")
+    escolherTurma("t9", "c2", "c1")
+    expect(readProgresso()).toEqual({
+      version: 1,
+      turmaId: "t9",
+      materiasConcluidas: [],
+      cursando: [],
+    })
+  })
 })
 
 describe("resetProgresso", () => {
-  it("zera feitas mas preserva cursando (comportamento atual — plan 003 altera)", () => {
+  it("zera feitas e cursando preservando turmaId", () => {
     iniciarProgresso("t1", ["m1"])
     toggleCursando("m2")
     resetProgresso()
     expect(readProgresso()?.materiasConcluidas).toEqual([])
-    expect(readProgresso()?.cursando).toEqual(["m2"])
+    expect(readProgresso()?.cursando).toEqual([])
     expect(readProgresso()?.turmaId).toBe("t1")
   })
 })
