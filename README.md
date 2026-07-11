@@ -16,6 +16,8 @@ Alternativa manual: `npm run dev -w web`
 
 Gates de qualidade: `npm run typecheck` e `npm test`.
 
+Commits: Conventional Commits (`feat(web): descrição`); hook em `.githooks/commit-msg` (ativado no `npm install`).
+
 ## Estrutura
 
 - `scraper/` — Node + Effect: EdUpage → JSON estático (cron semanal via GitHub Actions)

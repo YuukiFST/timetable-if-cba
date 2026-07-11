@@ -2,3 +2,13 @@ node_modules/
 web/dist/
 dev-dist/
 *.log
+
+# Harness / agentes (local — não versionar)
+.claude/
+.cursor/
+.opencode/
+CLAUDE.md
+AGENTS.md
+GEMINI.md
+CODEX.md
+docs/superpowers/
