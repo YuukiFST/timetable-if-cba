@@ -1,0 +1,105 @@
+// @vitest-environment jsdom
+
+import { beforeEach, describe, expect, it } from "vitest"
+import {
+  escolherTurma,
+  iniciarProgresso,
+  migrarPlanoLegado,
+  readProgresso,
+  resetProgresso,
+  toggleCursando,
+  toggleMateria,
+  writeProgresso,
+} from "./storage"
+
+beforeEach(() => {
+  localStorage.clear()
+})
+
+describe("iniciarProgresso", () => {
+  it("grava cursando vazio e arrays ordenados", () => {
+    iniciarProgresso("t1", ["m2", "m1"])
+    expect(readProgresso()).toEqual({
+      version: 1,
+      turmaId: "t1",
+      materiasConcluidas: ["m1", "m2"],
+      cursando: [],
+    })
+  })
+})
+
+describe("toggleMateria", () => {
+  beforeEach(() => iniciarProgresso("t1", []))
+
+  it("marca matéria como feita", () => {
+    toggleMateria("m1")
+    expect(readProgresso()?.materiasConcluidas).toEqual(["m1"])
+  })
+
+  it("remove matéria feita", () => {
+    iniciarProgresso("t1", ["m1"])
+    toggleMateria("m1")
+    expect(readProgresso()?.materiasConcluidas).toEqual([])
+  })
+
+  it("feita e cursando são mutuamente exclusivos", () => {
+    toggleCursando("m1")
+    toggleMateria("m1")
+    expect(readProgresso()?.materiasConcluidas).toEqual(["m1"])
+    expect(readProgresso()?.cursando).toEqual([])
+
+    toggleCursando("m1")
+    expect(readProgresso()?.materiasConcluidas).toEqual([])
+    expect(readProgresso()?.cursando).toEqual(["m1"])
+  })
+})
+
+describe("escolherTurma", () => {
+  it("preserva feitas e cursando ao trocar turma", () => {
+    iniciarProgresso("t1", ["m1"])
+    toggleCursando("m2")
+    escolherTurma("t2")
+    expect(readProgresso()).toEqual({
+      version: 1,
+      turmaId: "t2",
+      materiasConcluidas: ["m1"],
+      cursando: ["m2"],
+    })
+  })
+})
+
+describe("resetProgresso", () => {
+  it("zera feitas mas preserva cursando (comportamento atual — plan 003 altera)", () => {
+    iniciarProgresso("t1", ["m1"])
+    toggleCursando("m2")
+    resetProgresso()
+    expect(readProgresso()?.materiasConcluidas).toEqual([])
+    expect(readProgresso()?.cursando).toEqual(["m2"])
+    expect(readProgresso()?.turmaId).toBe("t1")
+  })
+})
+
+describe("readProgresso", () => {
+  it("retorna null para versão errada", () => {
+    localStorage.setItem(
+      "horarios-ifmt-progresso",
+      JSON.stringify({ version: 99, turmaId: "t1", materiasConcluidas: [], cursando: [] }),
+    )
+    expect(readProgresso()).toBeNull()
+  })
+
+  it("retorna null para JSON inválido", () => {
+    localStorage.setItem("horarios-ifmt-progresso", "not-json{")
+    expect(readProgresso()).toBeNull()
+  })
+})
+
+describe("migrarPlanoLegado", () => {
+  it("copia ids do plano legado para cursando e remove chave plano", () => {
+    writeProgresso({ version: 1, turmaId: "t1", materiasConcluidas: [], cursando: [] })
+    localStorage.setItem("horarios-ifmt-plano", JSON.stringify({ turmaId: "t1", materiaIds: ["m1", "m2"] }))
+    migrarPlanoLegado()
+    expect(readProgresso()?.cursando).toEqual(["m1", "m2"])
+    expect(localStorage.getItem("horarios-ifmt-plano")).toBeNull()
+  })
+})
