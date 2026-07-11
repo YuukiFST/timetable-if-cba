@@ -83,8 +83,8 @@ export function Planejar({ turmaId }: { turmaId: string }) {
 
   return (
     <QueryView q={q}>
-      {({ curso, materias, turmas, generatedAt }) => {
-        const ofertas = ofertasPorMateria(turmas)
+      {({ curso, materias, turmaAtual, turmas, generatedAt }) => {
+        const ofertas = ofertasPorMateria(turmaAtual, turmas)
         const nomePorId = new Map(materias.map((m) => [m.id, m.nome]))
         const cortoPorId = new Map(materias.map((m) => [m.id, m.nomeCurto ?? m.nome]))
         const pool = materias.filter((m) => !concluidas.has(m.id))

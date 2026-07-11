@@ -58,7 +58,7 @@ export function Curso({ turmaId }: { turmaId: string }) {
         const total = agregarProgresso(materias, concluidas)
         const choques = detectarChoques(turmaAtual, turmas, concluidas)
         const dia = diaInicialPorMateria(turmas)
-        const ofertas = ofertasPorMateria(turmas)
+        const ofertas = ofertasPorMateria(turmaAtual, turmas)
         return (
           <div>
             <Titulo sub={curso.nome}>Curso</Titulo>

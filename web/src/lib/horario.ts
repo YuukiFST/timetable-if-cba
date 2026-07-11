@@ -183,17 +183,31 @@ export interface Oferta {
 
 /**
  * Para cada matéria oferecida no curso, sua oferta (turma + blocos mesclados).
- * Usado pelo planner de matrícula para saber o horário de cada matéria marcada.
+ * Matérias na grade de turmaAtual usam só horários dessa turma; dependências vêm das outras.
  */
-export const ofertasPorMateria = (turmas: ReadonlyArray<Turma>): Map<string, Oferta> => {
-  // ponytail: união de ofertas; escolha por turma se um curso integrado precisar
+export const ofertasPorMateria = (
+  turmaAtual: Turma,
+  turmas: ReadonlyArray<Turma>,
+): Map<string, Oferta> => {
+  const naGrade = new Set(turmaAtual.materias.map((m) => m.id))
   const aulasPorMateria = new Map<string, { turmaNome: string; aulas: Aula[] }>()
-  for (const t of turmas)
+
+  const add = (turmaNome: string, aula: Aula) => {
+    const e = aulasPorMateria.get(aula.materiaId) ?? { turmaNome, aulas: [] }
+    e.aulas.push(aula)
+    aulasPorMateria.set(aula.materiaId, e)
+  }
+
+  for (const a of turmaAtual.aulas) add(turmaAtual.nome, a)
+
+  for (const t of turmas) {
+    if (t.id === turmaAtual.id) continue
     for (const a of t.aulas) {
-      const e = aulasPorMateria.get(a.materiaId) ?? { turmaNome: t.nome, aulas: [] }
-      e.aulas.push(a)
-      aulasPorMateria.set(a.materiaId, e)
+      if (naGrade.has(a.materiaId)) continue
+      add(t.nome, a)
     }
+  }
+
   const mapa = new Map<string, Oferta>()
   for (const [materiaId, { turmaNome, aulas }] of aulasPorMateria)
     mapa.set(materiaId, { turmaNome, blocos: mesclarAulas(aulas) })

@@ -205,14 +205,30 @@ describe("ofertasPorMateria", () => {
   it("agrupa aulas por matéria e mescla blocos consecutivos", () => {
     const t = turma("A", [mat("m1"), mat("m2")], [
       aula(2, "18:50", "20:30", "m1"),
-      aula(2, "20:45", "22:25", "m1"), // gap 15min → mescla com o anterior
+      aula(2, "20:45", "22:25", "m1"),
       aula(3, "13:00", "13:50", "m2"),
     ])
-    const ofertas = ofertasPorMateria([t])
+    const ofertas = ofertasPorMateria(t, [t])
     expect(ofertas.get("m1")?.blocos).toHaveLength(1)
     expect(ofertas.get("m1")?.blocos[0]).toMatchObject({ horaInicio: "18:50", horaFim: "22:25" })
     expect(ofertas.get("m2")?.blocos).toHaveLength(1)
     expect(ofertas.get("m1")?.turmaNome).toBe("A")
+  })
+
+  it("matéria na grade usa só horários de turmaAtual", () => {
+    const atual = turma("A", [mat("m1")], [aula(1, "07:00", "08:00", "m1")])
+    const outra = turma("B", [mat("m1")], [aula(3, "13:00", "14:00", "m1")])
+    const ofertas = ofertasPorMateria(atual, [atual, outra])
+    expect(ofertas.get("m1")?.blocos).toEqual([aula(1, "07:00", "08:00", "m1")])
+    expect(ofertas.get("m1")?.turmaNome).toBe("A")
+  })
+
+  it("matéria fora da grade usa horários de outra turma", () => {
+    const atual = turma("A", [mat("m1")], [aula(1, "07:00", "08:00", "m1")])
+    const outra = turma("B", [mat("m2")], [aula(3, "13:00", "14:00", "m2")])
+    const ofertas = ofertasPorMateria(atual, [atual, outra])
+    expect(ofertas.get("m2")?.blocos).toEqual([aula(3, "13:00", "14:00", "m2")])
+    expect(ofertas.get("m2")?.turmaNome).toBe("B")
   })
 })
 
@@ -290,7 +306,7 @@ describe("montarTabelaPlano", () => {
     aula(0, "13:00", "14:40", "m2"),
     aula(0, "18:50", "20:30", "m3"),
   ])
-  const ofertas = ofertasPorMateria([t])
+  const ofertas = ofertasPorMateria(t, [t])
   const pool = [mat("m1"), mat("m2"), mat("m3")]
 
   it("faixas ordenadas por horário e dias só os com aula", () => {
