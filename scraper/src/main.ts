@@ -4,6 +4,7 @@ import { dirname, join } from "node:path"
 import { fileURLToPath } from "node:url"
 import { ArquivoCursos, ArquivoTurma, SCHEMA_VERSION } from "shared/schema"
 import { fetchRegularTT, fetchTimetables, pickTimetable } from "./edupage.js"
+import { diffData, formatDiffLog } from "./diff-data.js"
 import { transform, TransformError, type Overrides } from "./transform.js"
 import { writeDataAtomically } from "./write-data.js"
 
@@ -48,14 +49,15 @@ const pipeline = Effect.gen(function* () {
     turmas.map((turma) => Schema.decodeUnknown(ArquivoTurma)({ schemaVersion: SCHEMA_VERSION, generatedAt, turma })),
   )
 
+  const cursosContent = stableStringify(cursosFile)
+  const turmaContents = turmaFiles.map((f) => ({ id: f.turma.id, content: stableStringify(f) }))
+  const diff = yield* Effect.promise(() => diffData(dataDir, cursosContent, turmaContents))
+  yield* Effect.log(formatDiffLog(diff))
+
+  if (!diff.changed) return
+
   // Escrita só depois de fetch+decode+transform completos: falha preserva JSON anterior.
-  yield* Effect.promise(() =>
-    writeDataAtomically(
-      dataDir,
-      stableStringify(cursosFile),
-      turmaFiles.map((f) => ({ id: f.turma.id, content: stableStringify(f) })),
-    ),
-  )
+  yield* Effect.promise(() => writeDataAtomically(dataDir, cursosContent, turmaContents))
   yield* Effect.log(`OK: ${cursos.length} cursos, ${turmas.length} turmas, ${discarded.length} itens descartados`)
 })
 

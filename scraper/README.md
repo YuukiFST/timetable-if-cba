@@ -23,8 +23,10 @@ Respostas reais gravadas em `fixtures/` — os testes de transform rodam sobre e
 npm run scrape   # na raiz do repo
 ```
 
-Pipeline Effect: `fetchTimetables → fetchRegularTT → decode (Schema) → transform → validar → escrever`.
+Pipeline Effect: `fetchTimetables → fetchRegularTT → decode (Schema) → transform → validar → comparar → escrever`.
 Retry com backoff exponencial (máx. 3 tentativas). Nenhum arquivo é escrito antes de decode + transform + validação completos: falha preserva o JSON anterior. Escrita atômica em staging antes de substituir `turmas/` e `cursos.json`.
+
+Compara o conteúdo novo com o existente **ignorando `generatedAt`**. Se nada mudou, loga `Sem mudanças nos horários — arquivos não alterados` e não reescreve os JSON (evita diff falso no git). Se mudou, loga quais turmas/cursos alteraram antes de escrever.
 
 ## CI (GitHub Actions)
 
