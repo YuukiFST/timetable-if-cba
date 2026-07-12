@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "generatedAt": "2026-07-12T08:15:56.289Z",
   "schemaVersion": 1,
   "turma": {
     "aulas": [
       {
         "diaSemana": 3,
-        "horaFim": "22:25",
-        "horaInicio": "17:05",
+        "horaFim": "11:50",
+        "horaInicio": "07:45",
         "materiaId": "*82",
         "professor": "Lúcio Vidal, Danilo Herbert",
-        "slot": 11
+        "slot": 1
       },
       {
         "diaSemana": 4,

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "generatedAt": "2026-07-12T08:15:56.289Z",
   "schemaVersion": 1,
   "turma": {
     "aulas": [
@@ -25,17 +25,17 @@
         "diaSemana": 1,
         "horaFim": "20:30",
         "horaInicio": "18:50",
-        "materiaId": "-159",
-        "professor": "José Vinicius",
-        "sala": "B-218",
+        "materiaId": "-121",
+        "professor": "Dejenana",
+        "sala": "B-002",
         "slot": 12
       },
       {
         "diaSemana": 1,
         "horaFim": "22:25",
         "horaInicio": "20:45",
-        "materiaId": "-121",
-        "professor": "Dejenana",
+        "materiaId": "-159",
+        "professor": "José Vinicius",
         "sala": "B-218",
         "slot": 14
       },
@@ -52,8 +52,8 @@
         "diaSemana": 2,
         "horaFim": "22:25",
         "horaInicio": "20:45",
-        "materiaId": "-393",
-        "professor": "Edilene Campos",
+        "materiaId": "-402",
+        "professor": "Nadir Bittencour",
         "sala": "B-218",
         "slot": 14
       },
@@ -88,8 +88,8 @@
         "diaSemana": 4,
         "horaFim": "22:25",
         "horaInicio": "20:45",
-        "materiaId": "-402",
-        "professor": "Nadir Bittencour",
+        "materiaId": "-393",
+        "professor": "Edilene Campos",
         "sala": "B-218",
         "slot": 14
       }

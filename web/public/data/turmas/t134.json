@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "generatedAt": "2026-07-12T08:15:56.289Z",
   "schemaVersion": 1,
   "turma": {
     "aulas": [
@@ -11,15 +11,6 @@
         "professor": "Jeferson Júnior",
         "sala": "B-214",
         "slot": 12
-      },
-      {
-        "diaSemana": 0,
-        "horaFim": "22:25",
-        "horaInicio": "20:45",
-        "materiaId": "-309",
-        "professor": "Karine Assunção",
-        "sala": "B-214",
-        "slot": 14
       },
       {
         "diaSemana": 1,
@@ -34,8 +25,8 @@
         "diaSemana": 1,
         "horaFim": "22:25",
         "horaInicio": "20:45",
-        "materiaId": "*583",
-        "professor": "Francielle Oliveira",
+        "materiaId": "-309",
+        "professor": "Karine Assunção",
         "sala": "B-214",
         "slot": 14
       },
@@ -74,6 +65,15 @@
         "professor": "Edilene Campos",
         "sala": "B-214",
         "slot": 12
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "*583",
+        "professor": "Francielle Oliveira",
+        "sala": "B-214",
+        "slot": 14
       },
       {
         "diaSemana": 5,

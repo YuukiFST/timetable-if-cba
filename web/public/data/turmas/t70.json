@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "generatedAt": "2026-07-12T08:15:56.289Z",
   "schemaVersion": 1,
   "turma": {
     "aulas": [
@@ -22,13 +22,13 @@
         "slot": 10
       },
       {
-        "diaSemana": 2,
-        "horaFim": "16:20",
-        "horaInicio": "14:30",
+        "diaSemana": 0,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
         "materiaId": "-95",
         "professor": "Simone Raquel",
-        "sala": "B-204",
-        "slot": 8
+        "sala": "B-124",
+        "slot": 12
       },
       {
         "diaSemana": 2,

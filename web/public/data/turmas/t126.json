@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "generatedAt": "2026-07-12T08:15:56.289Z",
   "schemaVersion": 1,
   "turma": {
     "aulas": [
@@ -151,7 +151,7 @@
         "horaFim": "14:30",
         "horaInicio": "13:00",
         "materiaId": "-570",
-        "professor": "João Barros",
+        "professor": "Danilo Flumignan",
         "sala": "B-218",
         "slot": 6
       },

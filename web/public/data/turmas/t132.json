@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "generatedAt": "2026-07-12T08:15:56.289Z",
   "schemaVersion": 1,
   "turma": {
     "aulas": [
@@ -26,7 +26,7 @@
         "horaFim": "20:30",
         "horaInicio": "18:50",
         "materiaId": "-587",
-        "professor": "Francielle Oliveira",
+        "professor": "Karine Assunção",
         "sala": "B-215",
         "slot": 12
       },

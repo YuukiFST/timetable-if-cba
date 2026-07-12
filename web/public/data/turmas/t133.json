@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "generatedAt": "2026-07-12T08:15:56.289Z",
   "schemaVersion": 1,
   "turma": {
     "aulas": [
@@ -25,18 +25,18 @@
         "diaSemana": 1,
         "horaFim": "20:30",
         "horaInicio": "18:50",
-        "materiaId": "-322",
-        "professor": "Dejenana",
-        "sala": "B-207",
+        "materiaId": "-396",
+        "professor": "Edilene Campos",
+        "sala": "B-211",
         "slot": 12
       },
       {
         "diaSemana": 1,
         "horaFim": "22:25",
         "horaInicio": "20:45",
-        "materiaId": "-379",
-        "professor": "Jenniffer Santos",
-        "sala": "B-207",
+        "materiaId": "-322",
+        "professor": "Dejenana",
+        "sala": "B-212",
         "slot": 14
       },
       {
@@ -88,8 +88,8 @@
         "diaSemana": 4,
         "horaFim": "22:25",
         "horaInicio": "20:45",
-        "materiaId": "-396",
-        "professor": "Edilene Campos",
+        "materiaId": "-379",
+        "professor": "Jenniffer Santos",
         "sala": "B-207",
         "slot": 14
       }

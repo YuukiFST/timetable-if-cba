@@ -1,43 +1,16 @@
 {
-  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "generatedAt": "2026-07-12T08:15:56.289Z",
   "schemaVersion": 1,
   "turma": {
     "aulas": [
       {
         "diaSemana": 0,
-        "horaFim": "14:30",
-        "horaInicio": "13:00",
-        "materiaId": "-253",
-        "professor": "Cristiano Cunha",
-        "sala": "B-002",
-        "slot": 6
-      },
-      {
-        "diaSemana": 0,
-        "horaFim": "16:20",
-        "horaInicio": "14:30",
-        "materiaId": "-77",
-        "professor": "Emerson Dutra",
-        "sala": "B-002",
-        "slot": 8
-      },
-      {
-        "diaSemana": 0,
         "horaFim": "17:50",
         "horaInicio": "16:20",
-        "materiaId": "-17",
-        "professor": "Willian Pereira",
-        "sala": "B-002",
+        "materiaId": "-253",
+        "professor": "Cristiano Cunha",
+        "sala": "B-105",
         "slot": 10
-      },
-      {
-        "diaSemana": 1,
-        "horaFim": "14:30",
-        "horaInicio": "13:00",
-        "materiaId": "-17",
-        "professor": "Willian Pereira",
-        "sala": "B-003",
-        "slot": 6
       },
       {
         "diaSemana": 1,
@@ -47,6 +20,24 @@
         "professor": "Cristiano Cunha",
         "sala": "B-109",
         "slot": 8
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "17:50",
+        "horaInicio": "16:20",
+        "materiaId": "-77",
+        "professor": "Emerson Dutra",
+        "sala": "B-007",
+        "slot": 10
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "14:30",
+        "horaInicio": "13:00",
+        "materiaId": "-17",
+        "professor": "Willian Pereira",
+        "sala": "B-004",
+        "slot": 6
       },
       {
         "diaSemana": 2,
@@ -65,6 +56,15 @@
         "professor": "Edelson Duarte",
         "sala": "DEEA E105 Lab. Informática",
         "slot": 10
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "14:30",
+        "horaInicio": "13:00",
+        "materiaId": "-17",
+        "professor": "Willian Pereira",
+        "sala": "B-105",
+        "slot": 6
       },
       {
         "diaSemana": 3,

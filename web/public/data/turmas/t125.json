@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "generatedAt": "2026-07-12T08:15:56.289Z",
   "schemaVersion": 1,
   "turma": {
     "aulas": [
@@ -59,12 +59,21 @@
       },
       {
         "diaSemana": 2,
-        "horaFim": "09:15",
-        "horaInicio": "07:45",
+        "horaFim": "08:30",
+        "horaInicio": "07:00",
         "materiaId": "-570",
         "professor": "Sonia Biaggi",
         "sala": "B-213",
-        "slot": 1
+        "slot": 0
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "09:15",
+        "horaInicio": "08:30",
+        "materiaId": "-436",
+        "professor": "Sergio Crecca",
+        "sala": "B-213",
+        "slot": 2
       },
       {
         "diaSemana": 2,
@@ -157,30 +166,21 @@
       },
       {
         "diaSemana": 4,
-        "horaFim": "14:30",
+        "horaFim": "15:15",
         "horaInicio": "13:45",
-        "materiaId": "-436",
-        "professor": "Sergio Crecca",
+        "materiaId": "-178",
+        "professor": "Mauricio Razeira",
         "sala": "B-213",
         "slot": 7
       },
       {
         "diaSemana": 4,
-        "horaFim": "16:20",
-        "horaInicio": "14:30",
-        "materiaId": "-178",
-        "professor": "Mauricio Razeira",
-        "sala": "B-213",
-        "slot": 8
-      },
-      {
-        "diaSemana": 4,
-        "horaFim": "17:50",
-        "horaInicio": "16:20",
+        "horaFim": "17:05",
+        "horaInicio": "15:35",
         "materiaId": "-286",
         "professor": "Paulo Daniel Curti de Almeida",
         "sala": "B-213",
-        "slot": 10
+        "slot": 9
       }
     ],
     "cursoId": "dgh-7631-secr-integ",

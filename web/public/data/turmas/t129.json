@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "generatedAt": "2026-07-12T08:15:56.289Z",
   "schemaVersion": 1,
   "turma": {
     "aulas": [
@@ -16,8 +16,8 @@
         "diaSemana": 0,
         "horaFim": "22:25",
         "horaInicio": "20:45",
-        "materiaId": "-400",
-        "professor": "José Silva",
+        "materiaId": "-674",
+        "professor": "Cláudia Marcele",
         "sala": "B-216",
         "slot": 14
       },
@@ -70,8 +70,8 @@
         "diaSemana": 3,
         "horaFim": "22:25",
         "horaInicio": "20:45",
-        "materiaId": "-674",
-        "professor": "Cláudia Marcele",
+        "materiaId": "-400",
+        "professor": "José Silva",
         "sala": "B-216",
         "slot": 14
       },

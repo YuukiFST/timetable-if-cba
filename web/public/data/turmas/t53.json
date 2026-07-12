@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "generatedAt": "2026-07-12T08:15:56.289Z",
   "schemaVersion": 1,
   "turma": {
     "aulas": [
@@ -7,9 +7,9 @@
         "diaSemana": 0,
         "horaFim": "14:30",
         "horaInicio": "13:00",
-        "materiaId": "-64",
-        "professor": "Evandro Freiberger",
-        "sala": "DCOM",
+        "materiaId": "-215",
+        "professor": "Jorge Monsalve",
+        "sala": "D-014",
         "slot": 6
       },
       {
@@ -25,9 +25,9 @@
         "diaSemana": 0,
         "horaFim": "17:50",
         "horaInicio": "16:20",
-        "materiaId": "-215",
-        "professor": "Jorge Monsalve",
-        "sala": "D-014",
+        "materiaId": "-64",
+        "professor": "Evandro Freiberger",
+        "sala": "B-002",
         "slot": 10
       },
       {
