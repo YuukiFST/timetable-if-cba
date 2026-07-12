@@ -56,7 +56,7 @@ function ChipMateria({
     >
       <span className="flex min-w-0 items-start gap-1 text-xs font-semibold">
         {alerta && <span aria-hidden className="shrink-0">⚠</span>}
-        <span className="min-w-0 wrap-anywhere leading-snug">{nome}</span>
+        <span className="min-w-0 break-normal leading-snug">{nome}</span>
       </span>
       {bloco && (
         <span className="text-[11px] tabular-nums leading-tight text-muted">
