@@ -52,11 +52,11 @@ function ChipMateria({
       title={estado === "conflita" ? `${nome} — colide com sua escolha` : undefined}
       aria-label={nome}
       aria-pressed={estado === "escolhida" || estado === "choque"}
-      className={`flex w-full flex-col rounded-lg border px-2 py-1.5 text-left active:scale-[0.98] ${CLASSE[estado]} ${HOVER_CHIP[estado]}`}
+      className={`flex min-w-0 w-full max-w-full flex-col rounded-lg border px-2 py-1.5 text-left active:scale-[0.98] ${CLASSE[estado]} ${HOVER_CHIP[estado]}`}
     >
-      <span className="flex items-start gap-1 text-xs font-semibold">
+      <span className="flex min-w-0 items-start gap-1 text-xs font-semibold">
         {alerta && <span aria-hidden className="shrink-0">⚠</span>}
-        <span className="break-words leading-snug">{nome}</span>
+        <span className="min-w-0 wrap-anywhere leading-snug">{nome}</span>
       </span>
       {bloco && (
         <span className="text-[11px] tabular-nums leading-tight text-muted">
@@ -230,7 +230,7 @@ export function Planejar({ turmaId }: { turmaId: string }) {
                       {tabela.dias.map((d) => {
                         const ids = tabela.celulas.get(chaveCelula(d, faixa)) ?? []
                         return (
-                          <div key={d} className="flex flex-col gap-1 bg-surface p-1.5">
+                          <div key={d} className="flex min-w-0 flex-col gap-1 bg-surface p-1.5">
                             {ids.map((id) => chip(id, blocoNaCelula(id, d, faixa)))}
                           </div>
                         )
