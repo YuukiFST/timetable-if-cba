@@ -1,6 +1,8 @@
 import { NavLink, Route, Routes } from "react-router"
+import { AvisoAtualizacaoDados } from "./components/AvisoAtualizacaoDados"
 import { InstallHint } from "./components/InstallHint"
 import { IconConfig, IconHoje, IconMaterias, IconPlanejar } from "./components/ui"
+import { loadCursos, useQuery } from "./data/api"
 import { useProgresso } from "./storage"
 import { Config } from "./pages/Config"
 import { Curso } from "./pages/Curso"
@@ -17,10 +19,13 @@ const tabs = [
 
 export function App() {
   const progresso = useProgresso()
+  const meta = useQuery(loadCursos, "cursos")
+  const generatedAtLocal = meta.status === "ok" ? meta.value.generatedAt : null
   if (!progresso) return <Onboarding />
 
   return (
     <div className="mx-auto flex min-h-dvh max-w-3xl flex-col">
+      <AvisoAtualizacaoDados generatedAtLocal={generatedAtLocal} />
       <main className="flex-1 px-4 pb-24 pt-4 md:pb-8 md:pt-20">
         <Routes>
           <Route path="/" element={<Curso turmaId={progresso.turmaId} />} />
