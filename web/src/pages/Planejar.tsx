@@ -38,11 +38,13 @@ function ChipMateria({
   bloco,
   estado,
   onToggle,
+  compacto = false,
 }: {
   nome: string
   bloco: Aula | null
   estado: Estado
   onToggle: () => void
+  compacto?: boolean
 }) {
   const alerta = estado === "choque" || estado === "conflita"
   return (
@@ -52,11 +54,17 @@ function ChipMateria({
       title={estado === "conflita" ? `${nome} — colide com sua escolha` : undefined}
       aria-label={nome}
       aria-pressed={estado === "escolhida" || estado === "choque"}
-      className={`flex min-w-0 w-full max-w-full flex-col rounded-lg border px-2 py-1.5 text-left active:scale-[0.98] ${CLASSE[estado]} ${HOVER_CHIP[estado]}`}
+      className={`flex min-w-0 w-full max-w-full flex-col rounded-lg border text-left active:scale-[0.98] ${
+        compacto ? "px-1.5 py-1" : "px-2 py-1.5"
+      } ${CLASSE[estado]} ${HOVER_CHIP[estado]}`}
     >
-      <span className="flex min-w-0 items-start gap-1 text-xs font-semibold">
+      <span
+        className={`flex min-w-0 items-start gap-1 font-semibold ${
+          compacto ? "text-[10px] leading-tight" : "text-xs leading-snug"
+        }`}
+      >
         {alerta && <span aria-hidden className="shrink-0">⚠</span>}
-        <span className="min-w-0 break-normal leading-snug">{nome}</span>
+        <span className="min-w-0 break-normal">{nome}</span>
       </span>
       {bloco && (
         <span className="text-[11px] tabular-nums leading-tight text-muted">
@@ -182,13 +190,14 @@ export function Planejar({ turmaId }: { turmaId: string }) {
                 nChoques > 0 ? ` · ${nChoques} choque${nChoques === 1 ? "" : "s"}` : " · sem choques"
               }`
 
-        const chip = (materiaId: string, bloco: Aula | null) => (
+        const chip = (materiaId: string, bloco: Aula | null, compacto = false) => (
           <ChipMateria
             key={materiaId}
             nome={nomePorId.get(materiaId) ?? materiaId}
             bloco={bloco}
             estado={estadoDe(materiaId)}
             onToggle={() => toggleCursando(materiaId)}
+            compacto={compacto}
           />
         )
         const blocoNaCelula = (materiaId: string, d: number, faixa: string): Aula | null =>
@@ -214,10 +223,11 @@ export function Planejar({ turmaId }: { turmaId: string }) {
                   blocoNaCelula={blocoNaCelula}
                 />
 
-                <div
-                  className="hidden gap-px overflow-hidden rounded-2xl border border-border bg-border md:grid"
-                  style={{ gridTemplateColumns: `auto repeat(${tabela.dias.length}, minmax(0, 1fr))` }}
-                >
+                <div className="hidden md:block md:-mx-4 md:overflow-x-auto">
+                  <div
+                    className="grid min-w-[42rem] gap-px overflow-hidden rounded-2xl border border-border bg-border"
+                    style={{ gridTemplateColumns: `auto repeat(${tabela.dias.length}, minmax(6.5rem, 1fr))` }}
+                  >
                   <div className="bg-surface" />
                   {tabela.dias.map((d) => (
                     <div key={d} className="bg-surface px-2 py-2 text-center text-sm font-bold uppercase tracking-wide text-muted">
@@ -231,12 +241,13 @@ export function Planejar({ turmaId }: { turmaId: string }) {
                         const ids = tabela.celulas.get(chaveCelula(d, faixa)) ?? []
                         return (
                           <div key={d} className="flex min-w-0 flex-col gap-1 bg-surface p-1.5">
-                            {ids.map((id) => chip(id, blocoNaCelula(id, d, faixa)))}
+                            {ids.map((id) => chip(id, blocoNaCelula(id, d, faixa), true))}
                           </div>
                         )
                       })}
                     </div>
                   ))}
+                  </div>
                 </div>
               </>
             )}
