@@ -35,13 +35,11 @@ const HOVER_CHIP: Record<Estado, string> = {
 
 function ChipMateria({
   nome,
-  corto,
   bloco,
   estado,
   onToggle,
 }: {
   nome: string
-  corto: string
   bloco: Aula | null
   estado: Estado
   onToggle: () => void
@@ -51,14 +49,14 @@ function ChipMateria({
     <button
       type="button"
       onClick={onToggle}
-      title={estado === "conflita" ? `${nome} — colide com sua escolha` : nome}
+      title={estado === "conflita" ? `${nome} — colide com sua escolha` : undefined}
       aria-label={nome}
       aria-pressed={estado === "escolhida" || estado === "choque"}
       className={`flex w-full flex-col rounded-lg border px-2 py-1.5 text-left active:scale-[0.98] ${CLASSE[estado]} ${HOVER_CHIP[estado]}`}
     >
-      <span className="flex items-center gap-1 text-xs font-semibold leading-tight">
-        {alerta && <span aria-hidden>⚠</span>}
-        <span className="truncate">{corto}</span>
+      <span className="flex items-start gap-1 text-xs font-semibold">
+        {alerta && <span aria-hidden className="shrink-0">⚠</span>}
+        <span className="break-words leading-snug">{nome}</span>
       </span>
       {bloco && (
         <span className="text-[11px] tabular-nums leading-tight text-muted">
@@ -155,7 +153,6 @@ export function Planejar({ turmaId }: { turmaId: string }) {
       {({ curso, materias, turmaAtual, turmas, generatedAt }) => {
         const ofertas = ofertasPorMateria(turmaAtual, turmas)
         const nomePorId = new Map(materias.map((m) => [m.id, m.nome]))
-        const cortoPorId = new Map(materias.map((m) => [m.id, m.nomeCurto ?? m.nome]))
         const pool = materias.filter((m) => !concluidas.has(m.id))
         const tabela = montarTabelaPlano(pool, ofertas)
         const hoje = diaLetivo(new Date())
@@ -189,7 +186,6 @@ export function Planejar({ turmaId }: { turmaId: string }) {
           <ChipMateria
             key={materiaId}
             nome={nomePorId.get(materiaId) ?? materiaId}
-            corto={cortoPorId.get(materiaId) ?? materiaId}
             bloco={bloco}
             estado={estadoDe(materiaId)}
             onToggle={() => toggleCursando(materiaId)}
