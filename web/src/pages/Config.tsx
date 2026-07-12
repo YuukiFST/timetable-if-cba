@@ -1,14 +1,14 @@
-import { useState } from "react"
-import { loadTurma, useQuery } from "../data/api"
+import { useMemo, useState } from "react"
+import { loadMateriasDoCurso, useQuery } from "../data/api"
 import { escolherTurma, resetProgresso } from "../storage"
 import { EscolhaCurso } from "./Onboarding"
 import { AvisoFonteDados, ErroDados, QueryView, Titulo } from "../components/ui"
 
 export function Config({ turmaId }: { turmaId: string }) {
-  const q = useQuery(loadTurma(turmaId), turmaId)
+  const q = useQuery(useMemo(() => loadMateriasDoCurso(turmaId), [turmaId]), `materias-${turmaId}`)
   const [trocando, setTrocando] = useState(false)
   const [confirmandoReset, setConfirmandoReset] = useState(false)
-  const cursoIdAtual = q.status === "ok" ? q.value.turma.cursoId : null
+  const cursoIdAtual = q.status === "ok" ? q.value.curso.id : null
 
   if (trocando)
     return (
@@ -32,7 +32,7 @@ export function Config({ turmaId }: { turmaId: string }) {
             onClick={() => setTrocando(true)}
             className="ix-row min-h-12 w-full px-4 py-3 text-left font-medium text-primary active:bg-surface-2"
           >
-            Trocar curso/turma
+            Trocar curso
           </button>
         </section>
       </div>
@@ -40,21 +40,21 @@ export function Config({ turmaId }: { turmaId: string }) {
 
   return (
     <QueryView q={q}>
-      {(arquivo) => (
+      {({ curso, generatedAt }) => (
         <div>
           <Titulo>Configurações</Titulo>
 
           <section className="mb-6 overflow-hidden rounded-2xl border border-border bg-surface">
             <div className="border-b border-border px-4 py-3">
-              <p className="text-sm text-muted">Turma atual</p>
-              <p className="font-semibold">{arquivo.turma.nome}</p>
+              <p className="text-sm text-muted">Curso atual</p>
+              <p className="font-semibold">{curso.nome}</p>
             </div>
             <button
               type="button"
               onClick={() => setTrocando(true)}
               className="ix-row min-h-12 w-full px-4 py-3 text-left font-medium text-primary active:bg-surface-2"
             >
-              Trocar curso/turma
+              Trocar curso
             </button>
           </section>
 
@@ -93,7 +93,7 @@ export function Config({ turmaId }: { turmaId: string }) {
             )}
           </section>
 
-          <AvisoFonteDados generatedAt={arquivo.generatedAt} variant="completo" />
+          <AvisoFonteDados generatedAt={generatedAt} variant="completo" />
         </div>
       )}
     </QueryView>
