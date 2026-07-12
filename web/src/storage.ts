@@ -1,5 +1,6 @@
 import { Either, Schema } from "effect"
 import { ProgressoLocal } from "shared/schema"
+import { isTurmaIdValid } from "shared/turmaId"
 import { useSyncExternalStore } from "react"
 
 // Store local versionado sobre localStorage, com cache + sync entre abas (PRD §6.3).
@@ -58,6 +59,7 @@ export function migrateProgresso(raw: unknown): ProgressoLocal | null {
   if (typeof raw !== "object" || raw === null) return null
   const o = raw as Record<string, unknown>
   if (typeof o.turmaId !== "string") return null
+  if (!isTurmaIdValid(o.turmaId)) return null
 
   const stored = typeof o.version === "number" ? o.version : 0
   if (stored > VERSION) return null

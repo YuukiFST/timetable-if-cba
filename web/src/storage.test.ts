@@ -124,6 +124,37 @@ describe("migrateProgresso", () => {
   it("rejeita versão futura", () => {
     expect(migrateProgresso({ version: 99, turmaId: "t1", materiasConcluidas: [], cursando: [] })).toBeNull()
   })
+
+  it("rejeita turmaId inválido", () => {
+    expect(migrateProgresso({ version: 2, turmaId: "../evil", materiasConcluidas: [], cursando: [] })).toBeNull()
+    expect(migrateProgresso({ version: 2, turmaId: "", materiasConcluidas: [], cursando: [] })).toBeNull()
+    expect(migrateProgresso({ version: 2, turmaId: "x-517", materiasConcluidas: [], cursando: [] })).toBeNull()
+  })
+
+  it("aceita turmaId válido do scraper", () => {
+    expect(migrateProgresso({ version: 2, turmaId: "t-517", materiasConcluidas: [], cursando: [] })).toEqual({
+      version: 2,
+      turmaId: "t-517",
+      materiasConcluidas: [],
+      cursando: [],
+    })
+    expect(migrateProgresso({ version: 2, turmaId: "t1", materiasConcluidas: [], cursando: [] })).toEqual({
+      version: 2,
+      turmaId: "t1",
+      materiasConcluidas: [],
+      cursando: [],
+    })
+  })
+})
+
+describe("readProgresso turmaId inválido", () => {
+  it("retorna null para turmaId inválido no localStorage", () => {
+    localStorage.setItem(
+      "horarios-ifmt-progresso",
+      JSON.stringify({ version: 2, turmaId: "../evil", materiasConcluidas: [], cursando: [] }),
+    )
+    expect(readProgresso()).toBeNull()
+  })
 })
 
 describe("migrarPlanoLegado", () => {

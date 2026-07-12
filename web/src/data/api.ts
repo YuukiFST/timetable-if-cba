@@ -1,14 +1,12 @@
 import { Data, Effect, Either, Schema } from "effect"
 import { ArquivoCursos, ArquivoTurma, type Curso, type Materia, type Turma } from "shared/schema"
+import { isTurmaIdValid } from "shared/turmaId"
 import { useEffect, useState } from "react"
 import { materiasDoCurso } from "../lib/horario"
 
 export class DataError extends Data.TaggedError("DataError")<{ path: string; cause: unknown }> {}
 
-/** Whitelist de IDs de turma (mesmo padrão dos arquivos em public/data/turmas/). */
-export const TURMA_ID = /^t[A-Za-z0-9_-]+$/
-
-export const isTurmaIdValid = (turmaId: string): boolean => TURMA_ID.test(turmaId)
+export { isTurmaIdValid } from "shared/turmaId"
 
 const loadJson = <A, I>(path: string, schema: Schema.Schema<A, I>): Effect.Effect<A, DataError> =>
   Effect.tryPromise({
