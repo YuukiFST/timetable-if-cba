@@ -5,7 +5,8 @@ export const DIAS_CURTO = ["Seg", "Ter", "Qua", "Qui", "Sex", "Sáb"] as const
 
 export const timeToMin = (t: string): number => {
   const [h = 0, m = 0] = t.split(":").map(Number)
-  return h * 60 + m
+  const min = h * 60 + m
+  return Number.isFinite(min) ? min : 0
 }
 
 /** Dia letivo do app (0=segunda..5=sábado) a partir de Date; domingo → -1. */
@@ -48,14 +49,20 @@ export const calcularHoje = (aulas: ReadonlyArray<Aula>, agora: Date): Hoje => {
  * (cruzando turmas do curso). Sem nada marcado, retorna vazio.
  */
 export const aulasVigentes = (
-  _turmaAtual: Turma,
+  turmaAtual: Turma,
   turmas: ReadonlyArray<Turma>,
   cursando: ReadonlySet<string>,
   concluidas: ReadonlySet<string>,
 ): Aula[] => {
   if (cursando.size === 0) return []
-  // guarda: cursando/concluída são exclusivos no storage, mas localStorage é editável
-  return mesclarAulas(turmas.flatMap((t) => t.aulas).filter((a) => cursando.has(a.materiaId) && !concluidas.has(a.materiaId)))
+  const ofertas = ofertasPorMateria(turmaAtual, turmas)
+  const blocos: Aula[] = []
+  for (const materiaId of cursando) {
+    if (concluidas.has(materiaId)) continue
+    const oferta = ofertas.get(materiaId)
+    if (oferta) blocos.push(...oferta.blocos)
+  }
+  return blocos
 }
 
 export interface Progresso {
@@ -169,11 +176,11 @@ export const diaInicialPorMateria = (turmas: ReadonlyArray<Turma>): Map<string, 
   return m
 }
 
-/** Rótulo compacto do horário de uma matéria (ex. "Seg 18:50–22:25"); null se sem aula. */
+/** Rótulo compacto do horário de uma matéria (ex. "Seg 18:50–22:25 · Qua 13:00–14:40"); null se sem aula. */
 export const fmtHorarioMateria = (blocos: ReadonlyArray<Aula>): string | null => {
-  const b = mesclarAulas(blocos)[0]
-  if (!b) return null
-  return `${DIAS_CURTO[b.diaSemana]} ${b.horaInicio}–${b.horaFim}`
+  const merged = mesclarAulas(blocos)
+  if (merged.length === 0) return null
+  return merged.map((b) => `${DIAS_CURTO[b.diaSemana]} ${b.horaInicio}–${b.horaFim}`).join(" · ")
 }
 
 export interface Oferta {

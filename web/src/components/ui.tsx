@@ -62,7 +62,9 @@ export function AvisoFonteDados({
   className?: string
 }) {
   const geradoEm = new Date(generatedAt)
-  const desatualizado = Date.now() - geradoEm.getTime() > 30 * DIAS_MS
+  const dataValida = !Number.isNaN(geradoEm.getTime())
+  const dataLabel = dataValida ? geradoEm.toLocaleDateString("pt-BR") : "data desconhecida"
+  const desatualizado = dataValida && Date.now() - geradoEm.getTime() > 30 * DIAS_MS
 
   if (variant === "completo") {
     return (
@@ -74,7 +76,7 @@ export function AvisoFonteDados({
         </p>
         <p className="mt-2">
           Grade regular (não inclui substituições do dia). Atualizado em{" "}
-          <strong className="text-foreground">{geradoEm.toLocaleDateString("pt-BR")}</strong>.
+          <strong className="text-foreground">{dataLabel}</strong>.
         </p>
         {desatualizado && <p className="mt-1 text-danger">Dados com mais de 30 dias — podem estar desatualizados.</p>}
         <a
@@ -96,7 +98,7 @@ export function AvisoFonteDados({
         horário) são da fonte oficial, não deste app.
       </p>
       <p className="mt-1.5">
-        Atualizado em <strong className="text-foreground">{geradoEm.toLocaleDateString("pt-BR")}</strong>
+        Atualizado em <strong className="text-foreground">{dataLabel}</strong>
         {" · "}
         <a href={EDUPAGE_URL} target="_blank" rel="noreferrer" className="ix-link font-medium text-primary">
           Ver horário oficial ↗
@@ -142,15 +144,27 @@ export function HojeSemMaterias() {
   )
 }
 
-export function ErroDados({ error }: { error: DataError }) {
+export function ErroDados({
+  error,
+  onReescolher,
+}: {
+  error: DataError
+  onReescolher?: () => void
+}) {
   const cause = error.cause
   const msg = cause instanceof Error ? cause.message : String(cause)
   const ausente = msg.includes("HTTP 404")
-  const dica = ausente
-    ? "Arquivo não encontrado. Em desenvolvimento, rode npm run scrape na raiz do projeto."
-    : msg.includes("HTTP")
-      ? `Falha ao buscar os dados (${msg}).`
-      : "Os dados podem estar corrompidos ou desatualizados."
+  const invalidId = msg.includes("turmaId inválido")
+  const decode = !msg.includes("HTTP") && !invalidId
+  const dica = invalidId
+    ? "Identificador de turma inválido no armazenamento local. Escolha o curso de novo."
+    : ausente
+      ? "A turma salva não existe mais nos dados. Escolha o curso de novo."
+      : decode
+        ? "Os dados podem estar corrompidos ou desatualizados. Em desenvolvimento, rode npm run scrape na raiz do projeto."
+        : msg.includes("HTTP")
+          ? `Falha ao buscar os dados (${msg}).`
+          : "Os dados podem estar corrompidos ou desatualizados."
 
   return (
     <div role="alert" className="rounded-2xl border border-border bg-surface p-5 text-center">
@@ -159,13 +173,24 @@ export function ErroDados({ error }: { error: DataError }) {
         Não foi possível carregar <code className="text-foreground">{error.path}</code>.
       </p>
       <p className="mt-2 text-sm text-muted">{dica}</p>
-      <button
-        type="button"
-        onClick={() => window.location.reload()}
-        className="ix-btn mt-4 min-h-11 rounded-xl bg-primary px-4 text-sm font-semibold text-on-primary active:scale-[0.97]"
-      >
-        Recarregar
-      </button>
+      <div className="mt-4 flex flex-wrap justify-center gap-2">
+        {(ausente || invalidId) && onReescolher && (
+          <button
+            type="button"
+            onClick={onReescolher}
+            className="ix-btn min-h-11 rounded-xl bg-primary px-4 text-sm font-semibold text-on-primary active:scale-[0.97]"
+          >
+            Escolher curso de novo
+          </button>
+        )}
+        <button
+          type="button"
+          onClick={() => window.location.reload()}
+          className="ix-btn min-h-11 rounded-xl bg-surface-2 px-4 text-sm font-semibold active:scale-[0.97]"
+        >
+          Recarregar
+        </button>
+      </div>
     </div>
   )
 }
@@ -181,8 +206,16 @@ export function Carregando() {
 }
 
 /** Render padrão dos três estados de uma Query. */
-export function QueryView<A>({ q, children }: { q: Query<A>; children: (value: A) => ReactNode }) {
+export function QueryView<A>({
+  q,
+  children,
+  onReescolher,
+}: {
+  q: Query<A>
+  children: (value: A) => ReactNode
+  onReescolher?: () => void
+}) {
   if (q.status === "loading") return <Carregando />
-  if (q.status === "error") return <ErroDados error={q.error} />
+  if (q.status === "error") return <ErroDados error={q.error} onReescolher={onReescolher} />
   return <>{children(q.value)}</>
 }

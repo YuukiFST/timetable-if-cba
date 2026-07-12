@@ -20,7 +20,14 @@ const stableStringify = (value: unknown): string =>
   ) + "\n"
 
 const pipeline = Effect.gen(function* () {
-  const overrides: Overrides = JSON.parse(yield* Effect.promise(() => readFile(join(root, "scraper", "overrides.json"), "utf8")))
+  const overrides: Overrides = yield* Effect.promise(async () => {
+    try {
+      return JSON.parse(await readFile(join(root, "scraper", "overrides.json"), "utf8")) as Overrides
+    } catch (e) {
+      if ((e as NodeJS.ErrnoException).code === "ENOENT") return {}
+      throw e
+    }
+  })
 
   const timetables = yield* fetchTimetables
   const tt = pickTimetable(timetables)

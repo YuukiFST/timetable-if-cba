@@ -2,6 +2,9 @@ import { Schema } from "effect"
 
 // Schemas do PRD §7 — fonte única para scraper e web.
 
+const Horario = Schema.String.pipe(Schema.pattern(/^\d{2}:\d{2}$/))
+const DiaSemana = Schema.Number.pipe(Schema.between(0, 5))
+
 export const Materia = Schema.Struct({
   id: Schema.String, // id estável do EdUpage
   nome: Schema.String,
@@ -11,10 +14,10 @@ export const Materia = Schema.Struct({
 export type Materia = typeof Materia.Type
 
 export const Aula = Schema.Struct({
-  diaSemana: Schema.Number, // 0=segunda .. 5=sábado
+  diaSemana: DiaSemana, // 0=segunda .. 5=sábado
   slot: Schema.Number, // índice do período
-  horaInicio: Schema.String, // "07:00"
-  horaFim: Schema.String, // "07:50"
+  horaInicio: Horario, // "07:00"
+  horaFim: Horario, // "07:50"
   materiaId: Schema.String,
   sala: Schema.optional(Schema.String),
   professor: Schema.optional(Schema.String),

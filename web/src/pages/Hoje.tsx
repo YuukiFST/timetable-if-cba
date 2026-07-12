@@ -2,7 +2,8 @@ import { useEffect, useMemo, useState } from "react"
 import { Link } from "react-router"
 import { loadMateriasDoCurso, useQuery } from "../data/api"
 import { aulasVigentes, calcularHoje, DIAS } from "../lib/horario"
-import { useProgresso } from "../storage"
+import { escolherTurma, useProgresso } from "../storage"
+import { EscolhaCurso } from "./Onboarding"
 import { AulaCard, AvisoFonteDados, HojeSemMaterias, QueryView, Titulo } from "../components/ui"
 
 export function Hoje({ turmaId }: { turmaId: string }) {
@@ -11,6 +12,8 @@ export function Hoje({ turmaId }: { turmaId: string }) {
     `materias-${turmaId}`,
   )
   const progresso = useProgresso()
+  const [trocando, setTrocando] = useState(false)
+  const cursoIdAtual = q.status === "ok" ? q.value.turmaAtual.cursoId : null
   const [agora, setAgora] = useState(() => new Date())
   useEffect(() => {
     const t = setInterval(() => setAgora(new Date()), 30_000)
@@ -20,8 +23,19 @@ export function Hoje({ turmaId }: { turmaId: string }) {
   const cursando = useMemo(() => new Set(progresso?.cursando ?? []), [progresso])
   const concluidas = useMemo(() => new Set(progresso?.materiasConcluidas ?? []), [progresso])
 
+  if (trocando)
+    return (
+      <EscolhaCurso
+        titulo="Trocar de curso"
+        onPick={(id, cursoId) => {
+          escolherTurma(id, cursoId, cursoIdAtual)
+          setTrocando(false)
+        }}
+      />
+    )
+
   return (
-    <QueryView q={q}>
+    <QueryView q={q} onReescolher={() => setTrocando(true)}>
       {({ curso, turmaAtual, turmas, materias, generatedAt }) => {
         if (cursando.size === 0) {
           return (

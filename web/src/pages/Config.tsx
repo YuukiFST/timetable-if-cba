@@ -2,7 +2,7 @@ import { useState } from "react"
 import { loadTurma, useQuery } from "../data/api"
 import { escolherTurma, resetProgresso } from "../storage"
 import { EscolhaCurso } from "./Onboarding"
-import { AvisoFonteDados, QueryView, Titulo } from "../components/ui"
+import { AvisoFonteDados, ErroDados, QueryView, Titulo } from "../components/ui"
 
 export function Config({ turmaId }: { turmaId: string }) {
   const q = useQuery(loadTurma(turmaId), turmaId)
@@ -19,6 +19,23 @@ export function Config({ turmaId }: { turmaId: string }) {
           setTrocando(false)
         }}
       />
+    )
+
+  if (q.status === "error")
+    return (
+      <div>
+        <Titulo>Configurações</Titulo>
+        <ErroDados error={q.error} onReescolher={() => setTrocando(true)} />
+        <section className="mt-6 overflow-hidden rounded-2xl border border-border bg-surface">
+          <button
+            type="button"
+            onClick={() => setTrocando(true)}
+            className="ix-row min-h-12 w-full px-4 py-3 text-left font-medium text-primary active:bg-surface-2"
+          >
+            Trocar curso/turma
+          </button>
+        </section>
+      </div>
     )
 
   return (

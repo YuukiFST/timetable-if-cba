@@ -1,4 +1,4 @@
-import { useMemo, useState } from "react"
+import { useMemo, useState, type ReactNode } from "react"
 import type { Aula } from "shared/schema"
 import { loadMateriasDoCurso, useQuery } from "../data/api"
 import {
@@ -11,8 +11,10 @@ import {
   type ItemPlano,
   montarTabelaPlano,
   ofertasPorMateria,
+  type TabelaPlano,
 } from "../lib/horario"
-import { toggleCursando, useProgresso } from "../storage"
+import { escolherTurma, toggleCursando, useProgresso } from "../storage"
+import { EscolhaCurso } from "./Onboarding"
 import { AvisoFonteDados, AvisoPlanejar, QueryView, Titulo } from "../components/ui"
 
 type Estado = "escolhida" | "choque" | "conflita" | "livre"
@@ -67,13 +69,69 @@ function ChipMateria({
   )
 }
 
+function GradeMobile({
+  tabela,
+  diaInicial,
+  chip,
+  blocoNaCelula,
+}: {
+  tabela: TabelaPlano
+  diaInicial: number
+  chip: (materiaId: string, bloco: Aula | null) => ReactNode
+  blocoNaCelula: (materiaId: string, d: number, faixa: string) => Aula | null
+}) {
+  const [dia, setDia] = useState(diaInicial)
+
+  return (
+    <div className="md:hidden">
+      <div role="tablist" aria-label="Dia da semana" className="mb-4 flex gap-1 rounded-2xl bg-surface-2 p-1">
+        {tabela.dias.map((d) => (
+          <button
+            key={d}
+            role="tab"
+            aria-selected={dia === d}
+            onClick={() => setDia(d)}
+            className={`min-h-11 flex-1 rounded-xl text-sm font-semibold ${
+              dia === d ? "bg-surface text-primary shadow-sm" : "ix-tab text-muted"
+            }`}
+          >
+            {DIAS_CURTO[d]}
+          </button>
+        ))}
+      </div>
+      <ul className="space-y-2.5">
+        {tabela.faixas
+          .map((faixa) => [faixa, tabela.celulas.get(chaveCelula(dia, faixa)) ?? []] as const)
+          .filter(([, ids]) => ids.length > 0)
+          .map(([faixa, ids]) => (
+            <li key={faixa} className="flex gap-3 rounded-2xl border border-border bg-surface p-3">
+              <span className="w-12 shrink-0 pt-1 text-sm font-semibold tabular-nums text-muted">{faixa}</span>
+              <div className="flex min-w-0 flex-1 flex-col gap-1.5">
+                {ids.length > 1 && (
+                  <span className="text-xs font-semibold text-warning">⚠ {ids.length} no mesmo horário</span>
+                )}
+                {ids.map((id) => chip(id, blocoNaCelula(id, dia, faixa)))}
+              </div>
+            </li>
+          ))}
+        {!tabela.faixas.some((faixa) => (tabela.celulas.get(chaveCelula(dia, faixa)) ?? []).length > 0) && (
+          <li className="rounded-2xl border border-border bg-surface p-6 text-center text-sm text-muted">
+            Sem matérias em {DIAS[dia]}.
+          </li>
+        )}
+      </ul>
+    </div>
+  )
+}
+
 export function Planejar({ turmaId }: { turmaId: string }) {
   const q = useQuery(
     useMemo(() => loadMateriasDoCurso(turmaId), [turmaId]),
     `materias-${turmaId}`,
   )
   const progresso = useProgresso()
-  const [dia, setDia] = useState(() => Math.max(0, Math.min(5, diaLetivo(new Date()))))
+  const [trocando, setTrocando] = useState(false)
+  const cursoIdAtual = q.status === "ok" ? q.value.turmaAtual.cursoId : null
 
   const concluidas = useMemo(() => new Set(progresso?.materiasConcluidas ?? []), [progresso])
   const selecionadas = useMemo(
@@ -81,14 +139,28 @@ export function Planejar({ turmaId }: { turmaId: string }) {
     [progresso, concluidas],
   )
 
+  if (trocando)
+    return (
+      <EscolhaCurso
+        titulo="Trocar de curso"
+        onPick={(id, cursoId) => {
+          escolherTurma(id, cursoId, cursoIdAtual)
+          setTrocando(false)
+        }}
+      />
+    )
+
   return (
-    <QueryView q={q}>
+    <QueryView q={q} onReescolher={() => setTrocando(true)}>
       {({ curso, materias, turmaAtual, turmas, generatedAt }) => {
         const ofertas = ofertasPorMateria(turmaAtual, turmas)
         const nomePorId = new Map(materias.map((m) => [m.id, m.nome]))
         const cortoPorId = new Map(materias.map((m) => [m.id, m.nomeCurto ?? m.nome]))
         const pool = materias.filter((m) => !concluidas.has(m.id))
         const tabela = montarTabelaPlano(pool, ofertas)
+        const hoje = diaLetivo(new Date())
+        const diaInicial =
+          hoje >= 0 && tabela.dias.includes(hoje) ? hoje : (tabela.dias[0] ?? 0)
 
         const itensSel: ItemPlano[] = [...selecionadas]
           .map((id) => ({ materiaId: id, blocos: ofertas.get(id)?.blocos ?? [] }))
@@ -103,7 +175,6 @@ export function Planejar({ turmaId }: { turmaId: string }) {
           return "livre"
         }
 
-        // matérias sem horário: não entram na tabela nem em choque
         const semHorario = pool.filter((m) => !(ofertas.get(m.id)?.blocos.length))
 
         const nChoques = choques.pares.length
@@ -124,7 +195,6 @@ export function Planejar({ turmaId }: { turmaId: string }) {
             onToggle={() => toggleCursando(materiaId)}
           />
         )
-        // bloco específico de uma matéria naquela célula (para mostrar o horário no chip)
         const blocoNaCelula = (materiaId: string, d: number, faixa: string): Aula | null =>
           ofertas.get(materiaId)?.blocos.find((b) => b.diaSemana === d && b.horaInicio === faixa) ?? null
 
@@ -140,47 +210,14 @@ export function Planejar({ turmaId }: { turmaId: string }) {
               </div>
             ) : (
               <>
-                {/* Mobile: abas por dia + linhas por faixa de horário */}
-                <div className="md:hidden">
-                  <div role="tablist" aria-label="Dia da semana" className="mb-4 flex gap-1 rounded-2xl bg-surface-2 p-1">
-                    {tabela.dias.map((d) => (
-                      <button
-                        key={d}
-                        role="tab"
-                        aria-selected={dia === d}
-                        onClick={() => setDia(d)}
-                        className={`min-h-11 flex-1 rounded-xl text-sm font-semibold ${
-                          dia === d ? "bg-surface text-primary shadow-sm" : "ix-tab text-muted"
-                        }`}
-                      >
-                        {DIAS_CURTO[d]}
-                      </button>
-                    ))}
-                  </div>
-                  <ul className="space-y-2.5">
-                    {tabela.faixas
-                      .map((faixa) => [faixa, tabela.celulas.get(chaveCelula(dia, faixa)) ?? []] as const)
-                      .filter(([, ids]) => ids.length > 0)
-                      .map(([faixa, ids]) => (
-                        <li key={faixa} className="flex gap-3 rounded-2xl border border-border bg-surface p-3">
-                          <span className="w-12 shrink-0 pt-1 text-sm font-semibold tabular-nums text-muted">{faixa}</span>
-                          <div className="flex min-w-0 flex-1 flex-col gap-1.5">
-                            {ids.length > 1 && (
-                              <span className="text-xs font-semibold text-warning">⚠ {ids.length} no mesmo horário</span>
-                            )}
-                            {ids.map((id) => chip(id, blocoNaCelula(id, dia, faixa)))}
-                          </div>
-                        </li>
-                      ))}
-                    {!tabela.faixas.some((faixa) => (tabela.celulas.get(chaveCelula(dia, faixa)) ?? []).length > 0) && (
-                      <li className="rounded-2xl border border-border bg-surface p-6 text-center text-sm text-muted">
-                        Sem matérias em {DIAS[dia]}.
-                      </li>
-                    )}
-                  </ul>
-                </div>
+                <GradeMobile
+                  key={`${turmaId}-${tabela.dias.join(",")}`}
+                  tabela={tabela}
+                  diaInicial={diaInicial}
+                  chip={chip}
+                  blocoNaCelula={blocoNaCelula}
+                />
 
-                {/* Desktop: tabela semanal (faixa × dia) */}
                 <div
                   className="hidden gap-px overflow-hidden rounded-2xl border border-border bg-border md:grid"
                   style={{ gridTemplateColumns: `auto repeat(${tabela.dias.length}, minmax(0, 1fr))` }}

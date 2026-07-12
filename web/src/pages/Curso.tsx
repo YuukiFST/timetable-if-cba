@@ -53,7 +53,7 @@ export function Curso({ turmaId }: { turmaId: string }) {
     )
 
   return (
-    <QueryView q={q}>
+    <QueryView q={q} onReescolher={() => setTrocando(true)}>
       {({ curso, materias, turmaAtual, turmas, generatedAt }) => {
         const total = agregarProgresso(materias, concluidas)
         const choques = detectarChoques(turmaAtual, turmas, concluidas)

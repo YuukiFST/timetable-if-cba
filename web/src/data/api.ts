@@ -1,9 +1,14 @@
-import { Data, Effect, Schema } from "effect"
+import { Data, Effect, Either, Schema } from "effect"
 import { ArquivoCursos, ArquivoTurma, type Curso, type Materia, type Turma } from "shared/schema"
 import { useEffect, useState } from "react"
 import { materiasDoCurso } from "../lib/horario"
 
 export class DataError extends Data.TaggedError("DataError")<{ path: string; cause: unknown }> {}
+
+/** Whitelist de IDs de turma (mesmo padrão dos arquivos em public/data/turmas/). */
+export const TURMA_ID = /^t[A-Za-z0-9_-]+$/
+
+export const isTurmaIdValid = (turmaId: string): boolean => TURMA_ID.test(turmaId)
 
 const loadJson = <A, I>(path: string, schema: Schema.Schema<A, I>): Effect.Effect<A, DataError> =>
   Effect.tryPromise({
@@ -20,9 +25,15 @@ const loadJson = <A, I>(path: string, schema: Schema.Schema<A, I>): Effect.Effec
   )
 
 export const loadCursos = loadJson("/data/cursos.json", ArquivoCursos)
-export const loadTurma = (turmaId: string) => loadJson(`/data/turmas/${turmaId}.json`, ArquivoTurma)
-export const loadTurmas = (ids: ReadonlyArray<string>) =>
-  Effect.all(ids.map(loadTurma), { concurrency: 6 })
+export const loadTurma = (turmaId: string): Effect.Effect<ArquivoTurma, DataError> =>
+  isTurmaIdValid(turmaId)
+    ? loadJson(`/data/turmas/${turmaId}.json`, ArquivoTurma)
+    : Effect.fail(new DataError({ path: turmaId, cause: new Error("turmaId inválido") }))
+export const loadTurmas = (ids: ReadonlyArray<string>): Effect.Effect<ArquivoTurma[], DataError> =>
+  Effect.all(
+    ids.map((id) => loadTurma(id).pipe(Effect.either)),
+    { concurrency: 6 },
+  ).pipe(Effect.map((results) => results.flatMap((r) => (Either.isRight(r) ? [r.right] : []))))
 
 export interface MateriasDoCurso {
   curso: Curso
@@ -47,7 +58,8 @@ export const loadMateriasDoCurso = (turmaId: string): Effect.Effect<MateriasDoCu
         turmas: [turma],
         generatedAt: arquivo.generatedAt,
       }
-    const turmas = (yield* loadTurmas(curso.turmaIds)).map((t) => t.turma)
+    const carregadas = (yield* loadTurmas(curso.turmaIds)).map((t) => t.turma)
+    const turmas = carregadas.some((t) => t.id === turma.id) ? carregadas : [turma, ...carregadas]
     return { curso, materias: materiasDoCurso(turmas), turmaAtual: turma, turmas, generatedAt: arquivo.generatedAt }
   })
 

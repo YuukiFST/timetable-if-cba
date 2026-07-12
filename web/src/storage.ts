@@ -46,12 +46,37 @@ function makeStore<A>(key: string, decode: (raw: unknown) => A | null) {
 
 // --- Progresso (matérias concluídas) ---
 
-const VERSION = 1
-const progresso = makeStore<ProgressoLocal>("horarios-ifmt-progresso", (raw) => {
-  const decoded = Schema.decodeUnknownEither(ProgressoLocal)(raw)
-  if (Either.isLeft(decoded)) return null
-  return decoded.right.version === VERSION ? decoded.right : null
-})
+const VERSION = 2
+
+function asStringArray(v: unknown): string[] {
+  if (!Array.isArray(v)) return []
+  return [...new Set(v.filter((x): x is string => typeof x === "string"))].sort()
+}
+
+/** Migra progresso local entre versões; null se irrecuperável. */
+export function migrateProgresso(raw: unknown): ProgressoLocal | null {
+  if (typeof raw !== "object" || raw === null) return null
+  const o = raw as Record<string, unknown>
+  if (typeof o.turmaId !== "string") return null
+
+  const stored = typeof o.version === "number" ? o.version : 0
+  if (stored > VERSION) return null
+
+  let progresso: ProgressoLocal = {
+    version: VERSION,
+    turmaId: o.turmaId,
+    materiasConcluidas: asStringArray(o.materiasConcluidas),
+    cursando: asStringArray(o.cursando),
+  }
+
+  // v1 → v2: normaliza cursando (campo opcional na v1)
+  if (stored === 1) progresso = { ...progresso, version: VERSION, cursando: asStringArray(o.cursando) }
+
+  const decoded = Schema.decodeUnknownEither(ProgressoLocal)(progresso)
+  return Either.isRight(decoded) ? decoded.right : null
+}
+
+const progresso = makeStore<ProgressoLocal>("horarios-ifmt-progresso", migrateProgresso)
 
 export const readProgresso = progresso.read
 export const writeProgresso = progresso.write

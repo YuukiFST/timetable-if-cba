@@ -282,6 +282,17 @@ describe("aulasVigentes", () => {
     expect(r.map((a) => a.materiaId).sort()).toEqual(["m1", "m3"])
   })
 
+  it("matéria na grade usa horário da turma atual", () => {
+    const outraComMesma = turma("B", [mat("m1")], [aula(2, "18:50", "20:30", "m1")])
+    const r = aulasVigentes(atual, [atual, outraComMesma], new Set(["m1"]), new Set())
+    expect(r).toEqual([aula(0, "13:00", "14:40", "m1")])
+  })
+
+  it("matéria fora da grade usa horário da turma ofertante", () => {
+    const r = aulasVigentes(atual, [atual, outra], new Set(["m3"]), new Set())
+    expect(r).toEqual([aula(2, "18:50", "20:30", "m3")])
+  })
+
   it("matéria em cursando e concluída (dado corrompido) não aparece", () => {
     const r = aulasVigentes(atual, [atual, outra], new Set(["m1", "m3"]), new Set(["m1"]))
     expect(r.map((a) => a.materiaId)).toEqual(["m3"])
@@ -333,8 +344,14 @@ describe("montarTabelaPlano", () => {
 })
 
 describe("fmtHorarioMateria", () => {
-  it("formata o primeiro bloco mesclado", () => {
+  it("formata blocos mesclados no mesmo dia", () => {
     expect(fmtHorarioMateria([aula(0, "18:50", "20:30"), aula(0, "20:45", "22:25")])).toBe("Seg 18:50–22:25")
+  })
+
+  it("formata todos os blocos em dias diferentes", () => {
+    expect(fmtHorarioMateria([aula(0, "18:50", "20:30"), aula(2, "13:00", "14:40")])).toBe(
+      "Seg 18:50–20:30 · Qua 13:00–14:40",
+    )
   })
 
   it("retorna null sem blocos", () => {

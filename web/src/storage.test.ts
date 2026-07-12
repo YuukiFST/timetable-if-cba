@@ -4,6 +4,7 @@ import { beforeEach, describe, expect, it } from "vitest"
 import {
   escolherTurma,
   iniciarProgresso,
+  migrateProgresso,
   migrarPlanoLegado,
   readProgresso,
   resetProgresso,
@@ -20,7 +21,7 @@ describe("iniciarProgresso", () => {
   it("grava cursando vazio e arrays ordenados", () => {
     iniciarProgresso("t1", ["m2", "m1"])
     expect(readProgresso()).toEqual({
-      version: 1,
+      version: 2,
       turmaId: "t1",
       materiasConcluidas: ["m1", "m2"],
       cursando: [],
@@ -60,7 +61,7 @@ describe("escolherTurma", () => {
     toggleCursando("m2")
     escolherTurma("t2", "c1", "c1")
     expect(readProgresso()).toEqual({
-      version: 1,
+      version: 2,
       turmaId: "t2",
       materiasConcluidas: ["m1"],
       cursando: ["m2"],
@@ -72,7 +73,7 @@ describe("escolherTurma", () => {
     toggleCursando("m2")
     escolherTurma("t9", "c2", "c1")
     expect(readProgresso()).toEqual({
-      version: 1,
+      version: 2,
       turmaId: "t9",
       materiasConcluidas: [],
       cursando: [],
@@ -92,12 +93,25 @@ describe("resetProgresso", () => {
 })
 
 describe("readProgresso", () => {
-  it("retorna null para versão errada", () => {
+  it("retorna null para versão futura irrecuperável", () => {
     localStorage.setItem(
       "horarios-ifmt-progresso",
       JSON.stringify({ version: 99, turmaId: "t1", materiasConcluidas: [], cursando: [] }),
     )
     expect(readProgresso()).toBeNull()
+  })
+
+  it("migra v1 para v2 preservando dados", () => {
+    localStorage.setItem(
+      "horarios-ifmt-progresso",
+      JSON.stringify({ version: 1, turmaId: "t1", materiasConcluidas: ["m1"], cursando: ["m2"] }),
+    )
+    expect(readProgresso()).toEqual({
+      version: 2,
+      turmaId: "t1",
+      materiasConcluidas: ["m1"],
+      cursando: ["m2"],
+    })
   })
 
   it("retorna null para JSON inválido", () => {
@@ -106,9 +120,15 @@ describe("readProgresso", () => {
   })
 })
 
+describe("migrateProgresso", () => {
+  it("rejeita versão futura", () => {
+    expect(migrateProgresso({ version: 99, turmaId: "t1", materiasConcluidas: [], cursando: [] })).toBeNull()
+  })
+})
+
 describe("migrarPlanoLegado", () => {
   it("copia ids do plano legado para cursando e remove chave plano", () => {
-    writeProgresso({ version: 1, turmaId: "t1", materiasConcluidas: [], cursando: [] })
+    writeProgresso({ version: 2, turmaId: "t1", materiasConcluidas: [], cursando: [] })
     localStorage.setItem("horarios-ifmt-plano", JSON.stringify({ turmaId: "t1", materiaIds: ["m1", "m2"] }))
     migrarPlanoLegado()
     expect(readProgresso()?.cursando).toEqual(["m1", "m2"])
