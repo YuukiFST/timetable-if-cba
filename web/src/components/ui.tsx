@@ -114,12 +114,15 @@ export function AvisoPlanejar({ className = "" }: { className?: string }) {
       className={`mb-5 rounded-2xl border border-border bg-surface-2 px-4 py-3 text-sm text-muted ${className}`}
       role="note"
     >
-      <p className="font-semibold text-foreground">O que é esta tela?</p>
+      <p className="font-semibold text-foreground">Por que esta aba existe?</p>
       <p className="mt-1.5">
-        Marque as matérias que você está cursando agora. Toque numa matéria na grade para selecionar ou remover.
+        No <strong className="text-foreground">SUAP</strong>, quando o período de matrículas está aberto, é difícil
+        enxergar quais matérias você pode escolher em cada dia da semana. Aqui a grade mostra, por dia, todas as
+        matérias disponíveis — fica mais fácil montar sua grade antes de confirmar no sistema oficial.
       </p>
       <p className="mt-1.5">
-        As matérias marcadas aparecem em <strong className="text-foreground">Hoje</strong> nos dias em que têm aula.
+        Toque numa matéria para marcar o que você pretende cursar. As escolhidas aparecem em{" "}
+        <strong className="text-foreground">Hoje</strong> nos dias em que têm aula.
       </p>
     </aside>
   )
