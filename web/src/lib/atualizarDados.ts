@@ -3,7 +3,10 @@ export const CACHE_DADOS = "dados-edupage"
 
 export async function fetchGeneratedAtRemoto(): Promise<string | null> {
   try {
-    const res = await fetch("/data/cursos.json", { cache: "no-store" })
+    // Query param fura o SW: o urlPattern do workbox (`\.json$`) não casa com URL
+    // com query, então o probe sempre vai à rede — sem ele, StaleWhileRevalidate
+    // devolveria o cache e o aviso de atualização viraria corrida.
+    const res = await fetch(`/data/cursos.json?fresh=${Date.now()}`, { cache: "no-store" })
     if (!res.ok) return null
     const json = (await res.json()) as { generatedAt?: unknown }
     return typeof json.generatedAt === "string" ? json.generatedAt : null

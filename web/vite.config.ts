@@ -1,12 +1,37 @@
 import tailwindcss from "@tailwindcss/vite"
 import react from "@vitejs/plugin-react"
-import { defineConfig } from "vite"
+import { defineConfig, type Plugin } from "vite"
 import { VitePWA } from "vite-plugin-pwa"
+
+// Inline do CSS no index.html: elimina o request render-blocking (Lighthouse FCP).
+// ~5 KB gzip de CSS não justificam uma ida à rede antes do primeiro paint.
+const inlineCss = (): Plugin => ({
+  name: "inline-css",
+  apply: "build",
+  transformIndexHtml: {
+    order: "post",
+    handler(html, ctx) {
+      const bundle = ctx.bundle
+      if (!bundle) return html
+      for (const [name, asset] of Object.entries(bundle)) {
+        if (asset.type === "asset" && name.endsWith(".css")) {
+          delete bundle[name]
+          return html.replace(
+            new RegExp(`<link[^>]*href="/${name.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}"[^>]*>`),
+            () => `<style>${String(asset.source)}</style>`,
+          )
+        }
+      }
+      return html
+    },
+  },
+})
 
 export default defineConfig({
   plugins: [
     react(),
     tailwindcss(),
+    inlineCss(),
     VitePWA({
       registerType: "autoUpdate",
       injectRegister: null,

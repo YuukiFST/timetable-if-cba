@@ -90,12 +90,13 @@ function GradeMobile({
 
   return (
     <div className="md:hidden">
-      <div role="tablist" aria-label="Dia da semana" className="mb-4 flex gap-1 rounded-2xl bg-surface-2 p-1">
+      {/* grupo de toggles, não tablist: sem roving tabindex/setas, roles de tab prometeriam interação inexistente */}
+      <div role="group" aria-label="Dia da semana" className="mb-4 flex gap-1 rounded-2xl bg-surface-2 p-1">
         {tabela.dias.map((d) => (
           <button
             key={d}
-            role="tab"
-            aria-selected={dia === d}
+            type="button"
+            aria-pressed={dia === d}
             onClick={() => setDia(d)}
             className={`min-h-11 flex-1 rounded-xl text-sm font-semibold ${
               dia === d ? "bg-surface text-primary shadow-sm" : "ix-tab text-muted"
@@ -131,10 +132,7 @@ function GradeMobile({
 }
 
 export function Planejar({ turmaId }: { turmaId: string }) {
-  const q = useQuery(
-    useMemo(() => loadMateriasDoCurso(turmaId), [turmaId]),
-    `materias-${turmaId}`,
-  )
+  const q = useQuery(() => loadMateriasDoCurso(turmaId), `materias-${turmaId}`)
   const progresso = useProgresso()
   const [trocando, setTrocando] = useState(false)
   const cursoIdAtual = q.status === "ok" ? q.value.turmaAtual.cursoId : null

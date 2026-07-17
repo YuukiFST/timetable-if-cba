@@ -25,7 +25,11 @@ describe("fetchGeneratedAtRemoto", () => {
       }),
     )
     await expect(fetchGeneratedAtRemoto()).resolves.toBe("2026-07-10T12:00:00.000Z")
-    expect(fetch).toHaveBeenCalledWith("/data/cursos.json", { cache: "no-store" })
+    // query param fura o cache do service worker (urlPattern `\.json$` não casa com query)
+    expect(fetch).toHaveBeenCalledWith(
+      expect.stringMatching(/^\/data\/cursos\.json\?fresh=\d+$/),
+      { cache: "no-store" },
+    )
   })
 
   it("retorna null em falha", async () => {

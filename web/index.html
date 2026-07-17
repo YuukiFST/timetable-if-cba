@@ -7,12 +7,25 @@
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-title" content="Trilha" />
     <link rel="icon" href="/icons/icon-192.png" />
+    <!-- cursos.json é necessário em toda rota; preload paraleliza com o parse do JS -->
+    <link rel="preload" href="/data/cursos.json" as="fetch" />
     <link rel="apple-touch-icon" href="/icons/icon-192.png" />
+    <meta name="color-scheme" content="light dark" />
     <title>Trilha IF CBA</title>
     <meta name="description" content="Matérias, progresso e horários — IFMT Campus Cuiabá" />
   </head>
   <body>
-    <div id="root"></div>
+    <!-- Skeleton estático: primeiro paint no parse do HTML (CSS já vem inline no build); React substitui ao montar -->
+    <div id="root">
+      <div class="mx-auto min-h-dvh max-w-3xl px-4 py-8">
+        <p class="text-sm font-semibold uppercase tracking-wide text-primary">Trilha IF CBA</p>
+        <ul class="animate-pulse space-y-2.5" style="margin-top: 2rem" aria-label="Carregando">
+          <li class="h-20 rounded-2xl bg-surface-2"></li>
+          <li class="h-20 rounded-2xl bg-surface-2"></li>
+          <li class="h-20 rounded-2xl bg-surface-2"></li>
+        </ul>
+      </div>
+    </div>
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
