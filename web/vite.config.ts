@@ -52,8 +52,15 @@ export default defineConfig({
       },
       workbox: {
         // app shell no precache; JSON de dados via SWR para funcionar offline e atualizar em background (F4)
+        // woff2 fica FORA do precache: o download da fonte durante o load inicial
+        // atrasa o LCP; ela entra no cache em runtime, aquecida pós-load (src/fonte.ts)
         globPatterns: ["**/*.{js,css,html,png,svg,webmanifest}"],
         runtimeCaching: [
+          {
+            urlPattern: /\/fonts\/.*\.woff2$/,
+            handler: "CacheFirst",
+            options: { cacheName: "fontes", expiration: { maxEntries: 4 } },
+          },
           {
             urlPattern: /\/data\/.*\.json$/,
             handler: "StaleWhileRevalidate",

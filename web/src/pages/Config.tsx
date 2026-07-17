@@ -44,7 +44,7 @@ export function Config({ turmaId }: { turmaId: string }) {
         <div>
           <Titulo>Configurações</Titulo>
 
-          <section className="mb-6 overflow-hidden rounded-2xl border border-border bg-surface">
+          <section className="shadow-card mb-6 overflow-hidden rounded-2xl border border-border bg-surface">
             <div className="border-b border-border px-4 py-3">
               <p className="text-sm text-muted">Curso atual</p>
               <p className="font-semibold">{curso.nome}</p>

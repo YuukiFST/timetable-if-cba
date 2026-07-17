@@ -71,16 +71,16 @@ export function Curso({ turmaId }: { turmaId: string }) {
               Trocar curso
             </button>
 
-            <section aria-label="Progresso do curso" className="mb-6 rounded-2xl border border-border bg-surface p-4">
+            <section aria-label="Progresso do curso" className="anim-in shadow-card mb-6 rounded-2xl border border-border bg-surface p-5">
               <div className="flex items-baseline justify-between">
-                <p className="text-3xl font-bold tabular-nums text-primary">{total.pct}%</p>
+                <p className="text-4xl font-bold tabular-nums tracking-tight text-primary">{total.pct}%</p>
                 <p className="text-sm text-muted">
                   <strong className="text-foreground">{total.feitas}</strong> feitas ·{" "}
                   <strong className="text-foreground">{total.faltam}</strong> faltam
                 </p>
               </div>
-              <div className="mt-3 h-2 overflow-hidden rounded-full bg-surface-2" role="progressbar" aria-valuenow={total.pct} aria-valuemin={0} aria-valuemax={100}>
-                <div className="h-full rounded-full bg-primary transition-[width] duration-300" style={{ width: `${total.pct}%` }} />
+              <div className="mt-3.5 h-2.5 overflow-hidden rounded-full bg-surface-2" role="progressbar" aria-valuenow={total.pct} aria-valuemin={0} aria-valuemax={100}>
+                <div className="progress-fill h-full rounded-full" style={{ width: `${total.pct}%` }} />
               </div>
             </section>
 
@@ -96,7 +96,7 @@ export function Curso({ turmaId }: { turmaId: string }) {
                       {p.feitas}/{p.total}
                     </span>
                   </h2>
-                  <ul className="overflow-hidden rounded-2xl border border-border bg-surface">
+                  <ul className="shadow-card overflow-hidden rounded-2xl border border-border bg-surface">
                     {/* ordem por dia de aula (seg→sáb); sort estável mantém empates e sem-aula no fim */}
                     {[...doSemestre]
                       .sort((a, b) => (dia.get(a.id) ?? 99) - (dia.get(b.id) ?? 99))

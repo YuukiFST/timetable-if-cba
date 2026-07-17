@@ -28,10 +28,11 @@ export function EscolhaCurso({
 
   return (
     <div>
+      {/* sem anim-in aqui: Onboarding é a rota do Lighthouse; entrada em opacity 0 atrasa o LCP */}
       <header className="mb-6">
-        <p className="text-sm font-semibold uppercase tracking-wide text-primary">Trilha IF CBA</p>
-        <h1 className="mt-1 text-2xl font-bold tracking-tight">{titulo}</h1>
-        <p className="mt-1 text-sm text-muted">Escolha seu curso. Dá para trocar depois em Config.</p>
+        <p className="text-sm font-semibold uppercase tracking-widest text-primary">Trilha IF CBA</p>
+        <h1 className="mt-1 text-3xl font-bold tracking-tight">{titulo}</h1>
+        <p className="mt-1.5 text-sm text-muted">Escolha seu curso. Dá para trocar depois em Config.</p>
       </header>
       <QueryView q={q}>
         {(dados) => {
@@ -60,7 +61,7 @@ export function EscolhaCurso({
                       <button
                         type="button"
                         onClick={() => escolherCurso(c)}
-                        className="ix-card min-h-14 w-full rounded-2xl border border-border bg-surface p-4 text-left font-medium active:scale-[0.98]"
+                        className="ix-card shadow-card min-h-14 w-full rounded-2xl border border-border bg-surface p-4 text-left font-medium active:scale-[0.98]"
                       >
                         {c.nome}
                       </button>

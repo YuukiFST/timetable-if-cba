@@ -67,12 +67,12 @@ export function Hoje({ turmaId }: { turmaId: string }) {
             </Titulo>
             <AvisoFonteDados generatedAt={generatedAt} />
             {hoje.aulas.length === 0 ? (
-              <div className="rounded-2xl border border-border bg-surface p-8 text-center">
+              <div className="anim-in shadow-card rounded-2xl border border-border bg-surface p-8 text-center">
                 <p className="text-lg font-semibold">Sem aulas por aqui</p>
                 <p className="mt-1 text-sm text-muted">Aproveite o descanso.</p>
               </div>
             ) : (
-              <ul className="space-y-2.5">
+              <ul className="anim-stagger space-y-2.5">
                 {hoje.aulas.map((aula, i) => (
                   <AulaCard
                     key={`${aula.diaSemana}-${aula.slot}-${aula.materiaId}-${i}`}

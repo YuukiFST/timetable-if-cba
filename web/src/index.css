@@ -1,35 +1,54 @@
 @import "tailwindcss";
 
-/* Verde institucional IFMT (#2f9e41) como primária; tema segue prefers-color-scheme. */
+/* ── Design system v2 ─────────────────────────────────────────────
+   Identidade: verde institucional IFMT, superfícies tintadas de verde,
+   sombras coloridas, Outfit variável (aplicada via src/fonte.ts fora do
+   caminho crítico; 1ª visita usa a stack de sistema). */
+
 :root {
-  --background: oklch(0.985 0.004 145);
-  --surface: oklch(1 0 0);
-  --surface-2: oklch(0.962 0.006 145);
-  --foreground: oklch(0.24 0.02 150);
-  --muted: oklch(0.52 0.02 150);
-  --border: oklch(0.9 0.008 145);
-  --primary: #2f9e41;
-  --primary-soft: oklch(0.95 0.045 148);
-  --on-primary: #ffffff;
+  --background: oklch(0.975 0.008 150);
+  --surface: oklch(0.995 0.002 150);
+  --surface-2: oklch(0.945 0.014 150);
+  --foreground: oklch(0.22 0.03 155);
+  --muted: oklch(0.48 0.03 152);
+  --border: oklch(0.885 0.018 150);
+  --primary: oklch(0.585 0.155 148);
+  --primary-strong: oklch(0.5 0.14 150);
+  --primary-soft: oklch(0.93 0.055 148);
+  --on-primary: oklch(0.99 0.01 148);
   --danger: oklch(0.55 0.2 27);
-  --warning: oklch(0.52 0.13 60);
-  --warning-soft: oklch(0.94 0.05 75);
+  --warning: oklch(0.5 0.13 60);
+  --warning-soft: oklch(0.93 0.055 75);
+  --shadow-tint: oklch(0.35 0.06 150);
+  --shadow-card: 0 1px 2px oklch(from var(--shadow-tint) l c h / 0.06), 0 4px 16px -4px oklch(from var(--shadow-tint) l c h / 0.08);
+  --shadow-pop: 0 2px 6px oklch(from var(--shadow-tint) l c h / 0.1), 0 12px 32px -8px oklch(from var(--shadow-tint) l c h / 0.18);
+
+  /* grade de motion — toda animação referencia estes tokens */
+  --duration-fast: 150ms;
+  --duration-normal: 250ms;
+  --duration-slow: 400ms;
+  --ease-out: cubic-bezier(0.23, 1, 0.32, 1);
+  --ease-in-out: cubic-bezier(0.77, 0, 0.175, 1);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: oklch(0.19 0.012 150);
-    --surface: oklch(0.235 0.014 150);
-    --surface-2: oklch(0.28 0.016 150);
-    --foreground: oklch(0.94 0.008 145);
-    --muted: oklch(0.68 0.015 148);
-    --border: oklch(0.31 0.016 150);
-    --primary: oklch(0.72 0.17 148);
-    --primary-soft: oklch(0.3 0.05 150);
-    --on-primary: oklch(0.16 0.03 150);
+    --background: oklch(0.175 0.016 152);
+    --surface: oklch(0.225 0.02 152);
+    --surface-2: oklch(0.275 0.024 152);
+    --foreground: oklch(0.945 0.012 148);
+    --muted: oklch(0.7 0.025 148);
+    --border: oklch(0.31 0.026 152);
+    --primary: oklch(0.75 0.17 148);
+    --primary-strong: oklch(0.82 0.16 148);
+    --primary-soft: oklch(0.3 0.06 150);
+    --on-primary: oklch(0.15 0.04 150);
     --danger: oklch(0.68 0.18 25);
     --warning: oklch(0.82 0.13 78);
     --warning-soft: oklch(0.32 0.06 68);
+    --shadow-tint: oklch(0.05 0.02 152);
+    --shadow-card: 0 1px 2px oklch(from var(--shadow-tint) l c h / 0.4), 0 4px 16px -4px oklch(from var(--shadow-tint) l c h / 0.45);
+    --shadow-pop: 0 2px 6px oklch(from var(--shadow-tint) l c h / 0.5), 0 12px 32px -8px oklch(from var(--shadow-tint) l c h / 0.6);
   }
 }
 
@@ -41,6 +60,7 @@
   --color-muted: var(--muted);
   --color-border: var(--border);
   --color-primary: var(--primary);
+  --color-primary-strong: var(--primary-strong);
   --color-primary-soft: var(--primary-soft);
   --color-on-primary: var(--on-primary);
   --color-danger: var(--danger);
@@ -50,25 +70,66 @@
 
 @layer base {
   html {
-    font: 100%/1.5 system-ui, -apple-system, "Segoe UI", sans-serif;
+    /* Outfit entra via FontFace API após o load (src/fonte.ts) — fora do caminho crítico do LCP */
+    font: 100%/1.5 "Outfit", system-ui, -apple-system, "Segoe UI", sans-serif;
+    font-synthesis: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
     -webkit-tap-highlight-color: transparent;
   }
   body {
     background-color: var(--background);
+    /* leve profundidade ambiente: dois brilhos radiais do verde da marca */
+    background-image:
+      radial-gradient(48rem 30rem at 110% -8%, oklch(from var(--primary) l c h / 0.07), transparent 60%),
+      radial-gradient(36rem 24rem at -20% 108%, oklch(from var(--primary) l c h / 0.05), transparent 60%);
+    background-attachment: fixed;
     color: var(--foreground);
     overscroll-behavior-y: none;
+  }
+  h1, h2 {
+    text-wrap: balance;
+  }
+  p {
+    text-wrap: pretty;
+  }
+  ::selection {
+    background: var(--primary-soft);
+    color: var(--foreground);
   }
 }
 
 @layer utilities {
-  /* chrome translúcida (tab bar / header) */
+  /* chrome translúcida (tab bar / header) — glass com borda de refração */
   .glass {
-    background: color-mix(in oklab, var(--background) 78%, transparent);
-    backdrop-filter: blur(16px) saturate(160%);
-    -webkit-backdrop-filter: blur(16px) saturate(160%);
+    background: color-mix(in oklab, var(--background) 72%, transparent);
+    backdrop-filter: blur(18px) saturate(170%);
+    -webkit-backdrop-filter: blur(18px) saturate(170%);
+    box-shadow: inset 0 1px 0 oklch(from var(--surface) l c h / 0.55);
   }
   .safe-bottom {
     padding-bottom: env(safe-area-inset-bottom);
+  }
+  .shadow-card {
+    box-shadow: var(--shadow-card);
+  }
+  .shadow-pop {
+    box-shadow: var(--shadow-pop);
+  }
+
+  /* entrada de página/lista: fade + subida curta; itens herdam --i para stagger */
+  .anim-in {
+    animation: rise var(--duration-slow) var(--ease-out) both;
+  }
+  .anim-stagger > * {
+    animation: rise var(--duration-slow) var(--ease-out) both;
+    animation-delay: calc(var(--i, 0) * 40ms);
+  }
+
+  /* barra de progresso: preenchimento com brilho que percorre uma vez */
+  .progress-fill {
+    background-image: linear-gradient(90deg, var(--primary) 0%, var(--primary-strong) 100%);
+    transition: width var(--duration-slow) var(--ease-out);
   }
 
   /* feedback interativo — hover só em dispositivos com ponteiro fino */
@@ -82,12 +143,13 @@
   .ix-ghost,
   .ix-summary {
     transition:
-      background-color 150ms,
-      border-color 150ms,
-      color 150ms,
-      filter 150ms,
-      text-decoration-color 150ms,
-      transform 100ms;
+      background-color var(--duration-fast),
+      border-color var(--duration-fast),
+      color var(--duration-fast),
+      filter var(--duration-fast),
+      box-shadow var(--duration-fast),
+      text-decoration-color var(--duration-fast),
+      transform 100ms var(--ease-out);
   }
 
   .ix-card:focus-visible,
@@ -105,8 +167,10 @@
 
   @media (hover: hover) and (pointer: fine) {
     .ix-card:hover {
-      background-color: var(--surface-2);
-      border-color: color-mix(in oklab, var(--border) 50%, var(--muted));
+      background-color: var(--surface);
+      border-color: color-mix(in oklab, var(--primary) 35%, var(--border));
+      box-shadow: var(--shadow-pop);
+      transform: translateY(-1px);
     }
 
     .ix-chip-livre:hover {
@@ -140,11 +204,13 @@
 
     .ix-link:hover {
       text-decoration: underline;
-      color: color-mix(in oklab, var(--primary) 85%, white);
+      text-underline-offset: 3px;
+      color: var(--primary-strong);
     }
 
     .ix-btn:hover {
-      filter: brightness(1.1);
+      filter: brightness(1.08);
+      box-shadow: var(--shadow-pop);
     }
 
     .ix-ghost:hover {
@@ -156,6 +222,13 @@
       text-decoration: underline;
       color: color-mix(in oklab, var(--warning) 80%, var(--foreground));
     }
+  }
+}
+
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
   }
 }
 

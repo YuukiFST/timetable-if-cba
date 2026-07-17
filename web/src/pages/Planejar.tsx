@@ -106,12 +106,12 @@ function GradeMobile({
           </button>
         ))}
       </div>
-      <ul className="space-y-2.5">
+      <ul className="anim-stagger space-y-2.5">
         {tabela.faixas
           .map((faixa) => [faixa, tabela.celulas.get(chaveCelula(dia, faixa)) ?? []] as const)
           .filter(([, ids]) => ids.length > 0)
           .map(([faixa, ids]) => (
-            <li key={faixa} className="flex gap-3 rounded-2xl border border-border bg-surface p-3">
+            <li key={faixa} className="shadow-card flex gap-3 rounded-2xl border border-border bg-surface p-3">
               <span className="w-12 shrink-0 pt-1 text-sm font-semibold tabular-nums text-muted">{faixa}</span>
               <div className="flex min-w-0 flex-1 flex-col gap-1.5">
                 {ids.length > 1 && (

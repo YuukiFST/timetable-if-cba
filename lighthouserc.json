@@ -1,7 +1,9 @@
 {
   "ci": {
     "collect": {
-      "staticDistDir": "web/dist",
+      "startServerCommand": "npx serve -s web/dist -l 14173 -n",
+      "startServerReadyPattern": "Accepting",
+      "url": ["http://localhost:14173/"],
       "numberOfRuns": 3
     },
     "assert": {

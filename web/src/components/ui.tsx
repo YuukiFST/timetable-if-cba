@@ -21,8 +21,8 @@ export const IconPlanejar = () => icon(<><rect x="3.5" y="4" width="17" height="
 
 export function Titulo({ children, sub }: { children: ReactNode; sub?: ReactNode }) {
   return (
-    <header className="mb-5">
-      <h1 className="text-2xl font-bold tracking-tight">{children}</h1>
+    <header className="anim-in mb-5">
+      <h1 className="text-3xl font-bold tracking-tight">{children}</h1>
       {sub !== undefined && <p className="mt-0.5 text-sm text-muted">{sub}</p>}
     </header>
   )
@@ -31,8 +31,8 @@ export function Titulo({ children, sub }: { children: ReactNode; sub?: ReactNode
 export function AulaCard({ aula, materia, destaque, rotulo }: { aula: Aula; materia: string; destaque?: boolean; rotulo?: string }) {
   return (
     <li
-      className={`flex gap-3 rounded-2xl border p-3.5 transition-colors ${
-        destaque ? "border-primary bg-primary-soft" : "border-border bg-surface"
+      className={`shadow-card flex gap-3 rounded-2xl border p-3.5 transition-colors ${
+        destaque ? "border-primary bg-primary-soft shadow-pop" : "border-border bg-surface"
       }`}
     >
       <div className="flex w-14 shrink-0 flex-col items-center justify-center rounded-xl bg-surface-2 py-1 text-center tabular-nums">
@@ -132,7 +132,7 @@ export function AvisoPlanejar({ className = "" }: { className?: string }) {
 
 export function HojeSemMaterias() {
   return (
-    <div className="rounded-2xl border border-border bg-surface p-8 text-center">
+    <div className="anim-in shadow-card rounded-2xl border border-border bg-surface p-8 text-center">
       <p className="text-lg font-semibold">Suas aulas de hoje</p>
       <p className="mt-2 text-sm text-muted">
         Esta aba mostra as aulas do dia atual das matérias que você marcou em{" "}
