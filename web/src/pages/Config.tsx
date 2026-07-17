@@ -1,11 +1,11 @@
-import { useMemo, useState } from "react"
-import { loadMateriasDoCurso, useQuery } from "../data/api"
+import { useState } from "react"
+import { loadCursoResumo, useQuery } from "../data/api"
 import { escolherTurma, resetProgresso } from "../storage"
 import { EscolhaCurso } from "./Onboarding"
 import { AvisoFonteDados, ErroDados, QueryView, Titulo } from "../components/ui"
 
 export function Config({ turmaId }: { turmaId: string }) {
-  const q = useQuery(useMemo(() => loadMateriasDoCurso(turmaId), [turmaId]), `materias-${turmaId}`)
+  const q = useQuery(() => loadCursoResumo(turmaId), `resumo-${turmaId}`)
   const [trocando, setTrocando] = useState(false)
   const [confirmandoReset, setConfirmandoReset] = useState(false)
   const cursoIdAtual = q.status === "ok" ? q.value.curso.id : null

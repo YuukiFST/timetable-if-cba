@@ -3,11 +3,9 @@ import type { Aula, Materia, Turma } from "shared/schema"
 export const DIAS = ["Segunda", "Terça", "Quarta", "Quinta", "Sexta", "Sábado"] as const
 export const DIAS_CURTO = ["Seg", "Ter", "Qua", "Qui", "Sex", "Sáb"] as const
 
-export const timeToMin = (t: string): number => {
-  const [h = 0, m = 0] = t.split(":").map(Number)
-  const min = h * 60 + m
-  return Number.isFinite(min) ? min : 0
-}
+import { timeToMin } from "shared/tempo"
+
+export { timeToMin }
 
 /** Dia letivo do app (0=segunda..5=sábado) a partir de Date; domingo → -1. */
 export const diaLetivo = (d: Date): number => (d.getDay() === 0 ? -1 : d.getDay() - 1)

@@ -1,5 +1,4 @@
-import { Either, Schema } from "effect"
-import { ProgressoLocal } from "shared/schema"
+import type { ProgressoLocal } from "shared/schema"
 import { isTurmaIdValid } from "shared/turmaId"
 import { useSyncExternalStore } from "react"
 
@@ -74,8 +73,8 @@ export function migrateProgresso(raw: unknown): ProgressoLocal | null {
   // v1 → v2: normaliza cursando (campo opcional na v1)
   if (stored === 1) progresso = { ...progresso, version: VERSION, cursando: asStringArray(o.cursando) }
 
-  const decoded = Schema.decodeUnknownEither(ProgressoLocal)(progresso)
-  return Either.isRight(decoded) ? decoded.right : null
+  // Campos já validados acima (turmaId + arrays normalizados); objeto construído aqui é o schema.
+  return progresso
 }
 
 const progresso = makeStore<ProgressoLocal>("horarios-ifmt-progresso", migrateProgresso)

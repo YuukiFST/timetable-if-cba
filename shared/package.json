@@ -5,7 +5,9 @@
   "type": "module",
   "exports": {
     "./schema": "./schema.ts",
-    "./turmaId": "./turmaId.ts"
+    "./tempo": "./tempo.ts",
+    "./turmaId": "./turmaId.ts",
+    "./validate": "./validate.ts"
   },
   "peerDependencies": {
     "effect": "^3.14.0"

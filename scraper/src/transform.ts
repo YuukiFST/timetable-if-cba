@@ -1,5 +1,6 @@
 import { Data, Either, Schema } from "effect"
 import type { Aula, Curso, Materia, Turma } from "shared/schema"
+import { timeToMin } from "shared/tempo"
 import {
   RawCard,
   RawClass,
@@ -54,10 +55,6 @@ export const parseTurmaNome = (nome: string): { cursoNome: string; semestre?: nu
   return { cursoNome: n }
 }
 
-const timeToMin = (t: string): number => {
-  const [h = 0, m = 0] = t.split(":").map(Number)
-  return h * 60 + m
-}
 
 export const transform = (raw: RawTables, overrides: Overrides): TransformResult => {
   const discarded: string[] = []

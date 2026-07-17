@@ -7,10 +7,7 @@ import { EscolhaCurso } from "./Onboarding"
 import { AulaCard, AvisoFonteDados, HojeSemMaterias, QueryView, Titulo } from "../components/ui"
 
 export function Hoje({ turmaId }: { turmaId: string }) {
-  const q = useQuery(
-    useMemo(() => loadMateriasDoCurso(turmaId), [turmaId]),
-    `materias-${turmaId}`,
-  )
+  const q = useQuery(() => loadMateriasDoCurso(turmaId), `materias-${turmaId}`)
   const progresso = useProgresso()
   const [trocando, setTrocando] = useState(false)
   const cursoIdAtual = q.status === "ok" ? q.value.turmaAtual.cursoId : null

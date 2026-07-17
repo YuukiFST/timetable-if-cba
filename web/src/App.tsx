@@ -1,14 +1,17 @@
+import { lazy, Suspense } from "react"
 import { NavLink, Route, Routes } from "react-router"
 import { AvisoAtualizacaoDados } from "./components/AvisoAtualizacaoDados"
 import { InstallHint } from "./components/InstallHint"
-import { IconConfig, IconHoje, IconMaterias, IconPlanejar } from "./components/ui"
+import { Carregando, IconConfig, IconHoje, IconMaterias, IconPlanejar } from "./components/ui"
 import { loadCursos, useQuery } from "./data/api"
 import { useProgresso } from "./storage"
-import { Config } from "./pages/Config"
-import { Curso } from "./pages/Curso"
-import { Hoje } from "./pages/Hoje"
 import { Onboarding } from "./pages/Onboarding"
-import { Planejar } from "./pages/Planejar"
+
+// Code-split por rota: primeira visita (Onboarding) e cada aba só baixam o que usam.
+const Config = lazy(() => import("./pages/Config").then((m) => ({ default: m.Config })))
+const Curso = lazy(() => import("./pages/Curso").then((m) => ({ default: m.Curso })))
+const Hoje = lazy(() => import("./pages/Hoje").then((m) => ({ default: m.Hoje })))
+const Planejar = lazy(() => import("./pages/Planejar").then((m) => ({ default: m.Planejar })))
 
 const tabs = [
   { to: "/", label: "Curso", icon: <IconMaterias /> },
@@ -27,12 +30,14 @@ export function App() {
     <div className="mx-auto flex min-h-dvh max-w-3xl flex-col">
       <AvisoAtualizacaoDados generatedAtLocal={generatedAtLocal} />
       <main className="flex-1 px-4 pb-24 pt-4 md:pb-8 md:pt-20">
-        <Routes>
-          <Route path="/" element={<Curso turmaId={progresso.turmaId} />} />
-          <Route path="/planejar" element={<Planejar turmaId={progresso.turmaId} />} />
-          <Route path="/hoje" element={<Hoje turmaId={progresso.turmaId} />} />
-          <Route path="/config" element={<Config turmaId={progresso.turmaId} />} />
-        </Routes>
+        <Suspense fallback={<Carregando />}>
+          <Routes>
+            <Route path="/" element={<Curso turmaId={progresso.turmaId} />} />
+            <Route path="/planejar" element={<Planejar turmaId={progresso.turmaId} />} />
+            <Route path="/hoje" element={<Hoje turmaId={progresso.turmaId} />} />
+            <Route path="/config" element={<Config turmaId={progresso.turmaId} />} />
+          </Routes>
+        </Suspense>
       </main>
 
       <nav

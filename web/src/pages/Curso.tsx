@@ -35,7 +35,7 @@ function ChoqueDetalhes({ info }: { info: ChoqueInfo[] }) {
 }
 
 export function Curso({ turmaId }: { turmaId: string }) {
-  const q = useQuery(useMemo(() => loadMateriasDoCurso(turmaId), [turmaId]), `materias-${turmaId}`)
+  const q = useQuery(() => loadMateriasDoCurso(turmaId), `materias-${turmaId}`)
   const progresso = useProgresso()
   const [trocando, setTrocando] = useState(false)
   const concluidas = useMemo(() => new Set(progresso?.materiasConcluidas ?? []), [progresso])
