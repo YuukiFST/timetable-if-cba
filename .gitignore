@@ -22,3 +22,5 @@ PRD.md
 docs/superpowers/
 scripts/setup-githooks.sh
 scripts/validate-commit-msg.sh
+
+.lighthouseci/

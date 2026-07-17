@@ -10,12 +10,21 @@
     "dev": "npm run dev -w web -- --open --host",
     "scrape": "npm run scrape -w scraper",
     "typecheck": "tsc --noEmit -p scraper && tsc --noEmit -p web && tsc --noEmit -p shared",
-    "test": "vitest run"
+    "test": "vitest run",
+    "lint": "eslint ."
   },
   "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@lhci/cli": "^0.15.1",
     "@types/node": "^26.1.1",
+    "eslint": "^10.7.0",
+    "eslint-plugin-react-hooks": "^7.1.1",
     "jsdom": "^29.1.1",
     "typescript": "^5.8.0",
+    "typescript-eslint": "^8.64.0",
     "vitest": "^3.2.0"
+  },
+  "overrides": {
+    "tmp": "^0.2.6"
   }
 }

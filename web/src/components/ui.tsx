@@ -5,6 +5,8 @@ import type { DataError, Query } from "../data/api"
 
 const EDUPAGE_URL = "https://ifmtcba.edupage.org/timetable/"
 const DIAS_MS = 24 * 60 * 60 * 1000
+// Congelado no load do módulo: render puro (react-hooks/purity) e precisão de sessão basta para limiar de 30 dias.
+const AGORA_MS = Date.now()
 
 // Ícones inline (traço 1.75, estilo SF Symbols) — sem lib de ícones para 4 desenhos.
 const icon = (path: ReactNode) => (
@@ -64,7 +66,7 @@ export function AvisoFonteDados({
   const geradoEm = new Date(generatedAt)
   const dataValida = !Number.isNaN(geradoEm.getTime())
   const dataLabel = dataValida ? geradoEm.toLocaleDateString("pt-BR") : "data desconhecida"
-  const desatualizado = dataValida && Date.now() - geradoEm.getTime() > 30 * DIAS_MS
+  const desatualizado = dataValida && AGORA_MS - geradoEm.getTime() > 30 * DIAS_MS
 
   if (variant === "completo") {
     return (

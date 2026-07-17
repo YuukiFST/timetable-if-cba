@@ -18,6 +18,7 @@ export function AvisoAtualizacaoDados({ generatedAtLocal }: { generatedAtLocal: 
   }, [generatedAtLocal])
 
   useEffect(() => {
+    // eslint-disable-next-line react-hooks/set-state-in-effect -- verificar é async; setState só após rede
     void verificar()
     const onVis = () => {
       if (document.visibilityState === "visible") void verificar()
