@@ -27,7 +27,9 @@ Alternativa: `npm run dev`
 ## Qualidade
 
 - `npm run typecheck` — TypeScript
+- `npm run lint` — ESLint (typescript-eslint + react-hooks)
 - `npm test` — testes
+- `npx lhci autorun` — Lighthouse CI (exige score 100 nas 4 categorias; roda no CI após o build)
 - Commits: Conventional Commits (`feat(web): descrição`)
 
 ## Estrutura

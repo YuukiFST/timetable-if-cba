@@ -165,4 +165,42 @@ describe("migrarPlanoLegado", () => {
     expect(readProgresso()?.cursando).toEqual(["m1", "m2"])
     expect(localStorage.getItem("horarios-ifmt-plano")).toBeNull()
   })
+
+  it("turmaId diferente: descarta o plano sem copiar", () => {
+    writeProgresso({ version: 2, turmaId: "t1", materiasConcluidas: [], cursando: [] })
+    localStorage.setItem("horarios-ifmt-plano", JSON.stringify({ turmaId: "t-outra", materiaIds: ["m1"] }))
+    migrarPlanoLegado()
+    expect(readProgresso()?.cursando).toEqual([])
+    expect(localStorage.getItem("horarios-ifmt-plano")).toBeNull()
+  })
+
+  it("cursando já preenchido: não sobrescreve nem apaga o plano", () => {
+    writeProgresso({ version: 2, turmaId: "t1", materiasConcluidas: [], cursando: ["m9"] })
+    localStorage.setItem("horarios-ifmt-plano", JSON.stringify({ turmaId: "t1", materiaIds: ["m1"] }))
+    migrarPlanoLegado()
+    expect(readProgresso()?.cursando).toEqual(["m9"])
+    expect(localStorage.getItem("horarios-ifmt-plano")).not.toBeNull()
+  })
+
+  it("JSON corrompido: remove a chave sem quebrar", () => {
+    writeProgresso({ version: 2, turmaId: "t1", materiasConcluidas: [], cursando: [] })
+    localStorage.setItem("horarios-ifmt-plano", "{nao é json")
+    expect(() => migrarPlanoLegado()).not.toThrow()
+    expect(localStorage.getItem("horarios-ifmt-plano")).toBeNull()
+    expect(readProgresso()?.cursando).toEqual([])
+  })
+})
+
+describe("escolherTurma", () => {
+  it("cursoIdAtual null: troca de curso zera progresso", () => {
+    writeProgresso({ version: 2, turmaId: "t1", materiasConcluidas: ["m1"], cursando: ["m2"] })
+    escolherTurma("t2", "c-novo", null)
+    expect(readProgresso()).toEqual({ version: 2, turmaId: "t2", materiasConcluidas: [], cursando: [] })
+  })
+
+  it("mesmo curso: preserva progresso ao trocar de turma", () => {
+    writeProgresso({ version: 2, turmaId: "t1", materiasConcluidas: ["m1"], cursando: ["m2"] })
+    escolherTurma("t2", "c1", "c1")
+    expect(readProgresso()).toEqual({ version: 2, turmaId: "t2", materiasConcluidas: ["m1"], cursando: ["m2"] })
+  })
 })
