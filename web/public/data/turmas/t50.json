@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "generatedAt": "2026-07-26T08:25:10.041Z",
   "schemaVersion": 1,
   "turma": {
     "aulas": [
@@ -16,7 +16,7 @@
         "diaSemana": 0,
         "horaFim": "16:20",
         "horaInicio": "14:30",
-        "materiaId": "*290",
+        "materiaId": "*289",
         "professor": "Paulo Lenço",
         "sala": "DCOM",
         "slot": 8
@@ -61,7 +61,7 @@
         "diaSemana": 2,
         "horaFim": "16:20",
         "horaInicio": "14:30",
-        "materiaId": "*492",
+        "materiaId": "*491",
         "professor": "Marcos Paulo",
         "sala": "B-201",
         "slot": 8
@@ -77,12 +77,12 @@
       },
       {
         "diaSemana": 3,
-        "horaFim": "16:20",
-        "horaInicio": "14:30",
-        "materiaId": "*492",
+        "horaFim": "14:30",
+        "horaInicio": "13:00",
+        "materiaId": "*491",
         "professor": "Marcos Paulo",
         "sala": "B-219",
-        "slot": 8
+        "slot": 6
       },
       {
         "diaSemana": 3,
@@ -110,7 +110,7 @@
         "semestre": 1
       },
       {
-        "id": "*290",
+        "id": "*289",
         "nome": "Desenho Técnico em Ambiente Computacional",
         "nomeCurto": "DTeAC",
         "semestre": 1
@@ -122,7 +122,7 @@
         "semestre": 1
       },
       {
-        "id": "*492",
+        "id": "*491",
         "nome": "Fundamentos da Matemática",
         "nomeCurto": "FdM",
         "semestre": 1

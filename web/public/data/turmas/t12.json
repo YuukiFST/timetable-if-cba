@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "generatedAt": "2026-07-26T08:25:10.041Z",
   "schemaVersion": 1,
   "turma": {
     "aulas": [
@@ -7,7 +7,7 @@
         "diaSemana": 3,
         "horaFim": "10:20",
         "horaInicio": "07:00",
-        "materiaId": "*260",
+        "materiaId": "*259",
         "professor": "Leandro Ferreira",
         "slot": 0
       },
@@ -15,7 +15,7 @@
         "diaSemana": 3,
         "horaFim": "11:05",
         "horaInicio": "07:45",
-        "materiaId": "*259",
+        "materiaId": "*258",
         "professor": "Adriano Mamedes",
         "sala": "B-002",
         "slot": 1
@@ -25,12 +25,12 @@
     "id": "t12",
     "materias": [
       {
-        "id": "*259",
+        "id": "*258",
         "nome": "Dependência de Matemática IA",
         "nomeCurto": "Dependência de Matemática IA"
       },
       {
-        "id": "*260",
+        "id": "*259",
         "nome": "Dependência de Matemática IB",
         "nomeCurto": "DdMI"
       }

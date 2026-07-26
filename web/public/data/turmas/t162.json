@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "generatedAt": "2026-07-26T08:25:10.041Z",
   "schemaVersion": 1,
   "turma": {
     "aulas": [
@@ -34,7 +34,7 @@
         "diaSemana": 1,
         "horaFim": "08:30",
         "horaInicio": "07:00",
-        "materiaId": "*571",
+        "materiaId": "*570",
         "professor": "Pedro Spanghero",
         "sala": "DINFRA",
         "slot": 0
@@ -79,7 +79,7 @@
         "diaSemana": 2,
         "horaFim": "10:20",
         "horaInicio": "08:30",
-        "materiaId": "*485",
+        "materiaId": "*484",
         "professor": "Moises Santiago Ribeiro",
         "sala": "DINFRA",
         "slot": 2
@@ -200,7 +200,7 @@
         "semestre": 3
       },
       {
-        "id": "*485",
+        "id": "*484",
         "nome": "Fotogrametria",
         "nomeCurto": "Fotogrametria",
         "semestre": 3
@@ -212,7 +212,7 @@
         "semestre": 3
       },
       {
-        "id": "*571",
+        "id": "*570",
         "nome": "Gestão de Serviços",
         "nomeCurto": "GdS",
         "semestre": 3

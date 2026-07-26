@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "generatedAt": "2026-07-26T08:25:10.041Z",
   "schemaVersion": 1,
   "turma": {
     "aulas": [
@@ -79,7 +79,7 @@
         "diaSemana": 2,
         "horaFim": "09:15",
         "horaInicio": "07:00",
-        "materiaId": "*456",
+        "materiaId": "*455",
         "professor": "Aldo Silva",
         "sala": "DCOM",
         "slot": 0
@@ -195,7 +195,7 @@
         "semestre": 1
       },
       {
-        "id": "*456",
+        "id": "*455",
         "nome": "Ferramentas de Informática E Organização Computacional",
         "nomeCurto": "FdIEOC",
         "semestre": 1

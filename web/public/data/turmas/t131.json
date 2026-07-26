@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "generatedAt": "2026-07-26T08:25:10.041Z",
   "schemaVersion": 1,
   "turma": {
     "aulas": [
@@ -7,7 +7,7 @@
         "diaSemana": 0,
         "horaFim": "20:30",
         "horaInicio": "18:50",
-        "materiaId": "*459",
+        "materiaId": "*458",
         "professor": "Karine Assunção",
         "sala": "B-218",
         "slot": 12
@@ -25,8 +25,8 @@
         "diaSemana": 1,
         "horaFim": "20:30",
         "horaInicio": "18:50",
-        "materiaId": "-159",
-        "professor": "José Vinicius",
+        "materiaId": "-121",
+        "professor": "Dejenana",
         "sala": "B-218",
         "slot": 12
       },
@@ -34,8 +34,8 @@
         "diaSemana": 1,
         "horaFim": "22:25",
         "horaInicio": "20:45",
-        "materiaId": "-121",
-        "professor": "Dejenana",
+        "materiaId": "-159",
+        "professor": "José Vinicius",
         "sala": "B-218",
         "slot": 14
       },
@@ -52,8 +52,8 @@
         "diaSemana": 2,
         "horaFim": "22:25",
         "horaInicio": "20:45",
-        "materiaId": "-393",
-        "professor": "Edilene Campos",
+        "materiaId": "-402",
+        "professor": "Nadir Bittencour",
         "sala": "B-218",
         "slot": 14
       },
@@ -70,7 +70,7 @@
         "diaSemana": 3,
         "horaFim": "22:25",
         "horaInicio": "20:45",
-        "materiaId": "*556",
+        "materiaId": "*555",
         "professor": "Marcia Fernandes",
         "sala": "B-218",
         "slot": 14
@@ -88,8 +88,8 @@
         "diaSemana": 4,
         "horaFim": "22:25",
         "horaInicio": "20:45",
-        "materiaId": "-402",
-        "professor": "Nadir Bittencour",
+        "materiaId": "-393",
+        "professor": "Edilene Campos",
         "sala": "B-218",
         "slot": 14
       }
@@ -116,13 +116,13 @@
         "semestre": 3
       },
       {
-        "id": "*459",
+        "id": "*458",
         "nome": "Ferramentas Técnicas Administrativas",
         "nomeCurto": "FTA",
         "semestre": 3
       },
       {
-        "id": "*556",
+        "id": "*555",
         "nome": "Gestão de Eventos",
         "nomeCurto": "GE",
         "semestre": 3

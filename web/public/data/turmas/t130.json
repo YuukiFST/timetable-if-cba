@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "generatedAt": "2026-07-26T08:25:10.041Z",
   "schemaVersion": 1,
   "turma": {
     "aulas": [
@@ -27,7 +27,7 @@
         "horaInicio": "18:50",
         "materiaId": "-401",
         "professor": "José Silva",
-        "sala": "B-007",
+        "sala": "B-213",
         "slot": 12
       },
       {
@@ -36,7 +36,7 @@
         "horaInicio": "20:45",
         "materiaId": "-347",
         "professor": "Rothschild Antunes",
-        "sala": "DCOM",
+        "sala": "B-213",
         "slot": 14
       },
       {
@@ -54,7 +54,7 @@
         "horaInicio": "20:45",
         "materiaId": "-401",
         "professor": "José Silva",
-        "sala": "B-002",
+        "sala": "B-213",
         "slot": 14
       },
       {
@@ -72,7 +72,7 @@
         "horaInicio": "20:45",
         "materiaId": "-120",
         "professor": "Dejenana",
-        "sala": "B-220",
+        "sala": "B-213",
         "slot": 14
       },
       {

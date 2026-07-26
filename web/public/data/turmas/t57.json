@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "generatedAt": "2026-07-26T08:25:10.041Z",
   "schemaVersion": 1,
   "turma": {
     "aulas": [
@@ -13,24 +13,6 @@
         "slot": 8
       },
       {
-        "diaSemana": 0,
-        "horaFim": "17:50",
-        "horaInicio": "16:20",
-        "materiaId": "-379",
-        "professor": "Jenniffer Santos",
-        "sala": "B-004",
-        "slot": 10
-      },
-      {
-        "diaSemana": 0,
-        "horaFim": "20:30",
-        "horaInicio": "18:50",
-        "materiaId": "-96",
-        "professor": "Sandro Santos",
-        "sala": "B-002",
-        "slot": 12
-      },
-      {
         "diaSemana": 1,
         "horaFim": "14:30",
         "horaInicio": "13:00",
@@ -41,21 +23,21 @@
       },
       {
         "diaSemana": 2,
-        "horaFim": "14:30",
-        "horaInicio": "13:00",
+        "horaFim": "15:15",
+        "horaInicio": "13:45",
         "materiaId": "*989",
         "professor": "Ruy Oliveira",
         "sala": "DCOM",
-        "slot": 6
+        "slot": 7
       },
       {
         "diaSemana": 2,
-        "horaFim": "16:20",
-        "horaInicio": "14:30",
+        "horaFim": "17:05",
+        "horaInicio": "15:35",
         "materiaId": "*989",
         "professor": "Ruy Oliveira",
         "sala": "DCOM",
-        "slot": 8
+        "slot": 9
       },
       {
         "diaSemana": 4,
@@ -74,18 +56,6 @@
         "id": "-2",
         "nome": "Administração",
         "nomeCurto": "ADM",
-        "semestre": 8
-      },
-      {
-        "id": "-96",
-        "nome": "Ciências Sociais",
-        "nomeCurto": "CS",
-        "semestre": 8
-      },
-      {
-        "id": "-379",
-        "nome": "LIBRAS",
-        "nomeCurto": "L",
         "semestre": 8
       },
       {

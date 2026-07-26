@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "generatedAt": "2026-07-26T08:25:10.041Z",
   "schemaVersion": 1,
   "turma": {
     "aulas": [
@@ -43,7 +43,7 @@
         "diaSemana": 0,
         "horaFim": "16:20",
         "horaInicio": "14:30",
-        "materiaId": "*150",
+        "materiaId": "*149",
         "professor": "Rupert Pereira",
         "sala": "DEEA E203 Lab. CLP Inicial",
         "slot": 8
@@ -155,39 +155,39 @@
       },
       {
         "diaSemana": 4,
-        "horaFim": "09:15",
-        "horaInicio": "07:00",
-        "materiaId": "*371",
+        "horaFim": "15:15",
+        "horaInicio": "13:00",
+        "materiaId": "*370",
         "professor": "José Cândido",
         "sala": "DEEA E102 Lab. Eletrônica",
-        "slot": 0
+        "slot": 6
       },
       {
         "diaSemana": 4,
-        "horaFim": "09:15",
-        "horaInicio": "07:45",
-        "materiaId": "*150",
+        "horaFim": "15:15",
+        "horaInicio": "13:45",
+        "materiaId": "*149",
         "professor": "Rupert Pereira",
-        "sala": "DEEA E101 Lab. Eletrônica",
-        "slot": 1
+        "sala": "DEEA E103 Lab. Microcontroladores",
+        "slot": 7
       },
       {
         "diaSemana": 4,
-        "horaFim": "11:05",
-        "horaInicio": "09:35",
-        "materiaId": "*150",
+        "horaFim": "17:05",
+        "horaInicio": "15:35",
+        "materiaId": "*149",
         "professor": "Rupert Pereira",
-        "sala": "DEEA E101 Lab. Eletrônica",
-        "slot": 3
+        "sala": "B-201",
+        "slot": 9
       },
       {
         "diaSemana": 4,
-        "horaFim": "11:50",
-        "horaInicio": "09:35",
-        "materiaId": "*371",
+        "horaFim": "17:50",
+        "horaInicio": "15:35",
+        "materiaId": "*370",
         "professor": "José Cândido",
         "sala": "DEEA E102 Lab. Eletrônica",
-        "slot": 3
+        "slot": 9
       }
     ],
     "cursoId": "deea-6531-eletrotecnica-integrado-b",
@@ -206,7 +206,7 @@
         "semestre": 1
       },
       {
-        "id": "*150",
+        "id": "*149",
         "nome": "Circuitos Elétricos CC e CA",
         "nomeCurto": "Circ. CC/CA",
         "semestre": 1
@@ -218,7 +218,7 @@
         "semestre": 1
       },
       {
-        "id": "*371",
+        "id": "*370",
         "nome": "Eletrônica Digital e Analogica",
         "nomeCurto": "Eletrônica D/A",
         "semestre": 1

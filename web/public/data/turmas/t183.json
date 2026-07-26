@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "generatedAt": "2026-07-26T08:25:10.041Z",
   "schemaVersion": 1,
   "turma": {
     "aulas": [
@@ -43,7 +43,7 @@
         "diaSemana": 2,
         "horaFim": "22:25",
         "horaInicio": "18:50",
-        "materiaId": "*474",
+        "materiaId": "*473",
         "professor": "Luis Otávio",
         "sala": "DINFRA",
         "slot": 12
@@ -100,7 +100,7 @@
         "semestre": 1
       },
       {
-        "id": "*474",
+        "id": "*473",
         "nome": "Física Geral e Experimental I",
         "nomeCurto": "FGeEI",
         "semestre": 1

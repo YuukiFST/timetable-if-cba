@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "generatedAt": "2026-07-26T08:25:10.041Z",
   "schemaVersion": 1,
   "turma": {
     "aulas": [
@@ -138,7 +138,7 @@
         "diaSemana": 3,
         "horaFim": "10:20",
         "horaInicio": "08:30",
-        "materiaId": "*337",
+        "materiaId": "*336",
         "professor": "Larissa Kawashima",
         "sala": "B-216",
         "slot": 2
@@ -193,7 +193,7 @@
         "semestre": 1
       },
       {
-        "id": "*337",
+        "id": "*336",
         "nome": "Educação Física I",
         "nomeCurto": "EFI",
         "semestre": 1

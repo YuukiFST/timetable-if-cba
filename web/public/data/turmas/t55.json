@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "generatedAt": "2026-07-26T08:25:10.041Z",
   "schemaVersion": 1,
   "turma": {
     "aulas": [
@@ -61,7 +61,7 @@
         "diaSemana": 2,
         "horaFim": "14:30",
         "horaInicio": "13:00",
-        "materiaId": "*153",
+        "materiaId": "*152",
         "professor": "Ronan Martins",
         "sala": "DEEA E107 Lab. Circuitos Elétricos",
         "slot": 6
@@ -70,7 +70,7 @@
         "diaSemana": 2,
         "horaFim": "16:20",
         "horaInicio": "14:30",
-        "materiaId": "*153",
+        "materiaId": "*152",
         "professor": "Ronan Martins",
         "sala": "DEEA E107 Lab. Circuitos Elétricos",
         "slot": 8
@@ -131,7 +131,7 @@
         "semestre": 6
       },
       {
-        "id": "*153",
+        "id": "*152",
         "nome": "Circuitos Elétricos II",
         "nomeCurto": "CE-II",
         "semestre": 6

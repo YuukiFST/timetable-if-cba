@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "generatedAt": "2026-07-26T08:25:10.041Z",
   "schemaVersion": 1,
   "turma": {
     "aulas": [
@@ -52,7 +52,7 @@
         "diaSemana": 4,
         "horaFim": "20:30",
         "horaInicio": "18:50",
-        "materiaId": "*587",
+        "materiaId": "*586",
         "professor": "Calina Barros",
         "sala": "B-107",
         "slot": 12
@@ -71,7 +71,7 @@
     "id": "t188",
     "materias": [
       {
-        "id": "*587",
+        "id": "*586",
         "nome": "Hidráulica Geral",
         "nomeCurto": "Hidráulica Geral",
         "semestre": 5

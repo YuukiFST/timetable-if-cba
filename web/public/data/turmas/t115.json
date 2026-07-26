@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "generatedAt": "2026-07-26T08:25:10.041Z",
   "schemaVersion": 1,
   "turma": {
     "aulas": [
@@ -9,14 +9,16 @@
         "horaInicio": "18:50",
         "materiaId": "-379",
         "professor": "Jenniffer Santos",
+        "sala": "B-220",
         "slot": 12
       },
       {
         "diaSemana": 0,
         "horaFim": "22:25",
         "horaInicio": "20:45",
-        "materiaId": "*579",
+        "materiaId": "*578",
         "professor": "Dejenana, Fabricio Moraes",
+        "sala": "B-220",
         "slot": 14
       },
       {
@@ -25,6 +27,7 @@
         "horaInicio": "18:50",
         "materiaId": "*864",
         "professor": "Marli Spolidoro",
+        "sala": "B-220",
         "slot": 12
       },
       {
@@ -33,6 +36,7 @@
         "horaInicio": "20:45",
         "materiaId": "*864",
         "professor": "Marli Spolidoro",
+        "sala": "B-220",
         "slot": 14
       },
       {
@@ -41,22 +45,25 @@
         "horaInicio": "18:50",
         "materiaId": "*907",
         "professor": "Francielle Oliveira",
+        "sala": "B-220",
         "slot": 12
       },
       {
         "diaSemana": 2,
         "horaFim": "22:25",
         "horaInicio": "20:45",
-        "materiaId": "*579",
+        "materiaId": "*578",
         "professor": "Dejenana, Fabricio Moraes",
+        "sala": "B-220",
         "slot": 14
       },
       {
         "diaSemana": 3,
         "horaFim": "20:30",
         "horaInicio": "18:50",
-        "materiaId": "*404",
+        "materiaId": "*403",
         "professor": "Marli Spolidoro",
+        "sala": "B-220",
         "slot": 12
       },
       {
@@ -65,6 +72,7 @@
         "horaInicio": "20:45",
         "materiaId": "-706",
         "professor": "Ana Monlevade",
+        "sala": "B-220",
         "slot": 14
       },
       {
@@ -73,6 +81,7 @@
         "horaInicio": "18:50",
         "materiaId": "-729",
         "professor": "Julio Duarte",
+        "sala": "B-220",
         "slot": 12
       },
       {
@@ -81,6 +90,7 @@
         "horaInicio": "20:45",
         "materiaId": "-729",
         "professor": "Julio Duarte",
+        "sala": "B-220",
         "slot": 14
       }
     ],
@@ -94,13 +104,13 @@
         "semestre": 6
       },
       {
-        "id": "*404",
+        "id": "*403",
         "nome": "Espaços de Laser e Entretenimento",
         "nomeCurto": "EdLeE",
         "semestre": 6
       },
       {
-        "id": "*579",
+        "id": "*578",
         "nome": "Gestão Financeira em Turismo",
         "nomeCurto": "GFeT",
         "semestre": 6

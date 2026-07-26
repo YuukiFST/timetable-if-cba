@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "generatedAt": "2026-07-26T08:25:10.041Z",
   "schemaVersion": 1,
   "turma": {
     "aulas": [
@@ -52,7 +52,7 @@
         "diaSemana": 2,
         "horaFim": "22:25",
         "horaInicio": "20:45",
-        "materiaId": "*501",
+        "materiaId": "*500",
         "professor": "Luis Paoli",
         "sala": "DEEA E203 Lab. CLP Inicial",
         "slot": 14
@@ -101,7 +101,7 @@
         "semestre": 1
       },
       {
-        "id": "*501",
+        "id": "*500",
         "nome": "Fundamentos de Matemática",
         "nomeCurto": "FdM",
         "semestre": 1

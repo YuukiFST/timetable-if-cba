@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "generatedAt": "2026-07-26T08:25:10.041Z",
   "schemaVersion": 1,
   "turma": {
     "aulas": [
@@ -7,189 +7,171 @@
         "diaSemana": 0,
         "horaFim": "14:30",
         "horaInicio": "13:00",
-        "materiaId": "-436",
-        "professor": "Adriano Mamedes",
-        "sala": "B-103",
+        "materiaId": "-330",
+        "professor": "Sidney da Silva",
+        "sala": "B-108",
         "slot": 6
       },
       {
         "diaSemana": 0,
         "horaFim": "16:20",
         "horaInicio": "14:30",
-        "materiaId": "-570",
-        "professor": "Danilo Flumignan",
-        "sala": "B-103",
+        "materiaId": "-649",
+        "professor": "Sandro Santos",
+        "sala": "B-101",
         "slot": 8
       },
       {
         "diaSemana": 0,
         "horaFim": "17:50",
         "horaInicio": "16:20",
-        "materiaId": "-649",
-        "professor": "Sandro Santos",
-        "sala": "DINFRA",
+        "materiaId": "-436",
+        "professor": "Adriano Mamedes",
+        "sala": "B-103",
         "slot": 10
       },
       {
         "diaSemana": 1,
         "horaFim": "08:30",
         "horaInicio": "07:00",
-        "materiaId": "-177",
-        "professor": "Edézio",
-        "sala": "B-103",
+        "materiaId": "-178",
+        "professor": "Wagner Ribeiro",
+        "sala": "B-101",
         "slot": 0
       },
       {
         "diaSemana": 1,
         "horaFim": "10:20",
         "horaInicio": "08:30",
-        "materiaId": "-391",
-        "professor": "Weslley Siqueira",
-        "sala": "B-103",
+        "materiaId": "-245",
+        "professor": "Josadaque Martins",
+        "sala": "B-101",
         "slot": 2
       },
       {
         "diaSemana": 1,
         "horaFim": "11:50",
         "horaInicio": "10:20",
-        "materiaId": "-330",
-        "professor": "Sidney da Silva",
-        "sala": "B-103",
+        "materiaId": "-570",
+        "professor": "Mônica Bidarra",
+        "sala": "B-101",
         "slot": 4
       },
       {
         "diaSemana": 1,
-        "horaFim": "14:30",
+        "horaFim": "15:15",
         "horaInicio": "13:00",
-        "materiaId": "-257",
-        "professor": "Luciano Schlaucher",
-        "sala": "B-103",
+        "materiaId": "-446",
+        "professor": "Juzélia Santos",
+        "sala": "B-101",
         "slot": 6
       },
       {
         "diaSemana": 1,
-        "horaFim": "16:20",
-        "horaInicio": "14:30",
-        "materiaId": "-286",
-        "professor": "Alessandra Fagundes",
-        "sala": "B-103",
-        "slot": 8
+        "horaFim": "15:15",
+        "horaInicio": "13:00",
+        "materiaId": "*971",
+        "professor": "Héllyda Sacal",
+        "sala": "DINFRA",
+        "slot": 6
       },
       {
         "diaSemana": 1,
         "horaFim": "17:50",
-        "horaInicio": "16:20",
-        "materiaId": "-245",
-        "professor": "Josadaque Martins",
-        "sala": "B-103",
-        "slot": 10
+        "horaInicio": "15:35",
+        "materiaId": "-451",
+        "professor": "Silvana Marchezini",
+        "sala": "B-002",
+        "slot": 9
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "17:50",
+        "horaInicio": "15:35",
+        "materiaId": "*971",
+        "professor": "Héllyda Sacal",
+        "sala": "DINFRA",
+        "slot": 9
       },
       {
         "diaSemana": 2,
-        "horaFim": "07:45",
+        "horaFim": "09:15",
         "horaInicio": "07:00",
-        "materiaId": "-436",
-        "professor": "Adriano Mamedes",
-        "sala": "B-103",
+        "materiaId": "-401",
+        "professor": "Walkyria Mandu",
+        "sala": "B-110",
         "slot": 0
       },
       {
         "diaSemana": 2,
-        "horaFim": "09:15",
-        "horaInicio": "07:45",
-        "materiaId": "*425",
-        "professor": "André Abreu",
-        "sala": "B-103",
-        "slot": 1
-      },
-      {
-        "diaSemana": 2,
-        "horaFim": "09:15",
-        "horaInicio": "07:45",
-        "materiaId": "*999",
-        "professor": "Calina Barros",
-        "sala": "B-207",
-        "slot": 1
-      },
-      {
-        "diaSemana": 2,
         "horaFim": "11:05",
         "horaInicio": "09:35",
-        "materiaId": "*425",
-        "professor": "André Abreu",
-        "sala": "B-002",
+        "materiaId": "-257",
+        "professor": "Luciano Schlaucher",
+        "sala": "B-101",
         "slot": 3
       },
       {
         "diaSemana": 2,
-        "horaFim": "11:05",
-        "horaInicio": "09:35",
+        "horaFim": "11:50",
+        "horaInicio": "11:05",
+        "materiaId": "-436",
+        "professor": "Adriano Mamedes",
+        "sala": "B-101",
+        "slot": 5
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "14:30",
+        "horaInicio": "13:00",
         "materiaId": "*999",
         "professor": "Calina Barros",
         "sala": "DINFRA",
-        "slot": 3
-      },
-      {
-        "diaSemana": 2,
-        "horaFim": "15:15",
-        "horaInicio": "13:00",
-        "materiaId": "-451",
-        "professor": "Luiz Figueiredo",
-        "sala": "B-103",
         "slot": 6
       },
       {
         "diaSemana": 2,
-        "horaFim": "15:15",
-        "horaInicio": "13:00",
-        "materiaId": "*971",
-        "professor": "Héllyda Sacal",
-        "sala": "DINFRA",
-        "slot": 6
+        "horaFim": "16:20",
+        "horaInicio": "14:30",
+        "materiaId": "*999",
+        "professor": "Calina Barros",
+        "sala": "B-101",
+        "slot": 8
       },
       {
         "diaSemana": 2,
         "horaFim": "17:50",
-        "horaInicio": "15:35",
-        "materiaId": "-446",
-        "professor": "Alan Sato",
-        "sala": "B-103",
-        "slot": 9
-      },
-      {
-        "diaSemana": 2,
-        "horaFim": "17:50",
-        "horaInicio": "15:35",
-        "materiaId": "*971",
-        "professor": "Héllyda Sacal",
-        "sala": "DINFRA",
-        "slot": 9
+        "horaInicio": "16:20",
+        "materiaId": "*424",
+        "professor": "Hugo Cedro",
+        "sala": "B-101",
+        "slot": 10
       },
       {
         "diaSemana": 3,
         "horaFim": "15:15",
         "horaInicio": "13:00",
-        "materiaId": "-451",
-        "professor": "Luiz Figueiredo",
-        "sala": "B-104",
-        "slot": 6
-      },
-      {
-        "diaSemana": 3,
-        "horaFim": "15:15",
-        "horaInicio": "13:00",
-        "materiaId": "-545",
-        "professor": "Washington Souza Nery",
-        "sala": "B-103",
-        "slot": 6
-      },
-      {
-        "diaSemana": 3,
-        "horaFim": "17:50",
-        "horaInicio": "15:35",
         "materiaId": "-446",
         "professor": "Juzélia Santos",
-        "sala": "B-104",
+        "sala": "B-106",
+        "slot": 6
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "15:15",
+        "horaInicio": "13:00",
+        "materiaId": "-546",
+        "professor": "Valery Pires",
+        "sala": "B-101",
+        "slot": 6
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "17:50",
+        "horaInicio": "15:35",
+        "materiaId": "-451",
+        "professor": "Silvana Marchezini",
+        "sala": "B-004",
         "slot": 9
       },
       {
@@ -197,27 +179,36 @@
         "horaFim": "17:50",
         "horaInicio": "15:35",
         "materiaId": "-546",
-        "professor": "Valery Pires",
-        "sala": "B-103",
+        "professor": "Washington Souza Nery",
+        "sala": "B-101",
         "slot": 9
       },
       {
         "diaSemana": 4,
         "horaFim": "14:30",
         "horaInicio": "13:00",
-        "materiaId": "-68",
-        "professor": "Roberto Campos",
-        "sala": "B-103",
+        "materiaId": "-391",
+        "professor": "Weslley Siqueira",
+        "sala": "B-101",
         "slot": 6
       },
       {
         "diaSemana": 4,
-        "horaFim": "17:05",
+        "horaFim": "16:20",
         "horaInicio": "14:30",
-        "materiaId": "-401",
-        "professor": "Walkyria Mandu",
-        "sala": "B-103",
+        "materiaId": "-68",
+        "professor": "Helíbera Capistrano",
+        "sala": "B-101",
         "slot": 8
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "17:50",
+        "horaInicio": "16:20",
+        "materiaId": "-286",
+        "professor": "Alessandra Fagundes",
+        "sala": "B-101",
+        "slot": 10
       }
     ],
     "cursoId": "dinfra-1031-edific-integ",
@@ -230,13 +221,13 @@
         "semestre": 2
       },
       {
-        "id": "-177",
-        "nome": "Educação Física",
-        "nomeCurto": "EF",
+        "id": "-178",
+        "nome": "Educação Fisica II",
+        "nomeCurto": "EF II",
         "semestre": 2
       },
       {
-        "id": "*425",
+        "id": "*424",
         "nome": "Estática e Resistência dos Materiais",
         "nomeCurto": "Estática e Resistência dos Materiais",
         "semestre": 2
@@ -308,12 +299,6 @@
         "semestre": 2
       },
       {
-        "id": "-545",
-        "nome": "Projeto Integrador",
-        "nomeCurto": "Proj.Int.",
-        "semestre": 2
-      },
-      {
         "id": "-546",
         "nome": "Projeto Integrador II",
         "nomeCurto": "Proj.Int. II",
@@ -332,7 +317,7 @@
         "semestre": 2
       }
     ],
-    "nome": "DINFRA 1031.2BV Edific. Integ.",
+    "nome": "DINFRA 1031.2AV Edific. Integ.",
     "semestre": 2
   }
 }

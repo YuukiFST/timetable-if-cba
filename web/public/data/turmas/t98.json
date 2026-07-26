@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "generatedAt": "2026-07-26T08:25:10.041Z",
   "schemaVersion": 1,
   "turma": {
     "aulas": [
@@ -34,7 +34,7 @@
         "diaSemana": 2,
         "horaFim": "20:30",
         "horaInicio": "18:50",
-        "materiaId": "*270",
+        "materiaId": "*269",
         "professor": "Angela Oliveira",
         "sala": "DEEA E114 Lab. Informatica",
         "slot": 12
@@ -43,7 +43,7 @@
         "diaSemana": 2,
         "horaFim": "22:25",
         "horaInicio": "20:45",
-        "materiaId": "*270",
+        "materiaId": "*269",
         "professor": "Angela Oliveira",
         "sala": "DEEA E114 Lab. Informatica",
         "slot": 14
@@ -52,7 +52,7 @@
         "diaSemana": 3,
         "horaFim": "20:30",
         "horaInicio": "18:50",
-        "materiaId": "*474",
+        "materiaId": "*473",
         "professor": "Gilson Lima",
         "sala": "B-003",
         "slot": 12
@@ -61,7 +61,7 @@
         "diaSemana": 3,
         "horaFim": "22:25",
         "horaInicio": "20:45",
-        "materiaId": "*474",
+        "materiaId": "*473",
         "professor": "Gilson Lima",
         "sala": "B-208",
         "slot": 14
@@ -95,13 +95,13 @@
         "semestre": 2
       },
       {
-        "id": "*270",
+        "id": "*269",
         "nome": "Des.Téc.Ambiente Computacional",
         "nomeCurto": "Desenho CAD",
         "semestre": 2
       },
       {
-        "id": "*474",
+        "id": "*473",
         "nome": "Física Geral e Experimental I",
         "nomeCurto": "FGeEI",
         "semestre": 2

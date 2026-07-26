@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "generatedAt": "2026-07-26T08:25:10.041Z",
   "schemaVersion": 1,
   "turma": {
     "aulas": [
@@ -60,7 +60,7 @@
         "diaSemana": 1,
         "horaFim": "11:50",
         "horaInicio": "09:35",
-        "materiaId": "*365",
+        "materiaId": "*364",
         "professor": "Djalma Campos",
         "sala": "DEEA E118 Lab. Eletrônica",
         "slot": 3
@@ -123,7 +123,7 @@
         "diaSemana": 2,
         "horaFim": "17:05",
         "horaInicio": "14:30",
-        "materiaId": "*365",
+        "materiaId": "*364",
         "professor": "Djalma Campos",
         "sala": "DEEA E118 Lab. Eletrônica",
         "slot": 8
@@ -203,7 +203,7 @@
         "semestre": 1
       },
       {
-        "id": "*365",
+        "id": "*364",
         "nome": "Eletrônica Analógica",
         "nomeCurto": "Eletr. A.",
         "semestre": 1

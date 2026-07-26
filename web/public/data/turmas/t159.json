@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "generatedAt": "2026-07-26T08:25:10.041Z",
   "schemaVersion": 1,
   "turma": {
     "aulas": [
@@ -29,15 +29,6 @@
         "professor": "Luiz Canto",
         "sala": "DINFRA",
         "slot": 10
-      },
-      {
-        "diaSemana": 1,
-        "horaFim": "14:30",
-        "horaInicio": "13:00",
-        "materiaId": "-68",
-        "professor": "Helíbera Capistrano",
-        "sala": "B-107",
-        "slot": 6
       },
       {
         "diaSemana": 1,
@@ -172,6 +163,15 @@
         "materiaId": "-570",
         "professor": "Mônica Bidarra",
         "sala": "B-107",
+        "slot": 6
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "14:30",
+        "horaInicio": "13:00",
+        "materiaId": "-68",
+        "professor": "Helíbera Capistrano",
+        "sala": "B-124",
         "slot": 6
       },
       {

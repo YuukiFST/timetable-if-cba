@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "generatedAt": "2026-07-26T08:25:10.041Z",
   "schemaVersion": 1,
   "turma": {
     "aulas": [
@@ -9,7 +9,7 @@
         "horaInicio": "18:50",
         "materiaId": "*1238",
         "professor": "Marli Spolidoro",
-        "sala": "B-220",
+        "sala": "B-124",
         "slot": 12
       },
       {
@@ -45,7 +45,7 @@
         "horaInicio": "18:50",
         "materiaId": "*795",
         "professor": "Subst. Turismo",
-        "sala": "B-220",
+        "sala": "B-124",
         "slot": 12
       },
       {
@@ -61,7 +61,7 @@
         "diaSemana": 3,
         "horaFim": "20:30",
         "horaInicio": "18:50",
-        "materiaId": "*382",
+        "materiaId": "*381",
         "professor": "Karine Assunção",
         "sala": "B-124",
         "slot": 12
@@ -104,7 +104,7 @@
         "semestre": 3
       },
       {
-        "id": "*382",
+        "id": "*381",
         "nome": "Empreendedorismo e Inovação",
         "nomeCurto": "EeI",
         "semestre": 3

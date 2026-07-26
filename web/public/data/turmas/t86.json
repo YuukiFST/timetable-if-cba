@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "generatedAt": "2026-07-26T08:25:10.041Z",
   "schemaVersion": 1,
   "turma": {
     "aulas": [
@@ -187,7 +187,7 @@
         "horaFim": "17:50",
         "horaInicio": "16:20",
         "materiaId": "*706",
-        "professor": "Weslley Siqueira",
+        "professor": "Thaynara Silva",
         "sala": "B-203",
         "slot": 10
       }

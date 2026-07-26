@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "generatedAt": "2026-07-26T08:25:10.041Z",
   "schemaVersion": 1,
   "turma": {
     "aulas": [
@@ -22,31 +22,22 @@
         "slot": 8
       },
       {
-        "diaSemana": 0,
-        "horaFim": "17:50",
-        "horaInicio": "16:20",
+        "diaSemana": 1,
+        "horaFim": "14:30",
+        "horaInicio": "13:00",
         "materiaId": "-215",
         "professor": "Jorge Monsalve",
         "sala": "D-014",
-        "slot": 10
+        "slot": 6
       },
       {
         "diaSemana": 1,
         "horaFim": "16:20",
         "horaInicio": "14:30",
-        "materiaId": "*762",
-        "professor": "Emerson Dutra",
-        "sala": "D-014",
-        "slot": 8
-      },
-      {
-        "diaSemana": 1,
-        "horaFim": "17:50",
-        "horaInicio": "16:20",
         "materiaId": "-254",
         "professor": "Cristiano Cunha",
         "sala": "DEEA E007 Lab. Física",
-        "slot": 10
+        "slot": 8
       },
       {
         "diaSemana": 2,
@@ -119,6 +110,15 @@
         "professor": "Jorge Monsalve",
         "sala": "D-014",
         "slot": 8
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "17:50",
+        "horaInicio": "16:20",
+        "materiaId": "*762",
+        "professor": "Emerson Dutra",
+        "sala": "D-014",
+        "slot": 10
       }
     ],
     "cursoId": "dcom-7844-engenh-comput",

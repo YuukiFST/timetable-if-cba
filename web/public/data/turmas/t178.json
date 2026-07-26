@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "generatedAt": "2026-07-26T08:25:10.041Z",
   "schemaVersion": 1,
   "turma": {
     "aulas": [
@@ -7,7 +7,7 @@
         "diaSemana": 0,
         "horaFim": "22:25",
         "horaInicio": "18:50",
-        "materiaId": "*532",
+        "materiaId": "*531",
         "professor": "Luiz Figueiredo",
         "sala": "DINFRA",
         "slot": 12
@@ -25,7 +25,7 @@
     "id": "t178",
     "materias": [
       {
-        "id": "*532",
+        "id": "*531",
         "nome": "Geotecnia de Campo",
         "nomeCurto": "Geotecnia de Campo",
         "semestre": 4

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "generatedAt": "2026-07-26T08:25:10.041Z",
   "schemaVersion": 1,
   "turma": {
     "aulas": [
@@ -79,7 +79,7 @@
         "diaSemana": 3,
         "horaFim": "17:50",
         "horaInicio": "16:20",
-        "materiaId": "*208",
+        "materiaId": "*207",
         "professor": "Cristovam Junior",
         "sala": "B-203",
         "slot": 10
@@ -88,7 +88,7 @@
         "diaSemana": 3,
         "horaFim": "20:30",
         "horaInicio": "18:50",
-        "materiaId": "*208",
+        "materiaId": "*207",
         "professor": "Cristovam Junior",
         "sala": "DEEA E113 Lab. Informatica",
         "slot": 12
@@ -98,7 +98,7 @@
     "id": "t66",
     "materias": [
       {
-        "id": "*208",
+        "id": "*207",
         "nome": "Curricularização da Extensão I",
         "nomeCurto": "CdEI",
         "semestre": 6

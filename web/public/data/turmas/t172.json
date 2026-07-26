@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "generatedAt": "2026-07-26T08:25:10.041Z",
   "schemaVersion": 1,
   "turma": {
     "aulas": [
@@ -52,7 +52,7 @@
         "diaSemana": 5,
         "horaFim": "11:05",
         "horaInicio": "07:45",
-        "materiaId": "*516",
+        "materiaId": "*515",
         "professor": "Hérida Reis",
         "sala": "B-002",
         "slot": 1
@@ -74,7 +74,7 @@
         "semestre": 4
       },
       {
-        "id": "*516",
+        "id": "*515",
         "nome": "Geociências EAD",
         "nomeCurto": "Geociências EAD",
         "semestre": 4

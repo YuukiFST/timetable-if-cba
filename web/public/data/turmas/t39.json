@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "generatedAt": "2026-07-26T08:25:10.041Z",
   "schemaVersion": 1,
   "turma": {
     "aulas": [
@@ -61,7 +61,7 @@
         "diaSemana": 3,
         "horaFim": "20:30",
         "horaInicio": "18:50",
-        "materiaId": "*379",
+        "materiaId": "*378",
         "professor": "Monica Crispim",
         "sala": "DCOM",
         "slot": 12
@@ -70,7 +70,7 @@
         "diaSemana": 3,
         "horaFim": "22:25",
         "horaInicio": "20:45",
-        "materiaId": "*379",
+        "materiaId": "*378",
         "professor": "Monica Crispim",
         "sala": "DCOM",
         "slot": 14
@@ -98,7 +98,7 @@
     "id": "t39",
     "materias": [
       {
-        "id": "*379",
+        "id": "*378",
         "nome": "Elicitação e Análise de Requesitos",
         "nomeCurto": "EeAdR",
         "semestre": 2

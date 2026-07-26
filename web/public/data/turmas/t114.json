@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "generatedAt": "2026-07-26T08:25:10.041Z",
   "schemaVersion": 1,
   "turma": {
     "aulas": [
@@ -16,7 +16,7 @@
         "diaSemana": 0,
         "horaFim": "22:25",
         "horaInicio": "20:45",
-        "materiaId": "*307",
+        "materiaId": "*306",
         "professor": "José Vinicius",
         "sala": "B-217",
         "slot": 14
@@ -43,7 +43,7 @@
         "diaSemana": 2,
         "horaFim": "20:30",
         "horaInicio": "18:50",
-        "materiaId": "*426",
+        "materiaId": "*425",
         "professor": "Jeferson Júnior",
         "sala": "B-217",
         "slot": 12
@@ -61,7 +61,7 @@
         "diaSemana": 3,
         "horaFim": "20:30",
         "horaInicio": "18:50",
-        "materiaId": "*446",
+        "materiaId": "*445",
         "professor": "Simone Raquel",
         "sala": "B-217",
         "slot": 12
@@ -98,7 +98,7 @@
     "id": "t114",
     "materias": [
       {
-        "id": "*307",
+        "id": "*306",
         "nome": "Direito Aplicado ao Turismo II",
         "nomeCurto": "DAaTI",
         "semestre": 5
@@ -110,13 +110,13 @@
         "semestre": 5
       },
       {
-        "id": "*426",
+        "id": "*425",
         "nome": "Estatistica",
         "nomeCurto": "Estatistica",
         "semestre": 5
       },
       {
-        "id": "*446",
+        "id": "*445",
         "nome": "Ética, Responsabilidade Sócio Ambiental",
         "nomeCurto": "ÉRSA",
         "semestre": 5

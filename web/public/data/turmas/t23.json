@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "generatedAt": "2026-07-26T08:25:10.041Z",
   "schemaVersion": 1,
   "turma": {
     "aulas": [
@@ -43,7 +43,7 @@
         "diaSemana": 2,
         "horaFim": "20:30",
         "horaInicio": "18:50",
-        "materiaId": "*335",
+        "materiaId": "*334",
         "professor": "Carlos Eduardo",
         "sala": "B-002",
         "slot": 12
@@ -52,7 +52,7 @@
         "diaSemana": 2,
         "horaFim": "22:25",
         "horaInicio": "20:45",
-        "materiaId": "*335",
+        "materiaId": "*334",
         "professor": "Carlos Eduardo",
         "sala": "B-105",
         "slot": 14
@@ -79,7 +79,7 @@
         "diaSemana": 4,
         "horaFim": "20:30",
         "horaInicio": "18:50",
-        "materiaId": "*408",
+        "materiaId": "*407",
         "professor": "Priscila Morais",
         "sala": "B-002",
         "slot": 12
@@ -88,7 +88,7 @@
         "diaSemana": 4,
         "horaFim": "22:25",
         "horaInicio": "20:45",
-        "materiaId": "*408",
+        "materiaId": "*407",
         "professor": "Priscila Morais",
         "sala": "B-002",
         "slot": 14
@@ -128,13 +128,13 @@
         "semestre": 4
       },
       {
-        "id": "*335",
+        "id": "*334",
         "nome": "Educação Física Adaptada",
         "nomeCurto": "Educ.Fis.Ad.",
         "semestre": 4
       },
       {
-        "id": "*408",
+        "id": "*407",
         "nome": "Esportes Coletivos",
         "nomeCurto": "Esp.Coletivos",
         "semestre": 4

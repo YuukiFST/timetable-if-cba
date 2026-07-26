@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "generatedAt": "2026-07-26T08:25:10.041Z",
   "schemaVersion": 1,
   "turma": {
     "aulas": [
@@ -7,7 +7,7 @@
         "diaSemana": 0,
         "horaFim": "08:30",
         "horaInicio": "07:00",
-        "materiaId": "*256",
+        "materiaId": "*255",
         "professor": "Lucas Café",
         "sala": "B-113",
         "slot": 0
@@ -17,7 +17,7 @@
     "id": "t8",
     "materias": [
       {
-        "id": "*256",
+        "id": "*255",
         "nome": "Dependência de História I",
         "nomeCurto": "Dependência de História I"
       }

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "generatedAt": "2026-07-26T08:25:10.041Z",
   "schemaVersion": 1,
   "turma": {
     "aulas": [
@@ -25,7 +25,7 @@
         "diaSemana": 0,
         "horaFim": "17:50",
         "horaInicio": "16:20",
-        "materiaId": "*550",
+        "materiaId": "*549",
         "professor": "Francielle Oliveira",
         "sala": "B-202",
         "slot": 10
@@ -186,7 +186,7 @@
         "diaSemana": 4,
         "horaFim": "17:50",
         "horaInicio": "16:20",
-        "materiaId": "*385",
+        "materiaId": "*384",
         "professor": "João Lucas",
         "sala": "DEEA E014 Lab. Inst. Elétricas",
         "slot": 10
@@ -214,7 +214,7 @@
         "semestre": 2
       },
       {
-        "id": "*385",
+        "id": "*384",
         "nome": "Energias Renováveis",
         "nomeCurto": "ER",
         "semestre": 2
@@ -238,7 +238,7 @@
         "semestre": 2
       },
       {
-        "id": "*550",
+        "id": "*549",
         "nome": "Gestão da Qualidade e Empreendedorismo",
         "nomeCurto": "GdQeE",
         "semestre": 2

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "generatedAt": "2026-07-26T08:25:10.041Z",
   "schemaVersion": 1,
   "turma": {
     "aulas": [
@@ -43,7 +43,7 @@
         "diaSemana": 3,
         "horaFim": "22:25",
         "horaInicio": "20:45",
-        "materiaId": "*533",
+        "materiaId": "*532",
         "professor": "Pedro Spanghero",
         "sala": "DINFRA",
         "slot": 14
@@ -52,7 +52,7 @@
         "diaSemana": 4,
         "horaFim": "22:25",
         "horaInicio": "18:50",
-        "materiaId": "*282",
+        "materiaId": "*281",
         "professor": "Geraldo Almeida",
         "sala": "DINFRA",
         "slot": 12
@@ -76,7 +76,7 @@
         "semestre": 1
       },
       {
-        "id": "*282",
+        "id": "*281",
         "nome": "Desenho Digital",
         "nomeCurto": "Desenho Digital",
         "semestre": 1
@@ -88,7 +88,7 @@
         "semestre": 1
       },
       {
-        "id": "*533",
+        "id": "*532",
         "nome": "Geotecnologias",
         "nomeCurto": "Geotecnologias",
         "semestre": 1

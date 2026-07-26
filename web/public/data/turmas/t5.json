@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "generatedAt": "2026-07-26T08:25:10.041Z",
   "schemaVersion": 1,
   "turma": {
     "aulas": [
@@ -7,7 +7,7 @@
         "diaSemana": 0,
         "horaFim": "11:50",
         "horaInicio": "10:20",
-        "materiaId": "*251",
+        "materiaId": "*250",
         "professor": "Luis Otávio",
         "slot": 4
       }
@@ -16,7 +16,7 @@
     "id": "t5",
     "materias": [
       {
-        "id": "*251",
+        "id": "*250",
         "nome": "Dependência de Física I",
         "nomeCurto": "Dependência de Física I"
       }

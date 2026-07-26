@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "generatedAt": "2026-07-26T08:25:10.041Z",
   "schemaVersion": 1,
   "turma": {
     "aulas": [
@@ -43,7 +43,7 @@
         "diaSemana": 2,
         "horaFim": "20:30",
         "horaInicio": "18:50",
-        "materiaId": "*152",
+        "materiaId": "*151",
         "professor": "Saulo Piereti",
         "sala": "B-202",
         "slot": 12
@@ -52,7 +52,7 @@
         "diaSemana": 2,
         "horaFim": "20:30",
         "horaInicio": "18:50",
-        "materiaId": "*152",
+        "materiaId": "*151",
         "professor": "Andrei Coimbra",
         "sala": "B-205",
         "slot": 12
@@ -61,7 +61,7 @@
         "diaSemana": 2,
         "horaFim": "22:25",
         "horaInicio": "20:45",
-        "materiaId": "*152",
+        "materiaId": "*151",
         "professor": "Saulo Piereti",
         "sala": "B-202",
         "slot": 14
@@ -70,7 +70,7 @@
         "diaSemana": 2,
         "horaFim": "22:25",
         "horaInicio": "20:45",
-        "materiaId": "*152",
+        "materiaId": "*151",
         "professor": "Andrei Coimbra",
         "sala": "B-205",
         "slot": 14
@@ -140,7 +140,7 @@
         "semestre": 3
       },
       {
-        "id": "*152",
+        "id": "*151",
         "nome": "Circuitos Elétricos I",
         "nomeCurto": "CE-I",
         "semestre": 3

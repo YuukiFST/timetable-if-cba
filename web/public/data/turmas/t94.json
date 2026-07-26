@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "generatedAt": "2026-07-26T08:25:10.041Z",
   "schemaVersion": 1,
   "turma": {
     "aulas": [
@@ -61,7 +61,7 @@
         "diaSemana": 3,
         "horaFim": "20:30",
         "horaInicio": "18:50",
-        "materiaId": "*150",
+        "materiaId": "*149",
         "professor": "Robson Pereira",
         "sala": "DEEA E103 Lab. Microcontroladores",
         "slot": 12
@@ -70,7 +70,7 @@
         "diaSemana": 3,
         "horaFim": "20:30",
         "horaInicio": "18:50",
-        "materiaId": "*150",
+        "materiaId": "*149",
         "professor": "João Lira",
         "sala": "DEEA E102 Lab. Eletrônica",
         "slot": 12
@@ -79,7 +79,7 @@
         "diaSemana": 3,
         "horaFim": "22:25",
         "horaInicio": "20:45",
-        "materiaId": "*150",
+        "materiaId": "*149",
         "professor": "Robson Pereira",
         "sala": "DEEA E103 Lab. Microcontroladores",
         "slot": 14
@@ -88,7 +88,7 @@
         "diaSemana": 3,
         "horaFim": "22:25",
         "horaInicio": "20:45",
-        "materiaId": "*150",
+        "materiaId": "*149",
         "professor": "João Lira",
         "sala": "DEEA E102 Lab. Eletrônica",
         "slot": 14
@@ -97,7 +97,7 @@
         "diaSemana": 4,
         "horaFim": "20:30",
         "horaInicio": "18:50",
-        "materiaId": "*378",
+        "materiaId": "*377",
         "professor": "Paulo Morais",
         "sala": "DEEA E102 Lab. Eletrônica",
         "slot": 12
@@ -106,7 +106,7 @@
         "diaSemana": 4,
         "horaFim": "20:30",
         "horaInicio": "18:50",
-        "materiaId": "*378",
+        "materiaId": "*377",
         "professor": "Andrei Coimbra",
         "sala": "DEEA E201 Lab. Automação Predial",
         "slot": 12
@@ -115,7 +115,7 @@
         "diaSemana": 4,
         "horaFim": "22:25",
         "horaInicio": "20:45",
-        "materiaId": "*378",
+        "materiaId": "*377",
         "professor": "Paulo Morais",
         "sala": "DEEA E102 Lab. Eletrônica",
         "slot": 14
@@ -124,7 +124,7 @@
         "diaSemana": 4,
         "horaFim": "22:25",
         "horaInicio": "20:45",
-        "materiaId": "*378",
+        "materiaId": "*377",
         "professor": "Andrei Coimbra",
         "sala": "DEEA E201 Lab. Automação Predial",
         "slot": 14
@@ -142,7 +142,7 @@
     "id": "t94",
     "materias": [
       {
-        "id": "*150",
+        "id": "*149",
         "nome": "Circuitos Elétricos CC e CA",
         "nomeCurto": "Circ. CC/CA"
       },
@@ -157,7 +157,7 @@
         "nomeCurto": "Eletrônica Digital"
       },
       {
-        "id": "*378",
+        "id": "*377",
         "nome": "Eletrônica Industrial",
         "nomeCurto": "Eletr. Ind."
       },

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "generatedAt": "2026-07-26T08:25:10.041Z",
   "schemaVersion": 1,
   "turma": {
     "aulas": [
@@ -16,16 +16,16 @@
         "diaSemana": 0,
         "horaFim": "22:25",
         "horaInicio": "20:45",
-        "materiaId": "-77",
-        "professor": "Emerson Dutra",
-        "sala": "B-101",
+        "materiaId": "-253",
+        "professor": "Lúcio Vidal",
+        "sala": "B-004",
         "slot": 14
       },
       {
         "diaSemana": 1,
         "horaFim": "22:25",
         "horaInicio": "18:50",
-        "materiaId": "*502",
+        "materiaId": "*501",
         "professor": "Joicy Lara",
         "sala": "DCOM",
         "slot": 12
@@ -43,9 +43,9 @@
         "diaSemana": 2,
         "horaFim": "22:25",
         "horaInicio": "20:45",
-        "materiaId": "-253",
-        "professor": "Lúcio Vidal",
-        "sala": "B-101",
+        "materiaId": "-17",
+        "professor": "Emerson Dutra",
+        "sala": "B-003",
         "slot": 14
       },
       {
@@ -79,7 +79,7 @@
         "diaSemana": 4,
         "horaFim": "22:25",
         "horaInicio": "20:45",
-        "materiaId": "-17",
+        "materiaId": "-77",
         "professor": "Emerson Dutra",
         "sala": "B-101",
         "slot": 14
@@ -107,7 +107,7 @@
         "semestre": 2
       },
       {
-        "id": "*502",
+        "id": "*501",
         "nome": "Fundamentos de Programação",
         "nomeCurto": "Fund. de Progr.",
         "semestre": 2

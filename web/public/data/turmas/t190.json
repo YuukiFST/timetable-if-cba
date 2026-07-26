@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "generatedAt": "2026-07-26T08:25:10.041Z",
   "schemaVersion": 1,
   "turma": {
     "aulas": [
@@ -7,7 +7,7 @@
         "diaSemana": 0,
         "horaFim": "20:30",
         "horaInicio": "18:50",
-        "materiaId": "*448",
+        "materiaId": "*447",
         "professor": "Angela Rocha",
         "sala": "B-103",
         "slot": 12
@@ -25,7 +25,7 @@
         "diaSemana": 1,
         "horaFim": "22:25",
         "horaInicio": "18:50",
-        "materiaId": "*436",
+        "materiaId": "*435",
         "professor": "Alan Sato",
         "sala": "B-103",
         "slot": 12
@@ -52,7 +52,7 @@
         "diaSemana": 4,
         "horaFim": "22:25",
         "horaInicio": "18:50",
-        "materiaId": "*437",
+        "materiaId": "*436",
         "professor": "Vinicius Barros",
         "sala": "B-103",
         "slot": 12
@@ -62,19 +62,19 @@
     "id": "t190",
     "materias": [
       {
-        "id": "*436",
+        "id": "*435",
         "nome": "Estruturas de Aço",
         "nomeCurto": "Estruturas de Aço",
         "semestre": 7
       },
       {
-        "id": "*437",
+        "id": "*436",
         "nome": "Estruturas de Concreto Armado I",
         "nomeCurto": "Estruturas de Concreto Armado I",
         "semestre": 7
       },
       {
-        "id": "*448",
+        "id": "*447",
         "nome": "Execução de Instalações Prediais",
         "nomeCurto": "Execução de Instalações Prediais",
         "semestre": 7

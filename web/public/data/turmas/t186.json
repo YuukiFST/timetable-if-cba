@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "generatedAt": "2026-07-26T08:25:10.041Z",
   "schemaVersion": 1,
   "turma": {
     "aulas": [
@@ -43,7 +43,7 @@
         "diaSemana": 4,
         "horaFim": "22:25",
         "horaInicio": "18:50",
-        "materiaId": "*530",
+        "materiaId": "*529",
         "professor": "Noelto Teixeira",
         "sala": "B-110",
         "slot": 12
@@ -65,7 +65,7 @@
         "semestre": 3
       },
       {
-        "id": "*530",
+        "id": "*529",
         "nome": "Geomática",
         "nomeCurto": "Geomática",
         "semestre": 3

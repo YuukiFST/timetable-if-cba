@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "generatedAt": "2026-07-26T08:25:10.041Z",
   "schemaVersion": 1,
   "turma": {
     "aulas": [
@@ -25,7 +25,7 @@
         "diaSemana": 1,
         "horaFim": "20:30",
         "horaInicio": "18:50",
-        "materiaId": "*196",
+        "materiaId": "*195",
         "professor": "André Fonseca",
         "sala": "DEEA E006 Lab. Máquinas Elétricas",
         "slot": 12
@@ -34,7 +34,7 @@
         "diaSemana": 1,
         "horaFim": "22:25",
         "horaInicio": "20:45",
-        "materiaId": "*196",
+        "materiaId": "*195",
         "professor": "André Fonseca",
         "sala": "DEEA E006 Lab. Máquinas Elétricas",
         "slot": 14
@@ -107,7 +107,7 @@
     "id": "t-520",
     "materias": [
       {
-        "id": "*196",
+        "id": "*195",
         "nome": "Conversão Eletromecânica de Energia",
         "nomeCurto": "Conversão E.Energ.",
         "semestre": 6

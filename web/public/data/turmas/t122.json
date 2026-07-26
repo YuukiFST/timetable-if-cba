@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "generatedAt": "2026-07-26T08:25:10.041Z",
   "schemaVersion": 1,
   "turma": {
     "aulas": [
@@ -126,7 +126,7 @@
         "horaInicio": "07:00",
         "materiaId": "*1006",
         "professor": "Antonio Gonçalves",
-        "sala": "B-212",
+        "sala": "B-223",
         "slot": 0
       },
       {
@@ -142,7 +142,7 @@
         "diaSemana": 3,
         "horaFim": "11:50",
         "horaInicio": "10:20",
-        "materiaId": "*559",
+        "materiaId": "*558",
         "professor": "Subst. Turismo",
         "sala": "B-212",
         "slot": 4
@@ -215,7 +215,7 @@
         "semestre": 3
       },
       {
-        "id": "*559",
+        "id": "*558",
         "nome": "Gestão de Eventos III",
         "nomeCurto": "GE III",
         "semestre": 3

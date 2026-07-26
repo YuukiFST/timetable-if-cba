@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "generatedAt": "2026-07-26T08:25:10.041Z",
   "schemaVersion": 1,
   "turma": {
     "aulas": [
@@ -23,12 +23,12 @@
       },
       {
         "diaSemana": 1,
-        "horaFim": "17:50",
-        "horaInicio": "16:20",
+        "horaFim": "16:20",
+        "horaInicio": "14:30",
         "materiaId": "-254",
         "professor": "Cristiano Cunha",
         "sala": "DEEA E007 Lab. Física",
-        "slot": 10
+        "slot": 8
       },
       {
         "diaSemana": 2,
@@ -70,7 +70,7 @@
         "diaSemana": 4,
         "horaFim": "14:30",
         "horaInicio": "13:00",
-        "materiaId": "*152",
+        "materiaId": "*151",
         "professor": "Guilherme Seixas",
         "sala": "DEEA E107 Lab. Circuitos Elétricos",
         "slot": 6
@@ -79,7 +79,7 @@
         "diaSemana": 4,
         "horaFim": "16:20",
         "horaInicio": "14:30",
-        "materiaId": "*152",
+        "materiaId": "*151",
         "professor": "Guilherme Seixas",
         "sala": "DEEA E107 Lab. Circuitos Elétricos",
         "slot": 8
@@ -95,7 +95,7 @@
         "semestre": 3
       },
       {
-        "id": "*152",
+        "id": "*151",
         "nome": "Circuitos Elétricos I",
         "nomeCurto": "CE-I",
         "semestre": 3

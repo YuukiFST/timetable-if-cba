@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "generatedAt": "2026-07-26T08:25:10.041Z",
   "schemaVersion": 1,
   "turma": {
     "aulas": [
@@ -61,7 +61,7 @@
         "diaSemana": 1,
         "horaFim": "16:20",
         "horaInicio": "14:30",
-        "materiaId": "*558",
+        "materiaId": "*557",
         "professor": "Subst. Turismo",
         "sala": "B-217",
         "slot": 8
@@ -97,7 +97,7 @@
         "diaSemana": 2,
         "horaFim": "17:50",
         "horaInicio": "16:20",
-        "materiaId": "*573",
+        "materiaId": "*572",
         "professor": "Arthur Farias",
         "sala": "B-217",
         "slot": 10
@@ -212,13 +212,13 @@
         "semestre": 2
       },
       {
-        "id": "*558",
+        "id": "*557",
         "nome": "Gestão de Eventos II",
         "nomeCurto": "GdEI",
         "semestre": 2
       },
       {
-        "id": "*573",
+        "id": "*572",
         "nome": "Gestão e Liderança ",
         "nomeCurto": "GeL",
         "semestre": 2

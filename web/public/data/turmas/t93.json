@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "generatedAt": "2026-07-26T08:25:10.041Z",
   "schemaVersion": 1,
   "turma": {
     "aulas": [
@@ -32,7 +32,7 @@
         "diaSemana": 3,
         "horaFim": "11:05",
         "horaInicio": "08:30",
-        "materiaId": "*226",
+        "materiaId": "*225",
         "professor": "Guilherme Seixas",
         "sala": "DEEA E203 Lab. CLP Inicial",
         "slot": 2
@@ -52,7 +52,7 @@
         "nomeCurto": "Anál. Circ."
       },
       {
-        "id": "*226",
+        "id": "*225",
         "nome": "Dependência - Circuitos Elétricos CC e CA",
         "nomeCurto": "CECeC(Dp)"
       },

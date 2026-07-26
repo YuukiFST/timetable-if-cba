@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "generatedAt": "2026-07-26T08:25:10.041Z",
   "schemaVersion": 1,
   "turma": {
     "aulas": [
@@ -25,7 +25,7 @@
         "diaSemana": 1,
         "horaFim": "20:30",
         "horaInicio": "18:50",
-        "materiaId": "*401",
+        "materiaId": "*400",
         "professor": "Elzio Metello",
         "sala": "B-201",
         "slot": 12
@@ -34,7 +34,7 @@
         "diaSemana": 1,
         "horaFim": "22:25",
         "horaInicio": "20:45",
-        "materiaId": "*401",
+        "materiaId": "*400",
         "professor": "Elzio Metello",
         "sala": "B-201",
         "slot": 14
@@ -61,7 +61,7 @@
         "diaSemana": 3,
         "horaFim": "17:50",
         "horaInicio": "16:20",
-        "materiaId": "*208",
+        "materiaId": "*207",
         "professor": "Cristovam Junior",
         "sala": "B-203",
         "slot": 10
@@ -79,7 +79,7 @@
         "diaSemana": 3,
         "horaFim": "20:30",
         "horaInicio": "18:50",
-        "materiaId": "*208",
+        "materiaId": "*207",
         "professor": "Cristovam Junior",
         "sala": "DEEA E113 Lab. Informatica",
         "slot": 12
@@ -97,7 +97,7 @@
         "diaSemana": 4,
         "horaFim": "20:30",
         "horaInicio": "18:50",
-        "materiaId": "*193",
+        "materiaId": "*192",
         "professor": "Robson Pereira",
         "sala": "B-206",
         "slot": 12
@@ -106,7 +106,7 @@
         "diaSemana": 4,
         "horaFim": "22:25",
         "horaInicio": "20:45",
-        "materiaId": "*193",
+        "materiaId": "*192",
         "professor": "Robson Pereira",
         "sala": "B-206",
         "slot": 14
@@ -122,19 +122,19 @@
         "semestre": 7
       },
       {
-        "id": "*193",
+        "id": "*192",
         "nome": "Controle de Sistemas Lineares",
         "nomeCurto": "Controle Lin",
         "semestre": 7
       },
       {
-        "id": "*208",
+        "id": "*207",
         "nome": "Curricularização da Extensão I",
         "nomeCurto": "CdEI",
         "semestre": 7
       },
       {
-        "id": "*401",
+        "id": "*400",
         "nome": "Equipamentos de Potência",
         "nomeCurto": "Equ. Pot.",
         "semestre": 7

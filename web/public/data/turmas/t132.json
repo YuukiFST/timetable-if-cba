@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "generatedAt": "2026-07-26T08:25:10.041Z",
   "schemaVersion": 1,
   "turma": {
     "aulas": [
@@ -26,7 +26,7 @@
         "horaFim": "20:30",
         "horaInicio": "18:50",
         "materiaId": "-587",
-        "professor": "Francielle Oliveira",
+        "professor": "Karine Assunção",
         "sala": "B-215",
         "slot": 12
       },
@@ -88,7 +88,7 @@
         "diaSemana": 4,
         "horaFim": "22:25",
         "horaInicio": "20:45",
-        "materiaId": "*420",
+        "materiaId": "*419",
         "professor": "Marcia Fernandes",
         "sala": "B-215",
         "slot": 14
@@ -122,7 +122,7 @@
         "semestre": 4
       },
       {
-        "id": "*420",
+        "id": "*419",
         "nome": "Estágio Supervisionado",
         "nomeCurto": "ES",
         "semestre": 4

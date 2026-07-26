@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "generatedAt": "2026-07-26T08:25:10.041Z",
   "schemaVersion": 1,
   "turma": {
     "aulas": [
@@ -7,7 +7,7 @@
         "diaSemana": 0,
         "horaFim": "08:30",
         "horaInicio": "07:00",
-        "materiaId": "*557",
+        "materiaId": "*556",
         "professor": "Karen França",
         "sala": "B-220",
         "slot": 0
@@ -131,7 +131,7 @@
         "diaSemana": 3,
         "horaFim": "17:05",
         "horaInicio": "15:35",
-        "materiaId": "*337",
+        "materiaId": "*336",
         "professor": "Lethícia Castilhos",
         "sala": "B-220",
         "slot": 9
@@ -151,7 +151,7 @@
         "horaInicio": "08:30",
         "materiaId": "*1002",
         "professor": "Monica Crispim",
-        "sala": "B-220",
+        "sala": "DCOM",
         "slot": 2
       },
       {
@@ -180,7 +180,7 @@
         "semestre": 1
       },
       {
-        "id": "*337",
+        "id": "*336",
         "nome": "Educação Física I",
         "nomeCurto": "EFI",
         "semestre": 1
@@ -204,7 +204,7 @@
         "semestre": 1
       },
       {
-        "id": "*557",
+        "id": "*556",
         "nome": "Gestão de Eventos I",
         "nomeCurto": "Gest. Ev. I",
         "semestre": 1

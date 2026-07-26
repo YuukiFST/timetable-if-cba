@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "generatedAt": "2026-07-26T08:25:10.041Z",
   "schemaVersion": 1,
   "turma": {
     "aulas": [
@@ -16,9 +16,9 @@
         "diaSemana": 0,
         "horaFim": "10:20",
         "horaInicio": "08:30",
-        "materiaId": "*602",
-        "professor": "Subst. Turismo",
-        "sala": "B-222",
+        "materiaId": "*1002",
+        "professor": "Joicy Lara",
+        "sala": "DCOM",
         "slot": 2
       },
       {
@@ -113,7 +113,7 @@
         "diaSemana": 3,
         "horaFim": "11:50",
         "horaInicio": "10:20",
-        "materiaId": "*557",
+        "materiaId": "*556",
         "professor": "Karen França",
         "sala": "B-222",
         "slot": 4
@@ -122,7 +122,7 @@
         "diaSemana": 3,
         "horaFim": "15:15",
         "horaInicio": "13:45",
-        "materiaId": "*337",
+        "materiaId": "*336",
         "professor": "Lethícia Castilhos",
         "sala": "B-222",
         "slot": 7
@@ -140,9 +140,9 @@
         "diaSemana": 4,
         "horaFim": "08:30",
         "horaInicio": "07:00",
-        "materiaId": "*1002",
-        "professor": "Joicy Lara",
-        "sala": "B-222",
+        "materiaId": "*602",
+        "professor": "Subst. Turismo",
+        "sala": "B-007",
         "slot": 0
       },
       {
@@ -180,7 +180,7 @@
         "semestre": 1
       },
       {
-        "id": "*337",
+        "id": "*336",
         "nome": "Educação Física I",
         "nomeCurto": "EFI",
         "semestre": 1
@@ -204,7 +204,7 @@
         "semestre": 1
       },
       {
-        "id": "*557",
+        "id": "*556",
         "nome": "Gestão de Eventos I",
         "nomeCurto": "Gest. Ev. I",
         "semestre": 1

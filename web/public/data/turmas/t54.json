@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "generatedAt": "2026-07-26T08:25:10.041Z",
   "schemaVersion": 1,
   "turma": {
     "aulas": [
@@ -16,7 +16,7 @@
         "diaSemana": 0,
         "horaFim": "17:50",
         "horaInicio": "15:35",
-        "materiaId": "*452",
+        "materiaId": "*451",
         "professor": "Tiago Lacerda",
         "sala": "DCOM",
         "slot": 9
@@ -61,7 +61,7 @@
         "diaSemana": 2,
         "horaFim": "19:40",
         "horaInicio": "16:20",
-        "materiaId": "*452",
+        "materiaId": "*451",
         "professor": "Tiago Lacerda",
         "sala": "DCOM",
         "slot": 10
@@ -97,7 +97,7 @@
         "diaSemana": 4,
         "horaFim": "14:30",
         "horaInicio": "13:00",
-        "materiaId": "*152",
+        "materiaId": "*151",
         "professor": "Guilherme Seixas",
         "sala": "DEEA E107 Lab. Circuitos Elétricos",
         "slot": 6
@@ -106,7 +106,7 @@
         "diaSemana": 4,
         "horaFim": "16:20",
         "horaInicio": "14:30",
-        "materiaId": "*152",
+        "materiaId": "*151",
         "professor": "Guilherme Seixas",
         "sala": "DEEA E107 Lab. Circuitos Elétricos",
         "slot": 8
@@ -116,7 +116,7 @@
     "id": "t54",
     "materias": [
       {
-        "id": "*152",
+        "id": "*151",
         "nome": "Circuitos Elétricos I",
         "nomeCurto": "CE-I",
         "semestre": 5
@@ -140,7 +140,7 @@
         "semestre": 5
       },
       {
-        "id": "*452",
+        "id": "*451",
         "nome": "Extensão I",
         "nomeCurto": "EI",
         "semestre": 5

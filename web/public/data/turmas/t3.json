@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "generatedAt": "2026-07-26T08:25:10.041Z",
   "schemaVersion": 1,
   "turma": {
     "aulas": [
@@ -7,7 +7,7 @@
         "diaSemana": 2,
         "horaFim": "14:30",
         "horaInicio": "13:00",
-        "materiaId": "*249",
+        "materiaId": "*248",
         "professor": "Juliano Santos",
         "sala": "DABC",
         "slot": 6
@@ -17,7 +17,7 @@
     "id": "t3",
     "materias": [
       {
-        "id": "*249",
+        "id": "*248",
         "nome": "Dependência de Filosofia I",
         "nomeCurto": "Dependência de Filosofia I"
       }

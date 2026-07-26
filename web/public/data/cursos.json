@@ -70,7 +70,8 @@
         "t-519",
         "t21",
         "t23",
-        "t25"
+        "t25",
+        "t26"
       ]
     },
     {
@@ -259,6 +260,13 @@
       ]
     },
     {
+      "id": "deea-eng-eletrica-optativas",
+      "nome": "DEEA Eng. Elétrica Optativas",
+      "turmaIds": [
+        "t107"
+      ]
+    },
+    {
       "id": "deea-tec-aut-ind",
       "nome": "DEEA Tec. Aut. Ind.",
       "turmaIds": [
@@ -370,21 +378,21 @@
       "id": "dinfra-1031-dependencias-edificacoes",
       "nome": "DINFRA 1031 Dependências Edificações",
       "turmaIds": [
-        "t146"
+        "t138"
       ]
     },
     {
       "id": "dinfra-1031-edific-integ",
       "nome": "DINFRA 1031 Edific. Integ.",
       "turmaIds": [
-        "t138",
         "t139",
         "t140",
         "t141",
         "t142",
         "t143",
         "t144",
-        "t145"
+        "t145",
+        "t146"
       ]
     },
     {
@@ -539,6 +547,6 @@
       ]
     }
   ],
-  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "generatedAt": "2026-07-26T08:25:10.041Z",
   "schemaVersion": 1
 }

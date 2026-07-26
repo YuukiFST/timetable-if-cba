@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "generatedAt": "2026-07-26T08:25:10.041Z",
   "schemaVersion": 1,
   "turma": {
     "aulas": [
@@ -25,7 +25,7 @@
         "diaSemana": 1,
         "horaFim": "20:30",
         "horaInicio": "18:50",
-        "materiaId": "*486",
+        "materiaId": "*485",
         "professor": "Rafael Rocha",
         "sala": "DCOM",
         "slot": 12
@@ -34,7 +34,7 @@
         "diaSemana": 1,
         "horaFim": "22:25",
         "horaInicio": "20:45",
-        "materiaId": "*486",
+        "materiaId": "*485",
         "professor": "Rafael Rocha",
         "sala": "DCOM",
         "slot": 14
@@ -98,7 +98,7 @@
     "id": "t40",
     "materias": [
       {
-        "id": "*486",
+        "id": "*485",
         "nome": "Framewroks Front-End",
         "nomeCurto": "Frame. Front-End",
         "semestre": 3

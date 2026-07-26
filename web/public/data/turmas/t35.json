@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "generatedAt": "2026-07-26T08:25:10.041Z",
   "schemaVersion": 1,
   "turma": {
     "aulas": [
@@ -15,7 +15,7 @@
         "diaSemana": 0,
         "horaFim": "11:05",
         "horaInicio": "08:30",
-        "materiaId": "*296",
+        "materiaId": "*295",
         "professor": "Rafael Simões",
         "sala": "DCOM",
         "slot": 2
@@ -96,7 +96,7 @@
         "diaSemana": 3,
         "horaFim": "09:15",
         "horaInicio": "07:00",
-        "materiaId": "*297",
+        "materiaId": "*296",
         "professor": "Érica Figueiredo",
         "sala": "DCOM",
         "slot": 0
@@ -148,13 +148,13 @@
         "semestre": 3
       },
       {
-        "id": "*296",
+        "id": "*295",
         "nome": "Desenvolvimento Web Back-End",
         "nomeCurto": "DWB",
         "semestre": 3
       },
       {
-        "id": "*297",
+        "id": "*296",
         "nome": "Desenvolvimento Web Front-End",
         "nomeCurto": "DWF",
         "semestre": 3

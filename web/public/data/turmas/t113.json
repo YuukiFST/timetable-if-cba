@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "generatedAt": "2026-07-26T08:25:10.041Z",
   "schemaVersion": 1,
   "turma": {
     "aulas": [
@@ -18,7 +18,7 @@
         "horaInicio": "20:45",
         "materiaId": "-25",
         "professor": "Marli Spolidoro",
-        "sala": "B-106",
+        "sala": "B-219",
         "slot": 14
       },
       {
@@ -34,7 +34,7 @@
         "diaSemana": 1,
         "horaFim": "22:25",
         "horaInicio": "20:45",
-        "materiaId": "*306",
+        "materiaId": "*305",
         "professor": "Otavio Carvalho",
         "sala": "B-219",
         "slot": 14
@@ -104,7 +104,7 @@
         "semestre": 4
       },
       {
-        "id": "*306",
+        "id": "*305",
         "nome": "Direito Aplicado ao Turismo I",
         "nomeCurto": "DAaTI",
         "semestre": 4

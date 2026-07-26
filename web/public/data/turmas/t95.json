@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "generatedAt": "2026-07-26T08:25:10.041Z",
   "schemaVersion": 1,
   "turma": {
     "aulas": [
@@ -7,7 +7,7 @@
         "diaSemana": 0,
         "horaFim": "17:50",
         "horaInicio": "16:20",
-        "materiaId": "*387",
+        "materiaId": "*386",
         "sala": "B-108",
         "slot": 10
       },
@@ -15,7 +15,7 @@
         "diaSemana": 0,
         "horaFim": "22:25",
         "horaInicio": "18:50",
-        "materiaId": "*387",
+        "materiaId": "*386",
         "sala": "B-108",
         "slot": 12
       },
@@ -23,7 +23,7 @@
         "diaSemana": 1,
         "horaFim": "17:50",
         "horaInicio": "16:20",
-        "materiaId": "*387",
+        "materiaId": "*386",
         "sala": "B-108",
         "slot": 10
       },
@@ -31,7 +31,7 @@
         "diaSemana": 1,
         "horaFim": "22:25",
         "horaInicio": "18:50",
-        "materiaId": "*387",
+        "materiaId": "*386",
         "sala": "B-108",
         "slot": 12
       },
@@ -39,7 +39,7 @@
         "diaSemana": 2,
         "horaFim": "17:50",
         "horaInicio": "16:20",
-        "materiaId": "*387",
+        "materiaId": "*386",
         "sala": "B-108",
         "slot": 10
       },
@@ -47,7 +47,7 @@
         "diaSemana": 2,
         "horaFim": "22:25",
         "horaInicio": "18:50",
-        "materiaId": "*387",
+        "materiaId": "*386",
         "sala": "B-108",
         "slot": 12
       },
@@ -55,7 +55,7 @@
         "diaSemana": 3,
         "horaFim": "17:50",
         "horaInicio": "16:20",
-        "materiaId": "*387",
+        "materiaId": "*386",
         "sala": "B-108",
         "slot": 10
       },
@@ -63,7 +63,7 @@
         "diaSemana": 3,
         "horaFim": "22:25",
         "horaInicio": "18:50",
-        "materiaId": "*387",
+        "materiaId": "*386",
         "sala": "B-108",
         "slot": 12
       },
@@ -71,7 +71,7 @@
         "diaSemana": 4,
         "horaFim": "17:50",
         "horaInicio": "16:20",
-        "materiaId": "*387",
+        "materiaId": "*386",
         "sala": "B-108",
         "slot": 10
       },
@@ -79,7 +79,7 @@
         "diaSemana": 4,
         "horaFim": "22:25",
         "horaInicio": "18:50",
-        "materiaId": "*387",
+        "materiaId": "*386",
         "sala": "B-108",
         "slot": 12
       },
@@ -87,7 +87,7 @@
         "diaSemana": 5,
         "horaFim": "11:50",
         "horaInicio": "08:30",
-        "materiaId": "*387",
+        "materiaId": "*386",
         "sala": "DEEA E014 Lab. Inst. Elétricas",
         "slot": 2
       }
@@ -96,7 +96,7 @@
     "id": "t95",
     "materias": [
       {
-        "id": "*387",
+        "id": "*386",
         "nome": "EnergIF - Disciplinas",
         "nomeCurto": "EnergIF"
       }

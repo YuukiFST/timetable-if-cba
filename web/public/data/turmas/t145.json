@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "generatedAt": "2026-07-26T08:25:10.041Z",
   "schemaVersion": 1,
   "turma": {
     "aulas": [
@@ -7,127 +7,126 @@
         "diaSemana": 0,
         "horaFim": "07:45",
         "horaInicio": "07:00",
-        "materiaId": "-563",
-        "professor": "Silvana Marchezini",
-        "sala": "B-004",
+        "materiaId": "-651",
+        "professor": "Marlene Renck",
+        "sala": "B-106",
         "slot": 0
       },
       {
         "diaSemana": 0,
-        "horaFim": "08:30",
-        "horaInicio": "07:45",
-        "materiaId": "-295",
-        "professor": "Silvana Marchezini",
-        "sala": "B-004",
-        "slot": 1
-      },
-      {
-        "diaSemana": 0,
         "horaFim": "09:15",
-        "horaInicio": "08:30",
-        "materiaId": "-298",
-        "professor": "Simone Raquel",
-        "sala": "B-004",
-        "slot": 2
+        "horaInicio": "07:45",
+        "materiaId": "-439",
+        "professor": "Vicente Filho",
+        "sala": "B-106",
+        "slot": 1
       },
       {
         "diaSemana": 0,
         "horaFim": "10:20",
         "horaInicio": "09:35",
-        "materiaId": "-332",
-        "professor": "Sidney da Silva",
-        "sala": "B-004",
+        "materiaId": "-298",
+        "professor": "Simone Raquel",
+        "sala": "B-106",
         "slot": 3
       },
       {
         "diaSemana": 0,
         "horaFim": "11:05",
         "horaInicio": "10:20",
-        "materiaId": "-597",
-        "professor": "Adelson Ribeiro",
-        "sala": "B-004",
+        "materiaId": "-332",
+        "professor": "Sidney da Silva",
+        "sala": "B-106",
         "slot": 4
       },
       {
         "diaSemana": 0,
         "horaFim": "11:50",
         "horaInicio": "11:05",
-        "materiaId": "-288",
-        "professor": "Stephanie Freire",
-        "sala": "B-004",
+        "materiaId": "-597",
+        "professor": "Adelson Ribeiro",
+        "sala": "B-106",
         "slot": 5
       },
       {
         "diaSemana": 1,
-        "horaFim": "08:30",
-        "horaInicio": "07:00",
-        "materiaId": "-702",
-        "professor": "Marcio Antunes",
-        "sala": "B-004",
-        "slot": 0
-      },
-      {
-        "diaSemana": 1,
         "horaFim": "11:05",
-        "horaInicio": "08:30",
-        "materiaId": "-476",
-        "professor": "Luiz Figueiredo",
-        "sala": "DINFRA",
-        "slot": 2
+        "horaInicio": "07:00",
+        "materiaId": "-682",
+        "professor": "Elisangela França",
+        "sala": "B-106",
+        "slot": 0
       },
       {
         "diaSemana": 2,
         "horaFim": "09:15",
         "horaInicio": "07:00",
         "materiaId": "-403",
-        "professor": "Leisly Poletto",
-        "sala": "B-004",
+        "professor": "Raimone Fagundes",
+        "sala": "B-003",
         "slot": 0
       },
       {
         "diaSemana": 2,
-        "horaFim": "10:20",
+        "horaFim": "11:05",
         "horaInicio": "09:35",
-        "materiaId": "-651",
-        "professor": "Marlene Renck",
-        "sala": "B-004",
+        "materiaId": "-702",
+        "professor": "Marcio Antunes",
+        "sala": "DINFRA",
         "slot": 3
       },
       {
-        "diaSemana": 2,
-        "horaFim": "11:50",
-        "horaInicio": "10:20",
-        "materiaId": "-439",
-        "professor": "Castelino Silva",
-        "sala": "B-108",
-        "slot": 4
+        "diaSemana": 3,
+        "horaFim": "08:30",
+        "horaInicio": "07:45",
+        "materiaId": "-295",
+        "professor": "Silvana Marchezini",
+        "sala": "B-106",
+        "slot": 1
       },
       {
         "diaSemana": 3,
         "horaFim": "09:15",
-        "horaInicio": "07:00",
-        "materiaId": "-446",
-        "professor": "Fernanda Santos",
-        "sala": "B-004",
-        "slot": 0
+        "horaInicio": "08:30",
+        "materiaId": "-563",
+        "professor": "Silvana Marchezini",
+        "sala": "B-106",
+        "slot": 2
       },
       {
         "diaSemana": 3,
-        "horaFim": "10:20",
+        "horaFim": "11:50",
         "horaInicio": "09:35",
-        "materiaId": "-246",
-        "professor": "Livio Wogel",
-        "sala": "B-004",
+        "materiaId": "-446",
+        "professor": "Fernanda Santos",
         "slot": 3
       },
       {
         "diaSemana": 4,
-        "horaFim": "11:05",
+        "horaFim": "07:45",
         "horaInicio": "07:00",
-        "materiaId": "-682",
-        "professor": "Elisangela França",
-        "sala": "B-004",
+        "materiaId": "-246",
+        "professor": "Livio Wogel",
+        "sala": "B-106",
         "slot": 0
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "10:20",
+        "horaInicio": "07:45",
+        "materiaId": "-476",
+        "professor": "Kamila Oliveira",
+        "sala": "DINFRA",
+        "slot": 1
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "11:05",
+        "horaInicio": "10:20",
+        "materiaId": "-288",
+        "professor": "Stephanie Freire",
+        "sala": "B-106",
+        "slot": 4
       }
     ],
     "cursoId": "dinfra-1031-edific-integ",
@@ -218,7 +217,7 @@
         "semestre": 4
       }
     ],
-    "nome": "DINFRA 1031.4BM Edific. Integ.",
+    "nome": "DINFRA 1031.4AM Edific. Integ.",
     "semestre": 4
   }
 }

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "generatedAt": "2026-07-26T08:25:10.041Z",
   "schemaVersion": 1,
   "turma": {
     "aulas": [
@@ -106,7 +106,7 @@
         "diaSemana": 3,
         "horaFim": "08:30",
         "horaInicio": "07:00",
-        "materiaId": "*559",
+        "materiaId": "*558",
         "professor": "Subst. Turismo",
         "sala": "B-124",
         "slot": 0
@@ -197,7 +197,7 @@
         "semestre": 3
       },
       {
-        "id": "*559",
+        "id": "*558",
         "nome": "Gestão de Eventos III",
         "nomeCurto": "GE III",
         "semestre": 3

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "generatedAt": "2026-07-26T08:25:10.041Z",
   "schemaVersion": 1,
   "turma": {
     "aulas": [
@@ -71,7 +71,7 @@
         "horaFim": "08:30",
         "horaInicio": "07:45",
         "materiaId": "-436",
-        "professor": "Adriano Mamedes",
+        "professor": "Sergio Crecca",
         "sala": "B-218",
         "slot": 1
       },
@@ -80,7 +80,7 @@
         "horaFim": "09:15",
         "horaInicio": "08:30",
         "materiaId": "-436",
-        "professor": "Adriano Mamedes",
+        "professor": "Sergio Crecca",
         "sala": "B-218",
         "slot": 2
       },
@@ -151,7 +151,7 @@
         "horaFim": "14:30",
         "horaInicio": "13:00",
         "materiaId": "-570",
-        "professor": "João Barros",
+        "professor": "Danilo Flumignan",
         "sala": "B-218",
         "slot": 6
       },
@@ -169,7 +169,7 @@
         "horaFim": "16:20",
         "horaInicio": "15:35",
         "materiaId": "-436",
-        "professor": "Adriano Mamedes",
+        "professor": "Sergio Crecca",
         "sala": "B-218",
         "slot": 9
       },

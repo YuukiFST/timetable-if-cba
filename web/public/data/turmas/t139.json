@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "generatedAt": "2026-07-26T08:25:10.041Z",
   "schemaVersion": 1,
   "turma": {
     "aulas": [
@@ -7,54 +7,63 @@
         "diaSemana": 0,
         "horaFim": "08:30",
         "horaInicio": "07:00",
-        "materiaId": "-256",
-        "professor": "Luis Otávio",
-        "sala": "B-109",
+        "materiaId": "-569",
+        "professor": "Dirce Silva",
+        "sala": "B-108",
         "slot": 0
       },
       {
         "diaSemana": 0,
         "horaFim": "10:20",
         "horaInicio": "08:30",
-        "materiaId": "-569",
-        "professor": "Dirce Silva",
-        "sala": "B-109",
+        "materiaId": "-256",
+        "professor": "Luis Otávio",
+        "sala": "B-108",
         "slot": 2
       },
       {
         "diaSemana": 0,
         "horaFim": "11:50",
         "horaInicio": "10:20",
-        "materiaId": "-435",
-        "professor": "Lia Costa",
-        "sala": "B-109",
+        "materiaId": "-400",
+        "professor": "Luiz Renato",
+        "sala": "B-108",
         "slot": 4
       },
       {
         "diaSemana": 0,
         "horaFim": "16:20",
-        "horaInicio": "14:30",
-        "materiaId": "-400",
-        "professor": "Luiz Renato",
-        "sala": "B-109",
-        "slot": 8
+        "horaInicio": "13:45",
+        "materiaId": "*288",
+        "professor": "Márcia Andrade",
+        "sala": "DINFRA",
+        "slot": 7
+      },
+      {
+        "diaSemana": 0,
+        "horaFim": "16:20",
+        "horaInicio": "13:45",
+        "materiaId": "*288",
+        "professor": "Washington Souza Nery",
+        "sala": "DINFRA",
+        "slot": 7
       },
       {
         "diaSemana": 0,
         "horaFim": "17:50",
         "horaInicio": "16:20",
         "materiaId": "-177",
-        "professor": "Aline Dutton",
-        "sala": "B-109",
+        "professor": "Wagner Ribeiro",
+        "sala": "B-107",
         "slot": 10
       },
       {
         "diaSemana": 1,
         "horaFim": "08:30",
         "horaInicio": "07:00",
-        "materiaId": "-329",
-        "professor": "Karina Brito",
-        "sala": "B-109",
+        "materiaId": "-435",
+        "professor": "Anderson Assuncao",
+        "sala": "B-108",
         "slot": 0
       },
       {
@@ -62,8 +71,7 @@
         "horaFim": "10:20",
         "horaInicio": "08:30",
         "materiaId": "-445",
-        "professor": "André Abreu",
-        "sala": "B-105",
+        "professor": "Alan Sato",
         "slot": 2
       },
       {
@@ -71,8 +79,8 @@
         "horaFim": "10:20",
         "horaInicio": "08:30",
         "materiaId": "-702",
-        "professor": "Marcio Antunes",
-        "sala": "B-109",
+        "professor": "Aluizio Costa",
+        "sala": "B-108",
         "slot": 2
       },
       {
@@ -80,8 +88,7 @@
         "horaFim": "11:50",
         "horaInicio": "10:20",
         "materiaId": "-445",
-        "professor": "André Abreu",
-        "sala": "B-105",
+        "professor": "Silvana Marchezini",
         "slot": 4
       },
       {
@@ -89,16 +96,17 @@
         "horaFim": "11:50",
         "horaInicio": "10:20",
         "materiaId": "-702",
-        "professor": "Marcio Antunes",
-        "sala": "B-109",
+        "professor": "Aluizio Costa",
+        "sala": "B-108",
         "slot": 4
       },
       {
         "diaSemana": 2,
         "horaFim": "08:30",
         "horaInicio": "07:00",
-        "materiaId": "-545",
-        "professor": "Angela Oliveira, Márcia Andrade",
+        "materiaId": "-382",
+        "professor": "Jussara Silva",
+        "sala": "B-108",
         "slot": 0
       },
       {
@@ -113,73 +121,64 @@
         "diaSemana": 2,
         "horaFim": "11:50",
         "horaInicio": "10:20",
-        "materiaId": "-381",
-        "professor": "Jussara Silva",
-        "sala": "B-109",
+        "materiaId": "-545",
+        "professor": "Angela Oliveira, Márcia Andrade",
+        "sala": "DINFRA",
         "slot": 4
       },
       {
         "diaSemana": 3,
         "horaFim": "10:20",
         "horaInicio": "08:30",
-        "materiaId": "-400",
-        "professor": "Luiz Renato",
-        "sala": "B-109",
+        "materiaId": "-435",
+        "professor": "Anderson Assuncao",
+        "sala": "B-111",
         "slot": 2
       },
       {
         "diaSemana": 3,
         "horaFim": "11:50",
         "horaInicio": "10:20",
-        "materiaId": "-435",
-        "professor": "Lia Costa",
-        "sala": "B-109",
+        "materiaId": "-400",
+        "professor": "Luiz Renato",
+        "sala": "B-108",
         "slot": 4
       },
       {
         "diaSemana": 3,
         "horaFim": "15:15",
         "horaInicio": "13:45",
-        "materiaId": "-67",
-        "professor": "Hérica Nabuco",
-        "sala": "DINFRA",
+        "materiaId": "-243",
+        "professor": "Livio Wogel",
+        "sala": "B-108",
         "slot": 7
       },
       {
         "diaSemana": 3,
         "horaFim": "17:05",
         "horaInicio": "15:35",
-        "materiaId": "-243",
-        "professor": "Livio Wogel",
-        "sala": "B-109",
+        "materiaId": "-67",
+        "professor": "Hérica Nabuco",
+        "sala": "DINFRA",
         "slot": 9
       },
       {
         "diaSemana": 4,
-        "horaFim": "10:20",
-        "horaInicio": "07:45",
-        "materiaId": "*289",
-        "professor": "Washington Souza Nery",
-        "sala": "DINFRA",
-        "slot": 1
+        "horaFim": "08:30",
+        "horaInicio": "07:00",
+        "materiaId": "-329",
+        "professor": "Karina Brito",
+        "sala": "B-108",
+        "slot": 0
       },
       {
         "diaSemana": 4,
         "horaFim": "10:20",
-        "horaInicio": "07:45",
-        "materiaId": "*289",
-        "professor": "Márcia Andrade",
-        "sala": "DINFRA",
-        "slot": 1
-      },
-      {
-        "diaSemana": 4,
-        "horaFim": "11:50",
-        "horaInicio": "10:20",
+        "horaInicio": "08:30",
         "materiaId": "-285",
         "professor": "Mauro França",
-        "sala": "B-103",
-        "slot": 4
+        "sala": "B-108",
+        "slot": 2
       }
     ],
     "cursoId": "dinfra-1031-edific-integ",
@@ -198,7 +197,7 @@
         "semestre": 1
       },
       {
-        "id": "*289",
+        "id": "*288",
         "nome": "Desenho Técnico e Arquitetônico",
         "nomeCurto": "DTeA",
         "semestre": 1
@@ -234,9 +233,9 @@
         "semestre": 1
       },
       {
-        "id": "-381",
-        "nome": "Língua Espanhola",
-        "nomeCurto": "LE",
+        "id": "-382",
+        "nome": "Língua Espanhola I",
+        "nomeCurto": "LEI",
         "semestre": 1
       },
       {
@@ -276,7 +275,7 @@
         "semestre": 1
       }
     ],
-    "nome": "DINFRA 1031.1BM Edific. Integ.",
+    "nome": "DINFRA 1031.1AM Edific. Integ.",
     "semestre": 1
   }
 }

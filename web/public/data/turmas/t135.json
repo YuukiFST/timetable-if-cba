@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "generatedAt": "2026-07-26T08:25:10.041Z",
   "schemaVersion": 1,
   "turma": {
     "aulas": [
@@ -9,6 +9,7 @@
         "horaInicio": "18:50",
         "materiaId": "-234",
         "professor": "Otavio Carvalho",
+        "sala": "B-222",
         "slot": 12
       },
       {
@@ -17,22 +18,7 @@
         "horaInicio": "20:45",
         "materiaId": "-588",
         "professor": "Érica Marques",
-        "slot": 14
-      },
-      {
-        "diaSemana": 2,
-        "horaFim": "20:30",
-        "horaInicio": "18:50",
-        "materiaId": "*795",
-        "professor": "Subst. Turismo",
-        "slot": 12
-      },
-      {
-        "diaSemana": 2,
-        "horaFim": "22:25",
-        "horaInicio": "20:45",
-        "materiaId": "*795",
-        "professor": "Subst. Turismo",
+        "sala": "B-222",
         "slot": 14
       },
       {
@@ -41,7 +27,7 @@
         "horaInicio": "18:50",
         "materiaId": "-344",
         "professor": "Joicy Lara",
-        "sala": "DCOM",
+        "sala": "B-222",
         "slot": 12
       },
       {
@@ -50,6 +36,7 @@
         "horaInicio": "20:45",
         "materiaId": "-263",
         "professor": "Karine Assunção",
+        "sala": "B-222",
         "slot": 14
       },
       {
@@ -58,14 +45,16 @@
         "horaInicio": "18:50",
         "materiaId": "*601",
         "professor": "Marli Spolidoro",
+        "sala": "B-222",
         "slot": 12
       },
       {
         "diaSemana": 4,
         "horaFim": "22:25",
         "horaInicio": "20:45",
-        "materiaId": "*508",
+        "materiaId": "*507",
         "professor": "Ana Monlevade",
+        "sala": "B-222",
         "slot": 14
       }
     ],
@@ -83,7 +72,7 @@
         "nomeCurto": "FdA"
       },
       {
-        "id": "*508",
+        "id": "*507",
         "nome": "Fundamentos do Turismo",
         "nomeCurto": "FT"
       },
@@ -96,11 +85,6 @@
         "id": "-344",
         "nome": "Informática Básica",
         "nomeCurto": "Informática Básica"
-      },
-      {
-        "id": "*795",
-        "nome": "Meios de Hospedagem",
-        "nomeCurto": "MdH"
       },
       {
         "id": "-588",

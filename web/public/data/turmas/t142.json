@@ -1,266 +1,338 @@
 {
-  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "generatedAt": "2026-07-26T08:25:10.041Z",
   "schemaVersion": 1,
   "turma": {
     "aulas": [
       {
         "diaSemana": 0,
-        "horaFim": "10:20",
-        "horaInicio": "08:30",
-        "materiaId": "*1006",
-        "professor": "Kamila Oliveira",
-        "sala": "DINFRA",
-        "slot": 2
+        "horaFim": "14:30",
+        "horaInicio": "13:00",
+        "materiaId": "-436",
+        "professor": "Adriano Mamedes",
+        "sala": "B-103",
+        "slot": 6
       },
       {
         "diaSemana": 0,
-        "horaFim": "11:50",
-        "horaInicio": "10:20",
-        "materiaId": "-542",
-        "professor": "Luana Morais",
-        "sala": "DINFRA",
-        "slot": 4
+        "horaFim": "16:20",
+        "horaInicio": "14:30",
+        "materiaId": "-570",
+        "professor": "Danilo Flumignan",
+        "sala": "B-103",
+        "slot": 8
       },
       {
         "diaSemana": 0,
-        "horaFim": "11:50",
-        "horaInicio": "10:20",
-        "materiaId": "-542",
-        "professor": "Vinicius Barros",
+        "horaFim": "17:50",
+        "horaInicio": "16:20",
+        "materiaId": "-649",
+        "professor": "Sandro Santos",
         "sala": "DINFRA",
-        "slot": 4
+        "slot": 10
       },
       {
         "diaSemana": 1,
         "horaFim": "08:30",
         "horaInicio": "07:00",
-        "materiaId": "-179",
-        "professor": "Lethícia Castilhos",
-        "sala": "B-104",
+        "materiaId": "-177",
+        "professor": "Edézio",
+        "sala": "B-103",
         "slot": 0
       },
       {
         "diaSemana": 1,
         "horaFim": "10:20",
         "horaInicio": "08:30",
-        "materiaId": "-571",
-        "professor": "Dario Perna",
-        "sala": "B-104",
+        "materiaId": "-391",
+        "professor": "Weslley Siqueira",
+        "sala": "B-103",
         "slot": 2
       },
       {
         "diaSemana": 1,
         "horaFim": "11:50",
         "horaInicio": "10:20",
-        "materiaId": "-69",
-        "professor": "Fabiane Batista",
-        "sala": "B-104",
+        "materiaId": "-330",
+        "professor": "Sidney da Silva",
+        "sala": "B-103",
         "slot": 4
       },
       {
         "diaSemana": 1,
-        "horaFim": "16:20",
+        "horaFim": "14:30",
         "horaInicio": "13:00",
-        "materiaId": "-682",
-        "professor": "Douglas Carvalho",
-        "sala": "DINFRA",
+        "materiaId": "-257",
+        "professor": "Luciano Schlaucher",
+        "sala": "B-103",
         "slot": 6
       },
       {
         "diaSemana": 1,
+        "horaFim": "16:20",
+        "horaInicio": "14:30",
+        "materiaId": "-286",
+        "professor": "Alessandra Fagundes",
+        "sala": "B-103",
+        "slot": 8
+      },
+      {
+        "diaSemana": 1,
         "horaFim": "17:50",
         "horaInicio": "16:20",
-        "materiaId": "-392",
-        "professor": "Thaynara Silva",
-        "sala": "B-104",
+        "materiaId": "-245",
+        "professor": "Josadaque Martins",
+        "sala": "B-103",
         "slot": 10
       },
       {
         "diaSemana": 2,
-        "horaFim": "08:30",
+        "horaFim": "07:45",
         "horaInicio": "07:00",
-        "materiaId": "-287",
-        "professor": "Marcelo Barbosa",
-        "sala": "B-101",
+        "materiaId": "-436",
+        "professor": "Adriano Mamedes",
+        "sala": "B-103",
         "slot": 0
       },
       {
         "diaSemana": 2,
-        "horaFim": "10:20",
-        "horaInicio": "08:30",
-        "materiaId": "-258",
-        "professor": "Wescley Souza",
-        "sala": "B-105",
-        "slot": 2
-      },
-      {
-        "diaSemana": 2,
-        "horaFim": "11:50",
-        "horaInicio": "10:20",
-        "materiaId": "-331",
-        "professor": "Sidney da Silva",
-        "sala": "B-104",
-        "slot": 4
-      },
-      {
-        "diaSemana": 3,
-        "horaFim": "10:20",
+        "horaFim": "09:15",
         "horaInicio": "07:45",
-        "materiaId": "-492",
-        "professor": "Mychelle Sato",
+        "materiaId": "*424",
+        "professor": "André Abreu",
         "sala": "B-103",
         "slot": 1
       },
       {
-        "diaSemana": 3,
-        "horaFim": "11:50",
-        "horaInicio": "10:20",
-        "materiaId": "-542",
-        "professor": "Luana Morais",
+        "diaSemana": 2,
+        "horaFim": "09:15",
+        "horaInicio": "07:45",
+        "materiaId": "*999",
+        "professor": "Calina Barros",
+        "sala": "B-207",
+        "slot": 1
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "11:05",
+        "horaInicio": "09:35",
+        "materiaId": "*424",
+        "professor": "André Abreu",
+        "sala": "B-002",
+        "slot": 3
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "11:05",
+        "horaInicio": "09:35",
+        "materiaId": "*999",
+        "professor": "Calina Barros",
         "sala": "DINFRA",
-        "slot": 4
+        "slot": 3
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "15:15",
+        "horaInicio": "13:00",
+        "materiaId": "-451",
+        "professor": "Luiz Figueiredo",
+        "sala": "B-103",
+        "slot": 6
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "15:15",
+        "horaInicio": "13:00",
+        "materiaId": "*971",
+        "professor": "Héllyda Sacal",
+        "sala": "DINFRA",
+        "slot": 6
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "17:50",
+        "horaInicio": "15:35",
+        "materiaId": "-446",
+        "professor": "Alan Sato",
+        "sala": "B-103",
+        "slot": 9
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "17:50",
+        "horaInicio": "15:35",
+        "materiaId": "*971",
+        "professor": "Héllyda Sacal",
+        "sala": "DINFRA",
+        "slot": 9
       },
       {
         "diaSemana": 3,
-        "horaFim": "11:50",
-        "horaInicio": "10:20",
-        "materiaId": "-542",
-        "professor": "Vinicius Barros",
-        "sala": "DINFRA",
-        "slot": 4
+        "horaFim": "15:15",
+        "horaInicio": "13:00",
+        "materiaId": "-451",
+        "professor": "Luiz Figueiredo",
+        "sala": "B-104",
+        "slot": 6
       },
       {
         "diaSemana": 3,
-        "horaFim": "16:20",
-        "horaInicio": "14:30",
-        "materiaId": "-650",
-        "professor": "Christiany Fonseca",
-        "sala": "B-105",
-        "slot": 8
+        "horaFim": "15:15",
+        "horaInicio": "13:00",
+        "materiaId": "-545",
+        "professor": "Washington Souza Nery",
+        "sala": "B-103",
+        "slot": 6
       },
       {
         "diaSemana": 3,
         "horaFim": "17:50",
-        "horaInicio": "16:20",
-        "materiaId": "*995",
-        "professor": "Fernanda Santos",
-        "sala": "DINFRA",
-        "slot": 10
+        "horaInicio": "15:35",
+        "materiaId": "-446",
+        "professor": "Juzélia Santos",
+        "sala": "B-104",
+        "slot": 9
       },
       {
-        "diaSemana": 4,
-        "horaFim": "09:15",
-        "horaInicio": "07:00",
-        "materiaId": "-437",
-        "professor": "Adriano Sales",
+        "diaSemana": 3,
+        "horaFim": "17:50",
+        "horaInicio": "15:35",
+        "materiaId": "-546",
+        "professor": "Valery Pires",
         "sala": "B-103",
-        "slot": 0
+        "slot": 9
       },
       {
         "diaSemana": 4,
-        "horaFim": "11:50",
-        "horaInicio": "09:35",
-        "materiaId": "-402",
-        "professor": "Luiz Renato",
-        "sala": "B-101",
-        "slot": 3
+        "horaFim": "14:30",
+        "horaInicio": "13:00",
+        "materiaId": "-68",
+        "professor": "Roberto Campos",
+        "sala": "B-103",
+        "slot": 6
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "17:05",
+        "horaInicio": "14:30",
+        "materiaId": "-401",
+        "professor": "Walkyria Mandu",
+        "sala": "B-103",
+        "slot": 8
       }
     ],
     "cursoId": "dinfra-1031-edific-integ",
     "id": "t142",
     "materias": [
       {
-        "id": "-69",
-        "nome": "Biologia III",
-        "nomeCurto": "BIO III",
-        "semestre": 3
+        "id": "-68",
+        "nome": "Biologia II",
+        "nomeCurto": "BIO II",
+        "semestre": 2
       },
       {
-        "id": "-179",
-        "nome": "Educação Física III",
-        "nomeCurto": "EFI III",
-        "semestre": 3
+        "id": "-177",
+        "nome": "Educação Física",
+        "nomeCurto": "EF",
+        "semestre": 2
       },
       {
-        "id": "-258",
-        "nome": "Física III",
-        "nomeCurto": "Física III",
-        "semestre": 3
+        "id": "*424",
+        "nome": "Estática e Resistência dos Materiais",
+        "nomeCurto": "Estática e Resistência dos Materiais",
+        "semestre": 2
       },
       {
-        "id": "-287",
-        "nome": "Geografia III",
-        "nomeCurto": "GEO III",
-        "semestre": 3
+        "id": "-245",
+        "nome": "Filosofia II",
+        "nomeCurto": "FIL II",
+        "semestre": 2
       },
       {
-        "id": "-331",
-        "nome": "História III",
-        "nomeCurto": "HIST III",
-        "semestre": 3
+        "id": "-257",
+        "nome": "Física II",
+        "nomeCurto": "Física II",
+        "semestre": 2
       },
       {
-        "id": "-392",
-        "nome": "Lingua Inglesa II",
-        "nomeCurto": "LI II",
-        "semestre": 3
+        "id": "-286",
+        "nome": "Geografia II",
+        "nomeCurto": "GEO II",
+        "semestre": 2
       },
       {
-        "id": "-402",
-        "nome": "Língua Portuguesa III",
-        "nomeCurto": "LP III",
-        "semestre": 3
+        "id": "-330",
+        "nome": "História II",
+        "nomeCurto": "HIST II",
+        "semestre": 2
       },
       {
-        "id": "-437",
-        "nome": "Matemática III",
-        "nomeCurto": "Matemática III",
-        "semestre": 3
+        "id": "-391",
+        "nome": "Língua Inglesa I",
+        "nomeCurto": "LII",
+        "semestre": 2
       },
       {
-        "id": "-492",
-        "nome": "Planejamento e orçamento de obras",
-        "nomeCurto": "Planejamento e orçamento de obras",
-        "semestre": 3
+        "id": "-401",
+        "nome": "Língua Portuguesa II",
+        "nomeCurto": "Língua Portuguesa II",
+        "semestre": 2
       },
       {
-        "id": "*995",
-        "nome": "Projeto Elétrico",
-        "nomeCurto": "PE",
-        "semestre": 3
+        "id": "-436",
+        "nome": "Matemática II",
+        "nomeCurto": "Matemática II",
+        "semestre": 2
       },
       {
-        "id": "-542",
-        "nome": "Projeto Estrutural",
-        "nomeCurto": "PE",
-        "semestre": 3
+        "id": "-446",
+        "nome": "Materiais de Construção II",
+        "nomeCurto": "MCII",
+        "semestre": 2
       },
       {
-        "id": "*1006",
-        "nome": "Projeto Integrador III",
-        "nomeCurto": "PII",
-        "semestre": 3
+        "id": "-451",
+        "nome": "Mecânica dos Solos",
+        "nomeCurto": "Mecânica dos Solos",
+        "semestre": 2
       },
       {
-        "id": "-571",
-        "nome": "Química III",
-        "nomeCurto": "QUI III",
-        "semestre": 3
+        "id": "*971",
+        "nome": "Projeto de Arquitetura",
+        "nomeCurto": "ProjArq",
+        "semestre": 2
       },
       {
-        "id": "-650",
-        "nome": "Sociologia II",
-        "nomeCurto": "SOC II",
-        "semestre": 3
+        "id": "*999",
+        "nome": "Projeto Hidrossanitário",
+        "nomeCurto": "ProjHidro",
+        "semestre": 2
       },
       {
-        "id": "-682",
-        "nome": "Tecnologia das Construções",
-        "nomeCurto": "Tecnologia das Construções",
-        "semestre": 3
+        "id": "-545",
+        "nome": "Projeto Integrador",
+        "nomeCurto": "Proj.Int.",
+        "semestre": 2
+      },
+      {
+        "id": "-546",
+        "nome": "Projeto Integrador II",
+        "nomeCurto": "Proj.Int. II",
+        "semestre": 2
+      },
+      {
+        "id": "-570",
+        "nome": "Química II",
+        "nomeCurto": "QUI II",
+        "semestre": 2
+      },
+      {
+        "id": "-649",
+        "nome": "Sociologia I",
+        "nomeCurto": "SOC I",
+        "semestre": 2
       }
     ],
-    "nome": "DINFRA 1031.3AM Edific. Integ.",
-    "semestre": 3
+    "nome": "DINFRA 1031.2BV Edific. Integ.",
+    "semestre": 2
   }
 }

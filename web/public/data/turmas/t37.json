@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "generatedAt": "2026-07-26T08:25:10.041Z",
   "schemaVersion": 1,
   "turma": {
     "aulas": [
@@ -33,7 +33,7 @@
         "diaSemana": 1,
         "horaFim": "09:15",
         "horaInicio": "07:00",
-        "materiaId": "*297",
+        "materiaId": "*296",
         "professor": "Antonio Gonçalves",
         "sala": "DCOM",
         "slot": 0
@@ -42,7 +42,7 @@
         "diaSemana": 1,
         "horaFim": "11:50",
         "horaInicio": "09:35",
-        "materiaId": "*296",
+        "materiaId": "*295",
         "professor": "Pedro Clarindo",
         "sala": "DCOM",
         "slot": 3
@@ -148,13 +148,13 @@
         "semestre": 3
       },
       {
-        "id": "*296",
+        "id": "*295",
         "nome": "Desenvolvimento Web Back-End",
         "nomeCurto": "DWB",
         "semestre": 3
       },
       {
-        "id": "*297",
+        "id": "*296",
         "nome": "Desenvolvimento Web Front-End",
         "nomeCurto": "DWF",
         "semestre": 3
