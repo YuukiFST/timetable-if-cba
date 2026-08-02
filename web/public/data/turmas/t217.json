@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "generatedAt": "2026-08-02T08:22:52.930Z",
   "schemaVersion": 1,
   "turma": {
     "aulas": [
@@ -7,48 +7,52 @@
         "diaSemana": 0,
         "horaFim": "22:25",
         "horaInicio": "18:50",
-        "materiaId": "*1018",
+        "materiaId": "*319",
+        "sala": "DCOM",
         "slot": 12
       },
       {
         "diaSemana": 1,
         "horaFim": "22:25",
         "horaInicio": "18:50",
-        "materiaId": "*1018",
+        "materiaId": "*319",
+        "sala": "DCOM",
         "slot": 12
       },
       {
         "diaSemana": 2,
         "horaFim": "22:25",
         "horaInicio": "18:50",
-        "materiaId": "*1018",
-        "sala": "DINFRA",
+        "materiaId": "*319",
+        "sala": "DCOM",
         "slot": 12
       },
       {
         "diaSemana": 3,
         "horaFim": "22:25",
         "horaInicio": "18:50",
-        "materiaId": "*1018",
+        "materiaId": "*319",
+        "sala": "DCOM",
         "slot": 12
       },
       {
         "diaSemana": 4,
         "horaFim": "22:25",
         "horaInicio": "18:50",
-        "materiaId": "*1018",
+        "materiaId": "*319",
+        "sala": "DCOM",
         "slot": 12
       }
     ],
-    "cursoId": "dinfra-pronatec",
-    "id": "t198",
+    "cursoId": "pronatec-empreender-3d",
+    "id": "t217",
     "materias": [
       {
-        "id": "*1018",
-        "nome": "PRONATEC",
-        "nomeCurto": "PRONATEC"
+        "id": "*319",
+        "nome": "Drones e Impressora 3D",
+        "nomeCurto": "DronesImpr3D"
       }
     ],
-    "nome": "DINFRA - PRONATEC"
+    "nome": "Pronatec/Empreender/3D"
   }
 }

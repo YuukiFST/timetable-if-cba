@@ -1,0 +1,61 @@
+{
+  "generatedAt": "2026-08-02T08:22:52.930Z",
+  "schemaVersion": 1,
+  "turma": {
+    "aulas": [
+      {
+        "diaSemana": 2,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "*680",
+        "slot": 12
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "-309",
+        "slot": 14
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "*10",
+        "slot": 12
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "*753",
+        "slot": 14
+      }
+    ],
+    "cursoId": "dgh-concomitante-liceu-administracao",
+    "id": "t137",
+    "materias": [
+      {
+        "id": "*10",
+        "nome": "Administração da Produção e Qualidade",
+        "nomeCurto": "AdPeQ"
+      },
+      {
+        "id": "-309",
+        "nome": "Gestão de Pessoas",
+        "nomeCurto": "GP"
+      },
+      {
+        "id": "*680",
+        "nome": "Legislação Empresarial e Trabalhista",
+        "nomeCurto": "LEeT"
+      },
+      {
+        "id": "*753",
+        "nome": "Marketing e Vendas",
+        "nomeCurto": "MeV"
+      }
+    ],
+    "nome": "DGH - Concomitante Liceu Administração"
+  }
+}

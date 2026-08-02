@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "generatedAt": "2026-08-02T08:22:52.930Z",
   "schemaVersion": 1,
   "turma": {
     "aulas": [
@@ -78,7 +78,7 @@
         "diaSemana": 1,
         "horaFim": "11:50",
         "horaInicio": "10:20",
-        "materiaId": "*1008",
+        "materiaId": "*1010",
         "professor": "Luciana Lima",
         "sala": "DEEA E103 Lab. Microcontroladores",
         "slot": 4
@@ -87,7 +87,7 @@
         "diaSemana": 1,
         "horaFim": "11:50",
         "horaInicio": "10:20",
-        "materiaId": "*1008",
+        "materiaId": "*1010",
         "professor": "José Martins",
         "sala": "DEEA E113 Lab. Informatica",
         "slot": 4
@@ -124,7 +124,7 @@
         "horaFim": "14:30",
         "horaInicio": "13:00",
         "materiaId": "-329",
-        "professor": "Subst. Historia",
+        "professor": "Marcos de Melo",
         "sala": "B-201",
         "slot": 6
       },
@@ -150,51 +150,51 @@
         "diaSemana": 3,
         "horaFim": "11:50",
         "horaInicio": "10:20",
-        "materiaId": "*65",
+        "materiaId": "*66",
         "slot": 4
       },
       {
         "diaSemana": 4,
-        "horaFim": "09:15",
-        "horaInicio": "07:00",
-        "materiaId": "*371",
+        "horaFim": "15:15",
+        "horaInicio": "13:00",
+        "materiaId": "*373",
         "professor": "José Cândido",
         "sala": "DEEA E102 Lab. Eletrônica",
-        "slot": 0
+        "slot": 6
       },
       {
         "diaSemana": 4,
-        "horaFim": "09:15",
-        "horaInicio": "07:45",
+        "horaFim": "15:15",
+        "horaInicio": "13:45",
         "materiaId": "*150",
         "professor": "Rupert Pereira",
-        "sala": "DEEA E101 Lab. Eletrônica",
-        "slot": 1
+        "sala": "DEEA E103 Lab. Microcontroladores",
+        "slot": 7
       },
       {
         "diaSemana": 4,
-        "horaFim": "11:05",
-        "horaInicio": "09:35",
+        "horaFim": "17:05",
+        "horaInicio": "15:35",
         "materiaId": "*150",
         "professor": "Rupert Pereira",
-        "sala": "DEEA E101 Lab. Eletrônica",
-        "slot": 3
+        "sala": "B-201",
+        "slot": 9
       },
       {
         "diaSemana": 4,
-        "horaFim": "11:50",
-        "horaInicio": "09:35",
-        "materiaId": "*371",
+        "horaFim": "17:50",
+        "horaInicio": "15:35",
+        "materiaId": "*373",
         "professor": "José Cândido",
         "sala": "DEEA E102 Lab. Eletrônica",
-        "slot": 3
+        "slot": 9
       }
     ],
     "cursoId": "deea-6531-eletrotecnica-integrado-b",
     "id": "t74",
     "materias": [
       {
-        "id": "*65",
+        "id": "*66",
         "nome": "Arte",
         "nomeCurto": "Arte",
         "semestre": 1
@@ -218,7 +218,7 @@
         "semestre": 1
       },
       {
-        "id": "*371",
+        "id": "*373",
         "nome": "Eletrônica Digital e Analogica",
         "nomeCurto": "Eletrônica D/A",
         "semestre": 1
@@ -266,7 +266,7 @@
         "semestre": 1
       },
       {
-        "id": "*1008",
+        "id": "*1010",
         "nome": "Projeto Intergrador 1 -  Desenho Técnico",
         "nomeCurto": "PI1-DesTec",
         "semestre": 1

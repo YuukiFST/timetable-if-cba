@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "generatedAt": "2026-08-02T08:22:52.930Z",
   "schemaVersion": 1,
   "turma": {
     "aulas": [
@@ -7,90 +7,90 @@
         "diaSemana": 0,
         "horaFim": "20:30",
         "horaInicio": "18:50",
-        "materiaId": "-383",
-        "professor": "Rosária Silva",
-        "sala": "B-213",
+        "materiaId": "-7",
+        "professor": "Danilo Herbert",
+        "sala": "B-216",
         "slot": 12
       },
       {
         "diaSemana": 0,
         "horaFim": "22:25",
         "horaInicio": "20:45",
-        "materiaId": "-8",
-        "professor": "Danilo Herbert",
-        "sala": "B-213",
+        "materiaId": "-674",
+        "professor": "Cláudia Marcele",
+        "sala": "B-216",
         "slot": 14
       },
       {
         "diaSemana": 1,
         "horaFim": "20:30",
         "horaInicio": "18:50",
-        "materiaId": "-401",
-        "professor": "José Silva",
-        "sala": "B-007",
-        "slot": 12
-      },
-      {
-        "diaSemana": 1,
-        "horaFim": "22:25",
-        "horaInicio": "20:45",
-        "materiaId": "-347",
+        "materiaId": "-346",
         "professor": "Rothschild Antunes",
         "sala": "DCOM",
+        "slot": 12
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "-382",
+        "professor": "Rosária Silva",
+        "sala": "B-216",
         "slot": 14
       },
       {
         "diaSemana": 2,
         "horaFim": "20:30",
         "horaInicio": "18:50",
-        "materiaId": "-675",
-        "professor": "Marcia Fernandes",
-        "sala": "B-213",
+        "materiaId": "-674",
+        "professor": "Cláudia Marcele",
+        "sala": "B-216",
         "slot": 12
       },
       {
         "diaSemana": 2,
         "horaFim": "22:25",
         "horaInicio": "20:45",
-        "materiaId": "-401",
+        "materiaId": "-456",
+        "professor": "Francielle Oliveira",
+        "sala": "B-216",
+        "slot": 14
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "-400",
         "professor": "José Silva",
-        "sala": "B-002",
-        "slot": 14
-      },
-      {
-        "diaSemana": 3,
-        "horaFim": "20:30",
-        "horaInicio": "18:50",
-        "materiaId": "-392",
-        "professor": "Edilene Campos",
-        "sala": "B-213",
+        "sala": "B-216",
         "slot": 12
       },
       {
         "diaSemana": 3,
         "horaFim": "22:25",
         "horaInicio": "20:45",
-        "materiaId": "-120",
-        "professor": "Dejenana",
-        "sala": "B-220",
+        "materiaId": "-400",
+        "professor": "José Silva",
+        "sala": "B-216",
         "slot": 14
       },
       {
         "diaSemana": 4,
         "horaFim": "20:30",
         "horaInicio": "18:50",
-        "materiaId": "-675",
-        "professor": "Marcia Fernandes",
-        "sala": "B-213",
+        "materiaId": "-243",
+        "professor": "Francisco Rosa",
+        "sala": "B-216",
         "slot": 12
       },
       {
         "diaSemana": 4,
         "horaFim": "22:25",
         "horaInicio": "20:45",
-        "materiaId": "-646",
-        "professor": "Sandro Santos",
-        "sala": "B-213",
+        "materiaId": "-391",
+        "professor": "João Filho",
+        "sala": "B-216",
         "slot": 14
       }
     ],
@@ -98,55 +98,55 @@
     "id": "t130",
     "materias": [
       {
-        "id": "-8",
-        "nome": "Administração II",
-        "nomeCurto": "ADM II",
-        "semestre": 2
+        "id": "-7",
+        "nome": "Administração I",
+        "nomeCurto": "ADM I",
+        "semestre": 1
       },
       {
-        "id": "-120",
-        "nome": "Contabilidade I",
-        "nomeCurto": "CONT  I",
-        "semestre": 2
+        "id": "-243",
+        "nome": "Filosofia",
+        "nomeCurto": "FIL",
+        "semestre": 1
       },
       {
-        "id": "-347",
-        "nome": "Informatica II",
-        "nomeCurto": "INFO II",
-        "semestre": 2
+        "id": "-346",
+        "nome": "Informática I",
+        "nomeCurto": "INFO I",
+        "semestre": 1
       },
       {
-        "id": "-383",
-        "nome": "Língua Espanhola II",
-        "nomeCurto": "LE II",
-        "semestre": 2
+        "id": "-382",
+        "nome": "Língua Espanhola I",
+        "nomeCurto": "LEI",
+        "semestre": 1
       },
       {
-        "id": "-392",
-        "nome": "Lingua Inglesa II",
-        "nomeCurto": "LI II",
-        "semestre": 2
+        "id": "-391",
+        "nome": "Língua Inglesa I",
+        "nomeCurto": "LII",
+        "semestre": 1
       },
       {
-        "id": "-401",
-        "nome": "Língua Portuguesa II",
-        "nomeCurto": "Língua Portuguesa II",
-        "semestre": 2
+        "id": "-400",
+        "nome": "Língua Portuguesa I",
+        "nomeCurto": "Lingua Portuguesa I",
+        "semestre": 1
       },
       {
-        "id": "-646",
-        "nome": "Sociologia",
-        "nomeCurto": "Sociologia",
-        "semestre": 2
+        "id": "-456",
+        "nome": "Metodologia de Pesquisa",
+        "nomeCurto": "Metod de P.",
+        "semestre": 1
       },
       {
-        "id": "-675",
-        "nome": "Técnicas Profissionais Secretariais II",
-        "nomeCurto": "TPS II",
-        "semestre": 2
+        "id": "-674",
+        "nome": "Técnicas Profissionais Secretariais I",
+        "nomeCurto": "TPS I",
+        "semestre": 1
       }
     ],
-    "nome": "DGH 7643.2N Secr. Bach.",
-    "semestre": 2
+    "nome": "DGH 7643.1N Secr. Bach.",
+    "semestre": 1
   }
 }

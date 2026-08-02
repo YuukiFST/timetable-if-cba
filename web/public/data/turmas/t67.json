@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "generatedAt": "2026-08-02T08:22:52.930Z",
   "schemaVersion": 1,
   "turma": {
     "aulas": [
@@ -87,7 +87,7 @@
         "diaSemana": 3,
         "horaFim": "20:30",
         "horaInicio": "18:50",
-        "materiaId": "*1002",
+        "materiaId": "*1004",
         "professor": "Edelson Duarte",
         "sala": "DEEA E201 Lab. Automação Predial",
         "slot": 12
@@ -151,7 +151,7 @@
         "semestre": 7
       },
       {
-        "id": "*1002",
+        "id": "*1004",
         "nome": "Projeto Integrador I",
         "nomeCurto": "Proj. I",
         "semestre": 7

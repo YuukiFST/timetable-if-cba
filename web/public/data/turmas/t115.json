@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "generatedAt": "2026-08-02T08:22:52.930Z",
   "schemaVersion": 1,
   "turma": {
     "aulas": [
@@ -7,80 +7,90 @@
         "diaSemana": 0,
         "horaFim": "20:30",
         "horaInicio": "18:50",
-        "materiaId": "-379",
-        "professor": "Jenniffer Santos",
+        "materiaId": "*892",
+        "professor": "Yasmim",
+        "sala": "B-217",
         "slot": 12
       },
       {
         "diaSemana": 0,
         "horaFim": "22:25",
         "horaInicio": "20:45",
-        "materiaId": "*579",
-        "professor": "Dejenana, Fabricio Moraes",
+        "materiaId": "*308",
+        "professor": "José Vinicius",
+        "sala": "B-217",
         "slot": 14
       },
       {
         "diaSemana": 1,
         "horaFim": "20:30",
         "horaInicio": "18:50",
-        "materiaId": "*864",
-        "professor": "Marli Spolidoro",
-        "slot": 12
-      },
-      {
-        "diaSemana": 1,
-        "horaFim": "22:25",
-        "horaInicio": "20:45",
-        "materiaId": "*864",
-        "professor": "Marli Spolidoro",
-        "slot": 14
-      },
-      {
-        "diaSemana": 2,
-        "horaFim": "20:30",
-        "horaInicio": "18:50",
-        "materiaId": "*907",
-        "professor": "Francielle Oliveira",
-        "slot": 12
-      },
-      {
-        "diaSemana": 2,
-        "horaFim": "22:25",
-        "horaInicio": "20:45",
-        "materiaId": "*579",
-        "professor": "Dejenana, Fabricio Moraes",
-        "slot": 14
-      },
-      {
-        "diaSemana": 3,
-        "horaFim": "20:30",
-        "horaInicio": "18:50",
-        "materiaId": "*404",
-        "professor": "Marli Spolidoro",
-        "slot": 12
-      },
-      {
-        "diaSemana": 3,
-        "horaFim": "22:25",
-        "horaInicio": "20:45",
-        "materiaId": "-706",
+        "materiaId": "-457",
         "professor": "Ana Monlevade",
+        "sala": "B-217",
+        "slot": 12
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "*708",
+        "professor": "Edilene Campos",
+        "sala": "B-217",
+        "slot": 14
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "*428",
+        "professor": "Jeferson Júnior",
+        "sala": "B-217",
+        "slot": 12
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "-457",
+        "professor": "Ana Monlevade",
+        "sala": "B-217",
+        "slot": 14
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "*892",
+        "professor": "Yasmim",
+        "sala": "B-217",
+        "slot": 12
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "*708",
+        "professor": "Edilene Campos",
+        "sala": "B-217",
         "slot": 14
       },
       {
         "diaSemana": 4,
         "horaFim": "20:30",
         "horaInicio": "18:50",
-        "materiaId": "-729",
-        "professor": "Julio Duarte",
+        "materiaId": "*448",
+        "professor": "Simone Raquel",
+        "sala": "B-217",
         "slot": 12
       },
       {
         "diaSemana": 4,
         "horaFim": "22:25",
         "horaInicio": "20:45",
-        "materiaId": "-729",
-        "professor": "Julio Duarte",
+        "materiaId": "-169",
+        "professor": "Breno Antunes",
+        "sala": "B-217",
         "slot": 14
       }
     ],
@@ -88,49 +98,49 @@
     "id": "t115",
     "materias": [
       {
-        "id": "-729",
-        "nome": "Consultoria em Turismo",
-        "nomeCurto": "Consultoria Tur",
-        "semestre": 6
+        "id": "*308",
+        "nome": "Direito Aplicado ao Turismo II",
+        "nomeCurto": "DAaTI",
+        "semestre": 5
       },
       {
-        "id": "*404",
-        "nome": "Espaços de Laser e Entretenimento",
-        "nomeCurto": "EdLeE",
-        "semestre": 6
+        "id": "-169",
+        "nome": "Economia do Turismo",
+        "nomeCurto": "EcTur",
+        "semestre": 5
       },
       {
-        "id": "*579",
-        "nome": "Gestão Financeira em Turismo",
-        "nomeCurto": "GFeT",
-        "semestre": 6
+        "id": "*428",
+        "nome": "Estatistica",
+        "nomeCurto": "Estatistica",
+        "semestre": 5
       },
       {
-        "id": "-379",
-        "nome": "LIBRAS",
-        "nomeCurto": "L",
-        "semestre": 6
+        "id": "*448",
+        "nome": "Ética, Responsabilidade Sócio Ambiental",
+        "nomeCurto": "ÉRSA",
+        "semestre": 5
       },
       {
-        "id": "*864",
-        "nome": "Orientação de Estágio Supervisionado",
-        "nomeCurto": "OdES",
-        "semestre": 6
+        "id": "*708",
+        "nome": "Lingua Inglesa Aplicada ao Turismo",
+        "nomeCurto": "LIAaT",
+        "semestre": 5
       },
       {
-        "id": "*907",
-        "nome": "Políticas Públicas em Turismo",
-        "nomeCurto": "PPeT",
-        "semestre": 6
+        "id": "-457",
+        "nome": "Métodos e Técnicas de Pesquisa em Turismo",
+        "nomeCurto": "MTP",
+        "semestre": 5
       },
       {
-        "id": "-706",
-        "nome": "Trabalho de Conclusão de Curso (TCC)",
-        "nomeCurto": "TCC",
-        "semestre": 6
+        "id": "*892",
+        "nome": "Planejamento do Turismo IV",
+        "nomeCurto": "PdTI",
+        "semestre": 5
       }
     ],
-    "nome": "DGH 7243.6N Tur. Bach.",
-    "semestre": 6
+    "nome": "DGH 7243.5N Tur. Bach.",
+    "semestre": 5
   }
 }

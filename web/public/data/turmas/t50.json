@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "generatedAt": "2026-08-02T08:22:52.930Z",
   "schemaVersion": 1,
   "turma": {
     "aulas": [
@@ -16,7 +16,7 @@
         "diaSemana": 0,
         "horaFim": "16:20",
         "horaInicio": "14:30",
-        "materiaId": "*290",
+        "materiaId": "*291",
         "professor": "Paulo Lenço",
         "sala": "DCOM",
         "slot": 8
@@ -43,7 +43,7 @@
         "diaSemana": 1,
         "horaFim": "17:05",
         "horaInicio": "15:35",
-        "materiaId": "*126",
+        "materiaId": "*127",
         "professor": "Francisco Silva",
         "sala": "B-105",
         "slot": 9
@@ -52,7 +52,7 @@
         "diaSemana": 1,
         "horaFim": "19:40",
         "horaInicio": "17:05",
-        "materiaId": "*126",
+        "materiaId": "*127",
         "professor": "Francisco Silva",
         "sala": "B-105",
         "slot": 11
@@ -61,7 +61,7 @@
         "diaSemana": 2,
         "horaFim": "16:20",
         "horaInicio": "14:30",
-        "materiaId": "*492",
+        "materiaId": "*494",
         "professor": "Marcos Paulo",
         "sala": "B-201",
         "slot": 8
@@ -70,25 +70,25 @@
         "diaSemana": 2,
         "horaFim": "17:50",
         "horaInicio": "16:20",
-        "materiaId": "*1040",
+        "materiaId": "*1042",
         "professor": "Cláudia Nehme",
         "sala": "B-201",
         "slot": 10
       },
       {
         "diaSemana": 3,
-        "horaFim": "16:20",
-        "horaInicio": "14:30",
-        "materiaId": "*492",
+        "horaFim": "14:30",
+        "horaInicio": "13:00",
+        "materiaId": "*494",
         "professor": "Marcos Paulo",
         "sala": "B-219",
-        "slot": 8
+        "slot": 6
       },
       {
         "diaSemana": 3,
         "horaFim": "17:50",
         "horaInicio": "16:20",
-        "materiaId": "*656",
+        "materiaId": "*659",
         "professor": "Valtemir Nascimento",
         "sala": "DCOM",
         "slot": 10
@@ -104,13 +104,13 @@
         "semestre": 1
       },
       {
-        "id": "*126",
+        "id": "*127",
         "nome": "Calculo Vetorial e Geometria Analítica",
         "nomeCurto": "Cal. VGA",
         "semestre": 1
       },
       {
-        "id": "*290",
+        "id": "*291",
         "nome": "Desenho Técnico em Ambiente Computacional",
         "nomeCurto": "DTeAC",
         "semestre": 1
@@ -122,19 +122,19 @@
         "semestre": 1
       },
       {
-        "id": "*492",
+        "id": "*494",
         "nome": "Fundamentos da Matemática",
         "nomeCurto": "FdM",
         "semestre": 1
       },
       {
-        "id": "*656",
+        "id": "*659",
         "nome": "Introdução à Engenharia da Computação",
         "nomeCurto": "IàEdC",
         "semestre": 1
       },
       {
-        "id": "*1040",
+        "id": "*1042",
         "nome": "Química Geral e Ciência dos Materiais",
         "nomeCurto": "QGeCdM",
         "semestre": 1

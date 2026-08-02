@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "generatedAt": "2026-08-02T08:22:52.930Z",
   "schemaVersion": 1,
   "turma": {
     "aulas": [
@@ -7,63 +7,45 @@
         "diaSemana": 0,
         "horaFim": "22:25",
         "horaInicio": "18:50",
-        "materiaId": "-372",
-        "professor": "André Abreu",
-        "sala": "B-111",
-        "slot": 12
-      },
-      {
-        "diaSemana": 1,
-        "horaFim": "20:30",
-        "horaInicio": "18:50",
-        "materiaId": "-508",
-        "professor": "Luis Paoli",
-        "sala": "B-111",
+        "materiaId": "-254",
+        "professor": "Cléia Neves",
+        "sala": "B-110",
         "slot": 12
       },
       {
         "diaSemana": 1,
         "horaFim": "22:25",
-        "horaInicio": "20:45",
-        "materiaId": "-239",
-        "professor": "Luiz Figueiredo",
-        "sala": "B-111",
-        "slot": 14
-      },
-      {
-        "diaSemana": 2,
-        "horaFim": "20:30",
         "horaInicio": "18:50",
-        "materiaId": "-239",
-        "professor": "Luiz Figueiredo",
-        "sala": "B-111",
-        "slot": 12
-      },
-      {
-        "diaSemana": 2,
-        "horaFim": "22:25",
-        "horaInicio": "20:45",
-        "materiaId": "-447",
+        "materiaId": "-446",
         "professor": "Douglas Carvalho",
-        "sala": "B-007",
-        "slot": 14
+        "sala": "DINFRA",
+        "slot": 12
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "22:25",
+        "horaInicio": "18:50",
+        "materiaId": "-78",
+        "professor": "Jefferson Bento",
+        "sala": "B-110",
+        "slot": 12
       },
       {
         "diaSemana": 3,
         "horaFim": "22:25",
         "horaInicio": "18:50",
-        "materiaId": "*1196",
-        "professor": "Ilço Júnior",
-        "sala": "B-111",
+        "materiaId": "*795",
+        "professor": "Hugo Cedro",
+        "sala": "B-110",
         "slot": 12
       },
       {
         "diaSemana": 4,
         "horaFim": "22:25",
         "horaInicio": "18:50",
-        "materiaId": "-215",
-        "professor": "Jorge Monsalve",
-        "sala": "B-111",
+        "materiaId": "*532",
+        "professor": "Noelto Teixeira",
+        "sala": "B-110",
         "slot": 12
       }
     ],
@@ -71,43 +53,37 @@
     "id": "t187",
     "materias": [
       {
-        "id": "-215",
-        "nome": "Equações Diferenciais",
-        "nomeCurto": "Equações Diferenciais",
-        "semestre": 4
+        "id": "-78",
+        "nome": "Cálculo Diferencial e Integral III",
+        "nomeCurto": "Cálculo III",
+        "semestre": 3
       },
       {
-        "id": "-239",
-        "nome": "Fenômeno de Transporte",
-        "nomeCurto": "FenTran",
-        "semestre": 4
+        "id": "-254",
+        "nome": "Física Geral e Experimental III",
+        "nomeCurto": "Fís G e E III",
+        "semestre": 3
       },
       {
-        "id": "-372",
-        "nome": "Isostática",
-        "nomeCurto": "Isostática",
-        "semestre": 4
+        "id": "*532",
+        "nome": "Geomática",
+        "nomeCurto": "Geomática",
+        "semestre": 3
       },
       {
-        "id": "-447",
-        "nome": "Materiais de Construção III",
-        "nomeCurto": "MCIII",
-        "semestre": 4
+        "id": "-446",
+        "nome": "Materiais de Construção II",
+        "nomeCurto": "MCII",
+        "semestre": 3
       },
       {
-        "id": "-508",
-        "nome": "Probabilidade e Estatística",
-        "nomeCurto": "Probabilidade e Estatística",
-        "semestre": 4
-      },
-      {
-        "id": "*1196",
-        "nome": "Tecnologia das Construções I",
-        "nomeCurto": "Tecnologia das Construções I",
-        "semestre": 4
+        "id": "*795",
+        "nome": "Mecânica Técnica",
+        "nomeCurto": "Mecânica Técnica",
+        "semestre": 3
       }
     ],
-    "nome": "DINFRA 0140063.4N Eng. Civil",
-    "semestre": 4
+    "nome": "DINFRA 0140063.3N Eng. Civil",
+    "semestre": 3
   }
 }

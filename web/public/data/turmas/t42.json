@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "generatedAt": "2026-08-02T08:22:52.930Z",
   "schemaVersion": 1,
   "turma": {
     "aulas": [
@@ -7,7 +7,7 @@
         "diaSemana": 1,
         "horaFim": "20:30",
         "horaInicio": "18:50",
-        "materiaId": "*852",
+        "materiaId": "*854",
         "professor": "Paulo Lopes",
         "sala": "DCOM",
         "slot": 12
@@ -16,7 +16,7 @@
         "diaSemana": 1,
         "horaFim": "22:25",
         "horaInicio": "20:45",
-        "materiaId": "*852",
+        "materiaId": "*854",
         "professor": "Paulo Lopes",
         "sala": "DCOM",
         "slot": 14
@@ -25,7 +25,7 @@
         "diaSemana": 2,
         "horaFim": "20:30",
         "horaInicio": "18:50",
-        "materiaId": "*959",
+        "materiaId": "*961",
         "professor": "Evandro Freiberger",
         "sala": "DCOM",
         "slot": 12
@@ -34,7 +34,7 @@
         "diaSemana": 2,
         "horaFim": "22:25",
         "horaInicio": "20:45",
-        "materiaId": "*959",
+        "materiaId": "*961",
         "professor": "Evandro Freiberger",
         "sala": "DCOM",
         "slot": 14
@@ -61,7 +61,7 @@
         "diaSemana": 4,
         "horaFim": "20:30",
         "horaInicio": "18:50",
-        "materiaId": "*991",
+        "materiaId": "*993",
         "professor": "Orlando Júnior",
         "sala": "DCOM",
         "slot": 12
@@ -70,7 +70,7 @@
         "diaSemana": 4,
         "horaFim": "22:25",
         "horaInicio": "20:45",
-        "materiaId": "*991",
+        "materiaId": "*993",
         "professor": "Orlando Júnior",
         "sala": "DCOM",
         "slot": 14
@@ -80,13 +80,13 @@
     "id": "t42",
     "materias": [
       {
-        "id": "*852",
+        "id": "*854",
         "nome": "Oficina de Prática Extensionista II",
         "nomeCurto": "Oficina II",
         "semestre": 5
       },
       {
-        "id": "*959",
+        "id": "*961",
         "nome": "Programação Orientada a Serviços",
         "nomeCurto": "Progr. Orient. a Serv.",
         "semestre": 5
@@ -98,7 +98,7 @@
         "semestre": 5
       },
       {
-        "id": "*991",
+        "id": "*993",
         "nome": "Projeto de Software",
         "nomeCurto": "PdS",
         "semestre": 5

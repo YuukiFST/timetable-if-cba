@@ -1,0 +1,29 @@
+{
+  "generatedAt": "2026-08-02T08:22:52.930Z",
+  "schemaVersion": 1,
+  "turma": {
+    "aulas": [
+      {
+        "diaSemana": 1,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "-379",
+        "professor": "Jenniffer Santos",
+        "sala": "B-205",
+        "slot": 12
+      }
+    ],
+    "cursoId": "dabc-licenc-em-educ-fis",
+    "id": "t26",
+    "materias": [
+      {
+        "id": "-379",
+        "nome": "LIBRAS",
+        "nomeCurto": "L",
+        "semestre": 7
+      }
+    ],
+    "nome": "DABC - Licenc. em Educ. Fís. - 7o SEM.",
+    "semestre": 7
+  }
+}

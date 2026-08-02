@@ -1,42 +1,47 @@
 {
-  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "generatedAt": "2026-08-02T08:22:52.930Z",
   "schemaVersion": 1,
   "turma": {
     "aulas": [
       {
         "diaSemana": 3,
-        "horaFim": "17:05",
-        "horaInicio": "13:00",
-        "materiaId": "*82",
-        "professor": "José Vinicius, Tatiane de Oliveira",
-        "slot": 6
-      },
-      {
-        "diaSemana": 3,
-        "horaFim": "17:50",
+        "horaFim": "19:40",
         "horaInicio": "17:05",
-        "materiaId": "*82",
-        "professor": "José Vinicius, Tatiane de Oliveira",
+        "materiaId": "*1228",
+        "professor": "André Fonseca",
         "slot": 11
       },
       {
         "diaSemana": 4,
-        "horaFim": "11:05",
-        "horaInicio": "07:00",
-        "materiaId": "*82",
-        "professor": "José Vinicius, Tatiane de Oliveira",
-        "slot": 0
+        "horaFim": "15:15",
+        "horaInicio": "13:45",
+        "materiaId": "*1218",
+        "professor": "Tatiane de Oliveira, José Vinicius",
+        "slot": 7
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "17:05",
+        "horaInicio": "15:35",
+        "materiaId": "*1218",
+        "professor": "Tatiane de Oliveira, José Vinicius",
+        "slot": 9
       }
     ],
-    "cursoId": "profept-mestrado-03",
+    "cursoId": "profept-mestrado-02",
     "id": "t211",
     "materias": [
       {
-        "id": "*82",
-        "nome": "Atividades ProfEPT",
-        "nomeCurto": "Atividades ProfEPT"
+        "id": "*1218",
+        "nome": "Teorias e Práticas do Ensino e Aprendizagem",
+        "nomeCurto": "TePdEeA"
+      },
+      {
+        "id": "*1228",
+        "nome": "Tópicos Especiais",
+        "nomeCurto": "Tópicos Especiais"
       }
     ],
-    "nome": "ProfEPT - Mestrado - 03"
+    "nome": "ProfEPT - Mestrado - 02"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "generatedAt": "2026-08-02T08:22:52.930Z",
   "schemaVersion": 1,
   "turma": {
     "aulas": [
@@ -7,7 +7,7 @@
         "diaSemana": 0,
         "horaFim": "20:30",
         "horaInicio": "18:50",
-        "materiaId": "*1021",
+        "materiaId": "*1023",
         "professor": "André Fonseca",
         "sala": "DEEA E114 Lab. Informatica",
         "slot": 12
@@ -16,7 +16,7 @@
         "diaSemana": 0,
         "horaFim": "22:25",
         "horaInicio": "20:45",
-        "materiaId": "*1021",
+        "materiaId": "*1023",
         "professor": "André Fonseca",
         "sala": "DEEA E114 Lab. Informatica",
         "slot": 14
@@ -25,16 +25,16 @@
         "diaSemana": 1,
         "horaFim": "20:30",
         "horaInicio": "18:50",
-        "materiaId": "*973",
+        "materiaId": "*975",
         "professor": "Noel Costa",
-        "sala": "DEEA E116 Lab. Telecomunicações",
+        "sala": "DEEA E114 Lab. Informatica",
         "slot": 12
       },
       {
         "diaSemana": 1,
         "horaFim": "22:25",
         "horaInicio": "20:45",
-        "materiaId": "*973",
+        "materiaId": "*975",
         "professor": "Noel Costa",
         "sala": "DEEA E114 Lab. Informatica",
         "slot": 14
@@ -43,16 +43,16 @@
         "diaSemana": 2,
         "horaFim": "20:30",
         "horaInicio": "18:50",
-        "materiaId": "*975",
+        "materiaId": "*977",
         "professor": "Ademar Silva",
-        "sala": "DEEA E006 Lab. Máquinas Elétricas",
+        "sala": "DEEA E101 Lab. Eletrônica",
         "slot": 12
       },
       {
         "diaSemana": 2,
         "horaFim": "22:25",
         "horaInicio": "20:45",
-        "materiaId": "*975",
+        "materiaId": "*977",
         "professor": "Ademar Silva",
         "sala": "DEEA E101 Lab. Eletrônica",
         "slot": 14
@@ -126,13 +126,13 @@
         "semestre": 9
       },
       {
-        "id": "*973",
+        "id": "*975",
         "nome": "Projeto de Distribuição de Energia Elérica",
         "nomeCurto": "Proj. Distr.",
         "semestre": 9
       },
       {
-        "id": "*975",
+        "id": "*977",
         "nome": "Projeto de Energias Renováveis II",
         "nomeCurto": "Proj.E.Reno.II",
         "semestre": 9
@@ -144,7 +144,7 @@
         "semestre": 9
       },
       {
-        "id": "*1021",
+        "id": "*1023",
         "nome": "Proteção de Sistemas Elétricos",
         "nomeCurto": "Prot. S. Eletr.",
         "semestre": 9

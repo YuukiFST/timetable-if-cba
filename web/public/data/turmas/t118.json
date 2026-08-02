@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "generatedAt": "2026-08-02T08:22:52.930Z",
   "schemaVersion": 1,
   "turma": {
     "aulas": [
@@ -7,27 +7,27 @@
         "diaSemana": 0,
         "horaFim": "08:30",
         "horaInicio": "07:00",
-        "materiaId": "*557",
-        "professor": "Karen França",
-        "sala": "B-220",
+        "materiaId": "-67",
+        "professor": "Rhavena Liotti",
+        "sala": "B-222",
         "slot": 0
       },
       {
         "diaSemana": 0,
         "horaFim": "10:20",
         "horaInicio": "08:30",
-        "materiaId": "-400",
-        "professor": "Adriane Lima",
-        "sala": "B-220",
+        "materiaId": "*605",
+        "professor": "Yasmim",
+        "sala": "B-222",
         "slot": 2
       },
       {
         "diaSemana": 0,
         "horaFim": "11:50",
         "horaInicio": "10:20",
-        "materiaId": "*602",
-        "professor": "Subst. Turismo",
-        "sala": "B-220",
+        "materiaId": "-400",
+        "professor": "Adriane Lima",
+        "sala": "B-222",
         "slot": 4
       },
       {
@@ -35,113 +35,113 @@
         "horaFim": "08:30",
         "horaInicio": "07:00",
         "materiaId": "-435",
-        "professor": "Daniel Cintra",
-        "sala": "B-220",
+        "professor": "Leandro Ferreira",
+        "sala": "B-222",
         "slot": 0
       },
       {
         "diaSemana": 1,
         "horaFim": "09:15",
         "horaInicio": "08:30",
-        "materiaId": "*65",
-        "sala": "B-220",
+        "materiaId": "*66",
+        "sala": "B-222",
         "slot": 2
       },
       {
         "diaSemana": 1,
         "horaFim": "10:20",
         "horaInicio": "09:35",
-        "materiaId": "*65",
-        "sala": "B-220",
+        "materiaId": "*66",
+        "sala": "B-222",
         "slot": 3
       },
       {
         "diaSemana": 1,
         "horaFim": "11:50",
         "horaInicio": "10:20",
-        "materiaId": "-67",
-        "professor": "Rhavena Liotti",
-        "sala": "B-220",
-        "slot": 4
-      },
-      {
-        "diaSemana": 2,
-        "horaFim": "08:30",
-        "horaInicio": "07:00",
-        "materiaId": "-569",
-        "professor": "Dirce Silva",
-        "sala": "B-220",
-        "slot": 0
-      },
-      {
-        "diaSemana": 2,
-        "horaFim": "10:20",
-        "horaInicio": "08:30",
-        "materiaId": "-256",
-        "professor": "William Jesus",
-        "sala": "B-220",
-        "slot": 2
-      },
-      {
-        "diaSemana": 2,
-        "horaFim": "11:50",
-        "horaInicio": "10:20",
-        "materiaId": "-588",
-        "professor": "Érica Marques",
-        "sala": "B-220",
-        "slot": 4
-      },
-      {
-        "diaSemana": 3,
-        "horaFim": "08:30",
-        "horaInicio": "07:00",
         "materiaId": "-329",
         "professor": "Karina Brito",
-        "sala": "B-220",
+        "sala": "B-222",
+        "slot": 4
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "08:30",
+        "horaInicio": "07:00",
+        "materiaId": "-435",
+        "professor": "Leandro Ferreira",
+        "sala": "B-222",
+        "slot": 0
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "10:20",
+        "horaInicio": "08:30",
+        "materiaId": "-588",
+        "professor": "Érica Marques",
+        "sala": "B-222",
+        "slot": 2
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "11:50",
+        "horaInicio": "10:20",
+        "materiaId": "-569",
+        "professor": "Dirce Silva",
+        "sala": "B-222",
+        "slot": 4
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "08:30",
+        "horaInicio": "07:00",
+        "materiaId": "-400",
+        "professor": "Adriane Lima",
+        "sala": "B-222",
         "slot": 0
       },
       {
         "diaSemana": 3,
         "horaFim": "10:20",
         "horaInicio": "08:30",
-        "materiaId": "-435",
-        "professor": "Daniel Cintra",
-        "sala": "B-220",
+        "materiaId": "-381",
+        "professor": "Rosemary Mendes",
+        "sala": "B-222",
         "slot": 2
       },
       {
         "diaSemana": 3,
         "horaFim": "11:50",
         "horaInicio": "10:20",
-        "materiaId": "-400",
-        "professor": "Adriane Lima",
-        "sala": "B-220",
+        "materiaId": "*1004",
+        "professor": "Joicy Lara",
+        "sala": "DCOM",
         "slot": 4
       },
       {
         "diaSemana": 3,
         "horaFim": "15:15",
         "horaInicio": "13:45",
-        "materiaId": "-244",
-        "professor": "Luiz Torquato",
-        "sala": "B-220",
+        "materiaId": "*339",
+        "professor": "Lethícia Castilhos",
+        "sala": "B-222",
         "slot": 7
       },
       {
         "diaSemana": 3,
         "horaFim": "17:05",
         "horaInicio": "15:35",
-        "materiaId": "*337",
-        "professor": "Lethícia Castilhos",
-        "sala": "B-220",
+        "materiaId": "-244",
+        "professor": "Luiz Torquato",
+        "sala": "B-222",
         "slot": 9
       },
       {
         "diaSemana": 4,
         "horaFim": "08:30",
         "horaInicio": "07:00",
-        "materiaId": "-285",
-        "professor": "Mauro França",
+        "materiaId": "*559",
+        "professor": "Karen França",
         "sala": "B-222",
         "slot": 0
       },
@@ -149,18 +149,18 @@
         "diaSemana": 4,
         "horaFim": "10:20",
         "horaInicio": "08:30",
-        "materiaId": "*1002",
-        "professor": "Monica Crispim",
-        "sala": "B-220",
+        "materiaId": "-285",
+        "professor": "Paulo Daniel Curti de Almeida",
+        "sala": "B-222",
         "slot": 2
       },
       {
         "diaSemana": 4,
         "horaFim": "11:50",
         "horaInicio": "10:20",
-        "materiaId": "-381",
-        "professor": "Rosemary Mendes",
-        "sala": "B-220",
+        "materiaId": "-256",
+        "professor": "William Jesus",
+        "sala": "B-222",
         "slot": 4
       }
     ],
@@ -168,7 +168,7 @@
     "id": "t118",
     "materias": [
       {
-        "id": "*65",
+        "id": "*66",
         "nome": "Arte",
         "nomeCurto": "Arte",
         "semestre": 1
@@ -180,7 +180,7 @@
         "semestre": 1
       },
       {
-        "id": "*337",
+        "id": "*339",
         "nome": "Educação Física I",
         "nomeCurto": "EFI",
         "semestre": 1
@@ -204,7 +204,7 @@
         "semestre": 1
       },
       {
-        "id": "*557",
+        "id": "*559",
         "nome": "Gestão de Eventos I",
         "nomeCurto": "Gest. Ev. I",
         "semestre": 1
@@ -216,7 +216,7 @@
         "semestre": 1
       },
       {
-        "id": "*602",
+        "id": "*605",
         "nome": "Hospitalidade e Eventos",
         "nomeCurto": "HeE",
         "semestre": 1
@@ -240,7 +240,7 @@
         "semestre": 1
       },
       {
-        "id": "*1002",
+        "id": "*1004",
         "nome": "Projeto Integrador I",
         "nomeCurto": "Proj. I",
         "semestre": 1
@@ -258,7 +258,7 @@
         "semestre": 1
       }
     ],
-    "nome": "DGH 7531.1BI Even. Integ.",
+    "nome": "DGH 7531.1AI Even. Integ.",
     "semestre": 1
   }
 }

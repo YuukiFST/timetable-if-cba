@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "generatedAt": "2026-08-02T08:22:52.930Z",
   "schemaVersion": 1,
   "turma": {
     "aulas": [
@@ -8,7 +8,7 @@
         "horaFim": "08:30",
         "horaInicio": "07:00",
         "materiaId": "-329",
-        "professor": "Subst. Historia",
+        "professor": "Marcos de Melo",
         "sala": "B-204",
         "slot": 0
       },
@@ -60,7 +60,7 @@
         "diaSemana": 1,
         "horaFim": "11:50",
         "horaInicio": "09:35",
-        "materiaId": "*365",
+        "materiaId": "*367",
         "professor": "Djalma Campos",
         "sala": "DEEA E118 Lab. Eletrônica",
         "slot": 3
@@ -69,7 +69,7 @@
         "diaSemana": 1,
         "horaFim": "11:50",
         "horaInicio": "09:35",
-        "materiaId": "*966",
+        "materiaId": "*968",
         "professor": "Roney Pinhorati",
         "sala": "DEEA E114 Lab. Informatica",
         "slot": 3
@@ -114,7 +114,7 @@
         "diaSemana": 2,
         "horaFim": "15:15",
         "horaInicio": "13:00",
-        "materiaId": "*966",
+        "materiaId": "*968",
         "professor": "Roney Pinhorati",
         "sala": "DEEA E114 Lab. Informatica",
         "slot": 6
@@ -123,7 +123,7 @@
         "diaSemana": 2,
         "horaFim": "17:05",
         "horaInicio": "14:30",
-        "materiaId": "*365",
+        "materiaId": "*367",
         "professor": "Djalma Campos",
         "sala": "DEEA E118 Lab. Eletrônica",
         "slot": 8
@@ -150,7 +150,7 @@
         "diaSemana": 3,
         "horaFim": "10:20",
         "horaInicio": "08:30",
-        "materiaId": "*65",
+        "materiaId": "*66",
         "slot": 2
       },
       {
@@ -185,7 +185,7 @@
     "id": "t84",
     "materias": [
       {
-        "id": "*65",
+        "id": "*66",
         "nome": "Arte",
         "nomeCurto": "Arte",
         "semestre": 1
@@ -203,7 +203,7 @@
         "semestre": 1
       },
       {
-        "id": "*365",
+        "id": "*367",
         "nome": "Eletrônica Analógica",
         "nomeCurto": "Eletr. A.",
         "semestre": 1
@@ -263,7 +263,7 @@
         "semestre": 1
       },
       {
-        "id": "*966",
+        "id": "*968",
         "nome": "Proj. Int. Desenho e Confecção de PCI",
         "nomeCurto": "Desenho PCI",
         "semestre": 1

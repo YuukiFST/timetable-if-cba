@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "generatedAt": "2026-08-02T08:22:52.930Z",
   "schemaVersion": 1,
   "turma": {
     "aulas": [
@@ -25,7 +25,7 @@
         "diaSemana": 0,
         "horaFim": "17:50",
         "horaInicio": "16:20",
-        "materiaId": "*550",
+        "materiaId": "*552",
         "professor": "Francielle Oliveira",
         "sala": "B-202",
         "slot": 10
@@ -43,7 +43,7 @@
         "diaSemana": 1,
         "horaFim": "11:50",
         "horaInicio": "10:20",
-        "materiaId": "*885",
+        "materiaId": "*887",
         "professor": "Letícia Rodrigues",
         "sala": "DEEA E105 Lab. Informática",
         "slot": 4
@@ -52,7 +52,7 @@
         "diaSemana": 1,
         "horaFim": "11:50",
         "horaInicio": "10:20",
-        "materiaId": "*885",
+        "materiaId": "*887",
         "professor": "Bernanci Almeida",
         "sala": "DEEA E116 Lab. Telecomunicações",
         "slot": 4
@@ -61,7 +61,7 @@
         "diaSemana": 1,
         "horaFim": "15:15",
         "horaInicio": "13:00",
-        "materiaId": "*1004",
+        "materiaId": "*1006",
         "professor": "Noel Costa",
         "sala": "DEEA E006 Lab. Máquinas Elétricas",
         "slot": 6
@@ -98,7 +98,7 @@
         "horaFim": "08:30",
         "horaInicio": "07:00",
         "materiaId": "-257",
-        "professor": "Luciano Schlaucher",
+        "professor": "Edson Ferreira",
         "sala": "B-210",
         "slot": 0
       },
@@ -114,7 +114,7 @@
         "diaSemana": 2,
         "horaFim": "11:50",
         "horaInicio": "10:20",
-        "materiaId": "*706",
+        "materiaId": "*709",
         "professor": "Weslley Siqueira",
         "sala": "B-210",
         "slot": 4
@@ -150,7 +150,7 @@
         "diaSemana": 3,
         "horaFim": "15:15",
         "horaInicio": "13:00",
-        "materiaId": "*1004",
+        "materiaId": "*1006",
         "professor": "Noel Costa",
         "sala": "DEEA E006 Lab. Máquinas Elétricas",
         "slot": 6
@@ -186,7 +186,7 @@
         "diaSemana": 4,
         "horaFim": "17:50",
         "horaInicio": "16:20",
-        "materiaId": "*385",
+        "materiaId": "*387",
         "professor": "João Lucas",
         "sala": "DEEA E014 Lab. Inst. Elétricas",
         "slot": 10
@@ -214,7 +214,7 @@
         "semestre": 2
       },
       {
-        "id": "*385",
+        "id": "*387",
         "nome": "Energias Renováveis",
         "nomeCurto": "ER",
         "semestre": 2
@@ -238,7 +238,7 @@
         "semestre": 2
       },
       {
-        "id": "*550",
+        "id": "*552",
         "nome": "Gestão da Qualidade e Empreendedorismo",
         "nomeCurto": "GdQeE",
         "semestre": 2
@@ -256,7 +256,7 @@
         "semestre": 2
       },
       {
-        "id": "*706",
+        "id": "*709",
         "nome": "Lingua Inglesa Aplicada I",
         "nomeCurto": "L.Ing.Apl.I",
         "semestre": 2
@@ -274,13 +274,13 @@
         "semestre": 2
       },
       {
-        "id": "*885",
+        "id": "*887",
         "nome": "PIE Res/Pred/Ind",
         "nomeCurto": "PIE RPInd.",
         "semestre": 2
       },
       {
-        "id": "*1004",
+        "id": "*1006",
         "nome": "Projeto Integrador II - Eletromagnetismo e Máquinas Elétricas",
         "nomeCurto": "PII-EeME",
         "semestre": 2

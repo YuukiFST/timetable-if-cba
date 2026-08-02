@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "generatedAt": "2026-08-02T08:22:52.930Z",
   "schemaVersion": 1,
   "turma": {
     "aulas": [
@@ -36,6 +36,23 @@
         "professor": "Guilherme Seixas",
         "sala": "DEEA E203 Lab. CLP Inicial",
         "slot": 2
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "14:30",
+        "horaInicio": "13:00",
+        "materiaId": "*230",
+        "professor": "Edelson Duarte",
+        "sala": "DEEA E203 Lab. CLP Inicial",
+        "slot": 6
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "16:20",
+        "horaInicio": "14:30",
+        "materiaId": "*232",
+        "professor": "Edelson Duarte",
+        "slot": 8
       }
     ],
     "cursoId": "deea-dependencia",
@@ -55,6 +72,16 @@
         "id": "*226",
         "nome": "Dependência - Circuitos Elétricos CC e CA",
         "nomeCurto": "CECeC(Dp)"
+      },
+      {
+        "id": "*230",
+        "nome": "Dependência - Eletrônica Digital",
+        "nomeCurto": "Dep. Eletrônica Dig."
+      },
+      {
+        "id": "*232",
+        "nome": "Dependência - Eletrônica Digital e Analógica",
+        "nomeCurto": "D-EDeA"
       },
       {
         "id": "-460",
