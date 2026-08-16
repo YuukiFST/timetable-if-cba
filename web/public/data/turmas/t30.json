@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "generatedAt": "2026-08-16T06:37:43.841Z",
   "schemaVersion": 1,
   "turma": {
     "aulas": [
@@ -25,7 +25,7 @@
         "diaSemana": 0,
         "horaFim": "11:50",
         "horaInicio": "10:20",
-        "materiaId": "*732",
+        "materiaId": "*735",
         "professor": "Maurício Catharino",
         "sala": "DCOM",
         "slot": 4
@@ -43,7 +43,7 @@
         "diaSemana": 0,
         "horaFim": "17:05",
         "horaInicio": "15:35",
-        "materiaId": "*1002",
+        "materiaId": "*1004",
         "professor": "Pedro Clarindo",
         "sala": "DCOM",
         "slot": 9
@@ -52,7 +52,7 @@
         "diaSemana": 1,
         "horaFim": "08:30",
         "horaInicio": "07:00",
-        "materiaId": "*732",
+        "materiaId": "*735",
         "professor": "Maurício Catharino",
         "sala": "DCOM",
         "slot": 0
@@ -71,7 +71,7 @@
         "horaFim": "11:50",
         "horaInicio": "10:20",
         "materiaId": "-248",
-        "professor": "Luis Otávio",
+        "professor": "Edson Ferreira",
         "sala": "B-207",
         "slot": 4
       },
@@ -79,7 +79,7 @@
         "diaSemana": 2,
         "horaFim": "09:15",
         "horaInicio": "07:00",
-        "materiaId": "*456",
+        "materiaId": "*458",
         "professor": "Aldo Silva",
         "sala": "DCOM",
         "slot": 0
@@ -97,7 +97,7 @@
         "diaSemana": 2,
         "horaFim": "14:30",
         "horaInicio": "13:00",
-        "materiaId": "*65",
+        "materiaId": "*66",
         "professor": "Claudio Dias",
         "slot": 6
       },
@@ -113,7 +113,7 @@
         "diaSemana": 3,
         "horaFim": "09:15",
         "horaInicio": "07:00",
-        "materiaId": "*985",
+        "materiaId": "*987",
         "professor": "Custódio Junior",
         "sala": "DCOM",
         "slot": 0
@@ -177,7 +177,7 @@
     "id": "t30",
     "materias": [
       {
-        "id": "*65",
+        "id": "*66",
         "nome": "Arte",
         "nomeCurto": "Arte",
         "semestre": 1
@@ -195,7 +195,7 @@
         "semestre": 1
       },
       {
-        "id": "*456",
+        "id": "*458",
         "nome": "Ferramentas de Informática E Organização Computacional",
         "nomeCurto": "FdIEOC",
         "semestre": 1
@@ -243,7 +243,7 @@
         "semestre": 1
       },
       {
-        "id": "*732",
+        "id": "*735",
         "nome": "Lógica Computacional e Algoritmos",
         "nomeCurto": "LCeA",
         "semestre": 1
@@ -255,13 +255,13 @@
         "semestre": 1
       },
       {
-        "id": "*985",
+        "id": "*987",
         "nome": "Projeto de Interface de Usuários",
         "nomeCurto": "PdIdU",
         "semestre": 1
       },
       {
-        "id": "*1002",
+        "id": "*1004",
         "nome": "Projeto Integrador I",
         "nomeCurto": "Proj. I",
         "semestre": 1

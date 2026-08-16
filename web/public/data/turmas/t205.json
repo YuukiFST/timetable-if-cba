@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "generatedAt": "2026-08-16T06:37:43.841Z",
   "schemaVersion": 1,
   "turma": {
     "aulas": [
@@ -7,49 +7,49 @@
         "diaSemana": 0,
         "horaFim": "17:05",
         "horaInicio": "13:00",
-        "materiaId": "*870",
-        "sala": "B-222",
+        "materiaId": "*871",
+        "sala": "B-220",
         "slot": 6
-      },
-      {
-        "diaSemana": 0,
-        "horaFim": "22:25",
-        "horaInicio": "17:05",
-        "materiaId": "*870",
-        "slot": 11
       },
       {
         "diaSemana": 1,
         "horaFim": "17:05",
         "horaInicio": "13:00",
-        "materiaId": "*870",
-        "sala": "B-210",
+        "materiaId": "*871",
+        "sala": "B-220",
         "slot": 6
       },
       {
-        "diaSemana": 4,
+        "diaSemana": 2,
         "horaFim": "17:05",
         "horaInicio": "13:00",
-        "materiaId": "*870",
+        "materiaId": "*871",
         "slot": 6
       },
       {
-        "diaSemana": 4,
+        "diaSemana": 2,
         "horaFim": "22:25",
         "horaInicio": "17:05",
-        "materiaId": "*870",
+        "materiaId": "*871",
         "slot": 11
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "17:05",
+        "horaInicio": "13:00",
+        "materiaId": "*871",
+        "slot": 6
       }
     ],
-    "cursoId": "partiu-if-2",
+    "cursoId": "partiu-if-1",
     "id": "t205",
     "materias": [
       {
-        "id": "*870",
-        "nome": "Partiu IF 2",
-        "nomeCurto": "Partiu IF 2"
+        "id": "*871",
+        "nome": "Partiu IF 1",
+        "nomeCurto": "Partiu IF 1"
       }
     ],
-    "nome": "Partiu IF 2"
+    "nome": "Partiu IF 1"
   }
 }

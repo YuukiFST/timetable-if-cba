@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "generatedAt": "2026-08-16T06:37:43.841Z",
   "schemaVersion": 1,
   "turma": {
     "aulas": [
@@ -7,8 +7,8 @@
         "diaSemana": 0,
         "horaFim": "08:30",
         "horaInicio": "07:00",
-        "materiaId": "-703",
-        "professor": "Aluizio Costa",
+        "materiaId": "-72",
+        "professor": "Geraldo Almeida",
         "sala": "DINFRA",
         "slot": 0
       },
@@ -16,224 +16,263 @@
         "diaSemana": 0,
         "horaFim": "09:15",
         "horaInicio": "08:30",
-        "materiaId": "-651",
-        "professor": "Marlene Renck",
-        "sala": "B-003",
+        "materiaId": "-437",
+        "professor": "Adriano Sales",
+        "sala": "B-101",
         "slot": 2
       },
       {
         "diaSemana": 0,
-        "horaFim": "10:20",
+        "horaFim": "11:50",
         "horaInicio": "09:35",
-        "materiaId": "-488",
-        "professor": "Adelson Ribeiro",
-        "sala": "B-003",
+        "materiaId": "-402",
+        "professor": "Soila Canam",
+        "sala": "B-101",
         "slot": 3
-      },
-      {
-        "diaSemana": 0,
-        "horaFim": "11:05",
-        "horaInicio": "10:20",
-        "materiaId": "-332",
-        "professor": "Leonam Silva",
-        "sala": "B-003",
-        "slot": 4
       },
       {
         "diaSemana": 1,
         "horaFim": "08:30",
         "horaInicio": "07:00",
-        "materiaId": "-510",
-        "professor": "Marcos Antonio",
-        "sala": "DINFRA",
-        "slot": 0
-      },
-      {
-        "diaSemana": 1,
-        "horaFim": "11:05",
-        "horaInicio": "08:30",
-        "materiaId": "-403",
-        "professor": "Soila Canam",
-        "sala": "B-003",
-        "slot": 2
-      },
-      {
-        "diaSemana": 1,
-        "horaFim": "11:50",
-        "horaInicio": "11:05",
-        "materiaId": "-246",
-        "professor": "Francisco Rosa",
-        "sala": "B-003",
-        "slot": 5
-      },
-      {
-        "diaSemana": 2,
-        "horaFim": "09:15",
-        "horaInicio": "07:00",
-        "materiaId": "-631",
+        "materiaId": "*573",
         "professor": "Pedro Spanghero",
         "sala": "DINFRA",
         "slot": 0
       },
       {
-        "diaSemana": 2,
-        "horaFim": "11:05",
-        "horaInicio": "09:35",
-        "materiaId": "-549",
-        "professor": "Patricia Rausch",
+        "diaSemana": 1,
+        "horaFim": "10:20",
+        "horaInicio": "08:30",
+        "materiaId": "-179",
+        "professor": "Edézio",
         "sala": "DINFRA",
-        "slot": 3
+        "slot": 2
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "11:50",
+        "horaInicio": "10:20",
+        "materiaId": "-331",
+        "professor": "Manuela Arruda",
+        "sala": "DINFRA",
+        "slot": 4
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "14:30",
+        "horaInicio": "13:00",
+        "materiaId": "-510",
+        "professor": "Raquel Louzada",
+        "sala": "DINFRA",
+        "slot": 6
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "08:30",
+        "horaInicio": "07:00",
+        "materiaId": "-650",
+        "professor": "Marlene Renck",
+        "sala": "DINFRA",
+        "slot": 0
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "10:20",
+        "horaInicio": "08:30",
+        "materiaId": "*487",
+        "professor": "Moises Santiago Ribeiro",
+        "sala": "DINFRA",
+        "slot": 2
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "11:50",
+        "horaInicio": "10:20",
+        "materiaId": "-69",
+        "professor": "Fabiane Batista",
+        "sala": "DINFRA",
+        "slot": 4
       },
       {
         "diaSemana": 3,
         "horaFim": "08:30",
         "horaInicio": "07:00",
-        "materiaId": "-439",
-        "professor": "Tahis Mello",
-        "sala": "B-003",
+        "materiaId": "*1007",
+        "professor": "Roberto Souto",
+        "sala": "DINFRA",
         "slot": 0
       },
       {
         "diaSemana": 3,
         "horaFim": "10:20",
         "horaInicio": "08:30",
-        "materiaId": "-72",
-        "professor": "Geraldo Almeida",
-        "sala": "DINFRA",
+        "materiaId": "-437",
+        "professor": "Adriano Sales",
+        "sala": "B-101",
         "slot": 2
       },
       {
         "diaSemana": 3,
         "horaFim": "11:50",
         "horaInicio": "10:20",
-        "materiaId": "-707",
-        "professor": "Sergio Crecca",
-        "sala": "DINFRA",
+        "materiaId": "-258",
+        "professor": "Haline Josefa",
+        "sala": "B-101",
         "slot": 4
       },
       {
+        "diaSemana": 3,
+        "horaFim": "15:15",
+        "horaInicio": "13:00",
+        "materiaId": "-703",
+        "professor": "Marcio Antunes",
+        "sala": "DINFRA",
+        "slot": 6
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "17:05",
+        "horaInicio": "15:35",
+        "materiaId": "-392",
+        "professor": "Thaynara Silva",
+        "sala": "B-106",
+        "slot": 9
+      },
+      {
         "diaSemana": 4,
-        "horaFim": "07:45",
+        "horaFim": "08:30",
         "horaInicio": "07:00",
-        "materiaId": "-374",
-        "professor": "Otavio Carvalho",
-        "sala": "B-003",
+        "materiaId": "-287",
+        "professor": "Marcelo Barbosa",
+        "sala": "B-111",
         "slot": 0
       },
       {
         "diaSemana": 4,
-        "horaFim": "09:15",
-        "horaInicio": "07:45",
-        "materiaId": "-624",
-        "professor": "Hérida Reis",
-        "sala": "DINFRA",
-        "slot": 1
+        "horaFim": "10:20",
+        "horaInicio": "08:30",
+        "materiaId": "-571",
+        "professor": "Dario Perna",
+        "sala": "B-111",
+        "slot": 2
       },
       {
         "diaSemana": 4,
-        "horaFim": "10:20",
-        "horaInicio": "09:35",
-        "materiaId": "-288",
-        "professor": "Stephanie Freire",
+        "horaFim": "11:50",
+        "horaInicio": "10:20",
+        "materiaId": "*139",
+        "professor": "Roberto Souto",
         "sala": "DINFRA",
-        "slot": 3
+        "slot": 4
       }
     ],
     "cursoId": "dinfra-2631-agrim-integ",
     "id": "t163",
     "materias": [
       {
+        "id": "-69",
+        "nome": "Biologia III",
+        "nomeCurto": "BIO III",
+        "semestre": 3
+      },
+      {
         "id": "-72",
         "nome": "Cadastro Técnico Multifinalitário",
         "nomeCurto": "Cadastro Técnico Multifinalitário",
-        "semestre": 4
+        "semestre": 3
       },
       {
-        "id": "-246",
-        "nome": "Filosofia III",
-        "nomeCurto": "FIL III",
-        "semestre": 4
+        "id": "*139",
+        "nome": "Cartografia Temática",
+        "nomeCurto": "Cartografia Temática",
+        "semestre": 3
       },
       {
-        "id": "-288",
-        "nome": "Geografia IV",
-        "nomeCurto": "GEO IV",
-        "semestre": 4
+        "id": "-179",
+        "nome": "Educação Física III",
+        "nomeCurto": "EFI III",
+        "semestre": 3
       },
       {
-        "id": "-332",
-        "nome": "História IV",
-        "nomeCurto": "HIST IV",
-        "semestre": 4
+        "id": "-258",
+        "nome": "Física III",
+        "nomeCurto": "Física III",
+        "semestre": 3
       },
       {
-        "id": "-374",
-        "nome": "Legislação Aplicada",
-        "nomeCurto": "LA",
-        "semestre": 4
+        "id": "*487",
+        "nome": "Fotogrametria",
+        "nomeCurto": "Fotogrametria",
+        "semestre": 3
       },
       {
-        "id": "-403",
-        "nome": "Língua Portuguesa IV",
-        "nomeCurto": "LP IV",
-        "semestre": 4
+        "id": "-287",
+        "nome": "Geografia III",
+        "nomeCurto": "GEO III",
+        "semestre": 3
       },
       {
-        "id": "-439",
-        "nome": "Matemática IV",
-        "nomeCurto": "MAT IV",
-        "semestre": 4
+        "id": "*573",
+        "nome": "Gestão de Serviços",
+        "nomeCurto": "GdS",
+        "semestre": 3
       },
       {
-        "id": "-488",
-        "nome": "Planejamento Custos e Organização do Trabalho",
-        "nomeCurto": "Planejamento Custos e Organização do Trabalho",
-        "semestre": 4
+        "id": "-331",
+        "nome": "História III",
+        "nomeCurto": "HIST III",
+        "semestre": 3
+      },
+      {
+        "id": "-392",
+        "nome": "Lingua Inglesa II",
+        "nomeCurto": "LI II",
+        "semestre": 3
+      },
+      {
+        "id": "-402",
+        "nome": "Língua Portuguesa III",
+        "nomeCurto": "LP III",
+        "semestre": 3
+      },
+      {
+        "id": "-437",
+        "nome": "Matemática III",
+        "nomeCurto": "Matemática III",
+        "semestre": 3
       },
       {
         "id": "-510",
         "nome": "Processamento Digital de Imagens",
         "nomeCurto": "Processamento Digital de Imagens",
-        "semestre": 4
+        "semestre": 3
       },
       {
-        "id": "-549",
-        "nome": "Projetos Assistidos por Computador",
-        "nomeCurto": "Projetos Assistidos por Computador",
-        "semestre": 4
+        "id": "*1007",
+        "nome": "Projeto Integrador III",
+        "nomeCurto": "Proj. III",
+        "semestre": 3
       },
       {
-        "id": "-624",
-        "nome": "Sistema de posicionamento por satélites",
-        "nomeCurto": "Sistema de posicionamento por satélites",
-        "semestre": 4
+        "id": "-571",
+        "nome": "Química III",
+        "nomeCurto": "QUI III",
+        "semestre": 3
       },
       {
-        "id": "-631",
-        "nome": "Sistemas de Informações Geográficas",
-        "nomeCurto": "Sistemas de Informações Geográficas",
-        "semestre": 4
-      },
-      {
-        "id": "-651",
-        "nome": "Sociologia III",
-        "nomeCurto": "SOC  III",
-        "semestre": 4
+        "id": "-650",
+        "nome": "Sociologia II",
+        "nomeCurto": "SOC II",
+        "semestre": 3
       },
       {
         "id": "-703",
         "nome": "Topografia Aplicada ao Georreferenciamento",
         "nomeCurto": "Topografia Aplicada ao Geo",
-        "semestre": 4
-      },
-      {
-        "id": "-707",
-        "nome": "Traçado de Estradas",
-        "nomeCurto": "Traçado de Estradas",
-        "semestre": 4
+        "semestre": 3
       }
     ],
-    "nome": "DINFRA 2631.4AM Agrim. Integ.",
-    "semestre": 4
+    "nome": "DINFRA 2631.3BM Agrim. Integ.",
+    "semestre": 3
   }
 }

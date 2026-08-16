@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "generatedAt": "2026-08-16T06:37:43.841Z",
   "schemaVersion": 1,
   "turma": {
     "aulas": [
@@ -7,113 +7,107 @@
         "diaSemana": 0,
         "horaFim": "22:25",
         "horaInicio": "18:50",
-        "materiaId": "*1080",
-        "professor": "Luana Morais",
-        "sala": "B-107",
+        "materiaId": "-372",
+        "professor": "André Abreu",
+        "sala": "B-111",
         "slot": 12
       },
       {
         "diaSemana": 1,
         "horaFim": "20:30",
         "horaInicio": "18:50",
-        "materiaId": "*808",
-        "professor": "Kamila Oliveira",
-        "sala": "DINFRA",
+        "materiaId": "-508",
+        "professor": "Luis Paoli",
+        "sala": "B-111",
         "slot": 12
       },
       {
         "diaSemana": 1,
         "horaFim": "22:25",
         "horaInicio": "20:45",
-        "materiaId": "-432",
-        "professor": "Luis Paoli",
-        "sala": "B-107",
+        "materiaId": "-239",
+        "professor": "Luiz Figueiredo",
+        "sala": "B-111",
         "slot": 14
       },
       {
         "diaSemana": 2,
-        "horaFim": "22:25",
+        "horaFim": "20:30",
         "horaInicio": "18:50",
-        "materiaId": "*971",
-        "professor": "Héllyda Sacal",
-        "sala": "DINFRA",
+        "materiaId": "-239",
+        "professor": "Luiz Figueiredo",
+        "sala": "B-111",
         "slot": 12
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "-447",
+        "professor": "Douglas Carvalho",
+        "sala": "B-101",
+        "slot": 14
       },
       {
         "diaSemana": 3,
         "horaFim": "22:25",
         "horaInicio": "18:50",
-        "materiaId": "-684",
-        "professor": "Angela Rocha",
-        "sala": "B-107",
-        "slot": 12
-      },
-      {
-        "diaSemana": 4,
-        "horaFim": "20:30",
-        "horaInicio": "18:50",
-        "materiaId": "*587",
-        "professor": "Calina Barros",
-        "sala": "B-107",
+        "materiaId": "*1200",
+        "professor": "Ilço Júnior",
+        "sala": "B-111",
         "slot": 12
       },
       {
         "diaSemana": 4,
         "horaFim": "22:25",
-        "horaInicio": "20:45",
-        "materiaId": "-597",
-        "professor": "Adelson Ribeiro",
-        "sala": "B-107",
-        "slot": 14
+        "horaInicio": "18:50",
+        "materiaId": "-215",
+        "professor": "Jorge Monsalve",
+        "sala": "B-111",
+        "slot": 12
       }
     ],
     "cursoId": "dinfra-0140063-eng-civil",
     "id": "t188",
     "materias": [
       {
-        "id": "*587",
-        "nome": "Hidráulica Geral",
-        "nomeCurto": "Hidráulica Geral",
-        "semestre": 5
+        "id": "-215",
+        "nome": "Equações Diferenciais",
+        "nomeCurto": "Equações Diferenciais",
+        "semestre": 4
       },
       {
-        "id": "-432",
-        "nome": "Matemática Financeira",
-        "nomeCurto": "MAT F",
-        "semestre": 5
+        "id": "-239",
+        "nome": "Fenômeno de Transporte",
+        "nomeCurto": "FenTran",
+        "semestre": 4
       },
       {
-        "id": "*808",
-        "nome": "Modelagem da Informação da Construção",
-        "nomeCurto": "Modelagem da Informação da Construção",
-        "semestre": 5
+        "id": "-372",
+        "nome": "Isostática",
+        "nomeCurto": "Isostática",
+        "semestre": 4
       },
       {
-        "id": "*971",
-        "nome": "Projeto de Arquitetura",
-        "nomeCurto": "ProjArq",
-        "semestre": 5
+        "id": "-447",
+        "nome": "Materiais de Construção III",
+        "nomeCurto": "MCIII",
+        "semestre": 4
       },
       {
-        "id": "*1080",
-        "nome": "Resistência dos Materiais I",
-        "nomeCurto": "RMI",
-        "semestre": 5
+        "id": "-508",
+        "nome": "Probabilidade e Estatística",
+        "nomeCurto": "Probabilidade e Estatística",
+        "semestre": 4
       },
       {
-        "id": "-597",
-        "nome": "Saúde e Segurança no Trabalho",
-        "nomeCurto": "Saúde e Segurança no Trabalho",
-        "semestre": 5
-      },
-      {
-        "id": "-684",
-        "nome": "Tecnologia das Construções II",
-        "nomeCurto": "Tecnologia das Construções II",
-        "semestre": 5
+        "id": "*1200",
+        "nome": "Tecnologia das Construções I",
+        "nomeCurto": "Tecnologia das Construções I",
+        "semestre": 4
       }
     ],
-    "nome": "DINFRA 0140063.5N Eng. Civil",
-    "semestre": 5
+    "nome": "DINFRA 0140063.4N Eng. Civil",
+    "semestre": 4
   }
 }

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "generatedAt": "2026-08-16T06:37:43.841Z",
   "schemaVersion": 1,
   "turma": {
     "aulas": [
@@ -18,17 +18,17 @@
         "horaInicio": "14:30",
         "materiaId": "-254",
         "professor": "Cristiano Cunha",
-        "sala": "D-014",
+        "sala": "DEEA E007 Lab. Física",
         "slot": 8
       },
       {
         "diaSemana": 1,
-        "horaFim": "17:50",
-        "horaInicio": "16:20",
+        "horaFim": "16:20",
+        "horaInicio": "14:30",
         "materiaId": "-254",
         "professor": "Cristiano Cunha",
         "sala": "DEEA E007 Lab. Física",
-        "slot": 10
+        "slot": 8
       },
       {
         "diaSemana": 2,
@@ -52,7 +52,7 @@
         "diaSemana": 3,
         "horaFim": "16:20",
         "horaInicio": "14:30",
-        "materiaId": "*667",
+        "materiaId": "*670",
         "professor": "Guilherme Seixas",
         "sala": "DEEA E107 Lab. Circuitos Elétricos",
         "slot": 8
@@ -63,7 +63,7 @@
         "horaInicio": "16:20",
         "materiaId": "-78",
         "professor": "Jorge Monsalve",
-        "sala": "B-206",
+        "sala": "D-014",
         "slot": 10
       },
       {
@@ -107,7 +107,7 @@
         "semestre": 3
       },
       {
-        "id": "*667",
+        "id": "*670",
         "nome": "Laboratório de Circuitos Elétricos I",
         "nomeCurto": "Lab.Circ.Ele.I",
         "semestre": 3

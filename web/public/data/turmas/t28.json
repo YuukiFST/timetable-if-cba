@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "generatedAt": "2026-08-16T06:37:43.841Z",
   "schemaVersion": 1,
   "turma": {
     "aulas": [
       {
-        "diaSemana": 1,
+        "diaSemana": 0,
         "horaFim": "17:50",
         "horaInicio": "16:20",
         "materiaId": "-545",
@@ -16,7 +16,7 @@
         "diaSemana": 4,
         "horaFim": "17:05",
         "horaInicio": "14:30",
-        "materiaId": "*985",
+        "materiaId": "*987",
         "professor": "Monica Crispim",
         "sala": "DCOM",
         "slot": 8
@@ -26,7 +26,7 @@
     "id": "t28",
     "materias": [
       {
-        "id": "*985",
+        "id": "*987",
         "nome": "Projeto de Interface de Usuários",
         "nomeCurto": "PdIdU",
         "semestre": 1

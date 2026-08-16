@@ -1,0 +1,39 @@
+{
+  "generatedAt": "2026-08-16T06:37:43.841Z",
+  "schemaVersion": 1,
+  "turma": {
+    "aulas": [
+      {
+        "diaSemana": 4,
+        "horaFim": "10:20",
+        "horaInicio": "09:35",
+        "materiaId": "*1103",
+        "professor": "Epaminondas",
+        "slot": 3
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "16:20",
+        "horaInicio": "13:00",
+        "materiaId": "*1213",
+        "professor": "Suammy Leite",
+        "slot": 6
+      }
+    ],
+    "cursoId": "ppgen-mestrado-disciplinas-01",
+    "id": "t207",
+    "materias": [
+      {
+        "id": "*1103",
+        "nome": "Seminário de Pesquisa",
+        "nomeCurto": "SdP"
+      },
+      {
+        "id": "*1213",
+        "nome": "Tendências e Abordagens de Pesquisa em Ciências e Matemática",
+        "nomeCurto": "Tend. e Abor. de Pesq. em Ciên. e Mat."
+      }
+    ],
+    "nome": "PPGEn - Mestrado - Disciplinas 01"
+  }
+}

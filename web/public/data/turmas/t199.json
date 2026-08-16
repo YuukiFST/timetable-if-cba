@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "generatedAt": "2026-08-16T06:37:43.841Z",
   "schemaVersion": 1,
   "turma": {
     "aulas": [
@@ -7,52 +7,48 @@
         "diaSemana": 0,
         "horaFim": "22:25",
         "horaInicio": "18:50",
-        "materiaId": "*835",
-        "sala": "DCOM",
+        "materiaId": "*1020",
         "slot": 12
       },
       {
         "diaSemana": 1,
         "horaFim": "22:25",
         "horaInicio": "18:50",
-        "materiaId": "*835",
-        "sala": "DCOM",
+        "materiaId": "*1020",
         "slot": 12
       },
       {
         "diaSemana": 2,
         "horaFim": "22:25",
         "horaInicio": "18:50",
-        "materiaId": "*835",
-        "sala": "DCOM",
+        "materiaId": "*1020",
+        "sala": "DINFRA",
         "slot": 12
       },
       {
         "diaSemana": 3,
         "horaFim": "22:25",
         "horaInicio": "18:50",
-        "materiaId": "*835",
-        "sala": "DCOM",
+        "materiaId": "*1020",
         "slot": 12
       },
       {
         "diaSemana": 4,
         "horaFim": "22:25",
         "horaInicio": "18:50",
-        "materiaId": "*835",
-        "sala": "DCOM",
+        "materiaId": "*1020",
         "slot": 12
       }
     ],
-    "cursoId": "pronatec-empreender",
-    "id": "t215",
+    "cursoId": "dinfra-pronatec",
+    "id": "t199",
     "materias": [
       {
-        "id": "*835",
-        "nome": "Negócios Inovadores com IA",
-        "nomeCurto": "I.A."
+        "id": "*1020",
+        "nome": "PRONATEC",
+        "nomeCurto": "PRONATEC"
       }
     ],
-    "nome": "Pronatec/Empreender"
+    "nome": "DINFRA - PRONATEC"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "generatedAt": "2026-08-16T06:37:43.841Z",
   "schemaVersion": 1,
   "turma": {
     "aulas": [
@@ -7,171 +7,153 @@
         "diaSemana": 0,
         "horaFim": "08:30",
         "horaInicio": "07:00",
-        "materiaId": "-258",
-        "professor": "Haline Josefa",
-        "sala": "B-212",
-        "slot": 0
-      },
-      {
-        "diaSemana": 0,
-        "horaFim": "10:20",
-        "horaInicio": "08:30",
         "materiaId": "-331",
         "professor": "Leonam Silva",
-        "sala": "B-212",
+        "sala": "B-124",
+        "slot": 0
+      },
+      {
+        "diaSemana": 0,
+        "horaFim": "09:15",
+        "horaInicio": "08:30",
+        "materiaId": "-402",
+        "professor": "Leisly Poletto",
+        "sala": "B-124",
         "slot": 2
       },
       {
         "diaSemana": 0,
-        "horaFim": "11:05",
-        "horaInicio": "10:20",
+        "horaFim": "10:20",
+        "horaInicio": "09:35",
         "materiaId": "-402",
         "professor": "Leisly Poletto",
-        "sala": "B-212",
-        "slot": 4
+        "sala": "B-124",
+        "slot": 3
       },
       {
         "diaSemana": 0,
         "horaFim": "11:50",
-        "horaInicio": "11:05",
-        "materiaId": "-402",
-        "professor": "Leisly Poletto",
-        "sala": "B-212",
-        "slot": 5
+        "horaInicio": "10:20",
+        "materiaId": "-258",
+        "professor": "Haline Josefa",
+        "sala": "B-124",
+        "slot": 4
       },
       {
         "diaSemana": 1,
         "horaFim": "08:30",
         "horaInicio": "07:00",
-        "materiaId": "*675",
-        "professor": "Otavio Carvalho",
-        "sala": "B-212",
+        "materiaId": "-392",
+        "professor": "Arivan",
+        "sala": "B-124",
         "slot": 0
       },
       {
         "diaSemana": 1,
         "horaFim": "10:20",
         "horaInicio": "08:30",
+        "materiaId": "*678",
+        "professor": "Otavio Carvalho",
+        "sala": "B-124",
+        "slot": 2
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "11:50",
+        "horaInicio": "10:20",
         "materiaId": "-69",
         "professor": "Liandra Cristine",
-        "sala": "B-212",
-        "slot": 2
-      },
-      {
-        "diaSemana": 1,
-        "horaFim": "11:50",
-        "horaInicio": "10:20",
-        "materiaId": "-650",
-        "professor": "Christiany Fonseca",
-        "sala": "B-212",
+        "sala": "B-124",
         "slot": 4
       },
       {
         "diaSemana": 2,
-        "horaFim": "08:30",
-        "horaInicio": "07:00",
-        "materiaId": "-571",
-        "professor": "Danilo Flumignan",
-        "sala": "B-212",
-        "slot": 0
-      },
-      {
-        "diaSemana": 2,
         "horaFim": "10:20",
-        "horaInicio": "08:30",
-        "materiaId": "-287",
-        "professor": "Stephanie Freire",
-        "sala": "B-212",
-        "slot": 2
+        "horaInicio": "07:45",
+        "materiaId": "-437",
+        "professor": "Vicente Filho",
+        "sala": "B-124",
+        "slot": 1
       },
       {
         "diaSemana": 2,
         "horaFim": "11:05",
         "horaInicio": "10:20",
-        "materiaId": "-437",
-        "professor": "Vicente Filho",
-        "sala": "B-212",
-        "slot": 4
-      },
-      {
-        "diaSemana": 2,
-        "horaFim": "11:50",
-        "horaInicio": "11:05",
         "materiaId": "-402",
         "professor": "Leisly Poletto",
-        "sala": "B-212",
-        "slot": 5
+        "sala": "B-124",
+        "slot": 4
       },
       {
         "diaSemana": 2,
         "horaFim": "14:30",
-        "horaInicio": "13:45",
-        "materiaId": "-437",
-        "professor": "Vicente Filho",
-        "sala": "B-002",
-        "slot": 7
+        "horaInicio": "13:00",
+        "materiaId": "-206",
+        "professor": "Arthur Farias",
+        "sala": "B-124",
+        "slot": 6
       },
       {
         "diaSemana": 2,
-        "horaFim": "15:15",
+        "horaFim": "16:20",
         "horaInicio": "14:30",
-        "materiaId": "-437",
-        "professor": "Vicente Filho",
-        "sala": "B-002",
+        "materiaId": "*561",
+        "professor": "Yasmim",
+        "sala": "B-124",
         "slot": 8
       },
       {
         "diaSemana": 3,
         "horaFim": "08:30",
         "horaInicio": "07:00",
-        "materiaId": "*1006",
-        "professor": "Antonio Gonçalves",
-        "sala": "B-212",
+        "materiaId": "*1008",
+        "professor": "Rafael Simões",
+        "sala": "DCOM",
         "slot": 0
       },
       {
         "diaSemana": 3,
         "horaFim": "10:20",
         "horaInicio": "08:30",
-        "materiaId": "-179",
-        "professor": "Kleber Bignarde",
-        "sala": "B-212",
+        "materiaId": "-650",
+        "professor": "Christiany Fonseca",
+        "sala": "B-124",
         "slot": 2
       },
       {
         "diaSemana": 3,
         "horaFim": "11:50",
         "horaInicio": "10:20",
-        "materiaId": "*559",
-        "professor": "Subst. Turismo",
-        "sala": "B-212",
+        "materiaId": "-179",
+        "professor": "Lethícia Castilhos",
+        "sala": "B-124",
         "slot": 4
       },
       {
         "diaSemana": 4,
         "horaFim": "08:30",
         "horaInicio": "07:00",
-        "materiaId": "-392",
-        "professor": "Arivan",
-        "sala": "B-212",
+        "materiaId": "-287",
+        "professor": "Stephanie Freire",
+        "sala": "B-124",
         "slot": 0
       },
       {
         "diaSemana": 4,
         "horaFim": "10:20",
         "horaInicio": "08:30",
-        "materiaId": "*42",
-        "professor": "Marli Spolidoro",
-        "sala": "B-212",
+        "materiaId": "-571",
+        "professor": "Danilo Flumignan",
+        "sala": "B-124",
         "slot": 2
       },
       {
         "diaSemana": 4,
         "horaFim": "11:50",
         "horaInicio": "10:20",
-        "materiaId": "-206",
-        "professor": "Arthur Farias",
-        "sala": "B-212",
+        "materiaId": "*42",
+        "professor": "Marli Spolidoro",
+        "sala": "B-124",
         "slot": 4
       }
     ],
@@ -215,7 +197,7 @@
         "semestre": 3
       },
       {
-        "id": "*559",
+        "id": "*561",
         "nome": "Gestão de Eventos III",
         "nomeCurto": "GE III",
         "semestre": 3
@@ -227,7 +209,7 @@
         "semestre": 3
       },
       {
-        "id": "*675",
+        "id": "*678",
         "nome": "Legislação Aplicada aos Eventos",
         "nomeCurto": "LAaE",
         "semestre": 3
@@ -251,7 +233,7 @@
         "semestre": 3
       },
       {
-        "id": "*1006",
+        "id": "*1008",
         "nome": "Projeto Integrador III",
         "nomeCurto": "PII",
         "semestre": 3
@@ -269,7 +251,7 @@
         "semestre": 3
       }
     ],
-    "nome": "DGH 7531.3BI Even. Integ.",
+    "nome": "DGH 7531.3AI Even. Integ.",
     "semestre": 3
   }
 }

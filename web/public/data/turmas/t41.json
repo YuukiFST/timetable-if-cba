@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "generatedAt": "2026-08-16T06:37:43.841Z",
   "schemaVersion": 1,
   "turma": {
     "aulas": [
@@ -7,7 +7,7 @@
         "diaSemana": 0,
         "horaFim": "20:30",
         "horaInicio": "18:50",
-        "materiaId": "*878",
+        "materiaId": "*880",
         "professor": "Pedro Clarindo",
         "sala": "DCOM",
         "slot": 12
@@ -16,7 +16,7 @@
         "diaSemana": 0,
         "horaFim": "22:25",
         "horaInicio": "20:45",
-        "materiaId": "*878",
+        "materiaId": "*880",
         "professor": "Pedro Clarindo",
         "sala": "DCOM",
         "slot": 14
@@ -25,7 +25,7 @@
         "diaSemana": 1,
         "horaFim": "20:30",
         "horaInicio": "18:50",
-        "materiaId": "*945",
+        "materiaId": "*947",
         "professor": "Juliana Silva",
         "sala": "DCOM",
         "slot": 12
@@ -34,7 +34,7 @@
         "diaSemana": 1,
         "horaFim": "22:25",
         "horaInicio": "20:45",
-        "materiaId": "*945",
+        "materiaId": "*947",
         "professor": "Juliana Silva",
         "sala": "DCOM",
         "slot": 14
@@ -43,7 +43,7 @@
         "diaSemana": 2,
         "horaFim": "20:30",
         "horaInicio": "18:50",
-        "materiaId": "*963",
+        "materiaId": "*965",
         "professor": "Alberto Sales",
         "sala": "DCOM",
         "slot": 12
@@ -52,7 +52,7 @@
         "diaSemana": 2,
         "horaFim": "22:25",
         "horaInicio": "20:45",
-        "materiaId": "*963",
+        "materiaId": "*965",
         "professor": "Alberto Sales",
         "sala": "DCOM",
         "slot": 14
@@ -61,7 +61,7 @@
         "diaSemana": 3,
         "horaFim": "20:30",
         "horaInicio": "18:50",
-        "materiaId": "*851",
+        "materiaId": "*853",
         "professor": "Rafael Rocha",
         "sala": "DCOM",
         "slot": 12
@@ -70,7 +70,7 @@
         "diaSemana": 3,
         "horaFim": "22:25",
         "horaInicio": "20:45",
-        "materiaId": "*851",
+        "materiaId": "*853",
         "professor": "Rafael Rocha",
         "sala": "DCOM",
         "slot": 14
@@ -79,7 +79,7 @@
         "diaSemana": 4,
         "horaFim": "20:30",
         "horaInicio": "18:50",
-        "materiaId": "*468",
+        "materiaId": "*470",
         "professor": "Josadaque Martins",
         "sala": "B-105",
         "slot": 12
@@ -88,7 +88,7 @@
         "diaSemana": 4,
         "horaFim": "22:25",
         "horaInicio": "20:45",
-        "materiaId": "*468",
+        "materiaId": "*470",
         "professor": "Josadaque Martins",
         "sala": "B-105",
         "slot": 14
@@ -98,31 +98,31 @@
     "id": "t41",
     "materias": [
       {
-        "id": "*468",
+        "id": "*470",
         "nome": "Filosofia, Ética e Sociedade",
         "nomeCurto": "Filos., Éti. e Soc.",
         "semestre": 4
       },
       {
-        "id": "*851",
+        "id": "*853",
         "nome": "Oficina de Prática Extensionista I",
         "nomeCurto": "Oficina I",
         "semestre": 4
       },
       {
-        "id": "*878",
+        "id": "*880",
         "nome": "Persistência Orientada a Objetos",
         "nomeCurto": "POaO",
         "semestre": 4
       },
       {
-        "id": "*945",
+        "id": "*947",
         "nome": "Progamação de Banco de Dados",
         "nomeCurto": "PdBdD",
         "semestre": 4
       },
       {
-        "id": "*963",
+        "id": "*965",
         "nome": "Programação web back-end",
         "nomeCurto": "Pwb",
         "semestre": 4

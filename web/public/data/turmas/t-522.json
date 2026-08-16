@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "generatedAt": "2026-08-16T06:37:43.841Z",
   "schemaVersion": 1,
   "turma": {
     "aulas": [
@@ -27,7 +27,7 @@
         "horaInicio": "18:50",
         "materiaId": "*51",
         "professor": "Saulo Piereti",
-        "sala": "DEEA E016",
+        "sala": "DEEA E111 Lab. Acion. Elétricos",
         "slot": 12
       },
       {
@@ -36,14 +36,14 @@
         "horaInicio": "20:45",
         "materiaId": "*51",
         "professor": "Saulo Piereti",
-        "sala": "DEEA E016",
+        "sala": "DEEA E111 Lab. Acion. Elétricos",
         "slot": 14
       },
       {
         "diaSemana": 2,
         "horaFim": "15:15",
         "horaInicio": "13:45",
-        "materiaId": "*974",
+        "materiaId": "*976",
         "professor": "Marcelo Arruda",
         "sala": "DEEA E116 Lab. Telecomunicações",
         "slot": 7
@@ -52,16 +52,16 @@
         "diaSemana": 2,
         "horaFim": "20:30",
         "horaInicio": "18:50",
-        "materiaId": "*974",
+        "materiaId": "*976",
         "professor": "Marcelo Arruda",
-        "sala": "DEEA E014 Lab. Inst. Elétricas",
+        "sala": "B-108",
         "slot": 12
       },
       {
         "diaSemana": 2,
         "horaFim": "22:25",
         "horaInicio": "20:45",
-        "materiaId": "*796",
+        "materiaId": "*799",
         "professor": "Marcelo Arruda",
         "sala": "DEEA E014 Lab. Inst. Elétricas",
         "slot": 14
@@ -70,16 +70,16 @@
         "diaSemana": 3,
         "horaFim": "20:30",
         "horaInicio": "18:50",
-        "materiaId": "*1223",
+        "materiaId": "*1227",
         "professor": "Marcos Vinicius",
-        "sala": "B-208",
+        "sala": "B-207",
         "slot": 12
       },
       {
         "diaSemana": 4,
         "horaFim": "20:30",
         "horaInicio": "18:50",
-        "materiaId": "*983",
+        "materiaId": "*985",
         "professor": "Matheus Silveira",
         "sala": "DEEA E111 Lab. Acion. Elétricos",
         "slot": 12
@@ -88,7 +88,7 @@
         "diaSemana": 4,
         "horaFim": "22:25",
         "horaInicio": "20:45",
-        "materiaId": "*983",
+        "materiaId": "*985",
         "professor": "Matheus Silveira",
         "sala": "DEEA E111 Lab. Acion. Elétricos",
         "slot": 14
@@ -110,25 +110,25 @@
         "semestre": 8
       },
       {
-        "id": "*796",
+        "id": "*799",
         "nome": "Mercado de ENergia",
         "nomeCurto": "Mercado Eng.",
         "semestre": 8
       },
       {
-        "id": "*974",
+        "id": "*976",
         "nome": "Projeto de Energias Renováveis I",
         "nomeCurto": "Proj.E.Reno.I",
         "semestre": 8
       },
       {
-        "id": "*983",
+        "id": "*985",
         "nome": "Projeto de Instalações Elétricas Industriais",
         "nomeCurto": "Proj.Inst.Industriais",
         "semestre": 8
       },
       {
-        "id": "*1223",
+        "id": "*1227",
         "nome": "Tópicos de Engenharia de Segurança",
         "nomeCurto": "T.Eng. Segurança",
         "semestre": 8

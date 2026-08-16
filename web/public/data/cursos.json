@@ -36,13 +36,6 @@
       ]
     },
     {
-      "id": "dabc-dep-hist-i",
-      "nome": "DABC - DEP. HIST. I",
-      "turmaIds": [
-        "t8"
-      ]
-    },
-    {
       "id": "dabc-dep-mat-i",
       "nome": "DABC - DEP. MAT. I",
       "turmaIds": [
@@ -70,7 +63,8 @@
         "t-519",
         "t21",
         "t23",
-        "t25"
+        "t25",
+        "t26"
       ]
     },
     {
@@ -147,10 +141,17 @@
       ]
     },
     {
+      "id": "deea-supervisao",
+      "nome": "DEEA - Supervisão",
+      "turmaIds": [
+        "t94"
+      ]
+    },
+    {
       "id": "deea-1n-automacao-industrial-subsquente",
       "nome": "DEEA .1N Automação Industrial Subsquente",
       "turmaIds": [
-        "t94"
+        "t95"
       ]
     },
     {
@@ -232,6 +233,7 @@
       "id": "deea-6633-eletronica-subsquente",
       "nome": "DEEA 6633 Eletrônica Subsquente",
       "turmaIds": [
+        "t90",
         "t91"
       ]
     },
@@ -239,7 +241,14 @@
       "id": "deea-energife-1",
       "nome": "DEEA EnergIFE 1",
       "turmaIds": [
-        "t95"
+        "t96"
+      ]
+    },
+    {
+      "id": "deea-energife-2",
+      "nome": "DEEA EnergIFE 2",
+      "turmaIds": [
+        "t97"
       ]
     },
     {
@@ -252,262 +261,276 @@
         "t-523",
         "t100",
         "t101",
-        "t106",
-        "t97",
+        "t102",
+        "t107",
         "t98",
         "t99"
+      ]
+    },
+    {
+      "id": "deea-eng-eletrica-optativas",
+      "nome": "DEEA Eng. Elétrica Optativas",
+      "turmaIds": [
+        "t108"
       ]
     },
     {
       "id": "deea-tec-aut-ind",
       "nome": "DEEA Tec. Aut. Ind.",
       "turmaIds": [
-        "t109"
+        "t110"
+      ]
+    },
+    {
+      "id": "dgh-concomitante-liceu-administracao",
+      "nome": "DGH - Concomitante Liceu Administração",
+      "turmaIds": [
+        "t137"
       ]
     },
     {
       "id": "dgh-001-even-concom",
       "nome": "DGH 001 Even. Concom.",
       "turmaIds": [
-        "t111"
+        "t112"
       ]
     },
     {
       "id": "dgh-013211-hospedagem-subsequente",
       "nome": "DGH 013211 HOSPEDAGEM Subsequente",
       "turmaIds": [
-        "t135"
+        "t136"
       ]
     },
     {
       "id": "dgh-7243-tur-bach",
       "nome": "DGH 7243 Tur. Bach.",
       "turmaIds": [
-        "t112",
         "t113",
         "t114",
-        "t115"
+        "t115",
+        "t116"
       ]
     },
     {
       "id": "dgh-7531-even-integ",
       "nome": "DGH 7531 Even. Integ.",
       "turmaIds": [
-        "t117",
         "t118",
         "t119",
         "t120",
         "t121",
-        "t122"
+        "t122",
+        "t123"
       ]
     },
     {
       "id": "dgh-7631-secr-integ",
       "nome": "DGH 7631 Secr. Integ.",
       "turmaIds": [
-        "t123",
         "t124",
         "t125",
         "t126",
         "t127",
-        "t128"
+        "t128",
+        "t129"
       ]
     },
     {
       "id": "dgh-7643-secr-bach",
       "nome": "DGH 7643 Secr. Bach.",
       "turmaIds": [
-        "t129",
         "t130",
         "t131",
         "t132",
         "t133",
-        "t134"
+        "t134",
+        "t135"
       ]
     },
     {
       "id": "dinfra-pronatec",
       "nome": "DINFRA - PRONATEC",
       "turmaIds": [
-        "t198"
+        "t199"
       ]
     },
     {
       "id": "dinfra-0140063-a-eng-civil",
       "nome": "DINFRA 0140063 A Eng. Civil",
       "turmaIds": [
-        "t183"
+        "t184"
       ]
     },
     {
       "id": "dinfra-0140063-b-eng-civil",
       "nome": "DINFRA 0140063 B Eng. Civil",
       "turmaIds": [
-        "t184"
+        "t185"
       ]
     },
     {
       "id": "dinfra-0140063-eng-civil",
       "nome": "DINFRA 0140063 Eng. Civil",
       "turmaIds": [
-        "t185",
         "t186",
         "t187",
         "t188",
         "t189",
         "t190",
-        "t191"
+        "t191",
+        "t192"
       ]
     },
     {
       "id": "dinfra-10133113-edific-subs",
       "nome": "DINFRA 10133113 Edific. Subs.",
       "turmaIds": [
-        "t192"
+        "t193"
       ]
     },
     {
       "id": "dinfra-1031-dependencias-edificacoes",
       "nome": "DINFRA 1031 Dependências Edificações",
       "turmaIds": [
-        "t146"
+        "t139"
       ]
     },
     {
       "id": "dinfra-1031-edific-integ",
       "nome": "DINFRA 1031 Edific. Integ.",
       "turmaIds": [
-        "t138",
-        "t139",
         "t140",
         "t141",
         "t142",
         "t143",
         "t144",
-        "t145"
+        "t145",
+        "t146",
+        "t147"
       ]
     },
     {
       "id": "dinfra-1041-tecnol-const-edif",
       "nome": "DINFRA 1041 Tecnol. Const. Edif.",
       "turmaIds": [
-        "t153"
+        "t154"
       ]
     },
     {
       "id": "dinfra-2631-agrim-integ",
       "nome": "DINFRA 2631 Agrim. Integ.",
       "turmaIds": [
-        "t155",
         "t156",
-        "t158",
+        "t157",
         "t159",
-        "t161",
+        "t160",
         "t162",
         "t163",
-        "t164"
+        "t164",
+        "t165"
       ]
     },
     {
       "id": "dinfra-2631-dependencia-agrim-integ",
       "nome": "DINFRA 2631 Dependencia Agrim. Integ.",
       "turmaIds": [
-        "t157"
+        "t158"
       ]
     },
     {
       "id": "dinfra-2633-agrim-subs",
       "nome": "DINFRA 2633 Agrim. Subs.",
       "turmaIds": [
-        "t165"
+        "t166"
       ]
     },
     {
       "id": "dinfra-2641-tecnol-geop",
       "nome": "DINFRA 2641 Tecnol. Geop",
       "turmaIds": [
-        "t169",
-        "t172",
-        "t174"
+        "t170",
+        "t173",
+        "t175"
       ]
     },
     {
       "id": "dinfra-2841-tecnol-cont-obr",
       "nome": "DINFRA 2841 Tecnol. Cont. Obr.",
       "turmaIds": [
-        "t178",
         "t179",
-        "t181"
+        "t180",
+        "t182"
       ]
     },
     {
       "id": "monitoria-matematica-1-ano-agrimensura",
       "nome": "Monitoria - matemática - 1 ano - agrimensura",
       "turmaIds": [
-        "t200"
+        "t201"
       ]
     },
     {
       "id": "mulheres-mil-1",
       "nome": "Mulheres Mil 1",
       "turmaIds": [
-        "t201"
+        "t202"
       ]
     },
     {
       "id": "mulheres-mil-2",
       "nome": "Mulheres Mil 2",
       "turmaIds": [
-        "t202"
+        "t203"
       ]
     },
     {
       "id": "mulheres-mil-3",
       "nome": "Mulheres Mil 3",
       "turmaIds": [
-        "t203"
+        "t204"
       ]
     },
     {
       "id": "partiu-if-1",
       "nome": "Partiu IF 1",
       "turmaIds": [
-        "t204"
+        "t205"
       ]
     },
     {
       "id": "partiu-if-2",
       "nome": "Partiu IF 2",
       "turmaIds": [
-        "t205"
+        "t206"
       ]
     },
     {
       "id": "ppgen-mestrado-disciplinas-01",
       "nome": "PPGEn - Mestrado - Disciplinas 01",
       "turmaIds": [
-        "t206"
+        "t207"
       ]
     },
     {
       "id": "profept-mestrado-01",
       "nome": "ProfEPT - Mestrado - 01",
       "turmaIds": [
-        "t209"
+        "t210"
       ]
     },
     {
       "id": "profept-mestrado-02",
       "nome": "ProfEPT - Mestrado - 02",
       "turmaIds": [
-        "t210"
+        "t211"
       ]
     },
     {
       "id": "profept-mestrado-03",
       "nome": "ProfEPT - Mestrado - 03",
       "turmaIds": [
-        "t211"
+        "t212"
       ]
     },
     {
@@ -532,13 +555,20 @@
       ]
     },
     {
-      "id": "pronatec-empreender",
-      "nome": "Pronatec/Empreender",
+      "id": "pronatec-empreender-3d",
+      "nome": "Pronatec/Empreender/3D",
       "turmaIds": [
-        "t215"
+        "t217"
+      ]
+    },
+    {
+      "id": "pronatec-empreender-app",
+      "nome": "Pronatec/Empreender/App",
+      "turmaIds": [
+        "t216"
       ]
     }
   ],
-  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "generatedAt": "2026-08-16T06:37:43.841Z",
   "schemaVersion": 1
 }

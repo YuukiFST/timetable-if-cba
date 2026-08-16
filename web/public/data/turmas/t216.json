@@ -1,0 +1,58 @@
+{
+  "generatedAt": "2026-08-16T06:37:43.841Z",
+  "schemaVersion": 1,
+  "turma": {
+    "aulas": [
+      {
+        "diaSemana": 0,
+        "horaFim": "22:25",
+        "horaInicio": "18:50",
+        "materiaId": "*60",
+        "sala": "DCOM",
+        "slot": 12
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "22:25",
+        "horaInicio": "18:50",
+        "materiaId": "*60",
+        "sala": "DCOM",
+        "slot": 12
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "22:25",
+        "horaInicio": "18:50",
+        "materiaId": "*60",
+        "sala": "DCOM",
+        "slot": 12
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "22:25",
+        "horaInicio": "18:50",
+        "materiaId": "*60",
+        "sala": "DCOM",
+        "slot": 12
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "22:25",
+        "horaInicio": "18:50",
+        "materiaId": "*60",
+        "sala": "DCOM",
+        "slot": 12
+      }
+    ],
+    "cursoId": "pronatec-empreender-app",
+    "id": "t216",
+    "materias": [
+      {
+        "id": "*60",
+        "nome": "App Clicks",
+        "nomeCurto": "App Clicks"
+      }
+    ],
+    "nome": "Pronatec/Empreender/App"
+  }
+}

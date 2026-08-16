@@ -1,21 +1,21 @@
 {
-  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "generatedAt": "2026-08-16T06:37:43.841Z",
   "schemaVersion": 1,
   "turma": {
     "aulas": [
       {
         "diaSemana": 3,
-        "horaFim": "22:25",
-        "horaInicio": "17:05",
-        "materiaId": "*82",
+        "horaFim": "11:50",
+        "horaInicio": "07:45",
+        "materiaId": "*83",
         "professor": "Lúcio Vidal, Danilo Herbert",
-        "slot": 11
+        "slot": 1
       },
       {
         "diaSemana": 4,
         "horaFim": "17:50",
         "horaInicio": "13:00",
-        "materiaId": "*82",
+        "materiaId": "*83",
         "professor": "Danilo Herbert, Lúcio Vidal",
         "slot": 6
       }
@@ -24,7 +24,7 @@
     "id": "t-517",
     "materias": [
       {
-        "id": "*82",
+        "id": "*83",
         "nome": "Atividades ProfEPT",
         "nomeCurto": "Atividades ProfEPT"
       }

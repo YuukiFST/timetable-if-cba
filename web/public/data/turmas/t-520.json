@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "generatedAt": "2026-08-16T06:37:43.841Z",
   "schemaVersion": 1,
   "turma": {
     "aulas": [
@@ -9,7 +9,7 @@
         "horaInicio": "18:50",
         "materiaId": "-205",
         "professor": "Elzio Metello",
-        "sala": "DEEA E118 Lab. Eletrônica",
+        "sala": "B-207",
         "slot": 12
       },
       {
@@ -18,7 +18,7 @@
         "horaInicio": "20:45",
         "materiaId": "-205",
         "professor": "Elzio Metello",
-        "sala": "DEEA E118 Lab. Eletrônica",
+        "sala": "B-207",
         "slot": 14
       },
       {
@@ -52,16 +52,16 @@
         "diaSemana": 2,
         "horaFim": "20:30",
         "horaInicio": "18:50",
-        "materiaId": "*666",
-        "professor": "Paulo Morais",
-        "sala": "DEEA E111 Lab. Acion. Elétricos",
+        "materiaId": "*669",
+        "professor": "José Cândido",
+        "sala": "DEEA E014 Lab. Inst. Elétricas",
         "slot": 12
       },
       {
         "diaSemana": 2,
         "horaFim": "22:25",
         "horaInicio": "20:45",
-        "materiaId": "*666",
+        "materiaId": "*669",
         "professor": "Matheus Silveira",
         "sala": "DEEA E111 Lab. Acion. Elétricos",
         "slot": 14
@@ -70,7 +70,7 @@
         "diaSemana": 3,
         "horaFim": "20:30",
         "horaInicio": "18:50",
-        "materiaId": "*793",
+        "materiaId": "*796",
         "professor": "Marco Castro",
         "sala": "DEEA E118 Lab. Eletrônica",
         "slot": 12
@@ -79,7 +79,7 @@
         "diaSemana": 3,
         "horaFim": "22:25",
         "horaInicio": "20:45",
-        "materiaId": "*793",
+        "materiaId": "*796",
         "professor": "Marco Castro",
         "sala": "DEEA E118 Lab. Eletrônica",
         "slot": 14
@@ -88,7 +88,7 @@
         "diaSemana": 4,
         "horaFim": "20:30",
         "horaInicio": "18:50",
-        "materiaId": "*1014",
+        "materiaId": "*1016",
         "professor": "Fabiano Pádua",
         "sala": "DEEA E114 Lab. Informatica",
         "slot": 12
@@ -97,7 +97,7 @@
         "diaSemana": 4,
         "horaFim": "22:25",
         "horaInicio": "20:45",
-        "materiaId": "*1014",
+        "materiaId": "*1016",
         "professor": "Fabiano Pádua",
         "sala": "DEEA E114 Lab. Informatica",
         "slot": 14
@@ -119,13 +119,13 @@
         "semestre": 6
       },
       {
-        "id": "*666",
+        "id": "*669",
         "nome": "Lab. de Instalaçoes Elétricas Residencial e Predial",
         "nomeCurto": "Lab.Instalações Ele.",
         "semestre": 6
       },
       {
-        "id": "*793",
+        "id": "*796",
         "nome": "Med.Elétricas Instr.",
         "nomeCurto": "M.Eletr.Instr.",
         "semestre": 6
@@ -137,7 +137,7 @@
         "semestre": 6
       },
       {
-        "id": "*1014",
+        "id": "*1016",
         "nome": "Projetos de Instalações Elétricas Residencial e Predial",
         "nomeCurto": "Proj.IEResid.Predial",
         "semestre": 6

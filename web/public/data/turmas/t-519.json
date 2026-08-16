@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "generatedAt": "2026-08-16T06:37:43.841Z",
   "schemaVersion": 1,
   "turma": {
     "aulas": [
@@ -7,7 +7,7 @@
         "diaSemana": 0,
         "horaFim": "20:30",
         "horaInicio": "18:50",
-        "materiaId": "*346",
+        "materiaId": "*348",
         "professor": "Larissa Kawashima",
         "sala": "B-205",
         "slot": 12
@@ -16,7 +16,7 @@
         "diaSemana": 0,
         "horaFim": "22:25",
         "horaInicio": "20:45",
-        "materiaId": "*346",
+        "materiaId": "*348",
         "professor": "Larissa Kawashima",
         "sala": "B-210",
         "slot": 14
@@ -34,7 +34,7 @@
         "diaSemana": 1,
         "horaFim": "22:25",
         "horaInicio": "20:45",
-        "materiaId": "*441",
+        "materiaId": "*443",
         "professor": "Eloísa Azeredo",
         "sala": "B-205",
         "slot": 14
@@ -43,7 +43,7 @@
         "diaSemana": 2,
         "horaFim": "16:20",
         "horaInicio": "13:00",
-        "materiaId": "*418",
+        "materiaId": "*420",
         "professor": "Kleber Bignarde",
         "sala": "B-205",
         "slot": 6
@@ -52,7 +52,7 @@
         "diaSemana": 2,
         "horaFim": "20:30",
         "horaInicio": "18:50",
-        "materiaId": "*340",
+        "materiaId": "*342",
         "professor": "Ronilson Balbuena",
         "sala": "B-210",
         "slot": 12
@@ -61,7 +61,7 @@
         "diaSemana": 2,
         "horaFim": "22:25",
         "horaInicio": "20:45",
-        "materiaId": "*418",
+        "materiaId": "*420",
         "professor": "Kleber Bignarde",
         "sala": "B-210",
         "slot": 14
@@ -79,7 +79,7 @@
         "diaSemana": 3,
         "horaFim": "22:25",
         "horaInicio": "20:45",
-        "materiaId": "*341",
+        "materiaId": "*343",
         "professor": "Kleber Bignarde",
         "sala": "B-205",
         "slot": 14
@@ -88,7 +88,7 @@
         "diaSemana": 4,
         "horaFim": "20:30",
         "horaInicio": "18:50",
-        "materiaId": "*418",
+        "materiaId": "*420",
         "professor": "Kleber Bignarde",
         "sala": "B-004",
         "slot": 12
@@ -110,31 +110,31 @@
         "semestre": 8
       },
       {
-        "id": "*340",
+        "id": "*342",
         "nome": "Educação Física Inclusiva",
         "nomeCurto": "EI",
         "semestre": 8
       },
       {
-        "id": "*341",
+        "id": "*343",
         "nome": "Educação Física na Educação de Jovens e Adultos",
         "nomeCurto": "EFnEdJeA",
         "semestre": 8
       },
       {
-        "id": "*346",
+        "id": "*348",
         "nome": "Educação Física no Ensino Médio",
         "nomeCurto": "EFnEM",
         "semestre": 8
       },
       {
-        "id": "*418",
+        "id": "*420",
         "nome": "Estágio no Ensino Médio",
         "nomeCurto": "EnEM",
         "semestre": 8
       },
       {
-        "id": "*441",
+        "id": "*443",
         "nome": "Estudos Integradores IV",
         "nomeCurto": "Estudos Integradores IV",
         "semestre": 8

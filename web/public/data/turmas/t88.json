@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "generatedAt": "2026-08-16T06:37:43.841Z",
   "schemaVersion": 1,
   "turma": {
     "aulas": [
@@ -79,7 +79,7 @@
         "horaFim": "10:20",
         "horaInicio": "08:30",
         "materiaId": "-331",
-        "professor": "Sidney da Silva",
+        "professor": "Cátia Cristina de Almeida",
         "sala": "B-210",
         "slot": 2
       },
@@ -132,7 +132,7 @@
         "diaSemana": 3,
         "horaFim": "08:30",
         "horaInicio": "07:00",
-        "materiaId": "*707",
+        "materiaId": "*710",
         "professor": "Thaynara Silva",
         "sala": "B-209",
         "slot": 0
@@ -150,7 +150,7 @@
         "diaSemana": 3,
         "horaFim": "11:50",
         "horaInicio": "10:20",
-        "materiaId": "*1005",
+        "materiaId": "*1007",
         "professor": "Rodrigo Junges",
         "sala": "DEEA E103 Lab. Microcontroladores",
         "slot": 4
@@ -159,7 +159,7 @@
         "diaSemana": 3,
         "horaFim": "11:50",
         "horaInicio": "10:20",
-        "materiaId": "*1005",
+        "materiaId": "*1007",
         "professor": "Rafael Máximo",
         "sala": "DEEA E105 Lab. Informática",
         "slot": 4
@@ -168,7 +168,7 @@
         "diaSemana": 4,
         "horaFim": "08:30",
         "horaInicio": "07:00",
-        "materiaId": "*1100",
+        "materiaId": "*1102",
         "professor": "Valentino Corrêa",
         "sala": "B-209",
         "slot": 0
@@ -262,7 +262,7 @@
         "semestre": 3
       },
       {
-        "id": "*707",
+        "id": "*710",
         "nome": "Língua Inglesa Aplicada II",
         "nomeCurto": "L.Ing.Apl.II",
         "semestre": 3
@@ -292,7 +292,7 @@
         "semestre": 3
       },
       {
-        "id": "*1005",
+        "id": "*1007",
         "nome": "Projeto Integrador III",
         "nomeCurto": "Proj. III",
         "semestre": 3
@@ -304,7 +304,7 @@
         "semestre": 3
       },
       {
-        "id": "*1100",
+        "id": "*1102",
         "nome": "Segurança no Trabalho",
         "nomeCurto": "Segurança no Trabalho",
         "semestre": 3

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "generatedAt": "2026-08-16T06:37:43.841Z",
   "schemaVersion": 1,
   "turma": {
     "aulas": [
@@ -18,7 +18,7 @@
         "horaInicio": "15:35",
         "materiaId": "-198",
         "professor": "Elzio Metello",
-        "sala": "DEEA E101 Lab. Eletrônica",
+        "sala": "DEEA E201 Lab. Automação Predial",
         "slot": 9
       },
       {
@@ -36,7 +36,7 @@
         "horaInicio": "16:20",
         "materiaId": "-198",
         "professor": "Elzio Metello",
-        "sala": "DEEA E101 Lab. Eletrônica",
+        "sala": "DEEA E201 Lab. Automação Predial",
         "slot": 10
       },
       {

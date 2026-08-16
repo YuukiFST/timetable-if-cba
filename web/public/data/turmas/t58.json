@@ -1,25 +1,55 @@
 {
-  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "generatedAt": "2026-08-16T06:37:43.841Z",
   "schemaVersion": 1,
   "turma": {
     "aulas": [
       {
         "diaSemana": 0,
-        "horaFim": "17:50",
-        "horaInicio": "16:20",
-        "materiaId": "*420",
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "*602",
+        "professor": "Sandro Santos",
+        "sala": "B-002",
+        "slot": 12
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "*422",
         "professor": "Juliana Silva",
         "sala": "DCOM",
-        "slot": 10
+        "slot": 14
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "-379",
+        "professor": "Jenniffer Santos",
+        "sala": "B-106",
+        "slot": 12
       }
     ],
     "cursoId": "dcom-7844-engenh-comput",
     "id": "t58",
     "materias": [
       {
-        "id": "*420",
+        "id": "*422",
         "nome": "Estágio Supervisionado",
         "nomeCurto": "ES",
+        "semestre": 9
+      },
+      {
+        "id": "*602",
+        "nome": "Homem, Cultura e Sociedade",
+        "nomeCurto": "HCS",
+        "semestre": 9
+      },
+      {
+        "id": "-379",
+        "nome": "LIBRAS",
+        "nomeCurto": "L",
         "semestre": 9
       }
     ],

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "generatedAt": "2026-08-16T06:37:43.841Z",
   "schemaVersion": 1,
   "turma": {
     "aulas": [
@@ -15,7 +15,7 @@
         "diaSemana": 0,
         "horaFim": "11:05",
         "horaInicio": "08:30",
-        "materiaId": "*297",
+        "materiaId": "*298",
         "professor": "Antonio Gonçalves",
         "sala": "DCOM",
         "slot": 2
@@ -51,7 +51,7 @@
         "diaSemana": 1,
         "horaFim": "10:20",
         "horaInicio": "08:30",
-        "materiaId": "*1005",
+        "materiaId": "*1007",
         "professor": "Érica Figueiredo",
         "sala": "DCOM",
         "slot": 2
@@ -105,8 +105,8 @@
         "diaSemana": 3,
         "horaFim": "11:50",
         "horaInicio": "09:35",
-        "materiaId": "*296",
-        "professor": "Antonio Gonçalves",
+        "materiaId": "*297",
+        "professor": "Pedro Clarindo",
         "sala": "DCOM",
         "slot": 3
       },
@@ -148,13 +148,13 @@
         "semestre": 3
       },
       {
-        "id": "*296",
+        "id": "*297",
         "nome": "Desenvolvimento Web Back-End",
         "nomeCurto": "DWB",
         "semestre": 3
       },
       {
-        "id": "*297",
+        "id": "*298",
         "nome": "Desenvolvimento Web Front-End",
         "nomeCurto": "DWF",
         "semestre": 3
@@ -214,7 +214,7 @@
         "semestre": 3
       },
       {
-        "id": "*1005",
+        "id": "*1007",
         "nome": "Projeto Integrador III",
         "nomeCurto": "Proj. III",
         "semestre": 3

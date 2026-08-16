@@ -1,0 +1,42 @@
+{
+  "generatedAt": "2026-08-16T06:37:43.841Z",
+  "schemaVersion": 1,
+  "turma": {
+    "aulas": [
+      {
+        "diaSemana": 3,
+        "horaFim": "17:05",
+        "horaInicio": "13:00",
+        "materiaId": "*83",
+        "professor": "José Vinicius, Tatiane de Oliveira",
+        "slot": 6
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "17:50",
+        "horaInicio": "17:05",
+        "materiaId": "*83",
+        "professor": "José Vinicius, Tatiane de Oliveira",
+        "slot": 11
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "11:05",
+        "horaInicio": "07:00",
+        "materiaId": "*83",
+        "professor": "José Vinicius, Tatiane de Oliveira",
+        "slot": 0
+      }
+    ],
+    "cursoId": "profept-mestrado-03",
+    "id": "t212",
+    "materias": [
+      {
+        "id": "*83",
+        "nome": "Atividades ProfEPT",
+        "nomeCurto": "Atividades ProfEPT"
+      }
+    ],
+    "nome": "ProfEPT - Mestrado - 03"
+  }
+}

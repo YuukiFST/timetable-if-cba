@@ -1,47 +1,55 @@
 {
-  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "generatedAt": "2026-08-16T06:37:43.841Z",
   "schemaVersion": 1,
   "turma": {
     "aulas": [
       {
         "diaSemana": 3,
-        "horaFim": "19:40",
-        "horaInicio": "17:05",
-        "materiaId": "*1224",
-        "professor": "André Fonseca",
-        "slot": 11
+        "horaFim": "15:15",
+        "horaInicio": "13:45",
+        "materiaId": "*924",
+        "professor": "Lúcio Vidal, Danilo Herbert",
+        "slot": 7
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "17:05",
+        "horaInicio": "15:35",
+        "materiaId": "*924",
+        "professor": "Lúcio Vidal, Danilo Herbert",
+        "slot": 9
       },
       {
         "diaSemana": 4,
         "horaFim": "15:15",
         "horaInicio": "13:45",
-        "materiaId": "*1214",
-        "professor": "Tatiane de Oliveira, José Vinicius",
+        "materiaId": "*865",
+        "professor": "Ronan Martins, Jefferson Bento",
         "slot": 7
       },
       {
         "diaSemana": 4,
         "horaFim": "17:05",
         "horaInicio": "15:35",
-        "materiaId": "*1214",
-        "professor": "Tatiane de Oliveira, José Vinicius",
+        "materiaId": "*865",
+        "professor": "Ronan Martins, Jefferson Bento",
         "slot": 9
       }
     ],
-    "cursoId": "profept-mestrado-02",
+    "cursoId": "profept-mestrado-01",
     "id": "t210",
     "materias": [
       {
-        "id": "*1214",
-        "nome": "Teorias e Práticas do Ensino e Aprendizagem",
-        "nomeCurto": "TePdEeA"
+        "id": "*865",
+        "nome": "Organização e Memórias de Espaços Pedagógicos em Educação Profissional e Tecnológica",
+        "nomeCurto": "OeMdEPeEPeT"
       },
       {
-        "id": "*1224",
-        "nome": "Tópicos Especiais",
-        "nomeCurto": "Tópicos Especiais"
+        "id": "*924",
+        "nome": "Práticas Educativas em Educação Profissional e Tecnológica",
+        "nomeCurto": "PEeEPeT"
       }
     ],
-    "nome": "ProfEPT - Mestrado - 02"
+    "nome": "ProfEPT - Mestrado - 01"
   }
 }

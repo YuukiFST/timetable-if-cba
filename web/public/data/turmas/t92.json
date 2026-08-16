@@ -1,15 +1,14 @@
 {
-  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "generatedAt": "2026-08-16T06:37:43.841Z",
   "schemaVersion": 1,
   "turma": {
     "aulas": [
       {
-        "diaSemana": 2,
+        "diaSemana": 3,
         "horaFim": "16:20",
         "horaInicio": "14:30",
         "materiaId": "-755",
         "professor": "José Cândido",
-        "sala": "DEEA E115 Lab. Elepot",
         "slot": 8
       }
     ],

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "generatedAt": "2026-08-16T06:37:43.841Z",
   "schemaVersion": 1,
   "turma": {
     "aulas": [
@@ -14,7 +14,7 @@
       }
     ],
     "cursoId": "dinfra-2641-tecnol-geop",
-    "id": "t174",
+    "id": "t175",
     "materias": [
       {
         "id": "-546",

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "generatedAt": "2026-08-16T06:37:43.841Z",
   "schemaVersion": 1,
   "turma": {
     "aulas": [
@@ -7,67 +7,67 @@
         "diaSemana": 0,
         "horaFim": "08:30",
         "horaInicio": "07:00",
-        "materiaId": "*1002",
-        "professor": "Cláudia Marcele",
-        "sala": "B-216",
+        "materiaId": "-435",
+        "professor": "Leandro Ferreira",
+        "sala": "B-217",
         "slot": 0
       },
       {
         "diaSemana": 0,
         "horaFim": "10:20",
         "horaInicio": "08:30",
-        "materiaId": "-435",
-        "professor": "Leandro Ferreira",
-        "sala": "B-216",
+        "materiaId": "*1004",
+        "professor": "Cláudia Marcele",
+        "sala": "B-217",
         "slot": 2
       },
       {
         "diaSemana": 0,
         "horaFim": "11:50",
         "horaInicio": "10:20",
-        "materiaId": "-67",
-        "professor": "Lucimar Rodrigues",
-        "sala": "B-216",
+        "materiaId": "-569",
+        "professor": "Dirce Silva",
+        "sala": "B-217",
         "slot": 4
       },
       {
         "diaSemana": 1,
         "horaFim": "08:30",
         "horaInicio": "07:00",
-        "materiaId": "-256",
-        "professor": "William Jesus",
-        "sala": "B-216",
+        "materiaId": "-400",
+        "professor": "Marli Walker",
+        "sala": "B-217",
         "slot": 0
       },
       {
         "diaSemana": 1,
         "horaFim": "10:20",
         "horaInicio": "08:30",
-        "materiaId": "-435",
-        "professor": "Leandro Ferreira",
-        "sala": "B-216",
+        "materiaId": "-256",
+        "professor": "William Jesus",
+        "sala": "B-217",
         "slot": 2
       },
       {
         "diaSemana": 1,
         "horaFim": "11:05",
         "horaInicio": "10:20",
-        "materiaId": "*65",
+        "materiaId": "*66",
         "slot": 4
       },
       {
         "diaSemana": 1,
         "horaFim": "11:50",
         "horaInicio": "11:05",
-        "materiaId": "*65",
+        "materiaId": "*66",
         "slot": 5
       },
       {
         "diaSemana": 1,
         "horaFim": "15:15",
         "horaInicio": "13:45",
-        "materiaId": "-244",
-        "professor": "Luiz Torquato",
+        "materiaId": "-588",
+        "professor": "Érica Marques",
         "sala": "B-222",
         "slot": 7
       },
@@ -75,8 +75,8 @@
         "diaSemana": 1,
         "horaFim": "17:05",
         "horaInicio": "15:35",
-        "materiaId": "-588",
-        "professor": "Érica Marques",
+        "materiaId": "-244",
+        "professor": "Luiz Torquato",
         "sala": "B-222",
         "slot": 9
       },
@@ -85,90 +85,90 @@
         "horaFim": "08:30",
         "horaInicio": "07:00",
         "materiaId": "-400",
-        "professor": "Dagoberto",
-        "sala": "B-216",
+        "professor": "Marli Walker",
+        "sala": "B-217",
         "slot": 0
       },
       {
         "diaSemana": 2,
         "horaFim": "10:20",
         "horaInicio": "08:30",
-        "materiaId": "-285",
-        "professor": "Alessandra Fagundes",
-        "sala": "B-216",
+        "materiaId": "-435",
+        "professor": "Leandro Ferreira",
+        "sala": "B-217",
         "slot": 2
       },
       {
         "diaSemana": 2,
         "horaFim": "11:50",
         "horaInicio": "10:20",
-        "materiaId": "-400",
-        "professor": "Dagoberto",
-        "sala": "B-216",
+        "materiaId": "-67",
+        "professor": "Lucimar Rodrigues",
+        "sala": "B-217",
         "slot": 4
       },
       {
         "diaSemana": 2,
         "horaFim": "15:15",
         "horaInicio": "13:45",
-        "materiaId": "-381",
-        "professor": "Rosemary Mendes",
-        "sala": "B-215",
-        "slot": 7
-      },
-      {
-        "diaSemana": 2,
-        "horaFim": "17:05",
-        "horaInicio": "15:35",
-        "materiaId": "-718",
+        "materiaId": "-719",
         "professor": "Tatiane de Oliveira",
-        "sala": "B-215",
-        "slot": 9
+        "sala": "B-222",
+        "slot": 7
       },
       {
         "diaSemana": 3,
         "horaFim": "08:30",
         "horaInicio": "07:00",
-        "materiaId": "-569",
-        "professor": "Dirce Silva",
-        "sala": "B-216",
+        "materiaId": "-381",
+        "professor": "Rosemary Mendes",
+        "sala": "B-217",
         "slot": 0
       },
       {
         "diaSemana": 3,
         "horaFim": "10:20",
         "horaInicio": "08:30",
-        "materiaId": "*337",
-        "professor": "Larissa Kawashima",
-        "sala": "B-216",
+        "materiaId": "-343",
+        "professor": "Monica Crispim",
+        "sala": "B-223",
         "slot": 2
       },
       {
         "diaSemana": 3,
         "horaFim": "11:50",
         "horaInicio": "10:20",
-        "materiaId": "-343",
-        "professor": "Monica Crispim",
-        "sala": "B-223",
+        "materiaId": "*339",
+        "professor": "Larissa Kawashima",
+        "sala": "B-217",
         "slot": 4
       },
       {
         "diaSemana": 4,
         "horaFim": "08:30",
         "horaInicio": "07:00",
-        "materiaId": "-329",
-        "professor": "Kleber Corbalan",
-        "sala": "B-216",
+        "materiaId": "-2",
+        "professor": "Arthur Farias",
+        "sala": "B-217",
         "slot": 0
       },
       {
         "diaSemana": 4,
         "horaFim": "10:20",
         "horaInicio": "08:30",
-        "materiaId": "-2",
-        "professor": "Arthur Farias",
-        "sala": "B-216",
+        "materiaId": "-285",
+        "professor": "Alessandra Fagundes",
+        "sala": "B-217",
         "slot": 2
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "11:50",
+        "horaInicio": "10:20",
+        "materiaId": "-329",
+        "professor": "Kleber Corbalan",
+        "sala": "B-217",
+        "slot": 4
       }
     ],
     "cursoId": "dgh-7631-secr-integ",
@@ -181,7 +181,7 @@
         "semestre": 1
       },
       {
-        "id": "*65",
+        "id": "*66",
         "nome": "Arte",
         "nomeCurto": "Arte",
         "semestre": 1
@@ -193,7 +193,7 @@
         "semestre": 1
       },
       {
-        "id": "*337",
+        "id": "*339",
         "nome": "Educação Física I",
         "nomeCurto": "EFI",
         "semestre": 1
@@ -247,7 +247,7 @@
         "semestre": 1
       },
       {
-        "id": "*1002",
+        "id": "*1004",
         "nome": "Projeto Integrador I",
         "nomeCurto": "Proj. I",
         "semestre": 1
@@ -265,13 +265,13 @@
         "semestre": 1
       },
       {
-        "id": "-718",
+        "id": "-719",
         "nome": "Técnicas Profissionais I",
         "nomeCurto": "TP I",
         "semestre": 1
       }
     ],
-    "nome": "DGH 7631.1BI Secr. Integ.",
+    "nome": "DGH 7631.1AI Secr. Integ.",
     "semestre": 1
   }
 }
