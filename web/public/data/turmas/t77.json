@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "generatedAt": "2026-09-20T10:41:48.140Z",
   "schemaVersion": 1,
   "turma": {
     "aulas": [
@@ -62,7 +62,7 @@
         "horaInicio": "10:20",
         "materiaId": "-258",
         "professor": "Cristiano Cunha",
-        "sala": "B-204",
+        "sala": "DEEA E007 Lab. Física",
         "slot": 4
       },
       {
@@ -78,9 +78,9 @@
         "diaSemana": 2,
         "horaFim": "10:20",
         "horaInicio": "08:30",
-        "materiaId": "*1007",
+        "materiaId": "*1009",
         "professor": "Rafael Máximo",
-        "sala": "B-204",
+        "sala": "DEEA E114 Lab. Informatica",
         "slot": 2
       },
       {
@@ -88,7 +88,7 @@
         "horaFim": "11:50",
         "horaInicio": "10:20",
         "materiaId": "-650",
-        "professor": "Claudyanne Almeida",
+        "professor": "Monica Spinelli",
         "sala": "B-204",
         "slot": 4
       },
@@ -96,7 +96,7 @@
         "diaSemana": 3,
         "horaFim": "08:30",
         "horaInicio": "07:00",
-        "materiaId": "*1030",
+        "materiaId": "*1032",
         "professor": "José Martins",
         "sala": "DEEA E203 Lab. CLP Inicial",
         "slot": 0
@@ -105,16 +105,16 @@
         "diaSemana": 3,
         "horaFim": "10:20",
         "horaInicio": "08:30",
-        "materiaId": "*1054",
-        "professor": "Palmiro Rodrigues",
-        "sala": "B-204",
+        "materiaId": "*710",
+        "professor": "Thaynara Silva",
+        "sala": "B-202",
         "slot": 2
       },
       {
         "diaSemana": 3,
         "horaFim": "11:50",
         "horaInicio": "10:20",
-        "materiaId": "*882",
+        "materiaId": "*884",
         "professor": "Palmiro Rodrigues",
         "sala": "B-204",
         "slot": 4
@@ -132,8 +132,8 @@
         "diaSemana": 4,
         "horaFim": "10:20",
         "horaInicio": "08:30",
-        "materiaId": "*707",
-        "professor": "Thaynara Silva",
+        "materiaId": "*1056",
+        "professor": "Palmiro Rodrigues",
         "sala": "B-204",
         "slot": 2
       },
@@ -150,7 +150,7 @@
         "diaSemana": 4,
         "horaFim": "15:15",
         "horaInicio": "13:00",
-        "materiaId": "*97",
+        "materiaId": "*98",
         "professor": "João Lucas",
         "sala": "DEEA E204 Lab. CLP Avançado",
         "slot": 6
@@ -159,7 +159,7 @@
         "diaSemana": 4,
         "horaFim": "15:15",
         "horaInicio": "13:00",
-        "materiaId": "*97",
+        "materiaId": "*98",
         "professor": "Flavilene Souza",
         "sala": "DEEA E201 Lab. Automação Predial",
         "slot": 6
@@ -169,7 +169,7 @@
     "id": "t77",
     "materias": [
       {
-        "id": "*97",
+        "id": "*98",
         "nome": "Automação Industrial e Residencial",
         "nomeCurto": "AIeR",
         "semestre": 3
@@ -205,7 +205,7 @@
         "semestre": 3
       },
       {
-        "id": "*707",
+        "id": "*710",
         "nome": "Língua Inglesa Aplicada II",
         "nomeCurto": "L.Ing.Apl.II",
         "semestre": 3
@@ -223,19 +223,19 @@
         "semestre": 3
       },
       {
-        "id": "*882",
+        "id": "*884",
         "nome": "PIE - Industrial, Urbana/Rural",
         "nomeCurto": "PIE - Ind. Urb/Rural",
         "semestre": 3
       },
       {
-        "id": "*1007",
+        "id": "*1009",
         "nome": "Projeto Integrador III - Geração e Transmissão de Energia",
         "nomeCurto": "PI - III",
         "semestre": 3
       },
       {
-        "id": "*1030",
+        "id": "*1032",
         "nome": "Qualidade de Energi Elétrica",
         "nomeCurto": "QdEE",
         "semestre": 3
@@ -247,7 +247,7 @@
         "semestre": 3
       },
       {
-        "id": "*1054",
+        "id": "*1056",
         "nome": "Redes de Distribuição de Energia",
         "nomeCurto": "RdDdE",
         "semestre": 3

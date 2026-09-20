@@ -1,0 +1,38 @@
+{
+  "generatedAt": "2026-09-20T10:41:48.140Z",
+  "schemaVersion": 1,
+  "turma": {
+    "aulas": [
+      {
+        "diaSemana": 1,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "-617",
+        "professor": "Paulo Morais",
+        "sala": "DEEA E112 Lab. Acion. Elétricos",
+        "slot": 12
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "-617",
+        "professor": "Paulo Morais",
+        "sala": "DEEA E112 Lab. Acion. Elétricos",
+        "slot": 14
+      }
+    ],
+    "cursoId": "deea-6633-eletronica-subsquente",
+    "id": "t90",
+    "materias": [
+      {
+        "id": "-617",
+        "nome": "Sistema de Comando e Proteção",
+        "nomeCurto": "Sist Com Pr",
+        "semestre": 3
+      }
+    ],
+    "nome": "DEEA 6633.3N Eletrônica Subsquente",
+    "semestre": 3
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "generatedAt": "2026-09-20T10:41:48.140Z",
   "schemaVersion": 1,
   "turma": {
     "aulas": [
@@ -26,7 +26,7 @@
         "horaFim": "20:30",
         "horaInicio": "18:50",
         "materiaId": "-618",
-        "professor": "José Martins",
+        "professor": "João Lucas",
         "sala": "DEEA E101 Lab. Eletrônica",
         "slot": 12
       },
@@ -35,7 +35,7 @@
         "horaFim": "22:25",
         "horaInicio": "20:45",
         "materiaId": "-618",
-        "professor": "José Martins",
+        "professor": "João Lucas",
         "sala": "DEEA E101 Lab. Eletrônica",
         "slot": 14
       },
@@ -54,7 +54,7 @@
         "horaInicio": "20:45",
         "materiaId": "-640",
         "professor": "Ernany Silva",
-        "sala": "DEEA E118 Lab. Eletrônica",
+        "sala": "DCOM",
         "slot": 14
       },
       {
@@ -63,7 +63,7 @@
         "horaInicio": "18:50",
         "materiaId": "-640",
         "professor": "Ernany Silva",
-        "sala": "DEEA E114 Lab. Informatica",
+        "sala": "DCOM",
         "slot": 12
       },
       {
@@ -72,7 +72,7 @@
         "horaInicio": "20:45",
         "materiaId": "-640",
         "professor": "Ernany Silva",
-        "sala": "DEEA E114 Lab. Informatica",
+        "sala": "DCOM",
         "slot": 14
       },
       {

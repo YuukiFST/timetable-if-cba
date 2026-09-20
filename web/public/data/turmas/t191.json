@@ -1,29 +1,104 @@
 {
-  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "generatedAt": "2026-09-20T10:41:48.140Z",
   "schemaVersion": 1,
   "turma": {
     "aulas": [
       {
+        "diaSemana": 0,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "*450",
+        "professor": "Angela Rocha",
+        "sala": "B-103",
+        "slot": 12
+      },
+      {
+        "diaSemana": 0,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "*1140",
+        "professor": "Angela Rocha",
+        "sala": "B-103",
+        "slot": 14
+      },
+      {
         "diaSemana": 1,
-        "horaFim": "17:50",
-        "horaInicio": "16:20",
-        "materiaId": "-454",
-        "professor": "Eloísa Azeredo",
-        "sala": "B-101",
-        "slot": 10
+        "horaFim": "22:25",
+        "horaInicio": "18:50",
+        "materiaId": "*438",
+        "professor": "Alan Sato",
+        "sala": "B-103",
+        "slot": 12
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "22:25",
+        "horaInicio": "18:50",
+        "materiaId": "-451",
+        "professor": "Ilço Júnior",
+        "sala": "B-103",
+        "slot": 12
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "22:25",
+        "horaInicio": "18:50",
+        "materiaId": "*980",
+        "professor": "Noelto Teixeira",
+        "sala": "B-103",
+        "slot": 12
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "22:25",
+        "horaInicio": "18:50",
+        "materiaId": "*439",
+        "professor": "Vinicius Barros",
+        "sala": "B-103",
+        "slot": 12
       }
     ],
     "cursoId": "dinfra-0140063-eng-civil",
     "id": "t191",
     "materias": [
       {
-        "id": "-454",
-        "nome": "Metodologia Científica",
-        "nomeCurto": "Metodologia Científica",
-        "semestre": 8
+        "id": "*438",
+        "nome": "Estruturas de Aço",
+        "nomeCurto": "Estruturas de Aço",
+        "semestre": 7
+      },
+      {
+        "id": "*439",
+        "nome": "Estruturas de Concreto Armado I",
+        "nomeCurto": "Estruturas de Concreto Armado I",
+        "semestre": 7
+      },
+      {
+        "id": "*450",
+        "nome": "Execução de Instalações Prediais",
+        "nomeCurto": "Execução de Instalações Prediais",
+        "semestre": 7
+      },
+      {
+        "id": "-451",
+        "nome": "Mecânica dos Solos",
+        "nomeCurto": "Mecânica dos Solos",
+        "semestre": 7
+      },
+      {
+        "id": "*980",
+        "nome": "Projeto de Estradas e Infraestrutura Viária",
+        "nomeCurto": "Projeto de Estradas e Infraestrutura Viária",
+        "semestre": 7
+      },
+      {
+        "id": "*1140",
+        "nome": "Sistemas de Proteção",
+        "nomeCurto": "Sistemas de Proteção",
+        "semestre": 7
       }
     ],
-    "nome": "DINFRA 0140063.8N Eng. Civil",
-    "semestre": 8
+    "nome": "DINFRA 0140063.7N Eng. Civil",
+    "semestre": 7
   }
 }

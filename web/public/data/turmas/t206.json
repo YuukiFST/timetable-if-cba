@@ -1,39 +1,55 @@
 {
-  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "generatedAt": "2026-09-20T10:41:48.140Z",
   "schemaVersion": 1,
   "turma": {
     "aulas": [
       {
-        "diaSemana": 4,
-        "horaFim": "10:20",
-        "horaInicio": "09:35",
-        "materiaId": "*1101",
-        "professor": "Epaminondas",
-        "slot": 3
+        "diaSemana": 0,
+        "horaFim": "17:05",
+        "horaInicio": "13:00",
+        "materiaId": "*872",
+        "sala": "B-222",
+        "slot": 6
+      },
+      {
+        "diaSemana": 0,
+        "horaFim": "22:25",
+        "horaInicio": "17:05",
+        "materiaId": "*872",
+        "slot": 11
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "17:05",
+        "horaInicio": "13:00",
+        "materiaId": "*872",
+        "sala": "B-210",
+        "slot": 6
       },
       {
         "diaSemana": 4,
-        "horaFim": "16:20",
+        "horaFim": "17:05",
         "horaInicio": "13:00",
-        "materiaId": "*1209",
-        "professor": "Suammy Leite",
+        "materiaId": "*872",
         "slot": 6
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "22:25",
+        "horaInicio": "17:05",
+        "materiaId": "*872",
+        "slot": 11
       }
     ],
-    "cursoId": "ppgen-mestrado-disciplinas-01",
+    "cursoId": "partiu-if-2",
     "id": "t206",
     "materias": [
       {
-        "id": "*1101",
-        "nome": "Seminário de Pesquisa",
-        "nomeCurto": "SdP"
-      },
-      {
-        "id": "*1209",
-        "nome": "Tendências e Abordagens de Pesquisa em Ciências e Matemática",
-        "nomeCurto": "Tend. e Abor. de Pesq. em Ciên. e Mat."
+        "id": "*872",
+        "nome": "Partiu IF 2",
+        "nomeCurto": "Partiu IF 2"
       }
     ],
-    "nome": "PPGEn - Mestrado - Disciplinas 01"
+    "nome": "Partiu IF 2"
   }
 }

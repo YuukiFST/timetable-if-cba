@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "generatedAt": "2026-09-20T10:41:48.140Z",
   "schemaVersion": 1,
   "turma": {
     "aulas": [
@@ -53,7 +53,7 @@
         "horaFim": "15:15",
         "horaInicio": "13:45",
         "materiaId": "-330",
-        "professor": "Subst. Historia",
+        "professor": "Marcos de Melo",
         "sala": "B-206",
         "slot": 7
       },

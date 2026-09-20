@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "generatedAt": "2026-09-20T10:41:48.140Z",
   "schemaVersion": 1,
   "turma": {
     "aulas": [
@@ -7,7 +7,7 @@
         "diaSemana": 0,
         "horaFim": "15:15",
         "horaInicio": "13:00",
-        "materiaId": "*453",
+        "materiaId": "*455",
         "professor": "Tiago Lacerda",
         "sala": "DCOM",
         "slot": 6
@@ -18,7 +18,7 @@
         "horaInicio": "15:35",
         "materiaId": "-198",
         "professor": "Elzio Metello",
-        "sala": "DEEA E101 Lab. Eletrônica",
+        "sala": "DEEA E201 Lab. Automação Predial",
         "slot": 9
       },
       {
@@ -34,7 +34,7 @@
         "diaSemana": 1,
         "horaFim": "16:20",
         "horaInicio": "14:30",
-        "materiaId": "*1091",
+        "materiaId": "*1093",
         "professor": "Ruy Oliveira",
         "sala": "DCOM",
         "slot": 8
@@ -45,7 +45,7 @@
         "horaInicio": "16:20",
         "materiaId": "-198",
         "professor": "Elzio Metello",
-        "sala": "DEEA E101 Lab. Eletrônica",
+        "sala": "DEEA E201 Lab. Automação Predial",
         "slot": 10
       },
       {
@@ -88,7 +88,7 @@
         "diaSemana": 3,
         "horaFim": "17:05",
         "horaInicio": "14:30",
-        "materiaId": "*453",
+        "materiaId": "*455",
         "professor": "Tiago Lacerda",
         "sala": "DCOM",
         "slot": 8
@@ -97,7 +97,7 @@
         "diaSemana": 4,
         "horaFim": "14:30",
         "horaInicio": "13:00",
-        "materiaId": "*807",
+        "materiaId": "*810",
         "professor": "Orlando Júnior",
         "sala": "DCOM",
         "slot": 6
@@ -106,7 +106,7 @@
         "diaSemana": 4,
         "horaFim": "16:20",
         "horaInicio": "14:30",
-        "materiaId": "*807",
+        "materiaId": "*810",
         "professor": "Orlando Júnior",
         "sala": "DCOM",
         "slot": 8
@@ -128,7 +128,7 @@
         "semestre": 7
       },
       {
-        "id": "*453",
+        "id": "*455",
         "nome": "Extensão II",
         "nomeCurto": "EII",
         "semestre": 7
@@ -140,13 +140,13 @@
         "semestre": 7
       },
       {
-        "id": "*807",
+        "id": "*810",
         "nome": "Mineração de Dados",
         "nomeCurto": "MdD",
         "semestre": 7
       },
       {
-        "id": "*1091",
+        "id": "*1093",
         "nome": "Segurança de Sistemas de Computação",
         "nomeCurto": "SdSdC",
         "semestre": 7

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "generatedAt": "2026-09-20T10:41:48.140Z",
   "schemaVersion": 1,
   "turma": {
     "aulas": [
@@ -7,7 +7,7 @@
         "diaSemana": 1,
         "horaFim": "14:30",
         "horaInicio": "13:00",
-        "materiaId": "*474",
+        "materiaId": "*476",
         "professor": "Wescley Souza",
         "sala": "B-201",
         "slot": 6
@@ -25,19 +25,19 @@
         "diaSemana": 2,
         "horaFim": "16:20",
         "horaInicio": "14:30",
-        "materiaId": "*474",
+        "materiaId": "*476",
         "professor": "Wescley Souza",
         "sala": "DEEA E007 Lab. Física",
         "slot": 8
       },
       {
         "diaSemana": 3,
-        "horaFim": "14:30",
-        "horaInicio": "13:00",
+        "horaFim": "16:20",
+        "horaInicio": "14:30",
         "materiaId": "-76",
         "professor": "Marcos Paulo",
         "sala": "B-003",
-        "slot": 6
+        "slot": 8
       }
     ],
     "cursoId": "deea-6144-engenharia-de-controle-e-automacao",
@@ -50,7 +50,7 @@
         "semestre": 1
       },
       {
-        "id": "*474",
+        "id": "*476",
         "nome": "Física Geral e Experimental I",
         "nomeCurto": "FGeEI",
         "semestre": 1

@@ -1,0 +1,43 @@
+{
+  "generatedAt": "2026-09-20T10:41:48.140Z",
+  "schemaVersion": 1,
+  "turma": {
+    "aulas": [
+      {
+        "diaSemana": 0,
+        "horaFim": "22:25",
+        "horaInicio": "18:50",
+        "materiaId": "*545",
+        "professor": "Silvana Marchezini",
+        "sala": "B-003",
+        "slot": 12
+      },
+      {
+        "diaSemana": 5,
+        "horaFim": "10:20",
+        "horaInicio": "07:00",
+        "materiaId": "*1169",
+        "professor": "Eloísa Azeredo",
+        "slot": 0
+      }
+    ],
+    "cursoId": "dinfra-2841-tecnol-cont-obr",
+    "id": "t180",
+    "materias": [
+      {
+        "id": "*545",
+        "nome": "Gerenciamento de Laboratório",
+        "nomeCurto": "Gerenciamento de Laboratório",
+        "semestre": 5
+      },
+      {
+        "id": "*1169",
+        "nome": "TCC (EaD)",
+        "nomeCurto": "T(",
+        "semestre": 5
+      }
+    ],
+    "nome": "DINFRA 2841.5N Tecnol. Cont. Obr.",
+    "semestre": 5
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "generatedAt": "2026-09-20T10:41:48.140Z",
+  "schemaVersion": 1,
+  "turma": {
+    "aulas": [
+      {
+        "diaSemana": 0,
+        "horaFim": "22:25",
+        "horaInicio": "18:50",
+        "materiaId": "*319",
+        "sala": "DCOM",
+        "slot": 12
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "22:25",
+        "horaInicio": "18:50",
+        "materiaId": "*319",
+        "sala": "DCOM",
+        "slot": 12
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "22:25",
+        "horaInicio": "18:50",
+        "materiaId": "*319",
+        "sala": "DCOM",
+        "slot": 12
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "22:25",
+        "horaInicio": "18:50",
+        "materiaId": "*319",
+        "sala": "DCOM",
+        "slot": 12
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "22:25",
+        "horaInicio": "18:50",
+        "materiaId": "*319",
+        "sala": "DCOM",
+        "slot": 12
+      }
+    ],
+    "cursoId": "pronatec-empreender-3d",
+    "id": "t217",
+    "materias": [
+      {
+        "id": "*319",
+        "nome": "Drones e Impressora 3D",
+        "nomeCurto": "DronesImpr3D"
+      }
+    ],
+    "nome": "Pronatec/Empreender/3D"
+  }
+}

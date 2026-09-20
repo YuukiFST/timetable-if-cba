@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "generatedAt": "2026-09-20T10:41:48.140Z",
   "schemaVersion": 1,
   "turma": {
     "aulas": [
@@ -15,7 +15,7 @@
         "diaSemana": 0,
         "horaFim": "11:05",
         "horaInicio": "08:30",
-        "materiaId": "*296",
+        "materiaId": "*297",
         "professor": "Rafael Simões",
         "sala": "DCOM",
         "slot": 2
@@ -52,7 +52,7 @@
         "horaFim": "10:20",
         "horaInicio": "08:30",
         "materiaId": "-646",
-        "professor": "Marlene Renck",
+        "professor": "Christiany Fonseca",
         "sala": "D-015",
         "slot": 2
       },
@@ -87,7 +87,7 @@
         "diaSemana": 2,
         "horaFim": "11:50",
         "horaInicio": "10:20",
-        "materiaId": "*1005",
+        "materiaId": "*1007",
         "professor": "Rafael Simões",
         "sala": "DCOM",
         "slot": 4
@@ -96,7 +96,7 @@
         "diaSemana": 3,
         "horaFim": "09:15",
         "horaInicio": "07:00",
-        "materiaId": "*297",
+        "materiaId": "*298",
         "professor": "Érica Figueiredo",
         "sala": "DCOM",
         "slot": 0
@@ -148,13 +148,13 @@
         "semestre": 3
       },
       {
-        "id": "*296",
+        "id": "*297",
         "nome": "Desenvolvimento Web Back-End",
         "nomeCurto": "DWB",
         "semestre": 3
       },
       {
-        "id": "*297",
+        "id": "*298",
         "nome": "Desenvolvimento Web Front-End",
         "nomeCurto": "DWF",
         "semestre": 3
@@ -214,7 +214,7 @@
         "semestre": 3
       },
       {
-        "id": "*1005",
+        "id": "*1007",
         "nome": "Projeto Integrador III",
         "nomeCurto": "Proj. III",
         "semestre": 3

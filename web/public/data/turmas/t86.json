@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "generatedAt": "2026-09-20T10:41:48.140Z",
   "schemaVersion": 1,
   "turma": {
     "aulas": [
@@ -16,7 +16,7 @@
         "diaSemana": 0,
         "horaFim": "15:15",
         "horaInicio": "13:00",
-        "materiaId": "*742",
+        "materiaId": "*745",
         "professor": "Murilo Santos",
         "sala": "DEEA E014 Lab. Inst. Elétricas",
         "slot": 6
@@ -87,7 +87,7 @@
         "diaSemana": 2,
         "horaFim": "10:20",
         "horaInicio": "08:30",
-        "materiaId": "*880",
+        "materiaId": "*882",
         "professor": "Rodrigo Junges",
         "sala": "DEEA E111 Lab. Acion. Elétricos",
         "slot": 2
@@ -105,9 +105,9 @@
         "diaSemana": 2,
         "horaFim": "11:50",
         "horaInicio": "10:20",
-        "materiaId": "*880",
+        "materiaId": "*882",
         "professor": "Rafael Máximo",
-        "sala": "DEEA E014 Lab. Inst. Elétricas",
+        "sala": "DEEA E201 Lab. Automação Predial",
         "slot": 4
       },
       {
@@ -150,7 +150,7 @@
         "diaSemana": 3,
         "horaFim": "15:15",
         "horaInicio": "13:00",
-        "materiaId": "*742",
+        "materiaId": "*745",
         "professor": "Murilo Santos",
         "sala": "DEEA E111 Lab. Acion. Elétricos",
         "slot": 6
@@ -169,7 +169,7 @@
         "horaFim": "14:30",
         "horaInicio": "13:00",
         "materiaId": "-257",
-        "professor": "Luciano Schlaucher",
+        "professor": "Edson Ferreira",
         "sala": "B-203",
         "slot": 6
       },
@@ -186,8 +186,8 @@
         "diaSemana": 4,
         "horaFim": "17:50",
         "horaInicio": "16:20",
-        "materiaId": "*706",
-        "professor": "Weslley Siqueira",
+        "materiaId": "*709",
+        "professor": "Thaynara Silva",
         "sala": "B-203",
         "slot": 10
       }
@@ -244,7 +244,7 @@
         "semestre": 2
       },
       {
-        "id": "*706",
+        "id": "*709",
         "nome": "Lingua Inglesa Aplicada I",
         "nomeCurto": "L.Ing.Apl.I",
         "semestre": 2
@@ -256,7 +256,7 @@
         "semestre": 2
       },
       {
-        "id": "*742",
+        "id": "*745",
         "nome": "Máq.Elétr/Acion.",
         "nomeCurto": "MEeA",
         "semestre": 2
@@ -274,7 +274,7 @@
         "semestre": 2
       },
       {
-        "id": "*880",
+        "id": "*882",
         "nome": "PI. Aut. Resid/Predial",
         "nomeCurto": "P.Aut.Predial",
         "semestre": 2

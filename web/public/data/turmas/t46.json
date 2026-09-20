@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "generatedAt": "2026-09-20T10:41:48.140Z",
   "schemaVersion": 1,
   "turma": {
     "aulas": [
@@ -7,7 +7,7 @@
         "diaSemana": 0,
         "horaFim": "09:15",
         "horaInicio": "07:00",
-        "materiaId": "*1055",
+        "materiaId": "*1057",
         "professor": "André Couto",
         "sala": "DCOM",
         "slot": 0
@@ -43,7 +43,7 @@
         "diaSemana": 2,
         "horaFim": "09:15",
         "horaInicio": "07:00",
-        "materiaId": "*1055",
+        "materiaId": "*1057",
         "professor": "André Couto",
         "sala": "DCOM",
         "slot": 0
@@ -79,7 +79,7 @@
         "diaSemana": 4,
         "horaFim": "09:15",
         "horaInicio": "07:45",
-        "materiaId": "*624",
+        "materiaId": "*627",
         "professor": "João Filho",
         "sala": "DCOM",
         "slot": 1
@@ -88,7 +88,7 @@
         "diaSemana": 4,
         "horaFim": "11:05",
         "horaInicio": "09:35",
-        "materiaId": "*624",
+        "materiaId": "*627",
         "professor": "João Filho",
         "sala": "DCOM",
         "slot": 3
@@ -116,13 +116,13 @@
         "semestre": 3
       },
       {
-        "id": "*624",
+        "id": "*627",
         "nome": "Inglês",
         "nomeCurto": "Inglês",
         "semestre": 3
       },
       {
-        "id": "*1055",
+        "id": "*1057",
         "nome": "Redes de Longa Distância",
         "nomeCurto": "RdLD(WAN)",
         "semestre": 3

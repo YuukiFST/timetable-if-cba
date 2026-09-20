@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "generatedAt": "2026-09-20T10:41:48.140Z",
   "schemaVersion": 1,
   "turma": {
     "aulas": [
@@ -25,18 +25,18 @@
         "diaSemana": 1,
         "horaFim": "20:30",
         "horaInicio": "18:50",
-        "materiaId": "*401",
+        "materiaId": "*403",
         "professor": "Elzio Metello",
-        "sala": "B-201",
+        "sala": "DEEA E201 Lab. Automação Predial",
         "slot": 12
       },
       {
         "diaSemana": 1,
         "horaFim": "22:25",
         "horaInicio": "20:45",
-        "materiaId": "*401",
+        "materiaId": "*403",
         "professor": "Elzio Metello",
-        "sala": "B-201",
+        "sala": "DEEA E201 Lab. Automação Predial",
         "slot": 14
       },
       {
@@ -50,11 +50,29 @@
       },
       {
         "diaSemana": 2,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "-460",
+        "professor": "Paulo Morais",
+        "sala": "DEEA E105 Lab. Informática",
+        "slot": 12
+      },
+      {
+        "diaSemana": 2,
         "horaFim": "22:25",
         "horaInicio": "20:45",
         "materiaId": "-460",
         "professor": "Alberto Mascarenhas",
         "sala": "DEEA E103 Lab. Microcontroladores",
+        "slot": 14
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "-460",
+        "professor": "Paulo Morais",
+        "sala": "DEEA E105 Lab. Informática",
         "slot": 14
       },
       {
@@ -70,9 +88,9 @@
         "diaSemana": 3,
         "horaFim": "20:30",
         "horaInicio": "18:50",
-        "materiaId": "*1002",
+        "materiaId": "*1004",
         "professor": "Edelson Duarte",
-        "sala": "DEEA E201 Lab. Automação Predial",
+        "sala": "DEEA E114 Lab. Informatica",
         "slot": 12
       },
       {
@@ -99,7 +117,7 @@
         "horaInicio": "18:50",
         "materiaId": "*193",
         "professor": "Robson Pereira",
-        "sala": "B-206",
+        "sala": "DEEA E105 Lab. Informática",
         "slot": 12
       },
       {
@@ -108,7 +126,7 @@
         "horaInicio": "20:45",
         "materiaId": "*193",
         "professor": "Robson Pereira",
-        "sala": "B-206",
+        "sala": "DEEA E105 Lab. Informática",
         "slot": 14
       }
     ],
@@ -134,7 +152,7 @@
         "semestre": 7
       },
       {
-        "id": "*401",
+        "id": "*403",
         "nome": "Equipamentos de Potência",
         "nomeCurto": "Equ. Pot.",
         "semestre": 7
@@ -152,7 +170,7 @@
         "semestre": 7
       },
       {
-        "id": "*1002",
+        "id": "*1004",
         "nome": "Projeto Integrador I",
         "nomeCurto": "Proj. I",
         "semestre": 7

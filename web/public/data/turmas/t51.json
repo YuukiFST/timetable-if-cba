@@ -1,31 +1,13 @@
 {
-  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "generatedAt": "2026-09-20T10:41:48.140Z",
   "schemaVersion": 1,
   "turma": {
     "aulas": [
       {
-        "diaSemana": 0,
-        "horaFim": "20:30",
-        "horaInicio": "18:50",
-        "materiaId": "-39",
-        "professor": "Joicy Lara",
-        "sala": "DCOM",
-        "slot": 12
-      },
-      {
-        "diaSemana": 0,
-        "horaFim": "22:25",
-        "horaInicio": "20:45",
-        "materiaId": "-39",
-        "professor": "Joicy Lara",
-        "sala": "DCOM",
-        "slot": 14
-      },
-      {
         "diaSemana": 1,
         "horaFim": "14:30",
         "horaInicio": "13:00",
-        "materiaId": "*474",
+        "materiaId": "*476",
         "professor": "Wescley Souza",
         "sala": "B-201",
         "slot": 6
@@ -61,7 +43,7 @@
         "diaSemana": 2,
         "horaFim": "16:20",
         "horaInicio": "14:30",
-        "materiaId": "*474",
+        "materiaId": "*476",
         "professor": "Wescley Souza",
         "sala": "DEEA E007 Lab. Física",
         "slot": 8
@@ -88,19 +70,46 @@
         "diaSemana": 3,
         "horaFim": "14:30",
         "horaInicio": "13:00",
-        "materiaId": "-76",
-        "professor": "Marcos Paulo",
-        "sala": "B-003",
+        "materiaId": "-17",
+        "professor": "Willian Pereira",
+        "sala": "B-002",
         "slot": 6
       },
       {
         "diaSemana": 3,
         "horaFim": "16:20",
         "horaInicio": "14:30",
-        "materiaId": "-17",
-        "professor": "Willian Pereira",
-        "sala": "B-205",
+        "materiaId": "-76",
+        "professor": "Marcos Paulo",
+        "sala": "B-003",
         "slot": 8
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "17:50",
+        "horaInicio": "16:20",
+        "materiaId": "-95",
+        "professor": "Simone Raquel",
+        "sala": "B-002",
+        "slot": 10
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "10:20",
+        "horaInicio": "08:30",
+        "materiaId": "-39",
+        "professor": "Antonio Gonçalves",
+        "sala": "DCOM",
+        "slot": 2
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "11:50",
+        "horaInicio": "10:20",
+        "materiaId": "-39",
+        "professor": "Antonio Gonçalves",
+        "sala": "DCOM",
+        "slot": 4
       }
     ],
     "cursoId": "dcom-7844-engenh-comput",
@@ -131,7 +140,13 @@
         "semestre": 2
       },
       {
-        "id": "*474",
+        "id": "-95",
+        "nome": "Ciências do Ambiente",
+        "nomeCurto": "Ciên Amb",
+        "semestre": 2
+      },
+      {
+        "id": "*476",
         "nome": "Física Geral e Experimental I",
         "nomeCurto": "FGeEI",
         "semestre": 2

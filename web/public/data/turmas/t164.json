@@ -1,86 +1,86 @@
 {
-  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "generatedAt": "2026-09-20T10:41:48.140Z",
   "schemaVersion": 1,
   "turma": {
     "aulas": [
       {
         "diaSemana": 0,
         "horaFim": "08:30",
-        "horaInicio": "07:45",
-        "materiaId": "-651",
-        "professor": "Marlene Renck",
-        "sala": "B-105",
-        "slot": 1
-      },
-      {
-        "diaSemana": 0,
-        "horaFim": "09:15",
-        "horaInicio": "08:30",
-        "materiaId": "-488",
-        "professor": "Adelson Ribeiro",
-        "sala": "B-002",
-        "slot": 2
-      },
-      {
-        "diaSemana": 0,
-        "horaFim": "11:05",
-        "horaInicio": "09:35",
+        "horaInicio": "07:00",
         "materiaId": "-703",
         "professor": "Aluizio Costa",
         "sala": "DINFRA",
+        "slot": 0
+      },
+      {
+        "diaSemana": 0,
+        "horaFim": "09:15",
+        "horaInicio": "08:30",
+        "materiaId": "-651",
+        "professor": "Marlene Renck",
+        "sala": "B-003",
+        "slot": 2
+      },
+      {
+        "diaSemana": 0,
+        "horaFim": "10:20",
+        "horaInicio": "09:35",
+        "materiaId": "-488",
+        "professor": "Adelson Ribeiro",
+        "sala": "B-003",
         "slot": 3
       },
       {
         "diaSemana": 0,
-        "horaFim": "11:50",
-        "horaInicio": "11:05",
+        "horaFim": "11:05",
+        "horaInicio": "10:20",
         "materiaId": "-332",
         "professor": "Leonam Silva",
-        "sala": "B-105",
-        "slot": 5
+        "sala": "B-003",
+        "slot": 4
       },
       {
         "diaSemana": 1,
-        "horaFim": "09:15",
+        "horaFim": "08:30",
         "horaInicio": "07:00",
-        "materiaId": "-403",
-        "professor": "Leisly Poletto",
-        "sala": "B-107",
-        "slot": 0
-      },
-      {
-        "diaSemana": 1,
-        "horaFim": "10:20",
-        "horaInicio": "09:35",
-        "materiaId": "-246",
-        "professor": "Francisco Rosa",
-        "sala": "B-107",
-        "slot": 3
-      },
-      {
-        "diaSemana": 1,
-        "horaFim": "11:50",
-        "horaInicio": "10:20",
         "materiaId": "-510",
         "professor": "Marcos Antonio",
         "sala": "DINFRA",
-        "slot": 4
+        "slot": 0
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "11:05",
+        "horaInicio": "08:30",
+        "materiaId": "-403",
+        "professor": "Soila Canam",
+        "sala": "B-003",
+        "slot": 2
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "11:50",
+        "horaInicio": "11:05",
+        "materiaId": "-246",
+        "professor": "Regina Olea",
+        "sala": "B-003",
+        "slot": 5
       },
       {
         "diaSemana": 2,
         "horaFim": "09:15",
-        "horaInicio": "07:45",
-        "materiaId": "-549",
-        "professor": "Patricia Rausch",
+        "horaInicio": "07:00",
+        "materiaId": "-631",
+        "professor": "Pedro Spanghero",
         "sala": "DINFRA",
-        "slot": 1
+        "slot": 0
       },
       {
         "diaSemana": 2,
-        "horaFim": "11:50",
+        "horaFim": "11:05",
         "horaInicio": "09:35",
-        "materiaId": "-631",
-        "professor": "Pedro Spanghero",
+        "materiaId": "-549",
+        "professor": "Patricia Rausch",
         "sala": "DINFRA",
         "slot": 3
       },
@@ -88,52 +88,53 @@
         "diaSemana": 3,
         "horaFim": "08:30",
         "horaInicio": "07:00",
-        "materiaId": "-707",
-        "professor": "Sergio Crecca",
-        "sala": "DINFRA",
+        "materiaId": "-439",
+        "professor": "Emerson Dutra",
+        "sala": "B-003",
         "slot": 0
       },
       {
         "diaSemana": 3,
         "horaFim": "10:20",
         "horaInicio": "08:30",
-        "materiaId": "-439",
-        "professor": "Leonardo Santos",
-        "sala": "B-105",
+        "materiaId": "-72",
+        "professor": "Geraldo Almeida",
+        "sala": "DINFRA",
         "slot": 2
       },
       {
         "diaSemana": 3,
         "horaFim": "11:50",
         "horaInicio": "10:20",
-        "materiaId": "-72",
-        "professor": "Geraldo Almeida",
+        "materiaId": "-707",
+        "professor": "Sergio Crecca",
+        "sala": "DINFRA",
         "slot": 4
       },
       {
         "diaSemana": 4,
-        "horaFim": "08:30",
-        "horaInicio": "07:45",
+        "horaFim": "07:45",
+        "horaInicio": "07:00",
         "materiaId": "-374",
         "professor": "Otavio Carvalho",
-        "sala": "B-105",
-        "slot": 1
+        "sala": "B-003",
+        "slot": 0
       },
       {
         "diaSemana": 4,
         "horaFim": "09:15",
-        "horaInicio": "08:30",
-        "materiaId": "-288",
-        "professor": "Stephanie Freire",
+        "horaInicio": "07:45",
+        "materiaId": "-624",
+        "professor": "Hérida Reis",
         "sala": "DINFRA",
-        "slot": 2
+        "slot": 1
       },
       {
         "diaSemana": 4,
-        "horaFim": "11:05",
+        "horaFim": "10:20",
         "horaInicio": "09:35",
-        "materiaId": "-624",
-        "professor": "Hérida Reis",
+        "materiaId": "-288",
+        "professor": "Stephanie Freire",
         "sala": "DINFRA",
         "slot": 3
       }
@@ -232,7 +233,7 @@
         "semestre": 4
       }
     ],
-    "nome": "DINFRA 2631.4BM Agrim. Integ.",
+    "nome": "DINFRA 2631.4AM Agrim. Integ.",
     "semestre": 4
   }
 }

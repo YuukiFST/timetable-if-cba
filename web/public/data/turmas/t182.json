@@ -1,32 +1,32 @@
 {
-  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "generatedAt": "2026-09-20T10:41:48.140Z",
   "schemaVersion": 1,
   "turma": {
     "aulas": [
       {
-        "diaSemana": 2,
-        "horaFim": "20:30",
-        "horaInicio": "18:50",
-        "materiaId": "*1167",
-        "professor": "Eloísa Azeredo",
-        "sala": "B-204",
-        "slot": 12
-      },
-      {
-        "diaSemana": 3,
-        "horaFim": "20:30",
-        "horaInicio": "18:50",
-        "materiaId": "*1167",
+        "diaSemana": 0,
+        "horaFim": "17:50",
+        "horaInicio": "16:20",
+        "materiaId": "*1171",
         "professor": "Eloísa Azeredo",
         "sala": "B-105",
+        "slot": 10
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "*1171",
+        "professor": "Eloísa Azeredo",
+        "sala": "B-106",
         "slot": 12
       }
     ],
     "cursoId": "dinfra-2841-tecnol-cont-obr",
-    "id": "t181",
+    "id": "t182",
     "materias": [
       {
-        "id": "*1167",
+        "id": "*1171",
         "nome": "TCC II",
         "nomeCurto": "TCC II",
         "semestre": 7

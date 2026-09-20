@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "generatedAt": "2026-09-20T10:41:48.140Z",
   "schemaVersion": 1,
   "turma": {
     "aulas": [
@@ -7,126 +7,81 @@
         "diaSemana": 0,
         "horaFim": "20:30",
         "horaInicio": "18:50",
-        "materiaId": "*1210",
-        "professor": "Francielle Oliveira",
-        "sala": "B-204",
-        "slot": 12
-      },
-      {
-        "diaSemana": 0,
-        "horaFim": "22:25",
-        "horaInicio": "20:45",
-        "materiaId": "-77",
+        "materiaId": "-76",
         "professor": "Marcos Gonçalves",
-        "sala": "B-204",
-        "slot": 14
+        "sala": "DEEA E203 Lab. CLP Inicial",
+        "slot": 12
       },
       {
         "diaSemana": 1,
         "horaFim": "20:30",
         "horaInicio": "18:50",
-        "materiaId": "*801",
-        "professor": "Andrei Coimbra",
-        "sala": "DEEA E113 Lab. Informatica",
+        "materiaId": "-76",
+        "professor": "Marcos Gonçalves",
+        "sala": "DEEA E203 Lab. CLP Inicial",
         "slot": 12
       },
       {
         "diaSemana": 1,
         "horaFim": "22:25",
         "horaInicio": "20:45",
-        "materiaId": "-77",
-        "professor": "Marcos Gonçalves",
-        "sala": "B-204",
+        "materiaId": "-448",
+        "professor": "Ana Azevedo",
+        "sala": "DEEA E115 Lab. Elepot",
         "slot": 14
       },
       {
         "diaSemana": 2,
         "horaFim": "20:30",
         "horaInicio": "18:50",
-        "materiaId": "*152",
-        "professor": "Saulo Piereti",
-        "sala": "B-202",
-        "slot": 12
-      },
-      {
-        "diaSemana": 2,
-        "horaFim": "20:30",
-        "horaInicio": "18:50",
-        "materiaId": "*152",
-        "professor": "Andrei Coimbra",
-        "sala": "B-205",
+        "materiaId": "*271",
+        "professor": "Angela Oliveira",
+        "sala": "DEEA E114 Lab. Informatica",
         "slot": 12
       },
       {
         "diaSemana": 2,
         "horaFim": "22:25",
         "horaInicio": "20:45",
-        "materiaId": "*152",
-        "professor": "Saulo Piereti",
-        "sala": "B-202",
-        "slot": 14
-      },
-      {
-        "diaSemana": 2,
-        "horaFim": "22:25",
-        "horaInicio": "20:45",
-        "materiaId": "*152",
-        "professor": "Andrei Coimbra",
-        "sala": "B-205",
+        "materiaId": "*271",
+        "professor": "Angela Oliveira",
+        "sala": "DEEA E114 Lab. Informatica",
         "slot": 14
       },
       {
         "diaSemana": 3,
         "horaFim": "20:30",
         "horaInicio": "18:50",
-        "materiaId": "*667",
-        "professor": "Saulo Piereti",
-        "sala": "DEEA E107 Lab. Circuitos Elétricos",
-        "slot": 12
-      },
-      {
-        "diaSemana": 3,
-        "horaFim": "20:30",
-        "horaInicio": "18:50",
-        "materiaId": "*784",
-        "professor": "Carlos Henrique",
-        "sala": "B-204",
+        "materiaId": "*476",
+        "professor": "Gilson Lima",
+        "sala": "B-208",
         "slot": 12
       },
       {
         "diaSemana": 3,
         "horaFim": "22:25",
         "horaInicio": "20:45",
-        "materiaId": "*667",
-        "professor": "Saulo Piereti",
-        "sala": "DEEA E107 Lab. Circuitos Elétricos",
-        "slot": 14
-      },
-      {
-        "diaSemana": 3,
-        "horaFim": "22:25",
-        "horaInicio": "20:45",
-        "materiaId": "*784",
-        "professor": "Carlos Henrique",
-        "sala": "B-204",
+        "materiaId": "*476",
+        "professor": "Gilson Lima",
+        "sala": "B-208",
         "slot": 14
       },
       {
         "diaSemana": 4,
         "horaFim": "20:30",
         "horaInicio": "18:50",
-        "materiaId": "-253",
-        "professor": "Lúcio Vidal",
-        "sala": "DEEA E007 Lab. Física",
+        "materiaId": "*603",
+        "professor": "Sandro Santos",
+        "sala": "B-207",
         "slot": 12
       },
       {
         "diaSemana": 4,
         "horaFim": "22:25",
         "horaInicio": "20:45",
-        "materiaId": "-253",
-        "professor": "Lúcio Vidal",
-        "sala": "B-202",
+        "materiaId": "-407",
+        "professor": "Érica Figueiredo",
+        "sala": "DCOM",
         "slot": 14
       }
     ],
@@ -134,49 +89,43 @@
     "id": "t99",
     "materias": [
       {
-        "id": "-77",
-        "nome": "Cálculo Diferencial e Integral II",
-        "nomeCurto": "Cálculo II",
-        "semestre": 3
+        "id": "-76",
+        "nome": "Cálculo Diferencial e Integral I",
+        "nomeCurto": "Cálculo I",
+        "semestre": 2
       },
       {
-        "id": "*152",
-        "nome": "Circuitos Elétricos I",
-        "nomeCurto": "CE-I",
-        "semestre": 3
+        "id": "*271",
+        "nome": "Des.Téc.Ambiente Computacional",
+        "nomeCurto": "Desenho CAD",
+        "semestre": 2
       },
       {
-        "id": "-253",
-        "nome": "Física Geral e Experimental II",
-        "nomeCurto": "FGeE II",
-        "semestre": 3
+        "id": "*476",
+        "nome": "Física Geral e Experimental I",
+        "nomeCurto": "FGeEI",
+        "semestre": 2
       },
       {
-        "id": "*667",
-        "nome": "Laboratório de Circuitos Elétricos I",
-        "nomeCurto": "Lab.Circ.Ele.I",
-        "semestre": 3
+        "id": "*603",
+        "nome": "Homem, Cultura e Sociedade",
+        "nomeCurto": "H.Cultura e Soc.",
+        "semestre": 2
       },
       {
-        "id": "*784",
-        "nome": "Mecânica dos Materiais",
-        "nomeCurto": "Mec.Materiais",
-        "semestre": 3
+        "id": "-407",
+        "nome": "Linguagem de Programação",
+        "nomeCurto": "LdP",
+        "semestre": 2
       },
       {
-        "id": "*801",
-        "nome": "Métodos Computacionais para Engenharia Elétrica",
-        "nomeCurto": "Met.Comp.ENE",
-        "semestre": 3
-      },
-      {
-        "id": "*1210",
-        "nome": "Teoria das Organizações",
-        "nomeCurto": "TeoriaOrg.",
-        "semestre": 3
+        "id": "-448",
+        "nome": "Materiais Elétricos",
+        "nomeCurto": "Materiais Elétricos",
+        "semestre": 2
       }
     ],
-    "nome": "DEEA Eng. Elétrica 3º Sem",
-    "semestre": 3
+    "nome": "DEEA Eng. Elétrica 2º Sem.",
+    "semestre": 2
   }
 }

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "generatedAt": "2026-09-20T10:41:48.140Z",
   "schemaVersion": 1,
   "turma": {
     "aulas": [
@@ -44,7 +44,7 @@
         "horaFim": "16:20",
         "horaInicio": "14:30",
         "materiaId": "-2",
-        "professor": "Karine Assunção",
+        "professor": "Francielle Oliveira",
         "sala": "B-219",
         "slot": 8
       },
@@ -63,6 +63,7 @@
         "horaInicio": "16:20",
         "materiaId": "-234",
         "professor": "Marcos Vinicius",
+        "sala": "B-124",
         "slot": 10
       },
       {
@@ -70,7 +71,7 @@
         "horaFim": "14:30",
         "horaInicio": "13:00",
         "materiaId": "-56",
-        "professor": "Rafael Máximo",
+        "professor": "Edilson Silva",
         "sala": "DEEA E208 Lab. Automação Industrial",
         "slot": 6
       },
@@ -79,7 +80,7 @@
         "horaFim": "16:20",
         "horaInicio": "14:30",
         "materiaId": "-56",
-        "professor": "Rafael Máximo",
+        "professor": "Edilson Silva",
         "sala": "DEEA E208 Lab. Automação Industrial",
         "slot": 8
       },

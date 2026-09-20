@@ -1,46 +1,25 @@
 {
-  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "generatedAt": "2026-09-20T10:41:48.140Z",
   "schemaVersion": 1,
   "turma": {
     "aulas": [
       {
-        "diaSemana": 0,
-        "horaFim": "22:25",
-        "horaInicio": "17:05",
-        "materiaId": "*830",
-        "slot": 11
-      },
-      {
-        "diaSemana": 1,
-        "horaFim": "22:25",
-        "horaInicio": "17:05",
-        "materiaId": "*830",
-        "slot": 11
-      },
-      {
-        "diaSemana": 2,
-        "horaFim": "22:25",
-        "horaInicio": "18:50",
-        "materiaId": "*830",
-        "slot": 12
-      },
-      {
         "diaSemana": 3,
-        "horaFim": "22:25",
-        "horaInicio": "17:05",
-        "materiaId": "*830",
-        "slot": 11
+        "horaFim": "16:20",
+        "horaInicio": "14:30",
+        "materiaId": "-428",
+        "slot": 8
       }
     ],
-    "cursoId": "mulheres-mil-1",
+    "cursoId": "monitoria-matematica-1-ano-agrimensura",
     "id": "t201",
     "materias": [
       {
-        "id": "*830",
-        "nome": "Mulheres Mil 1",
-        "nomeCurto": "Mulheres Mil 1"
+        "id": "-428",
+        "nome": "Matemática",
+        "nomeCurto": "Matemática"
       }
     ],
-    "nome": "Mulheres Mil 1"
+    "nome": "Monitoria - matemática - 1 ano - agrimensura"
   }
 }
