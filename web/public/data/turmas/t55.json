@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "generatedAt": "2026-09-27T11:27:41.603Z",
   "schemaVersion": 1,
   "turma": {
     "aulas": [
@@ -7,9 +7,9 @@
         "diaSemana": 0,
         "horaFim": "14:30",
         "horaInicio": "13:00",
-        "materiaId": "*668",
+        "materiaId": "*671",
         "professor": "Paulo Morais",
-        "sala": "DEEA E107 Lab. Circuitos Elétricos",
+        "sala": "DEEA E115 Lab. Elepot",
         "slot": 6
       },
       {
@@ -149,7 +149,7 @@
         "semestre": 6
       },
       {
-        "id": "*668",
+        "id": "*671",
         "nome": "Laboratório de Circuitos Elétricos II",
         "nomeCurto": "Lab.C.Eletr.II",
         "semestre": 6

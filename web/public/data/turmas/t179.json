@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "generatedAt": "2026-09-27T11:27:41.603Z",
   "schemaVersion": 1,
   "turma": {
     "aulas": [
@@ -7,83 +7,83 @@
         "diaSemana": 0,
         "horaFim": "22:25",
         "horaInicio": "18:50",
-        "materiaId": "*543",
-        "professor": "Silvana Marchezini",
-        "sala": "B-003",
+        "materiaId": "-254",
+        "professor": "Cléia Neves",
+        "sala": "B-110",
         "slot": 12
       },
       {
         "diaSemana": 1,
         "horaFim": "22:25",
         "horaInicio": "18:50",
-        "materiaId": "*392",
+        "materiaId": "-446",
         "professor": "Douglas Carvalho",
         "sala": "DINFRA",
         "slot": 12
       },
       {
         "diaSemana": 2,
-        "horaFim": "20:30",
-        "horaInicio": "18:50",
-        "materiaId": "*390",
-        "professor": "Juzélia Santos",
-        "sala": "B-004",
-        "slot": 12
-      },
-      {
-        "diaSemana": 2,
         "horaFim": "22:25",
-        "horaInicio": "20:45",
-        "materiaId": "*645",
-        "professor": "Alan Sato",
-        "sala": "B-004",
-        "slot": 14
+        "horaInicio": "18:50",
+        "materiaId": "-78",
+        "professor": "Jefferson Bento",
+        "sala": "B-110",
+        "slot": 12
       },
       {
         "diaSemana": 3,
         "horaFim": "22:25",
         "horaInicio": "18:50",
-        "materiaId": "*391",
-        "professor": "Douglas Carvalho",
-        "sala": "B-106",
+        "materiaId": "*795",
+        "professor": "Hugo Cedro",
+        "sala": "B-110",
+        "slot": 12
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "22:25",
+        "horaInicio": "18:50",
+        "materiaId": "*532",
+        "professor": "Noelto Teixeira",
+        "sala": "B-110",
         "slot": 12
       }
     ],
-    "cursoId": "dinfra-2841-tecnol-cont-obr",
+    "cursoId": "dinfra-0140063-eng-civil",
     "id": "t179",
     "materias": [
       {
-        "id": "*390",
-        "nome": "Ensaio de artefato de cimento e cerâmica vermelha",
-        "nomeCurto": "Edadcecv",
-        "semestre": 5
+        "id": "-78",
+        "nome": "Cálculo Diferencial e Integral III",
+        "nomeCurto": "Cálculo III",
+        "semestre": 3
       },
       {
-        "id": "*391",
-        "nome": "Ensaio de Campo para Inspeção de Obra",
-        "nomeCurto": "EdCpIdO",
-        "semestre": 5
+        "id": "-254",
+        "nome": "Física Geral e Experimental III",
+        "nomeCurto": "Fís G e E III",
+        "semestre": 3
       },
       {
-        "id": "*392",
-        "nome": "Ensaios em pavimentos",
-        "nomeCurto": "Eep",
-        "semestre": 5
+        "id": "*532",
+        "nome": "Geomática",
+        "nomeCurto": "Geomática",
+        "semestre": 3
       },
       {
-        "id": "*543",
-        "nome": "Gerenciamento de Laboratório",
-        "nomeCurto": "Gerenciamento de Laboratório",
-        "semestre": 5
+        "id": "-446",
+        "nome": "Materiais de Construção II",
+        "nomeCurto": "MCII",
+        "semestre": 3
       },
       {
-        "id": "*645",
-        "nome": "Instrumentação e monitoramento das estruturas",
-        "nomeCurto": "Iemde",
-        "semestre": 5
+        "id": "*795",
+        "nome": "Mecânica Técnica",
+        "nomeCurto": "Mecânica Técnica",
+        "semestre": 3
       }
     ],
-    "nome": "DINFRA 2841.5N Tecnol. Cont. Obr.",
-    "semestre": 5
+    "nome": "DINFRA 0140063.3N Eng. Civil",
+    "semestre": 3
   }
 }

@@ -1,0 +1,28 @@
+{
+  "generatedAt": "2026-09-27T11:27:41.603Z",
+  "schemaVersion": 1,
+  "turma": {
+    "aulas": [
+      {
+        "diaSemana": 5,
+        "horaFim": "10:20",
+        "horaInicio": "08:30",
+        "materiaId": "*801",
+        "professor": "Angela Rocha",
+        "slot": 2
+      }
+    ],
+    "cursoId": "dinfra-2841-tecnol-cont-obr",
+    "id": "t171",
+    "materias": [
+      {
+        "id": "*801",
+        "nome": "Metodologia Científica EAD",
+        "nomeCurto": "Metodologia Científica EAD",
+        "semestre": 4
+      }
+    ],
+    "nome": "DINFRA 2841.4N Tecnol. Cont. Obr.",
+    "semestre": 4
+  }
+}

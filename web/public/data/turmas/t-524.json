@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "generatedAt": "2026-09-27T11:27:41.603Z",
   "schemaVersion": 1,
   "turma": {
     "aulas": [
@@ -7,7 +7,7 @@
         "diaSemana": 3,
         "horaFim": "11:50",
         "horaInicio": "07:45",
-        "materiaId": "*82",
+        "materiaId": "*83",
         "professor": "André Fonseca",
         "slot": 1
       },
@@ -15,7 +15,7 @@
         "diaSemana": 4,
         "horaFim": "11:50",
         "horaInicio": "07:45",
-        "materiaId": "*82",
+        "materiaId": "*83",
         "professor": "André Fonseca",
         "slot": 1
       },
@@ -23,7 +23,7 @@
         "diaSemana": 4,
         "horaFim": "16:20",
         "horaInicio": "13:45",
-        "materiaId": "*82",
+        "materiaId": "*83",
         "professor": "André Fonseca",
         "slot": 7
       }
@@ -32,7 +32,7 @@
     "id": "t-524",
     "materias": [
       {
-        "id": "*82",
+        "id": "*83",
         "nome": "Atividades ProfEPT",
         "nomeCurto": "Atividades ProfEPT"
       }

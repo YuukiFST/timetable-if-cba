@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "generatedAt": "2026-09-27T11:27:41.603Z",
   "schemaVersion": 1,
   "turma": {
     "aulas": [
@@ -7,32 +7,33 @@
         "diaSemana": 0,
         "horaFim": "22:25",
         "horaInicio": "18:50",
-        "materiaId": "*968",
-        "professor": "Guilherme Almeida",
-        "sala": "DCOM",
+        "materiaId": "*178",
+        "professor": "André Couto",
         "slot": 12
       },
       {
         "diaSemana": 1,
         "horaFim": "22:25",
         "horaInicio": "18:50",
-        "materiaId": "*384",
-        "professor": "Ed Wilson Ferreira",
+        "materiaId": "*970",
+        "professor": "Guilherme Almeida",
+        "sala": "DCOM",
         "slot": 12
       },
       {
         "diaSemana": 2,
         "horaFim": "22:25",
         "horaInicio": "18:50",
-        "materiaId": "*178",
-        "professor": "André Couto",
+        "materiaId": "*868",
+        "professor": "Constantino Dias",
+        "sala": "B-004",
         "slot": 12
       },
       {
         "diaSemana": 3,
         "horaFim": "22:25",
         "horaInicio": "18:50",
-        "materiaId": "*511",
+        "materiaId": "*513",
         "professor": "Gerson Kida",
         "slot": 12
       },
@@ -40,8 +41,8 @@
         "diaSemana": 4,
         "horaFim": "22:25",
         "horaInicio": "18:50",
-        "materiaId": "*866",
-        "professor": "Rothschild Antunes",
+        "materiaId": "*386",
+        "professor": "Ed Wilson Ferreira",
         "slot": 12
       }
     ],
@@ -54,22 +55,22 @@
         "nomeCurto": "CePdE"
       },
       {
-        "id": "*384",
+        "id": "*386",
         "nome": "Endereçamento IP e Configuração Básica",
         "nomeCurto": "EIeCB"
       },
       {
-        "id": "*511",
+        "id": "*513",
         "nome": "Fundamentos e Arquitetura de Redes",
         "nomeCurto": "FeAdR"
       },
       {
-        "id": "*866",
+        "id": "*868",
         "nome": "Orientação e Acompanhamento",
         "nomeCurto": "OeA"
       },
       {
-        "id": "*968",
+        "id": "*970",
         "nome": "Projeto Aplicado 1",
         "nomeCurto": "PA1"
       }

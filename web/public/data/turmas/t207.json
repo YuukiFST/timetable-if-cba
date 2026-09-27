@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "generatedAt": "2026-09-27T11:27:41.603Z",
   "schemaVersion": 1,
   "turma": {
     "aulas": [
@@ -7,7 +7,7 @@
         "diaSemana": 0,
         "horaFim": "22:25",
         "horaInicio": "18:50",
-        "materiaId": "*835",
+        "materiaId": "*319",
         "sala": "DCOM",
         "slot": 12
       },
@@ -15,7 +15,7 @@
         "diaSemana": 1,
         "horaFim": "22:25",
         "horaInicio": "18:50",
-        "materiaId": "*835",
+        "materiaId": "*319",
         "sala": "DCOM",
         "slot": 12
       },
@@ -23,7 +23,7 @@
         "diaSemana": 2,
         "horaFim": "22:25",
         "horaInicio": "18:50",
-        "materiaId": "*835",
+        "materiaId": "*319",
         "sala": "DCOM",
         "slot": 12
       },
@@ -31,7 +31,7 @@
         "diaSemana": 3,
         "horaFim": "22:25",
         "horaInicio": "18:50",
-        "materiaId": "*835",
+        "materiaId": "*319",
         "sala": "DCOM",
         "slot": 12
       },
@@ -39,20 +39,20 @@
         "diaSemana": 4,
         "horaFim": "22:25",
         "horaInicio": "18:50",
-        "materiaId": "*835",
+        "materiaId": "*319",
         "sala": "DCOM",
         "slot": 12
       }
     ],
-    "cursoId": "pronatec-empreender",
-    "id": "t215",
+    "cursoId": "pronatec-empreender-3d",
+    "id": "t207",
     "materias": [
       {
-        "id": "*835",
-        "nome": "Negócios Inovadores com IA",
-        "nomeCurto": "I.A."
+        "id": "*319",
+        "nome": "Drones e Impressora 3D",
+        "nomeCurto": "DronesImpr3D"
       }
     ],
-    "nome": "Pronatec/Empreender"
+    "nome": "Pronatec/Empreender/3D"
   }
 }

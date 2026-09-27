@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "generatedAt": "2026-09-27T11:27:41.603Z",
   "schemaVersion": 1,
   "turma": {
     "aulas": [
@@ -26,8 +26,8 @@
         "horaFim": "20:30",
         "horaInicio": "18:50",
         "materiaId": "-353",
-        "professor": "João Filho",
-        "sala": "B-204",
+        "professor": "João Freitas",
+        "sala": "B-208",
         "slot": 12
       },
       {
@@ -36,7 +36,7 @@
         "horaInicio": "20:45",
         "materiaId": "-201",
         "professor": "Andrei Coimbra",
-        "sala": "D-014",
+        "sala": "DCOM",
         "slot": 14
       },
       {

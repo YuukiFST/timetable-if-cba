@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "generatedAt": "2026-09-27T11:27:41.603Z",
   "schemaVersion": 1,
   "turma": {
     "aulas": [
@@ -70,36 +70,36 @@
         "diaSemana": 3,
         "horaFim": "20:30",
         "horaInicio": "18:50",
-        "materiaId": "-100",
-        "professor": "Palmiro Rodrigues",
-        "sala": "DEEA E116 Lab. Telecomunicações",
+        "materiaId": "-357",
+        "professor": "José Cândido",
+        "sala": "DEEA E014 Lab. Inst. Elétricas",
         "slot": 12
       },
       {
         "diaSemana": 3,
         "horaFim": "22:25",
         "horaInicio": "20:45",
-        "materiaId": "-291",
-        "professor": "Palmiro Rodrigues",
-        "sala": "DEEA E116 Lab. Telecomunicações",
+        "materiaId": "-357",
+        "professor": "José Cândido",
+        "sala": "DEEA E014 Lab. Inst. Elétricas",
         "slot": 14
       },
       {
         "diaSemana": 4,
         "horaFim": "20:30",
         "horaInicio": "18:50",
-        "materiaId": "-357",
-        "professor": "José Cândido",
-        "sala": "DEEA E014 Lab. Inst. Elétricas",
+        "materiaId": "-100",
+        "professor": "Palmiro Rodrigues",
+        "sala": "DEEA E116 Lab. Telecomunicações",
         "slot": 12
       },
       {
         "diaSemana": 4,
         "horaFim": "22:25",
         "horaInicio": "20:45",
-        "materiaId": "-357",
-        "professor": "José Cândido",
-        "sala": "DEEA E014 Lab. Inst. Elétricas",
+        "materiaId": "-291",
+        "professor": "Palmiro Rodrigues",
+        "sala": "DEEA E116 Lab. Telecomunicações",
         "slot": 14
       }
     ],

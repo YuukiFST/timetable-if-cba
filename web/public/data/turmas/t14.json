@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "generatedAt": "2026-09-27T11:27:41.603Z",
   "schemaVersion": 1,
   "turma": {
     "aulas": [
@@ -7,7 +7,7 @@
         "diaSemana": 4,
         "horaFim": "16:20",
         "horaInicio": "13:00",
-        "materiaId": "*262",
+        "materiaId": "*263",
         "professor": "Daniel Cintra",
         "sala": "B-211",
         "slot": 6
@@ -17,7 +17,7 @@
     "id": "t14",
     "materias": [
       {
-        "id": "*262",
+        "id": "*263",
         "nome": "Dependência de Matemática III",
         "nomeCurto": "Dependência de Matemática III"
       }

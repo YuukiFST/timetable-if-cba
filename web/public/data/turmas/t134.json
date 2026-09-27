@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "generatedAt": "2026-09-27T11:27:41.603Z",
   "schemaVersion": 1,
   "turma": {
     "aulas": [
@@ -7,143 +7,158 @@
         "diaSemana": 0,
         "horaFim": "20:30",
         "horaInicio": "18:50",
-        "materiaId": "-227",
-        "professor": "Jeferson Júnior",
-        "sala": "B-214",
+        "materiaId": "-423",
+        "professor": "William Benedito",
+        "sala": "B-212",
         "slot": 12
       },
       {
         "diaSemana": 0,
         "horaFim": "22:25",
         "horaInicio": "20:45",
-        "materiaId": "-309",
-        "professor": "Karine Assunção",
-        "sala": "B-214",
+        "materiaId": "-558",
+        "professor": "Érica Marques",
+        "sala": "B-212",
         "slot": 14
       },
       {
         "diaSemana": 1,
         "horaFim": "20:30",
         "horaInicio": "18:50",
-        "materiaId": "-388",
-        "professor": "Rosária Silva",
-        "sala": "B-214",
+        "materiaId": "-396",
+        "professor": "Edilene Campos",
+        "sala": "B-212",
         "slot": 12
       },
       {
         "diaSemana": 1,
         "horaFim": "22:25",
         "horaInicio": "20:45",
-        "materiaId": "*583",
-        "professor": "Francielle Oliveira",
-        "sala": "B-214",
+        "materiaId": "-322",
+        "professor": "Dejenana",
+        "sala": "B-212",
         "slot": 14
       },
       {
         "diaSemana": 2,
         "horaFim": "20:30",
         "horaInicio": "18:50",
-        "materiaId": "-172",
-        "professor": "Breno Antunes",
-        "sala": "B-214",
+        "materiaId": "*881",
+        "professor": "Tatiane de Oliveira",
+        "sala": "B-212",
         "slot": 12
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "-171",
+        "professor": "Breno Antunes",
+        "sala": "B-212",
+        "slot": 14
       },
       {
         "diaSemana": 3,
         "horaFim": "20:30",
         "horaInicio": "18:50",
-        "materiaId": "-706",
-        "professor": "Marcia Fernandes",
-        "sala": "B-002",
+        "materiaId": "-387",
+        "professor": "Rosária Silva",
+        "sala": "B-212",
         "slot": 12
       },
       {
         "diaSemana": 3,
         "horaFim": "22:25",
         "horaInicio": "20:45",
-        "materiaId": "*1083",
-        "professor": "Simone Raquel",
-        "sala": "B-214",
+        "materiaId": "*431",
+        "professor": "Jeferson Júnior",
+        "sala": "B-212",
         "slot": 14
       },
       {
         "diaSemana": 4,
         "horaFim": "20:30",
         "horaInicio": "18:50",
-        "materiaId": "-397",
-        "professor": "Edilene Campos",
-        "sala": "B-214",
+        "materiaId": "-161",
+        "professor": "Otavio Carvalho",
+        "sala": "B-212",
         "slot": 12
       },
       {
-        "diaSemana": 5,
-        "horaFim": "11:50",
-        "horaInicio": "10:20",
-        "materiaId": "*1219",
-        "professor": "Danilo Herbert",
-        "sala": "B-214",
-        "slot": 4
+        "diaSemana": 4,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "-379",
+        "professor": "Jenniffer Santos",
+        "sala": "B-212",
+        "slot": 14
       }
     ],
     "cursoId": "dgh-7643-secr-bach",
     "id": "t134",
     "materias": [
       {
-        "id": "-172",
-        "nome": "Economia III",
-        "nomeCurto": "ECON III",
-        "semestre": 6
+        "id": "-161",
+        "nome": "Direito III",
+        "nomeCurto": "D III",
+        "semestre": 5
       },
       {
-        "id": "-227",
-        "nome": "Estatística II",
-        "nomeCurto": "Est. II",
-        "semestre": 6
+        "id": "-171",
+        "nome": "Economia II",
+        "nomeCurto": "ECON II",
+        "semestre": 5
       },
       {
-        "id": "-309",
-        "nome": "Gestão de Pessoas",
-        "nomeCurto": "GP",
-        "semestre": 6
+        "id": "*431",
+        "nome": "Estatística I",
+        "nomeCurto": "Estatística I",
+        "semestre": 5
       },
       {
-        "id": "*583",
-        "nome": "Gestão Secretarial III",
-        "nomeCurto": "GSI",
-        "semestre": 6
+        "id": "-322",
+        "nome": "Gestão Secretarial II",
+        "nomeCurto": "GS II",
+        "semestre": 5
       },
       {
-        "id": "-388",
-        "nome": "Língua Espanhola VI",
-        "nomeCurto": "LE VI",
-        "semestre": 6
+        "id": "-379",
+        "nome": "LIBRAS",
+        "nomeCurto": "L",
+        "semestre": 5
       },
       {
-        "id": "-397",
-        "nome": "Língua Inglesa VI",
-        "nomeCurto": "LI VI",
-        "semestre": 6
+        "id": "-387",
+        "nome": "Língua Espanhola V",
+        "nomeCurto": "LE V",
+        "semestre": 5
       },
       {
-        "id": "*1083",
-        "nome": "Responsabilidade Socioambiental",
-        "nomeCurto": "Responsabilidade Socioambiental",
-        "semestre": 6
+        "id": "-396",
+        "nome": "Língua Inglesa V",
+        "nomeCurto": "LI V",
+        "semestre": 5
       },
       {
-        "id": "*1219",
-        "nome": "Tópicos Atuais em Trabalho e Questão Social",
-        "nomeCurto": "TAeTeQS",
-        "semestre": 6
+        "id": "-423",
+        "nome": "Marketing",
+        "nomeCurto": "Mark",
+        "semestre": 5
       },
       {
-        "id": "-706",
-        "nome": "Trabalho de Conclusão de Curso (TCC)",
-        "nomeCurto": "TCC",
-        "semestre": 6
+        "id": "*881",
+        "nome": "Pesquisa Aplicada ao Secretariado",
+        "nomeCurto": "PAS",
+        "semestre": 5
+      },
+      {
+        "id": "-558",
+        "nome": "Psicologia Organizacional",
+        "nomeCurto": "PO",
+        "semestre": 5
       }
     ],
-    "nome": "DGH 7643.6N Secr. Bach.",
-    "semestre": 6
+    "nome": "DGH 7643.5N Secr. Bach.",
+    "semestre": 5
   }
 }

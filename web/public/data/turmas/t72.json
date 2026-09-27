@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "generatedAt": "2026-09-27T11:27:41.603Z",
   "schemaVersion": 1,
   "turma": {
     "aulas": [
@@ -8,7 +8,7 @@
         "horaFim": "20:30",
         "horaInicio": "18:50",
         "materiaId": "-529",
-        "professor": "Joicy Lara",
+        "professor": "Samuel Bianch",
         "sala": "DCOM",
         "slot": 12
       },
@@ -17,7 +17,7 @@
         "horaFim": "22:25",
         "horaInicio": "20:45",
         "materiaId": "-529",
-        "professor": "Joicy Lara",
+        "professor": "Samuel Bianch",
         "sala": "DCOM",
         "slot": 14
       },
@@ -27,6 +27,7 @@
         "horaInicio": "13:00",
         "materiaId": "-638",
         "professor": "Rodrigo Junges",
+        "sala": "DCOM",
         "slot": 6
       },
       {
@@ -35,6 +36,7 @@
         "horaInicio": "14:30",
         "materiaId": "-638",
         "professor": "Rodrigo Junges",
+        "sala": "DCOM",
         "slot": 8
       }
     ],

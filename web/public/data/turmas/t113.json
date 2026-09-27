@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "generatedAt": "2026-09-27T11:27:41.603Z",
   "schemaVersion": 1,
   "turma": {
     "aulas": [
@@ -7,8 +7,8 @@
         "diaSemana": 0,
         "horaFim": "20:30",
         "horaInicio": "18:50",
-        "materiaId": "*1027",
-        "professor": "Érica Marques",
+        "materiaId": "*1242",
+        "professor": "Marli Spolidoro",
         "sala": "B-219",
         "slot": 12
       },
@@ -16,17 +16,17 @@
         "diaSemana": 0,
         "horaFim": "22:25",
         "horaInicio": "20:45",
-        "materiaId": "-25",
-        "professor": "Marli Spolidoro",
-        "sala": "B-106",
+        "materiaId": "*1155",
+        "professor": "Sandro Santos",
+        "sala": "B-219",
         "slot": 14
       },
       {
         "diaSemana": 1,
         "horaFim": "20:30",
         "horaInicio": "18:50",
-        "materiaId": "*756",
-        "professor": "William Benedito",
+        "materiaId": "*890",
+        "professor": "Yasmim Rocha",
         "sala": "B-219",
         "slot": 12
       },
@@ -34,8 +34,8 @@
         "diaSemana": 1,
         "horaFim": "22:25",
         "horaInicio": "20:45",
-        "materiaId": "*306",
-        "professor": "Otavio Carvalho",
+        "materiaId": "*24",
+        "professor": "Ana Monlevade",
         "sala": "B-219",
         "slot": 14
       },
@@ -43,8 +43,8 @@
         "diaSemana": 2,
         "horaFim": "20:30",
         "horaInicio": "18:50",
-        "materiaId": "*1203",
-        "professor": "Ana Monlevade",
+        "materiaId": "*798",
+        "professor": "Yasmim Rocha",
         "sala": "B-219",
         "slot": 12
       },
@@ -52,8 +52,8 @@
         "diaSemana": 2,
         "horaFim": "22:25",
         "horaInicio": "20:45",
-        "materiaId": "-309",
-        "professor": "Karine Assunção",
+        "materiaId": "*798",
+        "professor": "Yasmim Rocha",
         "sala": "B-219",
         "slot": 14
       },
@@ -61,35 +61,35 @@
         "diaSemana": 3,
         "horaFim": "20:30",
         "horaInicio": "18:50",
-        "materiaId": "*1203",
+        "materiaId": "*384",
+        "professor": "Fabricio Moraes",
+        "sala": "B-219",
+        "slot": 12
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "*694",
+        "professor": "Rosemary Mendes",
+        "sala": "B-219",
+        "slot": 14
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "*24",
         "professor": "Ana Monlevade",
         "sala": "B-219",
         "slot": 12
       },
       {
-        "diaSemana": 3,
-        "horaFim": "22:25",
-        "horaInicio": "20:45",
-        "materiaId": "-25",
-        "professor": "Marli Spolidoro",
-        "sala": "B-219",
-        "slot": 14
-      },
-      {
-        "diaSemana": 4,
-        "horaFim": "20:30",
-        "horaInicio": "18:50",
-        "materiaId": "*756",
-        "professor": "William Benedito",
-        "sala": "B-219",
-        "slot": 12
-      },
-      {
         "diaSemana": 4,
         "horaFim": "22:25",
         "horaInicio": "20:45",
-        "materiaId": "*889",
-        "professor": "Subst. Turismo",
+        "materiaId": "*694",
+        "professor": "Rosemary Mendes",
         "sala": "B-219",
         "slot": 14
       }
@@ -98,49 +98,49 @@
     "id": "t113",
     "materias": [
       {
-        "id": "-25",
-        "nome": "Alimentos e Bebidas",
-        "nomeCurto": "AeB",
-        "semestre": 4
+        "id": "*24",
+        "nome": "Agenciamento de Viagens e Operações Turisticas",
+        "nomeCurto": "AVOT",
+        "semestre": 3
       },
       {
-        "id": "*306",
-        "nome": "Direito Aplicado ao Turismo I",
-        "nomeCurto": "DAaTI",
-        "semestre": 4
+        "id": "*384",
+        "nome": "Empreendedorismo e Inovação",
+        "nomeCurto": "EeI",
+        "semestre": 3
       },
       {
-        "id": "-309",
-        "nome": "Gestão de Pessoas",
-        "nomeCurto": "GP",
-        "semestre": 4
+        "id": "*694",
+        "nome": "Língua Espanhola Aplicada ao Turismo",
+        "nomeCurto": "LEAaT",
+        "semestre": 3
       },
       {
-        "id": "*756",
-        "nome": "Marketing Turístico",
-        "nomeCurto": "MT",
-        "semestre": 4
+        "id": "*798",
+        "nome": "Meios de Hospedagem",
+        "nomeCurto": "MdH",
+        "semestre": 3
       },
       {
-        "id": "*889",
-        "nome": "Planejamento do Turismo III",
+        "id": "*890",
+        "nome": "Planejamento do Turismo II",
         "nomeCurto": "PdTI",
-        "semestre": 4
+        "semestre": 3
       },
       {
-        "id": "*1027",
-        "nome": "Psicologia do Turismo",
-        "nomeCurto": "PdT",
-        "semestre": 4
+        "id": "*1155",
+        "nome": "Sociologia do Turismo",
+        "nomeCurto": "SdT",
+        "semestre": 3
       },
       {
-        "id": "*1203",
-        "nome": "Tecnologia Social e Produção Associada ao Turismo",
-        "nomeCurto": "TSePAaT",
-        "semestre": 4
+        "id": "*1242",
+        "nome": "Transportes e Turismo",
+        "nomeCurto": "TeT",
+        "semestre": 3
       }
     ],
-    "nome": "DGH 7243.4N Tur. Bach.",
-    "semestre": 4
+    "nome": "DGH 7243.3N Tur. Bach.",
+    "semestre": 3
   }
 }

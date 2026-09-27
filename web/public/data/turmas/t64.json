@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "generatedAt": "2026-09-27T11:27:41.603Z",
   "schemaVersion": 1,
   "turma": {
     "aulas": [
@@ -7,8 +7,9 @@
         "diaSemana": 0,
         "horaFim": "14:30",
         "horaInicio": "13:00",
-        "materiaId": "*668",
+        "materiaId": "*671",
         "professor": "Ronan Martins",
+        "sala": "DEEA E107 Lab. Circuitos Elétricos",
         "slot": 6
       },
       {
@@ -33,7 +34,7 @@
         "diaSemana": 1,
         "horaFim": "16:20",
         "horaInicio": "14:30",
-        "materiaId": "*290",
+        "materiaId": "*291",
         "professor": "Armindo Neto",
         "sala": "DEEA E114 Lab. Informatica",
         "slot": 8
@@ -42,7 +43,7 @@
         "diaSemana": 1,
         "horaFim": "17:50",
         "horaInicio": "16:20",
-        "materiaId": "*290",
+        "materiaId": "*291",
         "professor": "Armindo Neto",
         "sala": "DEEA E114 Lab. Informatica",
         "slot": 10
@@ -89,7 +90,7 @@
         "horaInicio": "18:50",
         "materiaId": "-508",
         "professor": "Luis Paoli",
-        "sala": "B-201",
+        "sala": "B-207",
         "slot": 12
       }
     ],
@@ -109,7 +110,7 @@
         "semestre": 4
       },
       {
-        "id": "*290",
+        "id": "*291",
         "nome": "Desenho Técnico em Ambiente Computacional",
         "nomeCurto": "DTeAC",
         "semestre": 4
@@ -121,7 +122,7 @@
         "semestre": 4
       },
       {
-        "id": "*668",
+        "id": "*671",
         "nome": "Laboratório de Circuitos Elétricos II",
         "nomeCurto": "Lab.C.Eletr.II",
         "semestre": 4

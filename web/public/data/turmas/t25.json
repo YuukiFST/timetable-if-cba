@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "generatedAt": "2026-09-27T11:27:41.603Z",
   "schemaVersion": 1,
   "turma": {
     "aulas": [
@@ -7,7 +7,7 @@
         "diaSemana": 0,
         "horaFim": "20:30",
         "horaInicio": "18:50",
-        "materiaId": "*415",
+        "materiaId": "*417",
         "professor": "Aline Dutton, Carlos Eduardo, Priscila Morais",
         "sala": "B-106",
         "slot": 12
@@ -16,7 +16,7 @@
         "diaSemana": 1,
         "horaFim": "20:30",
         "horaInicio": "18:50",
-        "materiaId": "*1025",
+        "materiaId": "*1027",
         "professor": "Érica Marques",
         "sala": "B-101",
         "slot": 12
@@ -25,7 +25,7 @@
         "diaSemana": 1,
         "horaFim": "22:25",
         "horaInicio": "20:45",
-        "materiaId": "*917",
+        "materiaId": "*919",
         "professor": "Larissa Kawashima",
         "sala": "B-101",
         "slot": 14
@@ -34,7 +34,7 @@
         "diaSemana": 2,
         "horaFim": "16:20",
         "horaInicio": "13:00",
-        "materiaId": "*415",
+        "materiaId": "*417",
         "professor": "Aline Dutton, Carlos Eduardo, Priscila Morais",
         "sala": "B-105",
         "slot": 6
@@ -70,7 +70,7 @@
         "diaSemana": 3,
         "horaFim": "22:25",
         "horaInicio": "20:45",
-        "materiaId": "*439",
+        "materiaId": "*441",
         "professor": "Elisângela Almeida",
         "sala": "B-007",
         "slot": 14
@@ -79,7 +79,7 @@
         "diaSemana": 4,
         "horaFim": "20:30",
         "horaInicio": "18:50",
-        "materiaId": "*343",
+        "materiaId": "*345",
         "professor": "Carlos Eduardo",
         "sala": "B-003",
         "slot": 12
@@ -88,7 +88,7 @@
         "diaSemana": 4,
         "horaFim": "22:25",
         "horaInicio": "20:45",
-        "materiaId": "*343",
+        "materiaId": "*345",
         "professor": "Carlos Eduardo",
         "sala": "B-003",
         "slot": 14
@@ -97,7 +97,7 @@
         "diaSemana": 5,
         "horaFim": "11:50",
         "horaInicio": "10:20",
-        "materiaId": "*415",
+        "materiaId": "*417",
         "professor": "Aline Dutton, Carlos Eduardo, Priscila Morais",
         "sala": "B-003",
         "slot": 4
@@ -113,25 +113,25 @@
         "semestre": 6
       },
       {
-        "id": "*343",
+        "id": "*345",
         "nome": "Educação Física no Ensino Fundamental I",
         "nomeCurto": "Ed. Fís. no Ensino Fund. I",
         "semestre": 6
       },
       {
-        "id": "*415",
+        "id": "*417",
         "nome": "Estagio no Ensino Fundamental I",
         "nomeCurto": "Est. no Ens. Fund. I",
         "semestre": 6
       },
       {
-        "id": "*439",
+        "id": "*441",
         "nome": "Estudos Integradores II",
         "nomeCurto": "Est. Int. II",
         "semestre": 6
       },
       {
-        "id": "*917",
+        "id": "*919",
         "nome": "Práticas Corporais de Aventura na Escola",
         "nomeCurto": "Práticas Corporais",
         "semestre": 6
@@ -143,7 +143,7 @@
         "semestre": 6
       },
       {
-        "id": "*1025",
+        "id": "*1027",
         "nome": "Psicologia da Educação",
         "nomeCurto": "Psicologia da Educação",
         "semestre": 6

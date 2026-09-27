@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "generatedAt": "2026-09-27T11:27:41.603Z",
   "schemaVersion": 1,
   "turma": {
     "aulas": [
@@ -43,7 +43,7 @@
         "horaFim": "10:20",
         "horaInicio": "08:30",
         "materiaId": "-258",
-        "professor": "Cristiano Cunha",
+        "professor": "Edson Ferreira",
         "sala": "B-205",
         "slot": 2
       },
@@ -51,8 +51,8 @@
         "diaSemana": 1,
         "horaFim": "13:45",
         "horaInicio": "10:20",
-        "materiaId": "*97",
-        "professor": "João Lucas",
+        "materiaId": "*98",
+        "professor": "Flavilene Souza",
         "sala": "DEEA E201 Lab. Automação Predial",
         "slot": 4
       },
@@ -60,8 +60,8 @@
         "diaSemana": 1,
         "horaFim": "13:45",
         "horaInicio": "10:20",
-        "materiaId": "*97",
-        "professor": "Flavilene Souza",
+        "materiaId": "*98",
+        "professor": "Marcelo Arruda",
         "sala": "DEEA E204 Lab. CLP Avançado",
         "slot": 4
       },
@@ -71,7 +71,7 @@
         "horaInicio": "07:00",
         "materiaId": "-571",
         "professor": "Mônica Bidarra",
-        "sala": "B-208",
+        "sala": "B-203",
         "slot": 0
       },
       {
@@ -85,27 +85,27 @@
       },
       {
         "diaSemana": 2,
-        "horaFim": "11:05",
+        "horaFim": "10:20",
         "horaInicio": "09:35",
-        "materiaId": "-331",
-        "professor": "Manuela Arruda",
+        "materiaId": "-402",
+        "professor": "Edilson Serra",
         "sala": "B-208",
         "slot": 3
       },
       {
         "diaSemana": 2,
         "horaFim": "11:50",
-        "horaInicio": "11:05",
-        "materiaId": "-402",
-        "professor": "Jenniffer Santos",
+        "horaInicio": "10:20",
+        "materiaId": "-331",
+        "professor": "Manuela Arruda",
         "sala": "B-208",
-        "slot": 5
+        "slot": 4
       },
       {
         "diaSemana": 3,
         "horaFim": "08:30",
         "horaInicio": "07:00",
-        "materiaId": "*882",
+        "materiaId": "*884",
         "professor": "Palmiro Rodrigues",
         "sala": "DEEA E113 Lab. Informatica",
         "slot": 0
@@ -114,7 +114,7 @@
         "diaSemana": 3,
         "horaFim": "10:20",
         "horaInicio": "08:30",
-        "materiaId": "*1030",
+        "materiaId": "*1032",
         "professor": "Marco Castro",
         "sala": "DEEA E118 Lab. Eletrônica",
         "slot": 2
@@ -123,7 +123,7 @@
         "diaSemana": 3,
         "horaFim": "11:50",
         "horaInicio": "10:20",
-        "materiaId": "*707",
+        "materiaId": "*710",
         "professor": "Thaynara Silva",
         "sala": "B-205",
         "slot": 4
@@ -141,8 +141,8 @@
         "diaSemana": 4,
         "horaFim": "08:30",
         "horaInicio": "07:00",
-        "materiaId": "*1007",
-        "professor": "Djalma Campos",
+        "materiaId": "*1009",
+        "professor": "João Lucas",
         "sala": "B-205",
         "slot": 0
       },
@@ -151,7 +151,7 @@
         "horaFim": "10:20",
         "horaInicio": "08:30",
         "materiaId": "-402",
-        "professor": "Jenniffer Santos",
+        "professor": "Edilson Serra",
         "sala": "B-205",
         "slot": 2
       },
@@ -159,7 +159,7 @@
         "diaSemana": 4,
         "horaFim": "11:50",
         "horaInicio": "10:20",
-        "materiaId": "*1054",
+        "materiaId": "*1056",
         "professor": "Palmiro Rodrigues",
         "sala": "B-205",
         "slot": 4
@@ -169,7 +169,7 @@
     "id": "t78",
     "materias": [
       {
-        "id": "*97",
+        "id": "*98",
         "nome": "Automação Industrial e Residencial",
         "nomeCurto": "AIeR",
         "semestre": 3
@@ -205,7 +205,7 @@
         "semestre": 3
       },
       {
-        "id": "*707",
+        "id": "*710",
         "nome": "Língua Inglesa Aplicada II",
         "nomeCurto": "L.Ing.Apl.II",
         "semestre": 3
@@ -223,19 +223,19 @@
         "semestre": 3
       },
       {
-        "id": "*882",
+        "id": "*884",
         "nome": "PIE - Industrial, Urbana/Rural",
         "nomeCurto": "PIE - Ind. Urb/Rural",
         "semestre": 3
       },
       {
-        "id": "*1007",
+        "id": "*1009",
         "nome": "Projeto Integrador III - Geração e Transmissão de Energia",
         "nomeCurto": "PI - III",
         "semestre": 3
       },
       {
-        "id": "*1030",
+        "id": "*1032",
         "nome": "Qualidade de Energi Elétrica",
         "nomeCurto": "QdEE",
         "semestre": 3
@@ -247,7 +247,7 @@
         "semestre": 3
       },
       {
-        "id": "*1054",
+        "id": "*1056",
         "nome": "Redes de Distribuição de Energia",
         "nomeCurto": "RdDdE",
         "semestre": 3

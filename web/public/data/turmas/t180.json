@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "generatedAt": "2026-09-27T11:27:41.603Z",
   "schemaVersion": 1,
   "turma": {
     "aulas": [
@@ -45,14 +45,14 @@
         "horaInicio": "20:45",
         "materiaId": "-447",
         "professor": "Douglas Carvalho",
-        "sala": "B-007",
+        "sala": "B-101",
         "slot": 14
       },
       {
         "diaSemana": 3,
         "horaFim": "22:25",
         "horaInicio": "18:50",
-        "materiaId": "*1196",
+        "materiaId": "*1200",
         "professor": "Ilço Júnior",
         "sala": "B-111",
         "slot": 12
@@ -68,7 +68,7 @@
       }
     ],
     "cursoId": "dinfra-0140063-eng-civil",
-    "id": "t187",
+    "id": "t180",
     "materias": [
       {
         "id": "-215",
@@ -101,7 +101,7 @@
         "semestre": 4
       },
       {
-        "id": "*1196",
+        "id": "*1200",
         "nome": "Tecnologia das Construções I",
         "nomeCurto": "Tecnologia das Construções I",
         "semestre": 4

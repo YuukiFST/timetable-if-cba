@@ -1,46 +1,42 @@
 {
-  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "generatedAt": "2026-09-27T11:27:41.603Z",
   "schemaVersion": 1,
   "turma": {
     "aulas": [
       {
-        "diaSemana": 0,
-        "horaFim": "22:25",
-        "horaInicio": "17:05",
-        "materiaId": "*831",
-        "slot": 11
-      },
-      {
-        "diaSemana": 1,
-        "horaFim": "22:25",
-        "horaInicio": "17:05",
-        "materiaId": "*831",
-        "slot": 11
-      },
-      {
-        "diaSemana": 2,
-        "horaFim": "22:25",
-        "horaInicio": "17:05",
-        "materiaId": "*831",
-        "slot": 11
+        "diaSemana": 3,
+        "horaFim": "17:05",
+        "horaInicio": "13:00",
+        "materiaId": "*83",
+        "professor": "José Vinicius, Tatiane de Oliveira",
+        "slot": 6
       },
       {
         "diaSemana": 3,
-        "horaFim": "22:25",
-        "horaInicio": "18:50",
-        "materiaId": "*831",
-        "slot": 12
+        "horaFim": "17:50",
+        "horaInicio": "17:05",
+        "materiaId": "*83",
+        "professor": "José Vinicius, Tatiane de Oliveira",
+        "slot": 11
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "11:05",
+        "horaInicio": "07:00",
+        "materiaId": "*83",
+        "professor": "José Vinicius, Tatiane de Oliveira",
+        "slot": 0
       }
     ],
-    "cursoId": "mulheres-mil-2",
+    "cursoId": "profept-mestrado-03",
     "id": "t202",
     "materias": [
       {
-        "id": "*831",
-        "nome": "Mulheres Mil 2",
-        "nomeCurto": "Mulheres Mil 2"
+        "id": "*83",
+        "nome": "Atividades ProfEPT",
+        "nomeCurto": "Atividades ProfEPT"
       }
     ],
-    "nome": "Mulheres Mil 2"
+    "nome": "ProfEPT - Mestrado - 03"
   }
 }

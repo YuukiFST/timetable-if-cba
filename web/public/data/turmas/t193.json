@@ -1,0 +1,46 @@
+{
+  "generatedAt": "2026-09-27T11:27:41.603Z",
+  "schemaVersion": 1,
+  "turma": {
+    "aulas": [
+      {
+        "diaSemana": 0,
+        "horaFim": "22:25",
+        "horaInicio": "17:05",
+        "materiaId": "*834",
+        "slot": 11
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "22:25",
+        "horaInicio": "17:05",
+        "materiaId": "*834",
+        "slot": 11
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "22:25",
+        "horaInicio": "17:05",
+        "materiaId": "*834",
+        "slot": 11
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "22:25",
+        "horaInicio": "18:50",
+        "materiaId": "*834",
+        "slot": 12
+      }
+    ],
+    "cursoId": "mulheres-mil-2",
+    "id": "t193",
+    "materias": [
+      {
+        "id": "*834",
+        "nome": "Mulheres Mil 2",
+        "nomeCurto": "Mulheres Mil 2"
+      }
+    ],
+    "nome": "Mulheres Mil 2"
+  }
+}
