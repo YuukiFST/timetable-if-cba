@@ -1,46 +1,47 @@
 {
-  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "generatedAt": "2026-10-11T12:09:50.413Z",
   "schemaVersion": 1,
   "turma": {
     "aulas": [
       {
-        "diaSemana": 0,
-        "horaFim": "22:25",
-        "horaInicio": "17:05",
-        "materiaId": "*830",
-        "slot": 11
-      },
-      {
-        "diaSemana": 1,
-        "horaFim": "22:25",
-        "horaInicio": "17:05",
-        "materiaId": "*830",
-        "slot": 11
-      },
-      {
-        "diaSemana": 2,
-        "horaFim": "22:25",
-        "horaInicio": "18:50",
-        "materiaId": "*830",
-        "slot": 12
-      },
-      {
         "diaSemana": 3,
-        "horaFim": "22:25",
+        "horaFim": "19:40",
         "horaInicio": "17:05",
-        "materiaId": "*830",
+        "materiaId": "*1231",
+        "professor": "André Fonseca",
         "slot": 11
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "15:15",
+        "horaInicio": "13:45",
+        "materiaId": "*1221",
+        "professor": "Tatiane de Oliveira, José Vinicius",
+        "slot": 7
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "17:05",
+        "horaInicio": "15:35",
+        "materiaId": "*1221",
+        "professor": "Tatiane de Oliveira, José Vinicius",
+        "slot": 9
       }
     ],
-    "cursoId": "mulheres-mil-1",
+    "cursoId": "profept-mestrado-02",
     "id": "t201",
     "materias": [
       {
-        "id": "*830",
-        "nome": "Mulheres Mil 1",
-        "nomeCurto": "Mulheres Mil 1"
+        "id": "*1221",
+        "nome": "Teorias e Práticas do Ensino e Aprendizagem",
+        "nomeCurto": "TePdEeA"
+      },
+      {
+        "id": "*1231",
+        "nome": "Tópicos Especiais",
+        "nomeCurto": "Tópicos Especiais"
       }
     ],
-    "nome": "Mulheres Mil 1"
+    "nome": "ProfEPT - Mestrado - 02"
   }
 }

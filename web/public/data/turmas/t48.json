@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "generatedAt": "2026-10-11T12:09:50.413Z",
   "schemaVersion": 1,
   "turma": {
     "aulas": [
@@ -7,7 +7,7 @@
         "diaSemana": 1,
         "horaFim": "09:15",
         "horaInicio": "07:00",
-        "materiaId": "*1224",
+        "materiaId": "*1231",
         "professor": "Marilson O. Corrêa",
         "sala": "DCOM",
         "slot": 0
@@ -16,7 +16,7 @@
         "diaSemana": 1,
         "horaFim": "11:50",
         "horaInicio": "09:35",
-        "materiaId": "*1224",
+        "materiaId": "*1231",
         "professor": "Marilson O. Corrêa",
         "sala": "DCOM",
         "slot": 3
@@ -43,7 +43,7 @@
         "diaSemana": 3,
         "horaFim": "09:15",
         "horaInicio": "07:00",
-        "materiaId": "*849",
+        "materiaId": "*853",
         "professor": "Ed Wilson Ferreira",
         "sala": "DCOM",
         "slot": 0
@@ -52,7 +52,7 @@
         "diaSemana": 3,
         "horaFim": "11:50",
         "horaInicio": "09:35",
-        "materiaId": "*849",
+        "materiaId": "*853",
         "professor": "Ed Wilson Ferreira",
         "sala": "DCOM",
         "slot": 3
@@ -61,7 +61,7 @@
         "diaSemana": 4,
         "horaFim": "09:15",
         "horaInicio": "07:45",
-        "materiaId": "*468",
+        "materiaId": "*471",
         "professor": "Livio Wogel",
         "sala": "D-014",
         "slot": 1
@@ -70,7 +70,7 @@
         "diaSemana": 4,
         "horaFim": "11:05",
         "horaInicio": "09:35",
-        "materiaId": "*468",
+        "materiaId": "*471",
         "professor": "Livio Wogel",
         "sala": "D-014",
         "slot": 3
@@ -86,19 +86,19 @@
         "semestre": 5
       },
       {
-        "id": "*468",
+        "id": "*471",
         "nome": "Filosofia, Ética e Sociedade",
         "nomeCurto": "Filos., Éti. e Soc.",
         "semestre": 5
       },
       {
-        "id": "*849",
+        "id": "*853",
         "nome": "Oficina de Implementação de Rede II",
         "nomeCurto": "OdIdRI",
         "semestre": 5
       },
       {
-        "id": "*1224",
+        "id": "*1231",
         "nome": "Tópicos Especiais",
         "nomeCurto": "Tópicos Especiais",
         "semestre": 5

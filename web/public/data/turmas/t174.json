@@ -1,29 +1,38 @@
 {
-  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "generatedAt": "2026-10-11T12:09:50.413Z",
   "schemaVersion": 1,
   "turma": {
     "aulas": [
       {
-        "diaSemana": 2,
-        "horaFim": "22:25",
+        "diaSemana": 1,
+        "horaFim": "20:30",
         "horaInicio": "18:50",
-        "materiaId": "-546",
-        "professor": "Raquel Louzada, Weverton Costa",
-        "sala": "DINFRA",
+        "materiaId": "*1174",
+        "professor": "Eloísa Azeredo",
+        "sala": "B-106",
         "slot": 12
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "17:50",
+        "horaInicio": "16:20",
+        "materiaId": "*1174",
+        "professor": "Eloísa Azeredo",
+        "sala": "B-106",
+        "slot": 10
       }
     ],
-    "cursoId": "dinfra-2641-tecnol-geop",
+    "cursoId": "dinfra-2841-tecnol-cont-obr",
     "id": "t174",
     "materias": [
       {
-        "id": "-546",
-        "nome": "Projeto Integrador II",
-        "nomeCurto": "Proj.Int. II",
-        "semestre": 6
+        "id": "*1174",
+        "nome": "TCC II",
+        "nomeCurto": "TCC II",
+        "semestre": 7
       }
     ],
-    "nome": "DINFRA 2641.6N Tecnol. Geop.",
-    "semestre": 6
+    "nome": "DINFRA 2841.7N Tecnol. Cont. Obr.",
+    "semestre": 7
   }
 }

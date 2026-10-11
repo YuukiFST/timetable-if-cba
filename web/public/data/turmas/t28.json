@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "generatedAt": "2026-10-11T12:09:50.413Z",
   "schemaVersion": 1,
   "turma": {
     "aulas": [
       {
-        "diaSemana": 1,
+        "diaSemana": 0,
         "horaFim": "17:50",
         "horaInicio": "16:20",
         "materiaId": "-545",
@@ -14,19 +14,19 @@
       },
       {
         "diaSemana": 4,
-        "horaFim": "17:05",
-        "horaInicio": "14:30",
-        "materiaId": "*985",
+        "horaFim": "15:15",
+        "horaInicio": "13:00",
+        "materiaId": "*990",
         "professor": "Monica Crispim",
         "sala": "DCOM",
-        "slot": 8
+        "slot": 6
       }
     ],
     "cursoId": "dcom-7131-inform-integ",
     "id": "t28",
     "materias": [
       {
-        "id": "*985",
+        "id": "*990",
         "nome": "Projeto de Interface de Usuários",
         "nomeCurto": "PdIdU",
         "semestre": 1

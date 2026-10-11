@@ -1,25 +1,55 @@
 {
-  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "generatedAt": "2026-10-11T12:09:50.413Z",
   "schemaVersion": 1,
   "turma": {
     "aulas": [
       {
         "diaSemana": 3,
-        "horaFim": "16:20",
-        "horaInicio": "14:30",
-        "materiaId": "-428",
-        "slot": 8
+        "horaFim": "15:15",
+        "horaInicio": "13:45",
+        "materiaId": "*926",
+        "professor": "Lúcio Vidal, Danilo Herbert",
+        "slot": 7
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "17:05",
+        "horaInicio": "15:35",
+        "materiaId": "*926",
+        "professor": "Lúcio Vidal, Danilo Herbert",
+        "slot": 9
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "15:15",
+        "horaInicio": "13:45",
+        "materiaId": "*867",
+        "professor": "Ronan Martins, Jefferson Bento",
+        "slot": 7
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "17:05",
+        "horaInicio": "15:35",
+        "materiaId": "*867",
+        "professor": "Ronan Martins, Jefferson Bento",
+        "slot": 9
       }
     ],
-    "cursoId": "monitoria-matematica-1-ano-agrimensura",
+    "cursoId": "profept-mestrado-01",
     "id": "t200",
     "materias": [
       {
-        "id": "-428",
-        "nome": "Matemática",
-        "nomeCurto": "Matemática"
+        "id": "*867",
+        "nome": "Organização e Memórias de Espaços Pedagógicos em Educação Profissional e Tecnológica",
+        "nomeCurto": "OeMdEPeEPeT"
+      },
+      {
+        "id": "*926",
+        "nome": "Práticas Educativas em Educação Profissional e Tecnológica",
+        "nomeCurto": "PEeEPeT"
       }
     ],
-    "nome": "Monitoria - matemática - 1 ano - agrimensura"
+    "nome": "ProfEPT - Mestrado - 01"
   }
 }

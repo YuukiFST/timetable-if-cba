@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "generatedAt": "2026-10-11T12:09:50.413Z",
   "schemaVersion": 1,
   "turma": {
     "aulas": [
@@ -42,8 +42,8 @@
         "diaSemana": 1,
         "horaFim": "08:30",
         "horaInicio": "07:00",
-        "materiaId": "-67",
-        "professor": "Rhavena Liotti",
+        "materiaId": "-329",
+        "professor": "Marcos de Melo",
         "sala": "B-211",
         "slot": 0
       },
@@ -88,7 +88,7 @@
         "horaFim": "11:50",
         "horaInicio": "10:20",
         "materiaId": "-244",
-        "professor": "Francisco Rosa",
+        "professor": "Regina Olea",
         "sala": "B-211",
         "slot": 4
       },
@@ -97,7 +97,7 @@
         "horaFim": "08:30",
         "horaInicio": "07:00",
         "materiaId": "-256",
-        "professor": "William Jesus",
+        "professor": "Edson Ferreira",
         "sala": "B-211",
         "slot": 0
       },
@@ -105,16 +105,16 @@
         "diaSemana": 3,
         "horaFim": "10:20",
         "horaInicio": "08:30",
-        "materiaId": "*65",
+        "materiaId": "*66",
         "slot": 2
       },
       {
         "diaSemana": 3,
         "horaFim": "11:50",
         "horaInicio": "10:20",
-        "materiaId": "-329",
-        "professor": "Subst. Historia",
-        "sala": "B-211",
+        "materiaId": "-67",
+        "professor": "Rhavena Liotti",
+        "sala": "B-111",
         "slot": 4
       },
       {
@@ -130,46 +130,19 @@
         "diaSemana": 4,
         "horaFim": "11:50",
         "horaInicio": "09:35",
-        "materiaId": "*365",
+        "materiaId": "*368",
         "professor": "Djalma Campos",
-        "sala": "DEEA E118 Lab. Eletrônica",
+        "sala": "DEEA E107 Lab. Circuitos Elétricos",
         "slot": 3
-      },
-      {
-        "diaSemana": 4,
-        "horaFim": "11:50",
-        "horaInicio": "09:35",
-        "materiaId": "*966",
-        "professor": "Roney Pinhorati",
-        "sala": "DEEA E114 Lab. Informatica",
-        "slot": 3
-      },
-      {
-        "diaSemana": 4,
-        "horaFim": "14:30",
-        "horaInicio": "13:00",
-        "materiaId": "-201",
-        "professor": "Luis Pedroso",
-        "sala": "DEEA E101 Lab. Eletrônica",
-        "slot": 6
       },
       {
         "diaSemana": 4,
         "horaFim": "15:15",
         "horaInicio": "13:00",
-        "materiaId": "*966",
-        "professor": "Roney Pinhorati",
+        "materiaId": "*970",
+        "professor": "Djalma Campos",
         "sala": "DEEA E114 Lab. Informatica",
         "slot": 6
-      },
-      {
-        "diaSemana": 4,
-        "horaFim": "17:05",
-        "horaInicio": "14:30",
-        "materiaId": "*365",
-        "professor": "Djalma Campos",
-        "sala": "DEEA E118 Lab. Eletrônica",
-        "slot": 8
       },
       {
         "diaSemana": 4,
@@ -185,7 +158,7 @@
     "id": "t83",
     "materias": [
       {
-        "id": "*65",
+        "id": "*66",
         "nome": "Arte",
         "nomeCurto": "Arte",
         "semestre": 1
@@ -203,7 +176,7 @@
         "semestre": 1
       },
       {
-        "id": "*365",
+        "id": "*368",
         "nome": "Eletrônica Analógica",
         "nomeCurto": "Eletr. A.",
         "semestre": 1
@@ -263,7 +236,7 @@
         "semestre": 1
       },
       {
-        "id": "*966",
+        "id": "*970",
         "nome": "Proj. Int. Desenho e Confecção de PCI",
         "nomeCurto": "Desenho PCI",
         "semestre": 1

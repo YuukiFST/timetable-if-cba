@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "generatedAt": "2026-10-11T12:09:50.413Z",
   "schemaVersion": 1,
   "turma": {
     "aulas": [
@@ -22,13 +22,13 @@
         "slot": 10
       },
       {
-        "diaSemana": 2,
-        "horaFim": "16:20",
-        "horaInicio": "14:30",
+        "diaSemana": 0,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
         "materiaId": "-95",
         "professor": "Simone Raquel",
-        "sala": "B-204",
-        "slot": 8
+        "sala": "B-206",
+        "slot": 12
       },
       {
         "diaSemana": 2,
@@ -43,15 +43,39 @@
         "diaSemana": 2,
         "horaFim": "20:30",
         "horaInicio": "18:50",
-        "materiaId": "*653",
+        "materiaId": "*657",
         "professor": "Fabricio Moraes",
         "sala": "B-208",
         "slot": 12
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "16:20",
+        "horaInicio": "14:30",
+        "materiaId": "-54",
+        "professor": "Edilson Silva",
+        "sala": "DEEA E208 Lab. Automação Industrial",
+        "slot": 8
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "17:50",
+        "horaInicio": "16:20",
+        "materiaId": "-54",
+        "professor": "Edilson Silva",
+        "sala": "DEEA E208 Lab. Automação Industrial",
+        "slot": 10
       }
     ],
     "cursoId": "deea-6144-engenharia-de-controle-e-automacao",
     "id": "t70",
     "materias": [
+      {
+        "id": "-54",
+        "nome": "Automação e Supervisão de Processos I",
+        "nomeCurto": "Aut.Sup.Processos I",
+        "semestre": 9
+      },
       {
         "id": "-95",
         "nome": "Ciências do Ambiente",
@@ -59,7 +83,7 @@
         "semestre": 9
       },
       {
-        "id": "*653",
+        "id": "*657",
         "nome": "Introdução à Economia para Engenharia",
         "nomeCurto": "Int.Economia",
         "semestre": 9

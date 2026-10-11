@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "generatedAt": "2026-10-11T12:09:50.413Z",
   "schemaVersion": 1,
   "turma": {
     "aulas": [
@@ -7,48 +7,40 @@
         "diaSemana": 0,
         "horaFim": "22:25",
         "horaInicio": "18:50",
-        "materiaId": "*1018",
+        "materiaId": "*837",
         "slot": 12
       },
       {
         "diaSemana": 1,
         "horaFim": "22:25",
         "horaInicio": "18:50",
-        "materiaId": "*1018",
+        "materiaId": "*837",
         "slot": 12
       },
       {
         "diaSemana": 2,
         "horaFim": "22:25",
         "horaInicio": "18:50",
-        "materiaId": "*1018",
-        "sala": "DINFRA",
+        "materiaId": "*837",
         "slot": 12
       },
       {
         "diaSemana": 3,
         "horaFim": "22:25",
         "horaInicio": "18:50",
-        "materiaId": "*1018",
-        "slot": 12
-      },
-      {
-        "diaSemana": 4,
-        "horaFim": "22:25",
-        "horaInicio": "18:50",
-        "materiaId": "*1018",
+        "materiaId": "*837",
         "slot": 12
       }
     ],
-    "cursoId": "dinfra-pronatec",
-    "id": "t198",
+    "cursoId": "mulheres-mil-3",
+    "id": "t194",
     "materias": [
       {
-        "id": "*1018",
-        "nome": "PRONATEC",
-        "nomeCurto": "PRONATEC"
+        "id": "*837",
+        "nome": "Mulheres Mil 3",
+        "nomeCurto": "Mulheres Mil 4"
       }
     ],
-    "nome": "DINFRA - PRONATEC"
+    "nome": "Mulheres Mil 3"
   }
 }

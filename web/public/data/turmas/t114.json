@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "generatedAt": "2026-10-11T12:09:50.413Z",
   "schemaVersion": 1,
   "turma": {
     "aulas": [
@@ -7,90 +7,90 @@
         "diaSemana": 0,
         "horaFim": "20:30",
         "horaInicio": "18:50",
-        "materiaId": "*890",
-        "professor": "Subst. Turismo",
-        "sala": "B-217",
+        "materiaId": "*1032",
+        "professor": "Érica Marques",
+        "sala": "B-124",
         "slot": 12
       },
       {
         "diaSemana": 0,
         "horaFim": "22:25",
         "horaInicio": "20:45",
+        "materiaId": "-25",
+        "professor": "Marli Spolidoro",
+        "sala": "B-124",
+        "slot": 14
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "*761",
+        "professor": "William Benedito, Danilo Herbert",
+        "sala": "DCOM",
+        "slot": 12
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "*893",
+        "professor": "Yasmim Rocha",
+        "sala": "B-124",
+        "slot": 14
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "*1210",
+        "professor": "Ana Monlevade",
+        "sala": "B-124",
+        "slot": 12
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "-309",
+        "professor": "Francielle Oliveira",
+        "sala": "B-002",
+        "slot": 14
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "*1210",
+        "professor": "Ana Monlevade",
+        "sala": "B-124",
+        "slot": 12
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "-25",
+        "professor": "Marli Spolidoro",
+        "sala": "B-124",
+        "slot": 14
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "*761",
+        "professor": "William Benedito, Danilo Herbert",
+        "sala": "DCOM",
+        "slot": 12
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
         "materiaId": "*307",
-        "professor": "José Vinicius",
-        "sala": "B-217",
-        "slot": 14
-      },
-      {
-        "diaSemana": 1,
-        "horaFim": "20:30",
-        "horaInicio": "18:50",
-        "materiaId": "-457",
-        "professor": "Ana Monlevade",
-        "sala": "B-217",
-        "slot": 12
-      },
-      {
-        "diaSemana": 1,
-        "horaFim": "22:25",
-        "horaInicio": "20:45",
-        "materiaId": "*705",
-        "professor": "Edilene Campos",
-        "sala": "B-217",
-        "slot": 14
-      },
-      {
-        "diaSemana": 2,
-        "horaFim": "20:30",
-        "horaInicio": "18:50",
-        "materiaId": "*426",
-        "professor": "Jeferson Júnior",
-        "sala": "B-217",
-        "slot": 12
-      },
-      {
-        "diaSemana": 2,
-        "horaFim": "22:25",
-        "horaInicio": "20:45",
-        "materiaId": "-457",
-        "professor": "Ana Monlevade",
-        "sala": "B-217",
-        "slot": 14
-      },
-      {
-        "diaSemana": 3,
-        "horaFim": "20:30",
-        "horaInicio": "18:50",
-        "materiaId": "*446",
-        "professor": "Simone Raquel",
-        "sala": "B-217",
-        "slot": 12
-      },
-      {
-        "diaSemana": 3,
-        "horaFim": "22:25",
-        "horaInicio": "20:45",
-        "materiaId": "*705",
-        "professor": "Edilene Campos",
-        "sala": "B-217",
-        "slot": 14
-      },
-      {
-        "diaSemana": 4,
-        "horaFim": "20:30",
-        "horaInicio": "18:50",
-        "materiaId": "*890",
-        "professor": "Subst. Turismo",
-        "sala": "B-217",
-        "slot": 12
-      },
-      {
-        "diaSemana": 4,
-        "horaFim": "22:25",
-        "horaInicio": "20:45",
-        "materiaId": "-169",
-        "professor": "Breno Antunes",
-        "sala": "B-217",
+        "professor": "Otavio Carvalho",
+        "sala": "B-124",
         "slot": 14
       }
     ],
@@ -98,49 +98,49 @@
     "id": "t114",
     "materias": [
       {
+        "id": "-25",
+        "nome": "Alimentos e Bebidas",
+        "nomeCurto": "AeB",
+        "semestre": 4
+      },
+      {
         "id": "*307",
-        "nome": "Direito Aplicado ao Turismo II",
+        "nome": "Direito Aplicado ao Turismo I",
         "nomeCurto": "DAaTI",
-        "semestre": 5
+        "semestre": 4
       },
       {
-        "id": "-169",
-        "nome": "Economia do Turismo",
-        "nomeCurto": "EcTur",
-        "semestre": 5
+        "id": "-309",
+        "nome": "Gestão de Pessoas",
+        "nomeCurto": "GP",
+        "semestre": 4
       },
       {
-        "id": "*426",
-        "nome": "Estatistica",
-        "nomeCurto": "Estatistica",
-        "semestre": 5
+        "id": "*761",
+        "nome": "Marketing Turístico",
+        "nomeCurto": "MT",
+        "semestre": 4
       },
       {
-        "id": "*446",
-        "nome": "Ética, Responsabilidade Sócio Ambiental",
-        "nomeCurto": "ÉRSA",
-        "semestre": 5
-      },
-      {
-        "id": "*705",
-        "nome": "Lingua Inglesa Aplicada ao Turismo",
-        "nomeCurto": "LIAaT",
-        "semestre": 5
-      },
-      {
-        "id": "-457",
-        "nome": "Métodos e Técnicas de Pesquisa em Turismo",
-        "nomeCurto": "MTP",
-        "semestre": 5
-      },
-      {
-        "id": "*890",
-        "nome": "Planejamento do Turismo IV",
+        "id": "*893",
+        "nome": "Planejamento do Turismo III",
         "nomeCurto": "PdTI",
-        "semestre": 5
+        "semestre": 4
+      },
+      {
+        "id": "*1032",
+        "nome": "Psicologia do Turismo",
+        "nomeCurto": "PdT",
+        "semestre": 4
+      },
+      {
+        "id": "*1210",
+        "nome": "Tecnologia Social e Produção Associada ao Turismo",
+        "nomeCurto": "TSePAaT",
+        "semestre": 4
       }
     ],
-    "nome": "DGH 7243.5N Tur. Bach.",
-    "semestre": 5
+    "nome": "DGH 7243.4N Tur. Bach.",
+    "semestre": 4
   }
 }

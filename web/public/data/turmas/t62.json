@@ -1,58 +1,40 @@
 {
-  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "generatedAt": "2026-10-11T12:09:50.413Z",
   "schemaVersion": 1,
   "turma": {
     "aulas": [
       {
         "diaSemana": 0,
-        "horaFim": "14:30",
-        "horaInicio": "13:00",
-        "materiaId": "-253",
-        "professor": "Cristiano Cunha",
-        "sala": "B-002",
-        "slot": 6
-      },
-      {
-        "diaSemana": 0,
-        "horaFim": "16:20",
-        "horaInicio": "14:30",
-        "materiaId": "-77",
-        "professor": "Emerson Dutra",
-        "sala": "B-002",
-        "slot": 8
-      },
-      {
-        "diaSemana": 0,
         "horaFim": "17:50",
         "horaInicio": "16:20",
-        "materiaId": "-17",
-        "professor": "Willian Pereira",
-        "sala": "B-002",
+        "materiaId": "-253",
+        "professor": "Cristiano Cunha",
+        "sala": "DEEA E007 Lab. Física",
         "slot": 10
       },
       {
         "diaSemana": 1,
+        "horaFim": "17:50",
+        "horaInicio": "16:20",
+        "materiaId": "-253",
+        "professor": "Cristiano Cunha",
+        "sala": "DEEA E007 Lab. Física",
+        "slot": 10
+      },
+      {
+        "diaSemana": 2,
         "horaFim": "14:30",
         "horaInicio": "13:00",
         "materiaId": "-17",
         "professor": "Willian Pereira",
-        "sala": "B-003",
+        "sala": "B-108",
         "slot": 6
-      },
-      {
-        "diaSemana": 1,
-        "horaFim": "16:20",
-        "horaInicio": "14:30",
-        "materiaId": "-253",
-        "professor": "Cristiano Cunha",
-        "sala": "B-109",
-        "slot": 8
       },
       {
         "diaSemana": 2,
         "horaFim": "16:20",
         "horaInicio": "14:30",
-        "materiaId": "*1040",
+        "materiaId": "*1045",
         "professor": "Cláudia Nehme",
         "sala": "B-108",
         "slot": 8
@@ -70,9 +52,9 @@
         "diaSemana": 3,
         "horaFim": "16:20",
         "horaInicio": "14:30",
-        "materiaId": "-77",
-        "professor": "Emerson Dutra",
-        "sala": "B-003",
+        "materiaId": "-17",
+        "professor": "Willian Pereira",
+        "sala": "B-002",
         "slot": 8
       },
       {
@@ -86,9 +68,27 @@
       },
       {
         "diaSemana": 4,
+        "horaFim": "14:30",
+        "horaInicio": "13:00",
+        "materiaId": "-77",
+        "professor": "Emerson Dutra",
+        "sala": "B-108",
+        "slot": 6
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "16:20",
+        "horaInicio": "14:30",
+        "materiaId": "-77",
+        "professor": "Emerson Dutra",
+        "sala": "B-108",
+        "slot": 8
+      },
+      {
+        "diaSemana": 4,
         "horaFim": "20:30",
         "horaInicio": "18:50",
-        "materiaId": "*853",
+        "materiaId": "*857",
         "professor": "Carlos Henrique",
         "sala": "DCOM",
         "slot": 12
@@ -97,7 +97,7 @@
         "diaSemana": 4,
         "horaFim": "22:25",
         "horaInicio": "20:45",
-        "materiaId": "*853",
+        "materiaId": "*857",
         "professor": "Carlos Henrique",
         "sala": "DCOM",
         "slot": 14
@@ -131,13 +131,13 @@
         "semestre": 2
       },
       {
-        "id": "*853",
+        "id": "*857",
         "nome": "Oficina de Projetos",
         "nomeCurto": "Oficina Proj.",
         "semestre": 2
       },
       {
-        "id": "*1040",
+        "id": "*1045",
         "nome": "Química Geral e Ciência dos Materiais",
         "nomeCurto": "QGeCdM",
         "semestre": 2

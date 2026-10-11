@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "generatedAt": "2026-10-11T12:09:50.413Z",
   "schemaVersion": 1,
   "turma": {
     "aulas": [
@@ -7,90 +7,90 @@
         "diaSemana": 0,
         "horaFim": "20:30",
         "horaInicio": "18:50",
-        "materiaId": "*459",
-        "professor": "Karine Assunção",
-        "sala": "B-218",
+        "materiaId": "-383",
+        "professor": "Rosária Silva",
+        "sala": "B-213",
         "slot": 12
       },
       {
         "diaSemana": 0,
         "horaFim": "22:25",
         "horaInicio": "20:45",
-        "materiaId": "-384",
-        "professor": "Rosária Silva",
-        "sala": "B-218",
-        "slot": 14
-      },
-      {
-        "diaSemana": 1,
-        "horaFim": "20:30",
-        "horaInicio": "18:50",
-        "materiaId": "-159",
-        "professor": "José Vinicius",
-        "sala": "B-218",
-        "slot": 12
-      },
-      {
-        "diaSemana": 1,
-        "horaFim": "22:25",
-        "horaInicio": "20:45",
-        "materiaId": "-121",
-        "professor": "Dejenana",
-        "sala": "B-218",
-        "slot": 14
-      },
-      {
-        "diaSemana": 2,
-        "horaFim": "20:30",
-        "horaInicio": "18:50",
-        "materiaId": "-9",
+        "materiaId": "-8",
         "professor": "Danilo Herbert",
-        "sala": "B-218",
+        "sala": "B-213",
+        "slot": 14
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "-401",
+        "professor": "José Silva",
+        "sala": "B-213",
+        "slot": 12
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "-347",
+        "professor": "Rothschild Antunes",
+        "sala": "DCOM",
+        "slot": 14
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "-675",
+        "professor": "Marcia Fernandes",
+        "sala": "B-213",
         "slot": 12
       },
       {
         "diaSemana": 2,
         "horaFim": "22:25",
         "horaInicio": "20:45",
-        "materiaId": "-393",
+        "materiaId": "-401",
+        "professor": "José Silva",
+        "sala": "B-213",
+        "slot": 14
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "-392",
         "professor": "Edilene Campos",
-        "sala": "B-218",
-        "slot": 14
-      },
-      {
-        "diaSemana": 3,
-        "horaFim": "20:30",
-        "horaInicio": "18:50",
-        "materiaId": "-433",
-        "professor": "Jeferson Júnior",
-        "sala": "B-218",
+        "sala": "B-213",
         "slot": 12
       },
       {
         "diaSemana": 3,
         "horaFim": "22:25",
         "horaInicio": "20:45",
-        "materiaId": "*556",
+        "materiaId": "-120",
+        "professor": "Dejenana",
+        "sala": "B-213",
+        "slot": 14
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "-675",
         "professor": "Marcia Fernandes",
-        "sala": "B-218",
-        "slot": 14
-      },
-      {
-        "diaSemana": 4,
-        "horaFim": "20:30",
-        "horaInicio": "18:50",
-        "materiaId": "-402",
-        "professor": "Nadir Bittencour",
-        "sala": "B-218",
+        "sala": "B-213",
         "slot": 12
       },
       {
         "diaSemana": 4,
         "horaFim": "22:25",
         "horaInicio": "20:45",
-        "materiaId": "-402",
-        "professor": "Nadir Bittencour",
-        "sala": "B-218",
+        "materiaId": "-646",
+        "professor": "Sandro Santos",
+        "sala": "B-213",
         "slot": 14
       }
     ],
@@ -98,61 +98,55 @@
     "id": "t131",
     "materias": [
       {
-        "id": "-9",
-        "nome": "Administração III",
-        "nomeCurto": "ADM III",
-        "semestre": 3
+        "id": "-8",
+        "nome": "Administração II",
+        "nomeCurto": "ADM II",
+        "semestre": 2
       },
       {
-        "id": "-121",
-        "nome": "Contabilidade II",
-        "nomeCurto": "CONT II",
-        "semestre": 3
+        "id": "-120",
+        "nome": "Contabilidade I",
+        "nomeCurto": "CONT  I",
+        "semestre": 2
       },
       {
-        "id": "-159",
-        "nome": "Direito I",
-        "nomeCurto": "D I",
-        "semestre": 3
+        "id": "-347",
+        "nome": "Informatica II",
+        "nomeCurto": "INFO II",
+        "semestre": 2
       },
       {
-        "id": "*459",
-        "nome": "Ferramentas Técnicas Administrativas",
-        "nomeCurto": "FTA",
-        "semestre": 3
+        "id": "-383",
+        "nome": "Língua Espanhola II",
+        "nomeCurto": "LE II",
+        "semestre": 2
       },
       {
-        "id": "*556",
-        "nome": "Gestão de Eventos",
-        "nomeCurto": "GE",
-        "semestre": 3
+        "id": "-392",
+        "nome": "Lingua Inglesa II",
+        "nomeCurto": "LI II",
+        "semestre": 2
       },
       {
-        "id": "-384",
-        "nome": "Língua Espanhola III",
-        "nomeCurto": "LE III",
-        "semestre": 3
+        "id": "-401",
+        "nome": "Língua Portuguesa II",
+        "nomeCurto": "Língua Portuguesa II",
+        "semestre": 2
       },
       {
-        "id": "-393",
-        "nome": "Língua Inglesa III",
-        "nomeCurto": "LI III",
-        "semestre": 3
+        "id": "-646",
+        "nome": "Sociologia",
+        "nomeCurto": "Sociologia",
+        "semestre": 2
       },
       {
-        "id": "-402",
-        "nome": "Língua Portuguesa III",
-        "nomeCurto": "LP III",
-        "semestre": 3
-      },
-      {
-        "id": "-433",
-        "nome": "Matemática Financeira I",
-        "nomeCurto": "MAT F I",
-        "semestre": 3
+        "id": "-675",
+        "nome": "Técnicas Profissionais Secretariais II",
+        "nomeCurto": "TPS II",
+        "semestre": 2
       }
     ],
-    "nome": "DGH 7643.3N Secr. Bach.",
-    "semestre": 3
+    "nome": "DGH 7643.2N Secr. Bach.",
+    "semestre": 2
   }
 }

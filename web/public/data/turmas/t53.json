@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "generatedAt": "2026-10-11T12:09:50.413Z",
   "schemaVersion": 1,
   "turma": {
     "aulas": [
@@ -18,35 +18,26 @@
         "horaInicio": "14:30",
         "materiaId": "-254",
         "professor": "Cristiano Cunha",
-        "sala": "D-014",
+        "sala": "DEEA E007 Lab. Física",
         "slot": 8
       },
       {
-        "diaSemana": 0,
-        "horaFim": "17:50",
-        "horaInicio": "16:20",
+        "diaSemana": 1,
+        "horaFim": "14:30",
+        "horaInicio": "13:00",
         "materiaId": "-215",
         "professor": "Jorge Monsalve",
         "sala": "D-014",
-        "slot": 10
+        "slot": 6
       },
       {
         "diaSemana": 1,
         "horaFim": "16:20",
         "horaInicio": "14:30",
-        "materiaId": "*762",
-        "professor": "Emerson Dutra",
-        "sala": "D-014",
-        "slot": 8
-      },
-      {
-        "diaSemana": 1,
-        "horaFim": "17:50",
-        "horaInicio": "16:20",
         "materiaId": "-254",
         "professor": "Cristiano Cunha",
         "sala": "DEEA E007 Lab. Física",
-        "slot": 10
+        "slot": 8
       },
       {
         "diaSemana": 2,
@@ -81,14 +72,14 @@
         "horaInicio": "13:00",
         "materiaId": "-80",
         "professor": "Valtemir Nascimento",
-        "sala": "D-014",
+        "sala": "B-124",
         "slot": 6
       },
       {
         "diaSemana": 3,
         "horaFim": "16:20",
         "horaInicio": "14:30",
-        "materiaId": "*1239",
+        "materiaId": "*1246",
         "professor": "Ruy Oliveira",
         "sala": "DCOM",
         "slot": 8
@@ -97,7 +88,7 @@
         "diaSemana": 3,
         "horaFim": "17:50",
         "horaInicio": "16:20",
-        "materiaId": "*1239",
+        "materiaId": "*1246",
         "professor": "Ruy Oliveira",
         "sala": "DCOM",
         "slot": 10
@@ -108,7 +99,7 @@
         "horaInicio": "13:00",
         "materiaId": "-80",
         "professor": "Valtemir Nascimento",
-        "sala": "D-014",
+        "sala": "B-124",
         "slot": 6
       },
       {
@@ -119,6 +110,15 @@
         "professor": "Jorge Monsalve",
         "sala": "D-014",
         "slot": 8
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "17:50",
+        "horaInicio": "16:20",
+        "materiaId": "*767",
+        "professor": "Emerson Dutra",
+        "sala": "D-014",
+        "slot": 10
       }
     ],
     "cursoId": "dcom-7844-engenh-comput",
@@ -149,7 +149,7 @@
         "semestre": 4
       },
       {
-        "id": "*762",
+        "id": "*767",
         "nome": "Matemática Discreta e Teoria dos Grafos",
         "nomeCurto": "MDeTdG",
         "semestre": 4
@@ -161,7 +161,7 @@
         "semestre": 4
       },
       {
-        "id": "*1239",
+        "id": "*1246",
         "nome": "Trasnmissão e Comunicação de Dados",
         "nomeCurto": "TeCdD",
         "semestre": 4

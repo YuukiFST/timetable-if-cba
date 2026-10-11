@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "generatedAt": "2026-10-11T12:09:50.413Z",
   "schemaVersion": 1,
   "turma": {
     "aulas": [
@@ -18,7 +18,7 @@
         "horaInicio": "18:50",
         "materiaId": "-685",
         "professor": "Carlos Henrique",
-        "sala": "DEEA E016",
+        "sala": "DEEA E102 Lab. Eletrônica",
         "slot": 12
       },
       {
@@ -27,7 +27,7 @@
         "horaInicio": "20:45",
         "materiaId": "-685",
         "professor": "Carlos Henrique",
-        "sala": "DEEA E016",
+        "sala": "DEEA E102 Lab. Eletrônica",
         "slot": 14
       },
       {

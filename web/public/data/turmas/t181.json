@@ -1,38 +1,119 @@
 {
-  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "generatedAt": "2026-10-11T12:09:50.413Z",
   "schemaVersion": 1,
   "turma": {
     "aulas": [
       {
-        "diaSemana": 2,
+        "diaSemana": 0,
+        "horaFim": "22:25",
+        "horaInicio": "18:50",
+        "materiaId": "*1085",
+        "professor": "Alan Sato",
+        "sala": "B-107",
+        "slot": 12
+      },
+      {
+        "diaSemana": 1,
         "horaFim": "20:30",
         "horaInicio": "18:50",
-        "materiaId": "*1167",
-        "professor": "Eloísa Azeredo",
-        "sala": "B-204",
+        "materiaId": "*813",
+        "professor": "Kamila Oliveira",
+        "sala": "DINFRA",
+        "slot": 12
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "-432",
+        "professor": "Luis Paoli",
+        "sala": "B-107",
+        "slot": 14
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "22:25",
+        "horaInicio": "18:50",
+        "materiaId": "*975",
+        "professor": "Héllyda Sacal",
+        "sala": "DINFRA",
         "slot": 12
       },
       {
         "diaSemana": 3,
+        "horaFim": "22:25",
+        "horaInicio": "18:50",
+        "materiaId": "-684",
+        "professor": "Angela Rocha",
+        "sala": "B-107",
+        "slot": 12
+      },
+      {
+        "diaSemana": 4,
         "horaFim": "20:30",
         "horaInicio": "18:50",
-        "materiaId": "*1167",
-        "professor": "Eloísa Azeredo",
-        "sala": "B-105",
+        "materiaId": "*590",
+        "professor": "Calina Barros",
+        "sala": "B-107",
         "slot": 12
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "-597",
+        "professor": "Adelson Ribeiro",
+        "sala": "B-107",
+        "slot": 14
       }
     ],
-    "cursoId": "dinfra-2841-tecnol-cont-obr",
+    "cursoId": "dinfra-0140063-eng-civil",
     "id": "t181",
     "materias": [
       {
-        "id": "*1167",
-        "nome": "TCC II",
-        "nomeCurto": "TCC II",
-        "semestre": 7
+        "id": "*590",
+        "nome": "Hidráulica Geral",
+        "nomeCurto": "Hidráulica Geral",
+        "semestre": 5
+      },
+      {
+        "id": "-432",
+        "nome": "Matemática Financeira",
+        "nomeCurto": "MAT F",
+        "semestre": 5
+      },
+      {
+        "id": "*813",
+        "nome": "Modelagem da Informação da Construção",
+        "nomeCurto": "Modelagem da Informação da Construção",
+        "semestre": 5
+      },
+      {
+        "id": "*975",
+        "nome": "Projeto de Arquitetura",
+        "nomeCurto": "ProjArq",
+        "semestre": 5
+      },
+      {
+        "id": "*1085",
+        "nome": "Resistência dos Materiais I",
+        "nomeCurto": "RMI",
+        "semestre": 5
+      },
+      {
+        "id": "-597",
+        "nome": "Saúde e Segurança no Trabalho",
+        "nomeCurto": "Saúde e Segurança no Trabalho",
+        "semestre": 5
+      },
+      {
+        "id": "-684",
+        "nome": "Tecnologia das Construções II",
+        "nomeCurto": "Tecnologia das Construções II",
+        "semestre": 5
       }
     ],
-    "nome": "DINFRA 2841.7N Tecnol. Cont. Obr.",
-    "semestre": 7
+    "nome": "DINFRA 0140063.5N Eng. Civil",
+    "semestre": 5
   }
 }

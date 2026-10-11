@@ -1,39 +1,58 @@
 {
-  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "generatedAt": "2026-10-11T12:09:50.413Z",
   "schemaVersion": 1,
   "turma": {
     "aulas": [
       {
-        "diaSemana": 4,
-        "horaFim": "10:20",
-        "horaInicio": "09:35",
-        "materiaId": "*1101",
-        "professor": "Epaminondas",
-        "slot": 3
+        "diaSemana": 0,
+        "horaFim": "22:25",
+        "horaInicio": "18:50",
+        "materiaId": "*60",
+        "sala": "DCOM",
+        "slot": 12
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "22:25",
+        "horaInicio": "18:50",
+        "materiaId": "*60",
+        "sala": "DCOM",
+        "slot": 12
+      },
+      {
+        "diaSemana": 2,
+        "horaFim": "22:25",
+        "horaInicio": "18:50",
+        "materiaId": "*60",
+        "sala": "DCOM",
+        "slot": 12
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "22:25",
+        "horaInicio": "18:50",
+        "materiaId": "*60",
+        "sala": "DCOM",
+        "slot": 12
       },
       {
         "diaSemana": 4,
-        "horaFim": "16:20",
-        "horaInicio": "13:00",
-        "materiaId": "*1209",
-        "professor": "Suammy Leite",
-        "slot": 6
+        "horaFim": "22:25",
+        "horaInicio": "18:50",
+        "materiaId": "*60",
+        "sala": "DCOM",
+        "slot": 12
       }
     ],
-    "cursoId": "ppgen-mestrado-disciplinas-01",
+    "cursoId": "pronatec-empreender-app",
     "id": "t206",
     "materias": [
       {
-        "id": "*1101",
-        "nome": "Seminário de Pesquisa",
-        "nomeCurto": "SdP"
-      },
-      {
-        "id": "*1209",
-        "nome": "Tendências e Abordagens de Pesquisa em Ciências e Matemática",
-        "nomeCurto": "Tend. e Abor. de Pesq. em Ciên. e Mat."
+        "id": "*60",
+        "nome": "App Clicks",
+        "nomeCurto": "App Clicks"
       }
     ],
-    "nome": "PPGEn - Mestrado - Disciplinas 01"
+    "nome": "Pronatec/Empreender/App"
   }
 }

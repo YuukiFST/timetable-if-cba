@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "generatedAt": "2026-10-11T12:09:50.413Z",
   "schemaVersion": 1,
   "turma": {
     "aulas": [
@@ -25,7 +25,7 @@
         "diaSemana": 0,
         "horaFim": "20:30",
         "horaInicio": "18:50",
-        "materiaId": "*1166",
+        "materiaId": "*1173",
         "professor": "Edilson Silva",
         "sala": "DEEA E103 Lab. Microcontroladores",
         "slot": 12
@@ -34,7 +34,7 @@
         "diaSemana": 0,
         "horaFim": "22:25",
         "horaInicio": "20:45",
-        "materiaId": "*1166",
+        "materiaId": "*1173",
         "professor": "Edilson Silva",
         "sala": "DEEA E103 Lab. Microcontroladores",
         "slot": 14
@@ -61,7 +61,7 @@
         "diaSemana": 1,
         "horaFim": "17:50",
         "horaInicio": "16:20",
-        "materiaId": "*1166",
+        "materiaId": "*1173",
         "professor": "Edilson Silva",
         "sala": "DEEA E105 Lab. Informática",
         "slot": 10
@@ -98,7 +98,7 @@
         "semestre": 10
       },
       {
-        "id": "*1166",
+        "id": "*1173",
         "nome": "TCC I",
         "nomeCurto": "T",
         "semestre": 10

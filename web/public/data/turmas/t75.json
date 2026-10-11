@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "generatedAt": "2026-10-11T12:09:50.413Z",
   "schemaVersion": 1,
   "turma": {
     "aulas": [
@@ -25,7 +25,7 @@
         "diaSemana": 0,
         "horaFim": "17:50",
         "horaInicio": "16:20",
-        "materiaId": "*550",
+        "materiaId": "*553",
         "professor": "Francielle Oliveira",
         "sala": "B-202",
         "slot": 10
@@ -43,7 +43,7 @@
         "diaSemana": 1,
         "horaFim": "11:50",
         "horaInicio": "10:20",
-        "materiaId": "*885",
+        "materiaId": "*889",
         "professor": "Letícia Rodrigues",
         "sala": "DEEA E105 Lab. Informática",
         "slot": 4
@@ -52,7 +52,7 @@
         "diaSemana": 1,
         "horaFim": "11:50",
         "horaInicio": "10:20",
-        "materiaId": "*885",
+        "materiaId": "*889",
         "professor": "Bernanci Almeida",
         "sala": "DEEA E116 Lab. Telecomunicações",
         "slot": 4
@@ -61,17 +61,8 @@
         "diaSemana": 1,
         "horaFim": "15:15",
         "horaInicio": "13:00",
-        "materiaId": "*1004",
-        "professor": "Noel Costa",
-        "sala": "DEEA E006 Lab. Máquinas Elétricas",
-        "slot": 6
-      },
-      {
-        "diaSemana": 1,
-        "horaFim": "15:15",
-        "horaInicio": "13:00",
         "materiaId": "*4",
-        "professor": "Roney Pinhorati",
+        "professor": "Noel Costa",
         "sala": "DEEA E112 Lab. Acion. Elétricos",
         "slot": 6
       },
@@ -85,20 +76,11 @@
         "slot": 9
       },
       {
-        "diaSemana": 1,
-        "horaFim": "17:50",
-        "horaInicio": "15:35",
-        "materiaId": "*4",
-        "professor": "Roney Pinhorati",
-        "sala": "DEEA E112 Lab. Acion. Elétricos",
-        "slot": 9
-      },
-      {
         "diaSemana": 2,
         "horaFim": "08:30",
         "horaInicio": "07:00",
         "materiaId": "-257",
-        "professor": "Luciano Schlaucher",
+        "professor": "Edson Ferreira",
         "sala": "B-210",
         "slot": 0
       },
@@ -114,7 +96,7 @@
         "diaSemana": 2,
         "horaFim": "11:50",
         "horaInicio": "10:20",
-        "materiaId": "*706",
+        "materiaId": "*711",
         "professor": "Weslley Siqueira",
         "sala": "B-210",
         "slot": 4
@@ -141,16 +123,7 @@
         "diaSemana": 3,
         "horaFim": "15:15",
         "horaInicio": "13:00",
-        "materiaId": "-359",
-        "professor": "Gilmarcos Correa",
-        "sala": "DEEA E014 Lab. Inst. Elétricas",
-        "slot": 6
-      },
-      {
-        "diaSemana": 3,
-        "horaFim": "15:15",
-        "horaInicio": "13:00",
-        "materiaId": "*1004",
+        "materiaId": "*1009",
         "professor": "Noel Costa",
         "sala": "DEEA E006 Lab. Máquinas Elétricas",
         "slot": 6
@@ -186,8 +159,8 @@
         "diaSemana": 4,
         "horaFim": "17:50",
         "horaInicio": "16:20",
-        "materiaId": "*385",
-        "professor": "João Lucas",
+        "materiaId": "*388",
+        "professor": "Marcelo Arruda",
         "sala": "DEEA E014 Lab. Inst. Elétricas",
         "slot": 10
       }
@@ -214,7 +187,7 @@
         "semestre": 2
       },
       {
-        "id": "*385",
+        "id": "*388",
         "nome": "Energias Renováveis",
         "nomeCurto": "ER",
         "semestre": 2
@@ -238,7 +211,7 @@
         "semestre": 2
       },
       {
-        "id": "*550",
+        "id": "*553",
         "nome": "Gestão da Qualidade e Empreendedorismo",
         "nomeCurto": "GdQeE",
         "semestre": 2
@@ -256,7 +229,7 @@
         "semestre": 2
       },
       {
-        "id": "*706",
+        "id": "*711",
         "nome": "Lingua Inglesa Aplicada I",
         "nomeCurto": "L.Ing.Apl.I",
         "semestre": 2
@@ -274,13 +247,13 @@
         "semestre": 2
       },
       {
-        "id": "*885",
+        "id": "*889",
         "nome": "PIE Res/Pred/Ind",
         "nomeCurto": "PIE RPInd.",
         "semestre": 2
       },
       {
-        "id": "*1004",
+        "id": "*1009",
         "nome": "Projeto Integrador II - Eletromagnetismo e Máquinas Elétricas",
         "nomeCurto": "PII-EeME",
         "semestre": 2

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "generatedAt": "2026-10-11T12:09:50.413Z",
   "schemaVersion": 1,
   "turma": {
     "aulas": [
@@ -7,7 +7,7 @@
         "diaSemana": 4,
         "horaFim": "11:50",
         "horaInicio": "10:20",
-        "materiaId": "*1078",
+        "materiaId": "*1083",
         "professor": "RESERVADO - DABC - 2026",
         "sala": "B-211",
         "slot": 4
@@ -17,7 +17,7 @@
     "id": "t1",
     "materias": [
       {
-        "id": "*1078",
+        "id": "*1083",
         "nome": "RESERVADO - DABC - 2026",
         "nomeCurto": "RESERVADO - DABC - 2026"
       }

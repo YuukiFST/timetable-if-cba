@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "generatedAt": "2026-10-11T12:09:50.413Z",
   "schemaVersion": 1,
   "turma": {
     "aulas": [
@@ -7,7 +7,7 @@
         "diaSemana": 0,
         "horaFim": "20:30",
         "horaInicio": "18:50",
-        "materiaId": "*954",
+        "materiaId": "*958",
         "professor": "Paulo Lopes",
         "sala": "DCOM",
         "slot": 12
@@ -16,7 +16,7 @@
         "diaSemana": 0,
         "horaFim": "22:25",
         "horaInicio": "20:45",
-        "materiaId": "*954",
+        "materiaId": "*958",
         "professor": "Paulo Lopes",
         "sala": "DCOM",
         "slot": 14
@@ -25,7 +25,7 @@
         "diaSemana": 1,
         "horaFim": "20:30",
         "horaInicio": "18:50",
-        "materiaId": "*486",
+        "materiaId": "*489",
         "professor": "Rafael Rocha",
         "sala": "DCOM",
         "slot": 12
@@ -34,7 +34,7 @@
         "diaSemana": 1,
         "horaFim": "22:25",
         "horaInicio": "20:45",
-        "materiaId": "*486",
+        "materiaId": "*489",
         "professor": "Rafael Rocha",
         "sala": "DCOM",
         "slot": 14
@@ -43,7 +43,7 @@
         "diaSemana": 2,
         "horaFim": "20:30",
         "horaInicio": "18:50",
-        "materiaId": "*624",
+        "materiaId": "*628",
         "professor": "João Filho",
         "sala": "DCOM",
         "slot": 12
@@ -52,7 +52,7 @@
         "diaSemana": 2,
         "horaFim": "22:25",
         "horaInicio": "20:45",
-        "materiaId": "*624",
+        "materiaId": "*628",
         "professor": "João Filho",
         "sala": "DCOM",
         "slot": 14
@@ -80,7 +80,7 @@
         "horaFim": "20:30",
         "horaInicio": "18:50",
         "materiaId": "-574",
-        "professor": "Joicy Lara",
+        "professor": "Rafael Simões",
         "sala": "DCOM",
         "slot": 12
       },
@@ -89,7 +89,7 @@
         "horaFim": "22:25",
         "horaInicio": "20:45",
         "materiaId": "-574",
-        "professor": "Joicy Lara",
+        "professor": "Rafael Simões",
         "sala": "DCOM",
         "slot": 14
       }
@@ -98,13 +98,13 @@
     "id": "t40",
     "materias": [
       {
-        "id": "*486",
+        "id": "*489",
         "nome": "Framewroks Front-End",
         "nomeCurto": "Frame. Front-End",
         "semestre": 3
       },
       {
-        "id": "*624",
+        "id": "*628",
         "nome": "Inglês",
         "nomeCurto": "Inglês",
         "semestre": 3
@@ -116,7 +116,7 @@
         "semestre": 3
       },
       {
-        "id": "*954",
+        "id": "*958",
         "nome": "Programação Desktop",
         "nomeCurto": "PD",
         "semestre": 3

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "generatedAt": "2026-10-11T12:09:50.413Z",
   "schemaVersion": 1,
   "turma": {
     "aulas": [
@@ -143,7 +143,7 @@
         "horaFim": "16:20",
         "horaInicio": "14:30",
         "materiaId": "-177",
-        "professor": "Lethícia Castilhos",
+        "professor": "Kleber Bignarde",
         "sala": "B-003",
         "slot": 8
       }

@@ -1,17 +1,8 @@
 {
-  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "generatedAt": "2026-10-11T12:09:50.413Z",
   "schemaVersion": 1,
   "turma": {
     "aulas": [
-      {
-        "diaSemana": 0,
-        "horaFim": "14:30",
-        "horaInicio": "13:00",
-        "materiaId": "-641",
-        "professor": "Rafael Simões",
-        "sala": "DCOM",
-        "slot": 6
-      },
       {
         "diaSemana": 0,
         "horaFim": "16:20",
@@ -43,9 +34,9 @@
         "diaSemana": 1,
         "horaFim": "16:20",
         "horaInicio": "14:30",
-        "materiaId": "*930",
+        "materiaId": "*934",
         "professor": "Jorge Monsalve",
-        "sala": "B-104",
+        "sala": "D-014",
         "slot": 8
       },
       {
@@ -89,7 +80,7 @@
         "horaFim": "14:30",
         "horaInicio": "13:00",
         "materiaId": "-641",
-        "professor": "Rafael Simões",
+        "professor": "Waldinei Bispo",
         "sala": "DCOM",
         "slot": 6
       },
@@ -97,8 +88,8 @@
         "diaSemana": 3,
         "horaFim": "16:20",
         "horaInicio": "14:30",
-        "materiaId": "*658",
-        "professor": "Rafael Simões",
+        "materiaId": "-641",
+        "professor": "Waldinei Bispo",
         "sala": "DCOM",
         "slot": 8
       },
@@ -110,6 +101,15 @@
         "professor": "Edelson Duarte",
         "sala": "DEEA E105 Lab. Informática",
         "slot": 10
+      },
+      {
+        "diaSemana": 4,
+        "horaFim": "20:30",
+        "horaInicio": "18:50",
+        "materiaId": "*662",
+        "professor": "Érica Figueiredo",
+        "sala": "DCOM",
+        "slot": 12
       }
     ],
     "cursoId": "dcom-7844-engenh-comput",
@@ -140,13 +140,13 @@
         "semestre": 3
       },
       {
-        "id": "*658",
+        "id": "*662",
         "nome": "Introdução à Extensão",
         "nomeCurto": "Introdução à Extensão",
         "semestre": 3
       },
       {
-        "id": "*930",
+        "id": "*934",
         "nome": "Probabilidade e Estatística Computacional",
         "nomeCurto": "PeEC",
         "semestre": 3

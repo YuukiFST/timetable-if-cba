@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "generatedAt": "2026-10-11T12:09:50.413Z",
   "schemaVersion": 1,
   "turma": {
     "aulas": [
@@ -8,8 +8,8 @@
         "horaFim": "14:30",
         "horaInicio": "13:00",
         "materiaId": "*5",
-        "professor": "Edilson Silva",
-        "sala": "DEEA E111 Lab. Acion. Elétricos",
+        "professor": "Rafael Máximo",
+        "sala": "DEEA E204 Lab. CLP Avançado",
         "slot": 6
       },
       {
@@ -17,8 +17,8 @@
         "horaFim": "16:20",
         "horaInicio": "14:30",
         "materiaId": "*5",
-        "professor": "Edilson Silva",
-        "sala": "DEEA E111 Lab. Acion. Elétricos",
+        "professor": "Rafael Máximo",
+        "sala": "DEEA E204 Lab. CLP Avançado",
         "slot": 8
       },
       {
@@ -36,6 +36,7 @@
         "horaInicio": "14:30",
         "materiaId": "-421",
         "professor": "André Fonseca",
+        "sala": "B-109",
         "slot": 8
       },
       {
@@ -87,9 +88,9 @@
         "diaSemana": 3,
         "horaFim": "20:30",
         "horaInicio": "18:50",
-        "materiaId": "*1002",
+        "materiaId": "*1007",
         "professor": "Edelson Duarte",
-        "sala": "DEEA E201 Lab. Automação Predial",
+        "sala": "DEEA E114 Lab. Informatica",
         "slot": 12
       },
       {
@@ -151,7 +152,7 @@
         "semestre": 7
       },
       {
-        "id": "*1002",
+        "id": "*1007",
         "nome": "Projeto Integrador I",
         "nomeCurto": "Proj. I",
         "semestre": 7

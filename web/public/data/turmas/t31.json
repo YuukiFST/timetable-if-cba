@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "generatedAt": "2026-10-11T12:09:50.413Z",
   "schemaVersion": 1,
   "turma": {
     "aulas": [
@@ -7,7 +7,7 @@
         "diaSemana": 0,
         "horaFim": "08:30",
         "horaInicio": "07:00",
-        "materiaId": "*732",
+        "materiaId": "*737",
         "professor": "Maurício Catharino",
         "sala": "DCOM",
         "slot": 0
@@ -34,7 +34,7 @@
         "diaSemana": 0,
         "horaFim": "15:15",
         "horaInicio": "13:45",
-        "materiaId": "*1002",
+        "materiaId": "*1007",
         "professor": "Rafael Rocha",
         "sala": "DCOM",
         "slot": 7
@@ -70,7 +70,7 @@
         "diaSemana": 1,
         "horaFim": "11:50",
         "horaInicio": "10:20",
-        "materiaId": "*732",
+        "materiaId": "*737",
         "professor": "Maurício Catharino",
         "sala": "DCOM",
         "slot": 4
@@ -79,7 +79,7 @@
         "diaSemana": 2,
         "horaFim": "09:15",
         "horaInicio": "07:00",
-        "materiaId": "*456",
+        "materiaId": "*459",
         "professor": "Érica Figueiredo",
         "sala": "DCOM",
         "slot": 0
@@ -97,7 +97,7 @@
         "diaSemana": 2,
         "horaFim": "14:30",
         "horaInicio": "13:00",
-        "materiaId": "*65",
+        "materiaId": "*66",
         "professor": "Cristiane Puertas",
         "slot": 6
       },
@@ -120,12 +120,30 @@
       },
       {
         "diaSemana": 3,
-        "horaFim": "11:05",
+        "horaFim": "09:15",
         "horaInicio": "08:30",
-        "materiaId": "*985",
+        "materiaId": "*990",
         "professor": "Constantino Dias",
         "sala": "DCOM",
         "slot": 2
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "10:20",
+        "horaInicio": "09:35",
+        "materiaId": "*990",
+        "professor": "Constantino Dias",
+        "sala": "DCOM",
+        "slot": 3
+      },
+      {
+        "diaSemana": 3,
+        "horaFim": "11:05",
+        "horaInicio": "10:20",
+        "materiaId": "*990",
+        "professor": "Constantino Dias",
+        "sala": "DCOM",
+        "slot": 4
       },
       {
         "diaSemana": 3,
@@ -177,7 +195,7 @@
     "id": "t31",
     "materias": [
       {
-        "id": "*65",
+        "id": "*66",
         "nome": "Arte",
         "nomeCurto": "Arte",
         "semestre": 1
@@ -195,7 +213,7 @@
         "semestre": 1
       },
       {
-        "id": "*456",
+        "id": "*459",
         "nome": "Ferramentas de Informática E Organização Computacional",
         "nomeCurto": "FdIEOC",
         "semestre": 1
@@ -243,7 +261,7 @@
         "semestre": 1
       },
       {
-        "id": "*732",
+        "id": "*737",
         "nome": "Lógica Computacional e Algoritmos",
         "nomeCurto": "LCeA",
         "semestre": 1
@@ -255,13 +273,13 @@
         "semestre": 1
       },
       {
-        "id": "*985",
+        "id": "*990",
         "nome": "Projeto de Interface de Usuários",
         "nomeCurto": "PdIdU",
         "semestre": 1
       },
       {
-        "id": "*1002",
+        "id": "*1007",
         "nome": "Projeto Integrador I",
         "nomeCurto": "Proj. I",
         "semestre": 1

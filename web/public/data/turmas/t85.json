@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "generatedAt": "2026-10-11T12:09:50.413Z",
   "schemaVersion": 1,
   "turma": {
     "aulas": [
@@ -25,7 +25,7 @@
         "diaSemana": 0,
         "horaFim": "17:50",
         "horaInicio": "15:35",
-        "materiaId": "*742",
+        "materiaId": "*747",
         "professor": "Murilo Santos",
         "sala": "DEEA E014 Lab. Inst. Elétricas",
         "slot": 9
@@ -45,7 +45,7 @@
         "horaInicio": "14:30",
         "materiaId": "-199",
         "professor": "Luciana Lima",
-        "sala": "DEEA E103 Lab. Microcontroladores",
+        "sala": "DEEA E118 Lab. Eletrônica",
         "slot": 8
       },
       {
@@ -63,7 +63,7 @@
         "horaInicio": "16:20",
         "materiaId": "-199",
         "professor": "Luciana Lima",
-        "sala": "DEEA E103 Lab. Microcontroladores",
+        "sala": "DEEA E118 Lab. Eletrônica",
         "slot": 10
       },
       {
@@ -87,7 +87,7 @@
         "diaSemana": 2,
         "horaFim": "10:20",
         "horaInicio": "08:30",
-        "materiaId": "*706",
+        "materiaId": "*711",
         "professor": "Weslley Siqueira",
         "sala": "B-209",
         "slot": 2
@@ -114,8 +114,8 @@
         "diaSemana": 2,
         "horaFim": "16:20",
         "horaInicio": "14:30",
-        "materiaId": "-257",
-        "professor": "Luciano Schlaucher",
+        "materiaId": "-330",
+        "professor": "Marcos de Melo",
         "sala": "B-209",
         "slot": 8
       },
@@ -123,8 +123,8 @@
         "diaSemana": 2,
         "horaFim": "17:50",
         "horaInicio": "16:20",
-        "materiaId": "-330",
-        "professor": "Subst. Historia",
+        "materiaId": "-649",
+        "professor": "Claudyanne Almeida",
         "sala": "B-209",
         "slot": 10
       },
@@ -150,7 +150,7 @@
         "diaSemana": 3,
         "horaFim": "17:50",
         "horaInicio": "15:35",
-        "materiaId": "*742",
+        "materiaId": "*747",
         "professor": "Murilo Santos",
         "sala": "DEEA E014 Lab. Inst. Elétricas",
         "slot": 9
@@ -160,16 +160,16 @@
         "horaFim": "14:30",
         "horaInicio": "13:00",
         "materiaId": "-286",
-        "professor": "Suzy Klemp",
-        "sala": "B-209",
+        "professor": "Paulo Daniel Curti de Almeida",
+        "sala": "B-201",
         "slot": 6
       },
       {
         "diaSemana": 4,
         "horaFim": "16:20",
         "horaInicio": "14:30",
-        "materiaId": "-649",
-        "professor": "Claudyanne Almeida",
+        "materiaId": "-257",
+        "professor": "Luciano Schlaucher",
         "sala": "B-209",
         "slot": 8
       },
@@ -177,18 +177,18 @@
         "diaSemana": 4,
         "horaFim": "17:50",
         "horaInicio": "16:20",
-        "materiaId": "*880",
-        "professor": "Rodrigo Junges",
-        "sala": "DEEA E116 Lab. Telecomunicações",
+        "materiaId": "*884",
+        "professor": "Rafael Máximo",
+        "sala": "DEEA E201 Lab. Automação Predial",
         "slot": 10
       },
       {
         "diaSemana": 4,
         "horaFim": "17:50",
         "horaInicio": "16:20",
-        "materiaId": "*880",
-        "professor": "Rafael Máximo",
-        "sala": "DEEA E112 Lab. Acion. Elétricos",
+        "materiaId": "*884",
+        "professor": "Rodrigo Junges",
+        "sala": "DEEA E116 Lab. Telecomunicações",
         "slot": 10
       }
     ],
@@ -244,7 +244,7 @@
         "semestre": 2
       },
       {
-        "id": "*706",
+        "id": "*711",
         "nome": "Lingua Inglesa Aplicada I",
         "nomeCurto": "L.Ing.Apl.I",
         "semestre": 2
@@ -256,7 +256,7 @@
         "semestre": 2
       },
       {
-        "id": "*742",
+        "id": "*747",
         "nome": "Máq.Elétr/Acion.",
         "nomeCurto": "MEeA",
         "semestre": 2
@@ -274,7 +274,7 @@
         "semestre": 2
       },
       {
-        "id": "*880",
+        "id": "*884",
         "nome": "PI. Aut. Resid/Predial",
         "nomeCurto": "P.Aut.Predial",
         "semestre": 2

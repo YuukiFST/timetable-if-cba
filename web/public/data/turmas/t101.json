@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T12:51:58.929Z",
+  "generatedAt": "2026-10-11T12:09:50.413Z",
   "schemaVersion": 1,
   "turma": {
     "aulas": [
@@ -7,81 +7,90 @@
         "diaSemana": 0,
         "horaFim": "20:30",
         "horaInicio": "18:50",
-        "materiaId": "-696",
-        "professor": "Paulo Lenço",
-        "sala": "B-208",
+        "materiaId": "-78",
+        "professor": "Jefferson Bento",
+        "sala": "B-203",
         "slot": 12
       },
       {
         "diaSemana": 0,
         "horaFim": "22:25",
         "horaInicio": "20:45",
-        "materiaId": "-696",
-        "professor": "Paulo Lenço",
-        "sala": "B-208",
+        "materiaId": "-78",
+        "professor": "Jefferson Bento",
+        "sala": "B-203",
         "slot": 14
       },
       {
         "diaSemana": 1,
         "horaFim": "20:30",
         "horaInicio": "18:50",
-        "materiaId": "-353",
-        "professor": "João Freitas",
-        "sala": "B-203",
+        "materiaId": "-196",
+        "professor": "Ana Azevedo",
+        "sala": "DEEA E105 Lab. Informática",
         "slot": 12
+      },
+      {
+        "diaSemana": 1,
+        "horaFim": "22:25",
+        "horaInicio": "20:45",
+        "materiaId": "-449",
+        "professor": "Carlos Henrique",
+        "sala": "DEEA E102 Lab. Eletrônica",
+        "slot": 14
       },
       {
         "diaSemana": 2,
         "horaFim": "20:30",
         "horaInicio": "18:50",
-        "materiaId": "*653",
-        "professor": "Fabricio Moraes",
-        "sala": "B-208",
+        "materiaId": "-508",
+        "professor": "Luis Paoli",
+        "sala": "B-207",
         "slot": 12
       },
       {
         "diaSemana": 2,
         "horaFim": "22:25",
         "horaInicio": "20:45",
-        "materiaId": "*743",
-        "professor": "Eudinei Silva",
-        "sala": "DEEA E006 Lab. Máquinas Elétricas",
+        "materiaId": "-196",
+        "professor": "Ana Azevedo",
+        "sala": "DEEA E115 Lab. Elepot",
         "slot": 14
       },
       {
         "diaSemana": 3,
         "horaFim": "20:30",
         "horaInicio": "18:50",
-        "materiaId": "*53",
-        "professor": "Marcelo Arruda",
-        "sala": "DEEA E105 Lab. Informática",
+        "materiaId": "*153",
+        "professor": "Andrei Coimbra",
+        "sala": "B-206",
         "slot": 12
       },
       {
         "diaSemana": 3,
         "horaFim": "22:25",
         "horaInicio": "20:45",
-        "materiaId": "*53",
-        "professor": "Marcelo Arruda",
-        "sala": "DEEA E105 Lab. Informática",
+        "materiaId": "*153",
+        "professor": "Andrei Coimbra",
+        "sala": "B-206",
         "slot": 14
       },
       {
         "diaSemana": 4,
         "horaFim": "20:30",
         "horaInicio": "18:50",
-        "materiaId": "-204",
-        "professor": "Murilo Santos",
-        "sala": "DEEA E118 Lab. Eletrônica",
+        "materiaId": "*672",
+        "professor": "Guilherme Seixas",
+        "sala": "DEEA E107 Lab. Circuitos Elétricos",
         "slot": 12
       },
       {
         "diaSemana": 4,
         "horaFim": "22:25",
         "horaInicio": "20:45",
-        "materiaId": "-204",
-        "professor": "Murilo Santos",
-        "sala": "DEEA E118 Lab. Eletrônica",
+        "materiaId": "*672",
+        "professor": "Guilherme Seixas",
+        "sala": "DEEA E107 Lab. Circuitos Elétricos",
         "slot": 14
       }
     ],
@@ -89,43 +98,43 @@
     "id": "t101",
     "materias": [
       {
-        "id": "*53",
-        "nome": "Análise de Sistemas Lineares",
-        "nomeCurto": "A.Sist.Lin.",
-        "semestre": 5
+        "id": "-78",
+        "nome": "Cálculo Diferencial e Integral III",
+        "nomeCurto": "Cálculo III",
+        "semestre": 4
       },
       {
-        "id": "-204",
-        "nome": "Eletrônica I",
-        "nomeCurto": "Elet I",
-        "semestre": 5
+        "id": "*153",
+        "nome": "Circuitos Elétricos II",
+        "nomeCurto": "CE-II",
+        "semestre": 4
       },
       {
-        "id": "-353",
-        "nome": "Inglês Instrumental ",
-        "nomeCurto": "ING-INST",
-        "semestre": 5
+        "id": "-196",
+        "nome": "Eletromagnetismo",
+        "nomeCurto": "Etromag",
+        "semestre": 4
       },
       {
-        "id": "*653",
-        "nome": "Introdução à Economia para Engenharia",
-        "nomeCurto": "Int.Economia",
-        "semestre": 5
+        "id": "*672",
+        "nome": "Laboratório de Circuitos Elétricos II",
+        "nomeCurto": "Lab.C.Eletr.II",
+        "semestre": 4
       },
       {
-        "id": "*743",
-        "nome": "Máquinas de Fluxo",
-        "nomeCurto": "Maq.Fluxo",
-        "semestre": 5
+        "id": "-449",
+        "nome": "Mecânica dos Fluidos",
+        "nomeCurto": "Mec.Fluidos",
+        "semestre": 4
       },
       {
-        "id": "-696",
-        "nome": "Termodinâmica",
-        "nomeCurto": "Termo",
-        "semestre": 5
+        "id": "-508",
+        "nome": "Probabilidade e Estatística",
+        "nomeCurto": "Probabilidade e Estatística",
+        "semestre": 4
       }
     ],
-    "nome": "DEEA Eng. Elétrica 5º Sem",
-    "semestre": 5
+    "nome": "DEEA Eng. Elétrica 4º Sem",
+    "semestre": 4
   }
 }
